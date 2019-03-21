@@ -1,0 +1,92 @@
+dist: xenial
+language: python
+sudo: false
+python:
+ - "3.4"
+ - "3.5"
+ - "3.6"
+ - "3.7"
+matrix:
+  include:
+   - python: "pypy3"
+     dist: trusty
+   - python: "3.7"
+     env: PERFT=1
+cache:
+  directories:
+    - data/gaviota
+    - data/syzygy/suicide
+before_install:
+ - # Stockfish
+ - wget https://stockfish.s3.amazonaws.com/stockfish-10-linux.zip
+ - unzip stockfish-10-linux.zip
+ - mkdir -p bin
+ - cp stockfish-10-linux/Linux/stockfish_10_x64_modern bin/stockfish
+ - chmod +x bin/stockfish
+ - export PATH="`pwd`/bin:${PATH}"
+ - which stockfish || (echo $PATH && false)
+ - # Crafty
+ - git clone https://github.com/lazydroid/crafty-chess
+ - cd crafty-chess
+ - make unix-gcc
+ - export PATH="`pwd`:${PATH}"
+ - cd ..
+ - # Gaviota libgtb
+ - git clone https://github.com/michiguel/Gaviota-Tablebases.git --depth 1
+ - cd Gaviota-Tablebases
+ - make
+ - export LD_LIBRARY_PATH="`pwd`:${LD_LIBRARY_PATH}"
+ - cd ..
+ - # Gaviota tablebases
+ - cd data/gaviota
+ - wget --no-verbose --no-check-certificate --no-clobber --input-file TEST-SOURCE.txt
+ - cd ../..
+ - # Suicide syzygy bases
+ - cd data/syzygy/suicide
+ - wget --no-verbose --no-check-certificate --no-clobber --input-file TEST-SOURCE.txt
+ - cd ../../..
+install:
+ - pip install --upgrade pip wheel
+ - pip install --upgrade setuptools
+ - pip install coverage coveralls
+ - pip install -e .[test]
+script:
+ - # Unit tests
+ - if [[ $PERFT -ne 1 ]]; then coverage erase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess test.py -vv SquareTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv MoveTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv PieceTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv BoardTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv LegalMoveGeneratorTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv BaseBoardTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv SquareSetTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv PolyglotTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv PgnTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv SyzygyTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv NativeGaviotaTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv GaviotaTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv SvgTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv SuicideTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv AtomicTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv RacingKingsTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv HordeTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv ThreeCheckTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv CrazyhouseTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv GiveawayTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv EngineTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv UciEngineTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv CraftyTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv StockfishTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv SpurEngineTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append test.py -vv XboardEngineTestCase; fi
+ - if [[ $PERFT -ne 1 ]]; then coverage run --source chess --append -m doctest README.rst --verbose; fi
+ - echo Unit tests complete
+ - if [[ $PERFT -ne 1 ]]; then coveralls || [[ $? -eq 139 ]]; fi
+ - # Perft tests
+ - if [[ $PERFT -eq 1 ]]; then python examples/perft/perft.py -t 1 examples/perft/random.perft --max-nodes 10000; fi
+ - if [[ $PERFT -eq 1 ]]; then python examples/perft/perft.py -t 1 examples/perft/tricky.perft; fi
+ - if [[ $PERFT -eq 1 ]]; then python examples/perft/perft.py -t 1 --variant giveaway examples/perft/giveaway.perft; fi
+ - if [[ $PERFT -eq 1 ]]; then python examples/perft/perft.py -t 1 --variant atomic examples/perft/atomic.perft; fi
+ - if [[ $PERFT -eq 1 ]]; then python examples/perft/perft.py -t 1 --variant racingkings examples/perft/racingkings.perft; fi
+ - if [[ $PERFT -eq 1 ]]; then python examples/perft/perft.py -t 1 --variant horde examples/perft/horde.perft; fi
+ - if [[ $PERFT -eq 1 ]]; then python examples/perft/perft.py -t 1 --variant crazyhouse examples/perft/crazyhouse.perft; fi
