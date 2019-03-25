@@ -92,7 +92,7 @@ class Train():
         try:
             data_buffer = deque(maxlen=buffer_size)
             skip_files = set()
-            trained_file = CUR_PATH + '/data/databuffer.trained'
+            trained_file = CUR_PATH + '/model/databuffer.trained'
             with open(trained_file, 'r') as f:  # 加载已训练过文件列表
                 for line in f:
                     skip_files.add(line)
