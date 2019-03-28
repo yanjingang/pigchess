@@ -21,7 +21,6 @@ Cmd:
         nohup python main.py pgn Bu.pgn >>log/pgn.log 2>&1 &
 """
 
-from __future__ import print_function
 import os
 import sys
 import getopt
