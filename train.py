@@ -93,15 +93,17 @@ class Train():
             data_buffer = deque(maxlen=buffer_size)
             skip_files = set()
             trained_file = CUR_PATH + '/model/databuffer.trained'
-            with open(trained_file, 'r') as f:  # 加载已训练过文件列表
-                for line in f:
-                    skip_files.add(line)
+            if os.path.exists(trained_file):
+                with open(trained_file, 'r') as f:  # 加载已训练过文件列表
+                    for line in f:
+                        skip_files.add(line)
             best_file = CUR_PATH + '/model/best.info'
             best_info = {'step':0, 'loss':100.0, 'entropy':0.0, 'time':0}
-            with open(best_file, 'r') as f:  # 加载最优模型信息
-                jstr = f.read()
-                if len(jstr) > len(str(best_info)):
-                    best_info = json.loads(jstr)
+            if os.path.exists(trained_file): 
+                with open(best_file, 'r') as f:  # 加载最优模型信息
+                    jstr = f.read()
+                    if len(jstr) > len(str(best_info)):
+                        best_info = json.loads(jstr)
             logging.info("best_info: {}".format(best_info))
             trained_step = 0
             for i in range(n_train):  # 训练次数

@@ -34,7 +34,8 @@ class PolicyValueNet():
             #    net_params = pickle.load(open(model_file, 'rb'))
             #except: # To support loading pretrained model in python3
             #    net_params = pickle.load(open(model_file, 'rb'), encoding='bytes')
-            net_params = utils.pickle_load(model_file)
+            #net_params = utils.pickle_load(model_file)
+            net_params = pickle.load(open(model_file, 'rb'), encoding='bytes')  
             lasagne.layers.set_all_param_values([self.policy_net, self.value_net], net_params)
 
     def create_policy_value_net(self):
@@ -123,5 +124,5 @@ class PolicyValueNet():
     def save_model(self, model_file):
         """ save model params to file """
         net_params = self.get_policy_param()  # get model params
-        #pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
-        utils.pickle_dump(net_params, model_file)
+        pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
+        #utils.pickle_dump(net_params, model_file)

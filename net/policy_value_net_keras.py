@@ -7,6 +7,7 @@
 from __future__ import print_function
 import os
 import sys
+import pickle
 import logging
 import numpy as np
 from keras.engine.topology import Input
@@ -44,14 +45,16 @@ class PolicyValueNet():
 
     def load_model(self, model_file):
         """重新加载模型(仅用于selfplay时load new model)"""
-        #net_params = pickle.load(open(model_file, 'rb'), encoding='iso-8859-1')
         try:
-            net_params = utils.pickle_load(model_file)
+            net_params = pickle.load(open(model_file, 'rb'), encoding='bytes') #iso-8859-1')
+            #net_params = utils.pickle_load(model_file)
             self.model.set_weights(net_params)
             self.load_model_done = True
         except:
             logging.error("load_model fail! {}\t{}".format(model_file, utils.get_trace()))
             self.load_model_done =  False
+        if os.path.exists(model_file) and self.load_model_done is False: #鏂囦欢瀛樺湪鍗村鍦ㄥけ璐ユ椂缁堟杩愯
+            exit(-1)
         return self.load_model_done
 
 
@@ -144,5 +147,5 @@ class PolicyValueNet():
     def save_model(self, model_file):
         """保存模型参数到文件"""
         net_params = self.get_policy_param()
-        #pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
-        utils.pickle_dump(net_params, model_file)
+        pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
+        #utils.pickle_dump(net_params, model_file)

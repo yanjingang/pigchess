@@ -112,8 +112,7 @@ if __name__ == '__main__':
     data_file = BASE_PATH + '/machinelearning/game/chess/data/playdata/20190122155910-40-B-65352-bd33dbb3a0742b46fe9cef383630abe2.data'
     game = Game()
     game.replay_databuffer(data_file)
-    """
-
+    
     # png
     log_file = 'pgn-' + str(os.getpid())
     utils.init_logging(log_file=log_file, log_path=CUR_PATH)
@@ -145,7 +144,6 @@ if __name__ == '__main__':
         except:
             logging.warning("name fail! \t" + data_file +"\n" + utils.get_trace())
 
-    """
     board = Board()
     print(board.action_ids_size)
 
@@ -153,3 +151,8 @@ if __name__ == '__main__':
     game = Game()
     game.download_pgn()
     """
+
+    model_path='/home/aladdin/yanjingang/piglab/machinelearning/models/pigchess/model/'
+    #net_params = utils.pickle_load(model_path+'current_policy.90530-3.2909.model.bak')
+    #pickle.dump(net_params, open(model_path+'current_policy.90530-3.2909.model', 'wb'), protocol=4)  
+    pickle.load(open(model_path+'current_policy.model', 'rb'), encoding='bytes')
