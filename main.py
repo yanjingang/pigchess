@@ -14,7 +14,7 @@ Cmd:
     评估模型：
         nohup python main.py evaluate 40 > log/evaluate.log 2>&1 &
     与模型对战：
-        python main.py infer ai-vs-human
+        python main.py infer human-vs-stockfish
     重放某次对战过程：
         python main.py replay 20190122155910-40-B-65352-bd33dbb3a0742b46fe9cef383630abe2.data
     使用png生成训练数据：
@@ -65,7 +65,7 @@ class Main():
     @staticmethod
     def infer(params=None):
         """与模型对战"""
-        vs_type = 'human-vs-ai' if params is None else params
+        vs_type = 'human-vs-stockfish' if params is None else params
         game = Game()
         game.start_infer(vs_type=vs_type, n_playout=50, best_model=Train.CURR_MODEL)
 

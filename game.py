@@ -16,7 +16,7 @@ import socket
 import logging
 import pickle
 import numpy as np
-import chess, chess.pgn
+import chess, chess.pgn, chess.uci
 
 # PATH
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -24,7 +24,7 @@ BASE_PATH = os.path.realpath(CUR_PATH + '/../../../')
 sys.path.append(BASE_PATH)
 
 from machinelearning.lib import utils
-from player import AIPlayer, MCTSPlayer, HumanPlayer, MiniMaxPlayer
+from player import AIPlayer, MCTSPlayer, HumanPlayer, MiniMaxPlayer, StockfishPlayer
 
 
 class Board():
@@ -459,6 +459,8 @@ class Game(object):
         human_player = HumanPlayer()
         # 初始化MiniMax棋手
         minimax_player = MiniMaxPlayer(depth=4)
+        # 初始化stockfish棋手
+        stockfish_player = StockfishPlayer()
 
         # 3.启动游戏
         logging.info("vsplay start: ".format(vs_type))
@@ -468,12 +470,16 @@ class Game(object):
             self.start_play(human_player, mcts_player, vsprint=True)
         elif vs_type == 'human-vs-minimax':
             self.start_play(human_player, minimax_player, vsprint=True)
+        elif vs_type == 'human-vs-stockfish':
+            self.start_play(human_player, stockfish_player, vsprint=True)
         elif vs_type == 'ai-vs-human':
             self.start_play(ai_player, human_player, vsprint=True, angle_player=Board.BLACK)
         elif vs_type == 'mcts-vs-human':
             self.start_play(mcts_player, human_player, vsprint=True, angle_player=Board.BLACK)
         elif vs_type == 'minimax-vs-human':
             self.start_play(minimax_player, human_player, vsprint=True, angle_player=Board.BLACK)
+        elif vs_type == 'stockfish-vs-human':
+            self.start_play(stockfish_player, human_player, vsprint=True, angle_player=Board.BLACK)
         else:
             exit("undefind vs-type: ".format(vs_type))
 

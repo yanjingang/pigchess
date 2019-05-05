@@ -13,6 +13,8 @@ import numpy as np
 import copy
 import logging
 from operator import itemgetter
+import chess
+import chess.uci
 
 # PATH
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
@@ -387,6 +389,35 @@ class HumanPlayer(object):
 
     def __str__(self):
         return "HumanPlayer {}".format(self.player)
+
+
+class StockfishPlayer(object):
+    """Stockfish Player"""
+
+    def __init__(self):
+        self.player = None
+        self.engine = chess.uci.popen_engine(CUR_PATH + '/engine/stockfish-10-linux/Linux/stockfish_10_x64')
+
+    def set_player_ind(self, p):
+        self.player = p
+
+    def get_action(self, board):
+        logging.info("__get_action__ {}".format(len(board.book_variations['all'])))
+        action = 0
+        try:
+            self.engine.position(board.base)
+            res = self.engine.go(movetime=2000)
+            print(res)
+            action = board.move_to_action(res.bestmove)
+        except Exception as e:
+            logging.warning(utils.get_trace())
+            action = -1
+        logging.info("Stockfish action: %s %d,%s" % (board.current_player_name.upper(), action, board.action_to_move(action)))
+
+        return action
+
+    def __str__(self):
+        return "StockfishPlayer {}".format(self.player)
 
 
 class MiniMaxPlayer(object):

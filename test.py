@@ -16,6 +16,8 @@ import copy
 import pickle
 import zlib
 import chess
+import chess.uci
+#import chess.enginedd 
 import random
 import numpy as np
 from collections import defaultdict, deque
@@ -30,7 +32,7 @@ from machinelearning.lib import utils
 from game import Game, Board
 from player import MCTS, MCTSPlayer, AIPlayer
 from train import Train
-from net.policy_value_net_keras import PolicyValueNet
+#from net.policy_value_net_keras import PolicyValueNet
 
 """class Board2():
     def __init__(self):
@@ -150,9 +152,30 @@ if __name__ == '__main__':
     # 批量下载pgn棋谱
     game = Game()
     game.download_pgn()
-    """
 
     model_path='/home/aladdin/yanjingang/piglab/machinelearning/models/pigchess/model/'
     #net_params = utils.pickle_load(model_path+'current_policy.90530-3.2909.model.bak')
     #pickle.dump(net_params, open(model_path+'current_policy.90530-3.2909.model', 'wb'), protocol=4)  
     pickle.load(open(model_path+'current_policy.model', 'rb'), encoding='bytes')
+
+
+
+    engine = chess.engine.SimpleEngine.popen_uci("./engine/stockfish-10-linux/Linux/stockfish_10_x64")
+    board = chess.Board()
+    while not board.is_game_over():
+        print(board)
+        result = engine.play(board, chess.engine.Limit(time=0.100))
+        board.push(result.move)
+    engine.quit()
+
+
+    """
+    engine = chess.uci.popen_engine('./engine/stockfish-10-linux/Linux/stockfish_10_x64')
+    info_handler = chess.uci.InfoHandler()
+    engine.info_handlers.append(info_handler)
+
+    engine.position(chess.Board())
+    res = engine.go(movetime=2000)
+    print(res)
+    print(res.bestmove, res.ponder, info_handler.info)
+    
