@@ -30,14 +30,14 @@ sys.path.append(BASE_PATH)
 # print(CUR_PATH, BASE_PATH)
 from machinelearning.lib import utils
 from game import Board, Game
-from player import AIPlayer
-from net.policy_value_net_keras import PolicyValueNet
+from player import AIPlayer, StockfishPlayer
+#from net.policy_value_net_keras import PolicyValueNet
 
 
 class ApiGameChess(tornado.web.RequestHandler):
     """API逻辑封装"""
-    model_file = CUR_PATH + '/model/best_policy.model'
-    best_policy = PolicyValueNet(Board().action_ids_size, model_file=model_file)
+    #model_file = CUR_PATH + '/model/best_policy.model'
+    #best_policy = PolicyValueNet(Board().action_ids_size, model_file=model_file)
     games = {}
 
     def get(self):
@@ -87,7 +87,8 @@ class ApiGameChess(tornado.web.RequestHandler):
                 session['game'] = Game()
                 session['game'].board.init_board()
                 # 初始化AI棋手
-                session['ai_player'] = AIPlayer(self.best_policy.policy_value_fn, n_playout=50)
+                #session['ai_player'] = AIPlayer(self.best_policy.policy_value_fn, n_playout=50)
+                session['ai_player'] = StockfishPlayer()
                 self.games[session_id] = session
             else:
                 session = self.games[session_id]

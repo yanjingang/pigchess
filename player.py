@@ -401,7 +401,7 @@ class StockfishPlayer(object):
     def set_player_ind(self, p):
         self.player = p
 
-    def get_action(self, board):
+    def get_action(self, board, return_prob=0):
         logging.info("__get_action__ {}".format(len(board.book_variations['all'])))
         action = 0
         try:
@@ -413,8 +413,13 @@ class StockfishPlayer(object):
             logging.warning(utils.get_trace())
             action = -1
         logging.info("Stockfish action: %s %d,%s" % (board.current_player_name.upper(), action, board.action_to_move(action)))
+        probs = np.zeros(board.action_ids_size)
+        probs[action] = 1.0
+        if return_prob:
+            return action, probs
+        else:
+            return action
 
-        return action
 
     def __str__(self):
         return "StockfishPlayer {}".format(self.player)
