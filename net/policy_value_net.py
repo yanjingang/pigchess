@@ -11,14 +11,13 @@ import sys
 import theano
 import theano.tensor as T
 import lasagne
-import pickle
 
 # PATH
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
 BASE_PATH = os.path.realpath(CUR_PATH + '/../../../../')
 sys.path.append(BASE_PATH)
 
-from machinelearning.lib import utils
+from dps import utils
 
 class PolicyValueNet():
     """policy-value network """
@@ -34,8 +33,7 @@ class PolicyValueNet():
             #    net_params = pickle.load(open(model_file, 'rb'))
             #except: # To support loading pretrained model in python3
             #    net_params = pickle.load(open(model_file, 'rb'), encoding='bytes')
-            #net_params = utils.pickle_load(model_file)
-            net_params = pickle.load(open(model_file, 'rb'), encoding='bytes')  
+            net_params = utils.pickle_load(model_file)
             lasagne.layers.set_all_param_values([self.policy_net, self.value_net], net_params)
 
     def create_policy_value_net(self):
@@ -124,5 +122,5 @@ class PolicyValueNet():
     def save_model(self, model_file):
         """ save model params to file """
         net_params = self.get_policy_param()  # get model params
-        pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
-        #utils.pickle_dump(net_params, model_file)
+        #pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
+        utils.pickle_dump(net_params, model_file)

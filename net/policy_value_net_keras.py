@@ -25,7 +25,7 @@ CUR_PATH = os.path.dirname(os.path.abspath(__file__))
 BASE_PATH = os.path.realpath(CUR_PATH + '/../../../../')
 sys.path.append(BASE_PATH)
 
-from machinelearning.lib import utils
+from dps import utils
 
 class PolicyValueNet():
     """策略价值网络"""
@@ -46,8 +46,8 @@ class PolicyValueNet():
     def load_model(self, model_file):
         """重新加载模型(仅用于selfplay时load new model)"""
         try:
-            net_params = pickle.load(open(model_file, 'rb'), encoding='bytes') #iso-8859-1')
-            #net_params = utils.pickle_load(model_file)
+            #net_params = pickle.load(open(model_file, 'rb'), encoding='bytes') #iso-8859-1')
+            net_params = utils.pickle_load(model_file)
             self.model.set_weights(net_params)
             self.load_model_done = True
         except:
@@ -147,5 +147,5 @@ class PolicyValueNet():
     def save_model(self, model_file):
         """保存模型参数到文件"""
         net_params = self.get_policy_param()
-        pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
-        #utils.pickle_dump(net_params, model_file)
+        #pickle.dump(net_params, open(model_file, 'wb'), protocol=4)
+        utils.pickle_dump(net_params, model_file)

@@ -28,10 +28,9 @@ which pip
 
 # lib
 pip install --upgrade pip
-pip install numpy opencv-python pillow python-chess keras==2.0 tensorflow-gpu==1.2 tornado
+pip install numpy opencv-python pillow python-chess keras==2.0 tensorflow-gpu==1.2 tornado dps
 *注：本机gpu卡使用cuda_v8.0+cudnn_v5.1，因此只能安装tensorflow-gpu1.2，配套keras2.0(对应表：https://tensorflow.google.cn/install/source)
 ```
-*因utils依赖的原因需要pip install piglab 或者 把项目clone到piglab/machinelearning/models目录下
 
 ### 模型训练
 生成训练数据:  

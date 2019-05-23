@@ -28,7 +28,7 @@ BASE_PATH = os.path.realpath(CUR_PATH + '/../../../')
 sys.path.append(BASE_PATH)
 # print(CUR_PATH, BASE_PATH)
 
-from machinelearning.lib import utils
+from dps import utils
 from game import Game, Board
 from player import MCTS, MCTSPlayer, AIPlayer
 from train import Train
@@ -111,7 +111,7 @@ if __name__ == '__main__':
    
 
     #replay_databuffer
-    data_file = BASE_PATH + '/machinelearning/game/chess/data/playdata/20190122155910-40-B-65352-bd33dbb3a0742b46fe9cef383630abe2.data'
+    data_file = CUR_PATH + '/data/playdata/20190122155910-40-B-65352-bd33dbb3a0742b46fe9cef383630abe2.data'
     game = Game()
     game.replay_databuffer(data_file)
     
@@ -153,7 +153,7 @@ if __name__ == '__main__':
     game = Game()
     game.download_pgn()
 
-    model_path='/home/aladdin/yanjingang/piglab/machinelearning/models/pigchess/model/'
+    model_path= CUR_PATH + '/model/'
     #net_params = utils.pickle_load(model_path+'current_policy.90530-3.2909.model.bak')
     #pickle.dump(net_params, open(model_path+'current_policy.90530-3.2909.model', 'wb'), protocol=4)  
     pickle.load(open(model_path+'current_policy.model', 'rb'), encoding='bytes')
