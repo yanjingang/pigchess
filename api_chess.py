@@ -4,7 +4,7 @@
 File: api_chess.py
 Desc: 国际象棋 强化学习模型 API 封装
 Demo: 
-    cd /home/work/piglab/webservice/service/ && nohup python api_chess.py > log/api_chess.log &
+    nohup python api_chess.py > log/api_chess.log &
     
     http://www.yanjingang.com:8024/piglab/game/chess?session_id=1548849426270&move=d7d5
 
