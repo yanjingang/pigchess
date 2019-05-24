@@ -28,7 +28,7 @@ BASE_PATH = os.path.realpath(CUR_PATH + '/../../../')
 sys.path.append(BASE_PATH)
 # print(CUR_PATH, BASE_PATH)
 
-from dps import utils
+from dp import utils
 from game import Game, Board
 from player import MCTS, MCTSPlayer, AIPlayer
 from train import Train

@@ -31,7 +31,7 @@ CUR_PATH = os.path.dirname(os.path.abspath(__file__))
 BASE_PATH = os.path.realpath(CUR_PATH + '/../../../')
 sys.path.append(BASE_PATH)
 
-from dps import utils
+from dp import utils
 from game import Game
 from train import Train
 from evaluate import Evaluate
