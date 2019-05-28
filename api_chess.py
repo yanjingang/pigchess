@@ -13,6 +13,9 @@ Author: yanjingang(yanjingang@mail.com)
 Date: 2019/1/30 23:08
 """
 
+from player import AIPlayer, StockfishPlayer
+from game import Board, Game
+from dp import utils
 import sys
 import os
 import json
@@ -28,9 +31,6 @@ CUR_PATH = os.path.dirname(os.path.abspath(__file__))
 BASE_PATH = os.path.realpath(CUR_PATH + '/../../')
 sys.path.append(BASE_PATH)
 # print(CUR_PATH, BASE_PATH)
-from dp import utils
-from game import Board, Game
-from player import AIPlayer, StockfishPlayer
 #from net.policy_value_net_keras import PolicyValueNet
 
 
@@ -67,7 +67,7 @@ class ApiGameChess(tornado.web.RequestHandler):
         logging.info('API REQUEST INFO[' + self.request.path + '][' + self.request.method + ']['
                      + self.request.remote_ip + '][' + str(self.request.arguments) + ']')
         session_id = self.get_argument('session_id', '')
-        res = {'session_id': session_id, 'player': -1, 'step': 0, 'move': '', 'san': '', 'end': False, 'winner': -1, 'curr_player': 0, 'state': {}, 'ponder':'', 'score':-1}
+        res = {'session_id': session_id, 'player': -1, 'step': 0, 'move': '', 'san': '', 'end': False, 'winner': -1, 'curr_player': 0, 'state': {}, 'ponder': '', 'score': -1}
         move = self.get_argument('move', '')
         if session_id == '':
             return {'code': 2, 'msg': 'session_id不能为空', 'data': res}
@@ -104,7 +104,7 @@ class ApiGameChess(tornado.web.RequestHandler):
             res['state'] = session['game'].board.state()
             action = -1
             if res['curr_player'] == session['ai_player_id']:  # 轮到ai时，忽略传入的move参数
-                action, probs, ponder, res['score']  = session['ai_player'].get_action(session['game'].board, return_prob=1, return_ponder=1, return_score=1)
+                action, probs, ponder, res['score'] = session['ai_player'].get_action(session['game'].board, return_prob=1, return_ponder=1, return_score=1)
                 move = session['game'].board.action_to_move(action)
                 res['ponder'] = session['game'].board.action_to_move(ponder)
                 logging.info("[{}] {} AI move: {}  Score: {} Ponder: {}".format(session_id, res['curr_player'], move, res['score'], res['ponder']))
