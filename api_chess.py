@@ -131,6 +131,11 @@ class ApiGameChess(tornado.web.RequestHandler):
                 # do move
                 res['san'] = session['game'].board.move_to_san(move)
                 session['game'].board.do_move(action)  # do move
+                try:
+                    if len(res['ponder']) > 2:
+                        res['ponder'] = session['game'].board.move_to_san(res['ponder'])
+                except:
+                    logging.warning(utils.get_trace())
                 session['step'] += 1
                 res['player'], res['move'], res['step'] = res['curr_player'], move, session['step']
                 res['end'], res['winner'] = session['game'].board.game_end()

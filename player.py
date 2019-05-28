@@ -430,7 +430,7 @@ class StockfishPlayer(object):
     def get_score(self):
         """盘面打分"""
         try:
-            return info_handler.info['score'][1].cp
+            return self.info_handler.info['score'][1].cp
         except Exception as e:
             logging.warning(utils.get_trace())
             return -1
