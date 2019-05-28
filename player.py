@@ -397,29 +397,43 @@ class StockfishPlayer(object):
     def __init__(self):
         self.player = None
         self.engine = chess.uci.popen_engine(CUR_PATH + '/engine/stockfish-10-linux/Linux/stockfish_10_x64')
+        # 盘面分析
+        self.info_handler = chess.uci.InfoHandler()
+        self.engine.info_handlers.append(self.info_handler)
 
     def set_player_ind(self, p):
         self.player = p
 
-    def get_action(self, board, return_prob=0):
+    def get_action(self, board, return_prob=0, return_ponder=0, return_score=0):
         logging.info("__get_action__ {}".format(len(board.book_variations['all'])))
-        action = 0
+        action = -1
+        ponder = -1
+        score = -1
         try:
             self.engine.position(board.base)
             res = self.engine.go(movetime=2000)
-            print(res)
+            # print(res, self.info_handler.info)
             action = board.move_to_action(res.bestmove)
+            ponder = board.move_to_action(res.ponder)
+            score = self.get_score()
         except Exception as e:
             logging.warning(utils.get_trace())
-            action = -1
-        logging.info("Stockfish action: %s %d,%s" % (board.current_player_name.upper(), action, board.action_to_move(action)))
+        logging.info("Stockfish action: %s %d,%s  ponder: %s" % (board.current_player_name.upper(), action, board.action_to_move(action), board.action_to_move(ponder)))
         probs = np.zeros(board.action_ids_size)
         probs[action] = 1.0
+        if return_prob and return_ponder and return_score:
+            return action, probs, ponder, score
         if return_prob:
             return action, probs
-        else:
-            return action
+        return action
 
+    def get_score(self):
+        """盘面打分"""
+        try:
+            return info_handler.info['score'][1].cp
+        except Exception as e:
+            logging.warning(utils.get_trace())
+            return -1
 
     def __str__(self):
         return "StockfishPlayer {}".format(self.player)
@@ -518,13 +532,14 @@ class MiniMaxPlayer(object):
             board_copy.do_move(act)
             # 模拟minimax搜索并返回最大得分
             bestScore = self.minimax(self.depth - 1, board_copy, -10000, 10000, not isMaximisingPlayer)
-            logging.debug("==============board_copy move minimax: {},{}={}   best:{},{}={}".format(str(act), board_copy.action_to_move(act),bestScore,action,board_copy.action_to_move(action),score))
+            logging.debug("board_copy move minimax: {},{}={}   best:{},{}={}".format(str(act), board_copy.action_to_move(act), bestScore, action, board_copy.action_to_move(action), score))
             if bestScore > score:
                 score = bestScore
                 action = act
 
         # print(str(action) + '\t' + board.action_to_move(action))
-        logging.info("MiniMax action: {} {},{}  score:{}  availables_cnt:{},time:{}s".format(board.current_player_name.upper(), action, board.action_to_move(action), score, availables_cnt, int(time.time()-startTime)))
+        logging.info("MiniMax action: {} {},{}  score:{}  availables_cnt:{},time:{}s".format(board.current_player_name.upper(), action, board.action_to_move(action), score, availables_cnt,
+                                                                                             int(time.time() - startTime)))
         return action
 
     def minimax(self, depth, board, alpha, beta, isMaximisingPlayer):
@@ -575,13 +590,13 @@ class MiniMaxPlayer(object):
                     continue
                 piece_type = piece.upper()
                 x, y = h, w
-                if piece not in self.PIECE_SCORE:   #黑方棋子旋转x,y
+                if piece not in self.PIECE_SCORE:  # 黑方棋子旋转x,y
                     x, y = 8 - 1 - h, 8 - 1 - w
                 absScore = self.PIECE_SCORE[piece_type] + self.PIECE_EVAL[piece_type][x][y]
                 # MiniMaxPlayer自己棋子+分，对手棋子-分
-                if (self.player == 'w' and piece!=piece_type) or (self.player == 'b' and piece==piece_type):  #对手棋子
+                if (self.player == 'w' and piece != piece_type) or (self.player == 'b' and piece == piece_type):  # 对手棋子
                     absScore *= -1
-                #logging.debug("evaluateBoard: {} {},{} {}   {} {} {}".format(piece, x, y, absScore, self.player, self.player == board.WHITE, piece!=piece_type))
+                # logging.debug("evaluateBoard: {} {},{} {}   {} {} {}".format(piece, x, y, absScore, self.player, self.player == board.WHITE, piece!=piece_type))
                 score += absScore
 
         logging.info("evaluateResult: {}".format(score))

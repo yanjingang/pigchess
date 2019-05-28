@@ -177,5 +177,5 @@ if __name__ == '__main__':
     engine.position(chess.Board())
     res = engine.go(movetime=2000)
     print(res)
-    print(res.bestmove, res.ponder, info_handler.info)
+    print(res.bestmove, res.ponder, info_handler.info['score'][1].cp)
     

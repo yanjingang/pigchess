@@ -28,7 +28,7 @@ which pip
 
 # lib
 pip install --upgrade pip
-pip install numpy opencv-python pillow python-chess keras==2.0 tensorflow-gpu==1.2 tornado dps
+pip install numpy opencv-python pillow python-chess keras==2.0 tensorflow-gpu==1.2 tornado pydp
 *注：本机gpu卡使用cuda_v8.0+cudnn_v5.1，因此只能安装tensorflow-gpu1.2，配套keras2.0(对应表：https://tensorflow.google.cn/install/source)
 ```
 
