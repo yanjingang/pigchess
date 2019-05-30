@@ -16,10 +16,7 @@ from operator import itemgetter
 import chess
 import chess.uci
 
-# PATH
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
-BASE_PATH = os.path.realpath(CUR_PATH + '/../../../')
-sys.path.append(BASE_PATH)
 
 from dp import utils
 

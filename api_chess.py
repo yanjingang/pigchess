@@ -25,12 +25,7 @@ import numpy as np
 import tornado.ioloop
 import tornado.web
 import tornado.httpserver
-
-# PATH
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
-BASE_PATH = os.path.realpath(CUR_PATH + '/../../')
-sys.path.append(BASE_PATH)
-# print(CUR_PATH, BASE_PATH)
 #from net.policy_value_net_keras import PolicyValueNet
 
 

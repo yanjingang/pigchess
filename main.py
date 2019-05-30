@@ -26,10 +26,7 @@ import sys
 import getopt
 import logging
 
-# PATH
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
-BASE_PATH = os.path.realpath(CUR_PATH + '/../../../')
-sys.path.append(BASE_PATH)
 
 from dp import utils
 from game import Game

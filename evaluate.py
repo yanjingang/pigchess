@@ -17,10 +17,7 @@ import pickle
 import numpy as np
 from collections import defaultdict, deque
 
-# PATH
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
-BASE_PATH = os.path.realpath(CUR_PATH + '/../../../')
-sys.path.append(BASE_PATH)
 
 from game import Board, Game
 from player import MCTSPlayer, AIPlayer
