@@ -78,7 +78,8 @@ class Evaluate():
         """
         logging.info("__start_evaluate__")
         # 1.初始化网络模型
-        from net.policy_value_net_keras import PolicyValueNet  # Keras
+        #from net.policy_value_net_keras import PolicyValueNet  # Keras
+        from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
         self.policy_value_net = PolicyValueNet(self.game.board.action_ids_size, model_file=curr_model)
 
         # 2. 开始预测

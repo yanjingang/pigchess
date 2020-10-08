@@ -8,17 +8,17 @@ Author:yanjingang(yanjingang@mail.com)
 Date: 2019/1/21 22:46
 Cmd:
     生成训练数据：
-        nohup python main.py selfplay 40 > log/selfplay.log 2>&1 &
-    训练模型：
-        nohup python main.py train 1 > log/train.log 2>&1 &
-    评估模型：
-        nohup python main.py evaluate 40 > log/evaluate.log 2>&1 &
-    与模型对战：
-        python main.py infer human-vs-stockfish
-    重放某次对战过程：
-        python main.py replay 20190122155910-40-B-65352-bd33dbb3a0742b46fe9cef383630abe2.data
+        nohup python3 main.py selfplay 40 > log/selfplay.log 2>&1 &
     使用png生成训练数据：
-        nohup python main.py pgn Bu.pgn >>log/pgn.log 2>&1 &
+        nohup python3 main.py pgn Bu.pgn >>log/pgn.log 2>&1 &
+    训练模型：
+        nohup python3 main.py train 1 > log/train.log 2>&1 &
+    与模型对战：
+        python3 main.py infer human-vs-ai
+    评估模型：
+        nohup python3 main.py evaluate 40 > log/evaluate.log 2>&1 &
+    重放某次对战过程：
+        python3 main.py replay 20150216-KorchnoiUhlmannRapid-B-KorchnoiV-UhlmannW-48-1.data
 """
 
 import os

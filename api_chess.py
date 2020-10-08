@@ -27,6 +27,7 @@ import tornado.web
 import tornado.httpserver
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
 #from net.policy_value_net_keras import PolicyValueNet
+#from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
 
 
 class ApiGameChess(tornado.web.RequestHandler):

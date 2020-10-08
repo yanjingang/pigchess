@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 使用Keras实现PolicyValueNet
-    在Keras 2.0.5下测试，tensorflow-gpu 1.2.1作为后端
+    在Keras 2.0.5 + tensorflow-gpu 1.2.1环境测试
 """
 
 from __future__ import print_function
@@ -39,7 +39,8 @@ class PolicyValueNet():
         self.create_policy_value_net()
         self._loss_train_op()
 
-        if model_file:
+        self.load_model_done = True
+        if model_file and os.path.exists(model_file):
             self.load_model_done = False
             self.load_model(model_file)
 

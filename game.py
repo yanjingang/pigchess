@@ -336,7 +336,8 @@ class Game(object):
 
     def _load_policy_value_net(self, best_model):
         """加载网络模型"""
-        from net.policy_value_net_keras import PolicyValueNet  # Keras
+        #from net.policy_value_net_keras import PolicyValueNet  # Keras
+        from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
         policy_value_net = PolicyValueNet(self.board.action_ids_size, model_file=best_model)
         while policy_value_net.load_model_done is False:
             try:
@@ -356,7 +357,7 @@ class Game(object):
         """
         logging.info("__start_selfplay__")
         # 1.init net & ai player
-        model_last_mdy_time = os.stat(best_model).st_mtime  # 模型最后更新时间
+        model_last_mdy_time =  os.stat(best_model).st_mtime if os.path.exists(best_model) else time.time()  # 模型最后更新时间
         policy_value_net = self._load_policy_value_net(best_model)
         ai_player = AIPlayer(policy_value_net.policy_value_fn, c_puct=c_puct, n_playout=n_playout, is_selfplay=1)
 
@@ -372,9 +373,10 @@ class Game(object):
                 utils.pickle_dump(play_data, data_file)
                 logging.info("selfplay batch save. batch:{}, file:{}".format(i + 1, data_file))
                 # 2.3检查是否有新的模型需要reload
-                if os.stat(best_model).st_mtime > model_last_mdy_time:
+                model_time =  os.stat(best_model).st_mtime if os.path.exists(best_model) else time.time()  # 模型最后更新时间
+                if model_time > model_last_mdy_time:
                     logging.info("selfplay reload model! new:{} > old:{}".format(utils.get_date(os.stat(best_model).st_mtime), utils.get_date(model_last_mdy_time)))
-                    model_last_mdy_time = os.stat(best_model).st_mtime  # 模型最后更新时间
+                    model_last_mdy_time =  os.stat(best_model).st_mtime if os.path.exists(best_model) else time.time()  # 模型最后更新时间
                     policy_value_net = self._load_policy_value_net(best_model)
                     ai_player = AIPlayer(policy_value_net.policy_value_fn, c_puct=c_puct, n_playout=n_playout, is_selfplay=1)
 
@@ -436,10 +438,9 @@ class Game(object):
         """
         启动对战
         Params:
-            batch_num       selfplay对战次数
-            c_puct          MCTS child搜索深度
-            n_playout_ai    ai预测每个action的mcts模拟次数
-            n_playout_mcts  纯mcts随机走子时每个action的mcts模拟步数
+            vs_type         对战类型
+            n_playout       ai预测每个action的mcts模拟次数
+            best_model      AIPlayer使用的模型
         """
         logging.info("__start_vsplay__")
 
@@ -447,7 +448,8 @@ class Game(object):
         self.board.init_board()
         # 2.初始化棋手
         # 初始化AI棋手
-        from net.policy_value_net_keras import PolicyValueNet  # Keras
+        #from net.policy_value_net_keras import PolicyValueNet  # Keras
+        from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
         best_policy = PolicyValueNet(self.board.action_ids_size, model_file=best_model)
         ai_player = AIPlayer(best_policy.policy_value_fn, n_playout=n_playout)
         # 初始化MCTS棋手

@@ -29,6 +29,7 @@ from game import Game, Board
 from player import MCTS, MCTSPlayer, AIPlayer
 from train import Train
 #from net.policy_value_net_keras import PolicyValueNet
+#from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
 
 """class Board2():
     def __init__(self):

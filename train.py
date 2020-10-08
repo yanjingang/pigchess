@@ -80,7 +80,8 @@ class Train():
         """
         logging.info("__start_train__")
         # 1.初始化网络模型
-        from net.policy_value_net_keras import PolicyValueNet  # Keras
+        #from net.policy_value_net_keras import PolicyValueNet  # Keras
+        from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
         if curr_model:  # 使用一个训练好的策略价值网络
             self.policy_value_net = PolicyValueNet(Board().action_ids_size, model_file=curr_model)
         else:  # 使用一个新的的策略价值网络
