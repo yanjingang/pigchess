@@ -380,7 +380,7 @@ class HumanPlayer(object):
             if action in board.availables:  # action legal check
                 break
             else:
-                print("invoid action ! [{}] [{}]".format(action, board.actions_to_sans(board.availables)))
+                print("invalid action ! [{}] [{}]".format(action, board.actions_to_sans(board.availables)))
         return action
 
     def __str__(self):
