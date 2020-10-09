@@ -14,7 +14,7 @@ Cmd:
     训练模型：
         nohup python3 main.py train 1 > log/train.log 2>&1 &
     与模型对战：
-        python3 main.py infer human-vs-ai
+        python3 main.py infer ai-vs-human
     评估模型：
         nohup python3 main.py evaluate 40 > log/evaluate.log 2>&1 &
     重放某次对战过程：

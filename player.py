@@ -118,7 +118,7 @@ class MCTS(object):
             board 当前棋盘的deepcopy副本
         """
         # 1.Selection（在树中找到一个最好的值得探索的节点，一般策略是先选择未被探索的子节点，如果都探索过就选择UCB值最大的子节点）
-        # print('XXXXXXXXXXXXXXXXXXXXXXXXX-0')
+        # print('-------A--------')
         node = self._root
         # 找到最优叶子节点：递归从child中选择并执行最大 动作Q+奖励u(P) 的动作
         while (1):
@@ -133,21 +133,20 @@ class MCTS(object):
 
         # 2.Expansion（就是在前面选中的子节点中走一步创建一个新的子节点。一般策略是随机自行一个操作并且这个操作不能与前面的子节点重复）
         # 走子策略返回的[(action,概率)]list
-        # print('XXXXXXXXXXXXXXXXXXXXXXXXX-a')
         action_probs, _ = self._policy(board)
         # print(action_probs, _)
-        # print('XXXXXXXXXXXXXXXXXXXXXXXXX-b')
+        # print(-------B--------')
         # 检查游戏是否有赢家
         end, winner = board.game_end()
         # print(end,winner)
         if not end:  # 没有结束时，把走子策略返回的[(action,概率)]list加载到mcts树child中
             node.expand(action_probs)
-        # print('XXXXXXXXXXXXXXXXXXXXXXXXX-c')
+        # print('-------C--------')
         # 3.Simulation（在前面新Expansion出来的节点开始模拟游戏，直到到达游戏结束状态，这样可以收到到这个expansion出来的节点的得分是多少）
         # 使用快速随机走子评估此叶子节点继续往后走的胜负（board执行快速走子）
         leaf_value = self._evaluate_rollout(board)
         # print(leaf_value)
-        # print('XXXXXXXXXXXXXXXXXXXXXXXXX-d')
+        # print('-------D--------')
         # 4.Backpropagation（把前面expansion出来的节点得分反馈到前面所有父节点中，更新这些节点的quality value和visit times，方便后面计算UCB值）
         # 递归更新当前节点及所有父节点的最优选中次数和Q分数（最优选中次数是累加的，Q分数递归-1的目的在于输赢对于交替的player来说是正负交错的）
         node.update_recursive(-leaf_value)
@@ -381,7 +380,7 @@ class HumanPlayer(object):
             if action in board.availables:  # action legal check
                 break
             else:
-                print("invoid action [{}] !".format(san))
+                print("invoid action ! [{}] [{}]".format(action, board.actions_to_sans(board.availables)))
         return action
 
     def __str__(self):

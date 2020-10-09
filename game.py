@@ -104,12 +104,25 @@ class Board():
             logging.warning('action_to_move fail [{}] !'.format(action))
         return move
 
+    def actions_to_sans(self, actions):
+        """
+        将action ids 还原为 sans字符串
+            [204] => [d1e2] => []
+        """
+        # print('__actions_to_moves__')
+        sans = []
+        for action in actions:
+            move = self.action_to_move(action)
+            sans.append(self.move_to_san(move))
+        return sans
+
     def san_to_move(self, san):
         """
         将san指令 转为 move (需在do_move前调用)
             Qg5 -> d8g5
         """
-        if len(san) >= 3:  # 非兵移位时，首字母大写
+        
+        if san[:1] in ["n", "b", "r", "q", "k"]:  # 非兵时，首字母大写
             san = san.capitalize()
         if san[0:2].upper() == 'O-':  # 移位全大写
             san = san.upper()
