@@ -41,7 +41,7 @@ const config = {
 
   // request穿透请求接口
   requestUrl: `https://${host}/piglab/api/request.php`,
-  
+
 }
 
 module.exports = config
