@@ -22,7 +22,7 @@ Page({
     //page初始化
     onReady() {
         this.init();
-        this.UploadEndBoardImage();
+        // this.UploadEndBoardImage();
     },
     onPullDownRefresh() {
         this.init();
@@ -50,13 +50,17 @@ Page({
         this.ctx = wx.createCanvasContext('board')
         this.ctx.strokeStyle = this.color; //边框颜色
         //init board
+        this.data.can_choose = true;
+        this.data.msg = '';
+        this.data.step = 0;
+        this.data.availables = [];
+        this.data.state = {};
         this.initBoard(this.data.human_player_id);
         //move
         //this.movePiece(this.WHITE, 'g1f3', 'Nf4')
 
         //start play
         //this.aiMove();
-
 
         // user_nick
         const userInfo = wx.getStorageSync('userInfo');
