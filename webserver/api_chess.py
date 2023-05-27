@@ -13,10 +13,6 @@ Author: yanjingang(yanjingang@mail.com)
 Date: 2019/1/30 23:08
 """
 
-from player import AIPlayer, StockfishPlayer
-from game import Board, Game
-from dp import utils
-from mysql import Mysql
 import sys
 import os
 import json
@@ -27,6 +23,11 @@ import tornado.ioloop
 import tornado.web
 import tornado.httpserver
 CUR_PATH = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(CUR_PATH + '/../')
+from player import AIPlayer, StockfishPlayer
+from game import Board, Game
+from dp import utils
+from mysql import Mysql
 #from net.policy_value_net_keras import PolicyValueNet
 #from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
 
@@ -81,6 +82,7 @@ class ApiGameChess(tornado.web.RequestHandler):
                 session['nick'] = self.get_argument('user_nick', '')
                 session['step'] = 0
                 session['actions'], session['mcts_probs'] = [], []
+                session['moves'], session['sans'], session['scores'] = [], [], []
                 # 初始化棋盘
                 session['game'] = Game()
                 session['game'].board.init_board()
@@ -140,8 +142,13 @@ class ApiGameChess(tornado.web.RequestHandler):
                 res['curr_player'] = session['game'].board.current_player_id
                 res['availables'] = [session['game'].board.action_to_move(act) for act in session['game'].board.availables]
                 res['state'] = session['game'].board.state()  # res['state'][move[:2]] + move[:2]
+                # save games
+                session['moves'].append(res['move'])
+                session['sans'].append(res['san'])
+                session['scores'].append(str(res['score']))
                 # save state -> databuffer
                 if res['end']:
+                    result = 0.5
                     # 从当前玩家视角确定winner
                     winners_z = np.zeros(len(session['game'].board.book_variations['all']))
                     if res['winner'] != -1:  # 不是和棋
@@ -150,6 +157,11 @@ class ApiGameChess(tornado.web.RequestHandler):
                                 winners_z[i] = 1.0  # 更新赢家步骤位置=1
                             else:
                                 winners_z[i] = -1.0  # 更新输家步骤位置=-1
+                        # 人类玩家的对局结果
+                        if res['winner'] == session['human_player_id']:
+                            result = 1
+                        else:
+                            result = 0
                     play_data = list(zip(session['actions'], session['mcts_probs'], winners_z))[:]
                     data_file = session['game']._get_databuffer_file(event='vs',
                                                                      winner=res['winner'],
@@ -161,12 +173,13 @@ class ApiGameChess(tornado.web.RequestHandler):
                     ret = db.insert('games', {
                         'session': session_id,
                         'nick': session['nick'],
-                        'player': session['human_player_id'], 
+                        'role': session['human_player_id'], 
                         'step': session['step'],
-                        'actions': str(session['actions']), 
-                        'probs': str(session['mcts_probs']),
+                        'moves': ','.join(session['moves']), 
+                        'scores': ','.join(session['scores']),
                         'winner': res['winner'],
-                    )})
+                        'result': result,
+                    })
                     logging.info("game save to db: {}".format(ret))
 
                 return {'code': 0, 'msg': 'success', 'data': res}
@@ -196,7 +209,6 @@ if __name__ == '__main__':
         db='chess',
         debug=1,
         autocommit=True,
-        # autocommit=False,
     )
     db.connect()
 
