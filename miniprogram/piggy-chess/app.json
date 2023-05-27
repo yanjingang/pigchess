@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/chess/index",
+    "pages/home/index",
     "pages/usercenter/index"
   ],
   "tabBar": {
@@ -10,6 +11,10 @@
     "backgroundColor": "#ffffff",
     "borderStyle": "black",
     "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页"
+      },
       {
         "pagePath": "pages/chess/index",
         "text": "下棋"

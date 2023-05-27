@@ -6,200 +6,191 @@ export const config = {
 export const cdnBase =
   'https://we-retail-static-1300977798.cos.ap-guangzhou.myqcloud.com/retail-mp';
 
-export const areaData = [
-  {
+export const areaData = [{
     label: '北京市',
     value: '110000',
-    children: [
-      {
-        label: '北京市',
-        value: '110100',
-        children: [
-          {
-            label: '东城区',
-            value: '110101',
-            children: null,
-          },
-          {
-            label: '西城区',
-            value: '110102',
-            children: null,
-          },
-          {
-            label: '朝阳区',
-            value: '110105',
-            children: null,
-          },
-          {
-            label: '丰台区',
-            value: '110106',
-            children: null,
-          },
-          {
-            label: '石景山区',
-            value: '110107',
-            children: null,
-          },
-          {
-            label: '海淀区',
-            value: '110108',
-            children: null,
-          },
-          {
-            label: '门头沟区',
-            value: '110109',
-            children: null,
-          },
-          {
-            label: '房山区',
-            value: '110111',
-            children: null,
-          },
-          {
-            label: '通州区',
-            value: '110112',
-            children: null,
-          },
-          {
-            label: '顺义区',
-            value: '110113',
-            children: null,
-          },
-          {
-            label: '昌平区',
-            value: '110114',
-            children: null,
-          },
-          {
-            label: '大兴区',
-            value: '110115',
-            children: null,
-          },
-          {
-            label: '怀柔区',
-            value: '110116',
-            children: null,
-          },
-          {
-            label: '平谷区',
-            value: '110117',
-            children: null,
-          },
-          {
-            label: '密云区',
-            value: '110118',
-            children: null,
-          },
-          {
-            label: '延庆区',
-            value: '110119',
-            children: null,
-          },
-        ],
-      },
-    ],
+    children: [{
+      label: '北京市',
+      value: '110100',
+      children: [{
+          label: '东城区',
+          value: '110101',
+          children: null,
+        },
+        {
+          label: '西城区',
+          value: '110102',
+          children: null,
+        },
+        {
+          label: '朝阳区',
+          value: '110105',
+          children: null,
+        },
+        {
+          label: '丰台区',
+          value: '110106',
+          children: null,
+        },
+        {
+          label: '石景山区',
+          value: '110107',
+          children: null,
+        },
+        {
+          label: '海淀区',
+          value: '110108',
+          children: null,
+        },
+        {
+          label: '门头沟区',
+          value: '110109',
+          children: null,
+        },
+        {
+          label: '房山区',
+          value: '110111',
+          children: null,
+        },
+        {
+          label: '通州区',
+          value: '110112',
+          children: null,
+        },
+        {
+          label: '顺义区',
+          value: '110113',
+          children: null,
+        },
+        {
+          label: '昌平区',
+          value: '110114',
+          children: null,
+        },
+        {
+          label: '大兴区',
+          value: '110115',
+          children: null,
+        },
+        {
+          label: '怀柔区',
+          value: '110116',
+          children: null,
+        },
+        {
+          label: '平谷区',
+          value: '110117',
+          children: null,
+        },
+        {
+          label: '密云区',
+          value: '110118',
+          children: null,
+        },
+        {
+          label: '延庆区',
+          value: '110119',
+          children: null,
+        },
+      ],
+    }, ],
   },
   {
     label: '天津市',
     value: '120000',
-    children: [
-      {
-        label: '天津市',
-        value: '120100',
-        children: [
-          {
-            label: '和平区',
-            value: '120101',
-            children: null,
-          },
-          {
-            label: '河东区',
-            value: '120102',
-            children: null,
-          },
-          {
-            label: '河西区',
-            value: '120103',
-            children: null,
-          },
-          {
-            label: '南开区',
-            value: '120104',
-            children: null,
-          },
-          {
-            label: '河北区',
-            value: '120105',
-            children: null,
-          },
-          {
-            label: '红桥区',
-            value: '120106',
-            children: null,
-          },
-          {
-            label: '东丽区',
-            value: '120110',
-            children: null,
-          },
-          {
-            label: '西青区',
-            value: '120111',
-            children: null,
-          },
-          {
-            label: '津南区',
-            value: '120112',
-            children: null,
-          },
-          {
-            label: '北辰区',
-            value: '120113',
-            children: null,
-          },
-          {
-            label: '武清区',
-            value: '120114',
-            children: null,
-          },
-          {
-            label: '宝坻区',
-            value: '120115',
-            children: null,
-          },
-          {
-            label: '滨海新区',
-            value: '120116',
-            children: null,
-          },
-          {
-            label: '宁河区',
-            value: '120117',
-            children: null,
-          },
-          {
-            label: '静海区',
-            value: '120118',
-            children: null,
-          },
-          {
-            label: '蓟州区',
-            value: '120119',
-            children: null,
-          },
-        ],
-      },
-    ],
+    children: [{
+      label: '天津市',
+      value: '120100',
+      children: [{
+          label: '和平区',
+          value: '120101',
+          children: null,
+        },
+        {
+          label: '河东区',
+          value: '120102',
+          children: null,
+        },
+        {
+          label: '河西区',
+          value: '120103',
+          children: null,
+        },
+        {
+          label: '南开区',
+          value: '120104',
+          children: null,
+        },
+        {
+          label: '河北区',
+          value: '120105',
+          children: null,
+        },
+        {
+          label: '红桥区',
+          value: '120106',
+          children: null,
+        },
+        {
+          label: '东丽区',
+          value: '120110',
+          children: null,
+        },
+        {
+          label: '西青区',
+          value: '120111',
+          children: null,
+        },
+        {
+          label: '津南区',
+          value: '120112',
+          children: null,
+        },
+        {
+          label: '北辰区',
+          value: '120113',
+          children: null,
+        },
+        {
+          label: '武清区',
+          value: '120114',
+          children: null,
+        },
+        {
+          label: '宝坻区',
+          value: '120115',
+          children: null,
+        },
+        {
+          label: '滨海新区',
+          value: '120116',
+          children: null,
+        },
+        {
+          label: '宁河区',
+          value: '120117',
+          children: null,
+        },
+        {
+          label: '静海区',
+          value: '120118',
+          children: null,
+        },
+        {
+          label: '蓟州区',
+          value: '120119',
+          children: null,
+        },
+      ],
+    }, ],
   },
   {
     label: '河北省',
     value: '130000',
-    children: [
-      {
+    children: [{
         label: '石家庄市',
         value: '130100',
-        children: [
-          {
+        children: [{
             label: '长安区',
             value: '130102',
             children: null,
@@ -314,8 +305,7 @@ export const areaData = [
       {
         label: '唐山市',
         value: '130200',
-        children: [
-          {
+        children: [{
             label: '路南区',
             value: '130202',
             children: null,
@@ -395,8 +385,7 @@ export const areaData = [
       {
         label: '秦皇岛市',
         value: '130300',
-        children: [
-          {
+        children: [{
             label: '海港区',
             value: '130302',
             children: null,
@@ -436,8 +425,7 @@ export const areaData = [
       {
         label: '邯郸市',
         value: '130400',
-        children: [
-          {
+        children: [{
             label: '邯山区',
             value: '130402',
             children: null,
@@ -532,8 +520,7 @@ export const areaData = [
       {
         label: '邢台市',
         value: '130500',
-        children: [
-          {
+        children: [{
             label: '桥东区',
             value: '130502',
             children: null,
@@ -633,8 +620,7 @@ export const areaData = [
       {
         label: '保定市',
         value: '130600',
-        children: [
-          {
+        children: [{
             label: '竞秀区',
             value: '130602',
             children: null,
@@ -759,8 +745,7 @@ export const areaData = [
       {
         label: '张家口市',
         value: '130700',
-        children: [
-          {
+        children: [{
             label: '桥东区',
             value: '130702',
             children: null,
@@ -845,8 +830,7 @@ export const areaData = [
       {
         label: '承德市',
         value: '130800',
-        children: [
-          {
+        children: [{
             label: '双桥区',
             value: '130802',
             children: null,
@@ -906,8 +890,7 @@ export const areaData = [
       {
         label: '沧州市',
         value: '130900',
-        children: [
-          {
+        children: [{
             label: '新华区',
             value: '130902',
             children: null,
@@ -992,8 +975,7 @@ export const areaData = [
       {
         label: '廊坊市',
         value: '131000',
-        children: [
-          {
+        children: [{
             label: '安次区',
             value: '131002',
             children: null,
@@ -1048,8 +1030,7 @@ export const areaData = [
       {
         label: '衡水市',
         value: '131100',
-        children: [
-          {
+        children: [{
             label: '桃城区',
             value: '131102',
             children: null,
@@ -1111,12 +1092,10 @@ export const areaData = [
   {
     label: '山西省',
     value: '140000',
-    children: [
-      {
+    children: [{
         label: '太原市',
         value: '140100',
-        children: [
-          {
+        children: [{
             label: '小店区',
             value: '140105',
             children: null,
@@ -1171,8 +1150,7 @@ export const areaData = [
       {
         label: '大同市',
         value: '140200',
-        children: [
-          {
+        children: [{
             label: '新荣区',
             value: '140212',
             children: null,
@@ -1227,8 +1205,7 @@ export const areaData = [
       {
         label: '阳泉市',
         value: '140300',
-        children: [
-          {
+        children: [{
             label: '城区',
             value: '140302',
             children: null,
@@ -1258,8 +1235,7 @@ export const areaData = [
       {
         label: '长治市',
         value: '140400',
-        children: [
-          {
+        children: [{
             label: '潞州区',
             value: '140403',
             children: null,
@@ -1324,8 +1300,7 @@ export const areaData = [
       {
         label: '晋城市',
         value: '140500',
-        children: [
-          {
+        children: [{
             label: '城区',
             value: '140502',
             children: null,
@@ -1360,8 +1335,7 @@ export const areaData = [
       {
         label: '朔州市',
         value: '140600',
-        children: [
-          {
+        children: [{
             label: '朔城区',
             value: '140602',
             children: null,
@@ -1396,8 +1370,7 @@ export const areaData = [
       {
         label: '晋中市',
         value: '140700',
-        children: [
-          {
+        children: [{
             label: '榆次区',
             value: '140702',
             children: null,
@@ -1457,8 +1430,7 @@ export const areaData = [
       {
         label: '运城市',
         value: '140800',
-        children: [
-          {
+        children: [{
             label: '盐湖区',
             value: '140802',
             children: null,
@@ -1528,8 +1500,7 @@ export const areaData = [
       {
         label: '忻州市',
         value: '140900',
-        children: [
-          {
+        children: [{
             label: '忻府区',
             value: '140902',
             children: null,
@@ -1604,8 +1575,7 @@ export const areaData = [
       {
         label: '临汾市',
         value: '141000',
-        children: [
-          {
+        children: [{
             label: '尧都区',
             value: '141002',
             children: null,
@@ -1695,8 +1665,7 @@ export const areaData = [
       {
         label: '吕梁市',
         value: '141100',
-        children: [
-          {
+        children: [{
             label: '离石区',
             value: '141102',
             children: null,
@@ -1768,12 +1737,10 @@ export const areaData = [
   {
     label: '内蒙古自治区',
     value: '150000',
-    children: [
-      {
+    children: [{
         label: '呼和浩特市',
         value: '150100',
-        children: [
-          {
+        children: [{
             label: '新城区',
             value: '150102',
             children: null,
@@ -1823,8 +1790,7 @@ export const areaData = [
       {
         label: '包头市',
         value: '150200',
-        children: [
-          {
+        children: [{
             label: '东河区',
             value: '150202',
             children: null,
@@ -1874,8 +1840,7 @@ export const areaData = [
       {
         label: '乌海市',
         value: '150300',
-        children: [
-          {
+        children: [{
             label: '海勃湾区',
             value: '150302',
             children: null,
@@ -1895,8 +1860,7 @@ export const areaData = [
       {
         label: '赤峰市',
         value: '150400',
-        children: [
-          {
+        children: [{
             label: '红山区',
             value: '150402',
             children: null,
@@ -1961,8 +1925,7 @@ export const areaData = [
       {
         label: '通辽市',
         value: '150500',
-        children: [
-          {
+        children: [{
             label: '科尔沁区',
             value: '150502',
             children: null,
@@ -2007,8 +1970,7 @@ export const areaData = [
       {
         label: '鄂尔多斯市',
         value: '150600',
-        children: [
-          {
+        children: [{
             label: '东胜区',
             value: '150602',
             children: null,
@@ -2058,8 +2020,7 @@ export const areaData = [
       {
         label: '呼伦贝尔市',
         value: '150700',
-        children: [
-          {
+        children: [{
             label: '海拉尔区',
             value: '150702',
             children: null,
@@ -2134,8 +2095,7 @@ export const areaData = [
       {
         label: '巴彦淖尔市',
         value: '150800',
-        children: [
-          {
+        children: [{
             label: '临河区',
             value: '150802',
             children: null,
@@ -2175,8 +2135,7 @@ export const areaData = [
       {
         label: '乌兰察布市',
         value: '150900',
-        children: [
-          {
+        children: [{
             label: '集宁区',
             value: '150902',
             children: null,
@@ -2236,8 +2195,7 @@ export const areaData = [
       {
         label: '兴安盟',
         value: '152200',
-        children: [
-          {
+        children: [{
             label: '乌兰浩特市',
             value: '152201',
             children: null,
@@ -2272,8 +2230,7 @@ export const areaData = [
       {
         label: '锡林郭勒盟',
         value: '152500',
-        children: [
-          {
+        children: [{
             label: '二连浩特市',
             value: '152501',
             children: null,
@@ -2338,8 +2295,7 @@ export const areaData = [
       {
         label: '阿拉善盟',
         value: '152900',
-        children: [
-          {
+        children: [{
             label: '阿拉善左旗',
             value: '152921',
             children: null,
@@ -2361,12 +2317,10 @@ export const areaData = [
   {
     label: '辽宁省',
     value: '210000',
-    children: [
-      {
+    children: [{
         label: '沈阳市',
         value: '210100',
-        children: [
-          {
+        children: [{
             label: '和平区',
             value: '210102',
             children: null,
@@ -2436,8 +2390,7 @@ export const areaData = [
       {
         label: '大连市',
         value: '210200',
-        children: [
-          {
+        children: [{
             label: '中山区',
             value: '210202',
             children: null,
@@ -2492,8 +2445,7 @@ export const areaData = [
       {
         label: '鞍山市',
         value: '210300',
-        children: [
-          {
+        children: [{
             label: '铁东区',
             value: '210302',
             children: null,
@@ -2533,8 +2485,7 @@ export const areaData = [
       {
         label: '抚顺市',
         value: '210400',
-        children: [
-          {
+        children: [{
             label: '新抚区',
             value: '210402',
             children: null,
@@ -2574,8 +2525,7 @@ export const areaData = [
       {
         label: '本溪市',
         value: '210500',
-        children: [
-          {
+        children: [{
             label: '平山区',
             value: '210502',
             children: null,
@@ -2610,8 +2560,7 @@ export const areaData = [
       {
         label: '丹东市',
         value: '210600',
-        children: [
-          {
+        children: [{
             label: '元宝区',
             value: '210602',
             children: null,
@@ -2646,8 +2595,7 @@ export const areaData = [
       {
         label: '锦州市',
         value: '210700',
-        children: [
-          {
+        children: [{
             label: '古塔区',
             value: '210702',
             children: null,
@@ -2687,8 +2635,7 @@ export const areaData = [
       {
         label: '营口市',
         value: '210800',
-        children: [
-          {
+        children: [{
             label: '站前区',
             value: '210802',
             children: null,
@@ -2723,8 +2670,7 @@ export const areaData = [
       {
         label: '阜新市',
         value: '210900',
-        children: [
-          {
+        children: [{
             label: '海州区',
             value: '210902',
             children: null,
@@ -2764,8 +2710,7 @@ export const areaData = [
       {
         label: '辽阳市',
         value: '211000',
-        children: [
-          {
+        children: [{
             label: '白塔区',
             value: '211002',
             children: null,
@@ -2805,8 +2750,7 @@ export const areaData = [
       {
         label: '盘锦市',
         value: '211100',
-        children: [
-          {
+        children: [{
             label: '双台子区',
             value: '211102',
             children: null,
@@ -2831,8 +2775,7 @@ export const areaData = [
       {
         label: '铁岭市',
         value: '211200',
-        children: [
-          {
+        children: [{
             label: '银州区',
             value: '211202',
             children: null,
@@ -2872,8 +2815,7 @@ export const areaData = [
       {
         label: '朝阳市',
         value: '211300',
-        children: [
-          {
+        children: [{
             label: '双塔区',
             value: '211302',
             children: null,
@@ -2913,8 +2855,7 @@ export const areaData = [
       {
         label: '葫芦岛市',
         value: '211400',
-        children: [
-          {
+        children: [{
             label: '连山区',
             value: '211402',
             children: null,
@@ -2951,12 +2892,10 @@ export const areaData = [
   {
     label: '吉林省',
     value: '220000',
-    children: [
-      {
+    children: [{
         label: '长春市',
         value: '220100',
-        children: [
-          {
+        children: [{
             label: '南关区',
             value: '220102',
             children: null,
@@ -3011,8 +2950,7 @@ export const areaData = [
       {
         label: '吉林市',
         value: '220200',
-        children: [
-          {
+        children: [{
             label: '昌邑区',
             value: '220202',
             children: null,
@@ -3062,8 +3000,7 @@ export const areaData = [
       {
         label: '四平市',
         value: '220300',
-        children: [
-          {
+        children: [{
             label: '铁西区',
             value: '220302',
             children: null,
@@ -3098,8 +3035,7 @@ export const areaData = [
       {
         label: '辽源市',
         value: '220400',
-        children: [
-          {
+        children: [{
             label: '龙山区',
             value: '220402',
             children: null,
@@ -3124,8 +3060,7 @@ export const areaData = [
       {
         label: '通化市',
         value: '220500',
-        children: [
-          {
+        children: [{
             label: '东昌区',
             value: '220502',
             children: null,
@@ -3165,8 +3100,7 @@ export const areaData = [
       {
         label: '白山市',
         value: '220600',
-        children: [
-          {
+        children: [{
             label: '浑江区',
             value: '220602',
             children: null,
@@ -3201,8 +3135,7 @@ export const areaData = [
       {
         label: '松原市',
         value: '220700',
-        children: [
-          {
+        children: [{
             label: '宁江区',
             value: '220702',
             children: null,
@@ -3232,8 +3165,7 @@ export const areaData = [
       {
         label: '白城市',
         value: '220800',
-        children: [
-          {
+        children: [{
             label: '洮北区',
             value: '220802',
             children: null,
@@ -3263,8 +3195,7 @@ export const areaData = [
       {
         label: '延边朝鲜族自治州',
         value: '222400',
-        children: [
-          {
+        children: [{
             label: '延吉市',
             value: '222401',
             children: null,
@@ -3311,12 +3242,10 @@ export const areaData = [
   {
     label: '黑龙江省',
     value: '230000',
-    children: [
-      {
+    children: [{
         label: '哈尔滨市',
         value: '230100',
-        children: [
-          {
+        children: [{
             label: '道里区',
             value: '230102',
             children: null,
@@ -3411,8 +3340,7 @@ export const areaData = [
       {
         label: '齐齐哈尔市',
         value: '230200',
-        children: [
-          {
+        children: [{
             label: '龙沙区',
             value: '230202',
             children: null,
@@ -3497,8 +3425,7 @@ export const areaData = [
       {
         label: '鸡西市',
         value: '230300',
-        children: [
-          {
+        children: [{
             label: '鸡冠区',
             value: '230302',
             children: null,
@@ -3548,8 +3475,7 @@ export const areaData = [
       {
         label: '鹤岗市',
         value: '230400',
-        children: [
-          {
+        children: [{
             label: '向阳区',
             value: '230402',
             children: null,
@@ -3594,8 +3520,7 @@ export const areaData = [
       {
         label: '双鸭山市',
         value: '230500',
-        children: [
-          {
+        children: [{
             label: '尖山区',
             value: '230502',
             children: null,
@@ -3640,8 +3565,7 @@ export const areaData = [
       {
         label: '大庆市',
         value: '230600',
-        children: [
-          {
+        children: [{
             label: '萨尔图区',
             value: '230602',
             children: null,
@@ -3691,8 +3615,7 @@ export const areaData = [
       {
         label: '伊春市',
         value: '230700',
-        children: [
-          {
+        children: [{
             label: '伊春区',
             value: '230702',
             children: null,
@@ -3782,8 +3705,7 @@ export const areaData = [
       {
         label: '佳木斯市',
         value: '230800',
-        children: [
-          {
+        children: [{
             label: '向阳区',
             value: '230803',
             children: null,
@@ -3838,8 +3760,7 @@ export const areaData = [
       {
         label: '七台河市',
         value: '230900',
-        children: [
-          {
+        children: [{
             label: '新兴区',
             value: '230902',
             children: null,
@@ -3864,8 +3785,7 @@ export const areaData = [
       {
         label: '牡丹江市',
         value: '231000',
-        children: [
-          {
+        children: [{
             label: '东安区',
             value: '231002',
             children: null,
@@ -3920,8 +3840,7 @@ export const areaData = [
       {
         label: '黑河市',
         value: '231100',
-        children: [
-          {
+        children: [{
             label: '爱辉区',
             value: '231102',
             children: null,
@@ -3956,8 +3875,7 @@ export const areaData = [
       {
         label: '绥化市',
         value: '231200',
-        children: [
-          {
+        children: [{
             label: '北林区',
             value: '231202',
             children: null,
@@ -4012,8 +3930,7 @@ export const areaData = [
       {
         label: '大兴安岭地区',
         value: '232700',
-        children: [
-          {
+        children: [{
             label: '漠河市',
             value: '232701',
             children: null,
@@ -4035,104 +3952,99 @@ export const areaData = [
   {
     label: '上海市',
     value: '310000',
-    children: [
-      {
-        label: '上海市',
-        value: '310100',
-        children: [
-          {
-            label: '黄浦区',
-            value: '310101',
-            children: null,
-          },
-          {
-            label: '徐汇区',
-            value: '310104',
-            children: null,
-          },
-          {
-            label: '长宁区',
-            value: '310105',
-            children: null,
-          },
-          {
-            label: '静安区',
-            value: '310106',
-            children: null,
-          },
-          {
-            label: '普陀区',
-            value: '310107',
-            children: null,
-          },
-          {
-            label: '虹口区',
-            value: '310109',
-            children: null,
-          },
-          {
-            label: '杨浦区',
-            value: '310110',
-            children: null,
-          },
-          {
-            label: '闵行区',
-            value: '310112',
-            children: null,
-          },
-          {
-            label: '宝山区',
-            value: '310113',
-            children: null,
-          },
-          {
-            label: '嘉定区',
-            value: '310114',
-            children: null,
-          },
-          {
-            label: '浦东新区',
-            value: '310115',
-            children: null,
-          },
-          {
-            label: '金山区',
-            value: '310116',
-            children: null,
-          },
-          {
-            label: '松江区',
-            value: '310117',
-            children: null,
-          },
-          {
-            label: '青浦区',
-            value: '310118',
-            children: null,
-          },
-          {
-            label: '奉贤区',
-            value: '310120',
-            children: null,
-          },
-          {
-            label: '崇明区',
-            value: '310151',
-            children: null,
-          },
-        ],
-      },
-    ],
+    children: [{
+      label: '上海市',
+      value: '310100',
+      children: [{
+          label: '黄浦区',
+          value: '310101',
+          children: null,
+        },
+        {
+          label: '徐汇区',
+          value: '310104',
+          children: null,
+        },
+        {
+          label: '长宁区',
+          value: '310105',
+          children: null,
+        },
+        {
+          label: '静安区',
+          value: '310106',
+          children: null,
+        },
+        {
+          label: '普陀区',
+          value: '310107',
+          children: null,
+        },
+        {
+          label: '虹口区',
+          value: '310109',
+          children: null,
+        },
+        {
+          label: '杨浦区',
+          value: '310110',
+          children: null,
+        },
+        {
+          label: '闵行区',
+          value: '310112',
+          children: null,
+        },
+        {
+          label: '宝山区',
+          value: '310113',
+          children: null,
+        },
+        {
+          label: '嘉定区',
+          value: '310114',
+          children: null,
+        },
+        {
+          label: '浦东新区',
+          value: '310115',
+          children: null,
+        },
+        {
+          label: '金山区',
+          value: '310116',
+          children: null,
+        },
+        {
+          label: '松江区',
+          value: '310117',
+          children: null,
+        },
+        {
+          label: '青浦区',
+          value: '310118',
+          children: null,
+        },
+        {
+          label: '奉贤区',
+          value: '310120',
+          children: null,
+        },
+        {
+          label: '崇明区',
+          value: '310151',
+          children: null,
+        },
+      ],
+    }, ],
   },
   {
     label: '江苏省',
     value: '320000',
-    children: [
-      {
+    children: [{
         label: '南京市',
         value: '320100',
-        children: [
-          {
+        children: [{
             label: '玄武区',
             value: '320102',
             children: null,
@@ -4192,8 +4104,7 @@ export const areaData = [
       {
         label: '无锡市',
         value: '320200',
-        children: [
-          {
+        children: [{
             label: '锡山区',
             value: '320205',
             children: null,
@@ -4233,8 +4144,7 @@ export const areaData = [
       {
         label: '徐州市',
         value: '320300',
-        children: [
-          {
+        children: [{
             label: '鼓楼区',
             value: '320302',
             children: null,
@@ -4289,8 +4199,7 @@ export const areaData = [
       {
         label: '常州市',
         value: '320400',
-        children: [
-          {
+        children: [{
             label: '天宁区',
             value: '320402',
             children: null,
@@ -4325,8 +4234,7 @@ export const areaData = [
       {
         label: '苏州市',
         value: '320500',
-        children: [
-          {
+        children: [{
             label: '虎丘区',
             value: '320505',
             children: null,
@@ -4376,8 +4284,7 @@ export const areaData = [
       {
         label: '南通市',
         value: '320600',
-        children: [
-          {
+        children: [{
             label: '崇川区',
             value: '320602',
             children: null,
@@ -4422,8 +4329,7 @@ export const areaData = [
       {
         label: '连云港市',
         value: '320700',
-        children: [
-          {
+        children: [{
             label: '连云区',
             value: '320703',
             children: null,
@@ -4458,8 +4364,7 @@ export const areaData = [
       {
         label: '淮安市',
         value: '320800',
-        children: [
-          {
+        children: [{
             label: '淮安区',
             value: '320803',
             children: null,
@@ -4499,8 +4404,7 @@ export const areaData = [
       {
         label: '盐城市',
         value: '320900',
-        children: [
-          {
+        children: [{
             label: '亭湖区',
             value: '320902',
             children: null,
@@ -4550,8 +4454,7 @@ export const areaData = [
       {
         label: '扬州市',
         value: '321000',
-        children: [
-          {
+        children: [{
             label: '广陵区',
             value: '321002',
             children: null,
@@ -4586,8 +4489,7 @@ export const areaData = [
       {
         label: '镇江市',
         value: '321100',
-        children: [
-          {
+        children: [{
             label: '京口区',
             value: '321102',
             children: null,
@@ -4622,8 +4524,7 @@ export const areaData = [
       {
         label: '泰州市',
         value: '321200',
-        children: [
-          {
+        children: [{
             label: '海陵区',
             value: '321202',
             children: null,
@@ -4658,8 +4559,7 @@ export const areaData = [
       {
         label: '宿迁市',
         value: '321300',
-        children: [
-          {
+        children: [{
             label: '宿城区',
             value: '321302',
             children: null,
@@ -4691,12 +4591,10 @@ export const areaData = [
   {
     label: '浙江省',
     value: '330000',
-    children: [
-      {
+    children: [{
         label: '杭州市',
         value: '330100',
-        children: [
-          {
+        children: [{
             label: '上城区',
             value: '330102',
             children: null,
@@ -4766,8 +4664,7 @@ export const areaData = [
       {
         label: '宁波市',
         value: '330200',
-        children: [
-          {
+        children: [{
             label: '海曙区',
             value: '330203',
             children: null,
@@ -4822,8 +4719,7 @@ export const areaData = [
       {
         label: '温州市',
         value: '330300',
-        children: [
-          {
+        children: [{
             label: '鹿城区',
             value: '330302',
             children: null,
@@ -4883,8 +4779,7 @@ export const areaData = [
       {
         label: '嘉兴市',
         value: '330400',
-        children: [
-          {
+        children: [{
             label: '南湖区',
             value: '330402',
             children: null,
@@ -4924,8 +4819,7 @@ export const areaData = [
       {
         label: '湖州市',
         value: '330500',
-        children: [
-          {
+        children: [{
             label: '吴兴区',
             value: '330502',
             children: null,
@@ -4955,8 +4849,7 @@ export const areaData = [
       {
         label: '绍兴市',
         value: '330600',
-        children: [
-          {
+        children: [{
             label: '越城区',
             value: '330602',
             children: null,
@@ -4991,8 +4884,7 @@ export const areaData = [
       {
         label: '金华市',
         value: '330700',
-        children: [
-          {
+        children: [{
             label: '婺城区',
             value: '330702',
             children: null,
@@ -5042,8 +4934,7 @@ export const areaData = [
       {
         label: '衢州市',
         value: '330800',
-        children: [
-          {
+        children: [{
             label: '柯城区',
             value: '330802',
             children: null,
@@ -5078,8 +4969,7 @@ export const areaData = [
       {
         label: '舟山市',
         value: '330900',
-        children: [
-          {
+        children: [{
             label: '定海区',
             value: '330902',
             children: null,
@@ -5104,8 +4994,7 @@ export const areaData = [
       {
         label: '台州市',
         value: '331000',
-        children: [
-          {
+        children: [{
             label: '椒江区',
             value: '331002',
             children: null,
@@ -5155,8 +5044,7 @@ export const areaData = [
       {
         label: '丽水市',
         value: '331100',
-        children: [
-          {
+        children: [{
             label: '莲都区',
             value: '331102',
             children: null,
@@ -5208,12 +5096,10 @@ export const areaData = [
   {
     label: '安徽省',
     value: '340000',
-    children: [
-      {
+    children: [{
         label: '合肥市',
         value: '340100',
-        children: [
-          {
+        children: [{
             label: '瑶海区',
             value: '340102',
             children: null,
@@ -5263,8 +5149,7 @@ export const areaData = [
       {
         label: '芜湖市',
         value: '340200',
-        children: [
-          {
+        children: [{
             label: '镜湖区',
             value: '340202',
             children: null,
@@ -5309,8 +5194,7 @@ export const areaData = [
       {
         label: '蚌埠市',
         value: '340300',
-        children: [
-          {
+        children: [{
             label: '龙子湖区',
             value: '340302',
             children: null,
@@ -5350,8 +5234,7 @@ export const areaData = [
       {
         label: '淮南市',
         value: '340400',
-        children: [
-          {
+        children: [{
             label: '大通区',
             value: '340402',
             children: null,
@@ -5391,8 +5274,7 @@ export const areaData = [
       {
         label: '马鞍山市',
         value: '340500',
-        children: [
-          {
+        children: [{
             label: '花山区',
             value: '340503',
             children: null,
@@ -5427,8 +5309,7 @@ export const areaData = [
       {
         label: '淮北市',
         value: '340600',
-        children: [
-          {
+        children: [{
             label: '杜集区',
             value: '340602',
             children: null,
@@ -5453,8 +5334,7 @@ export const areaData = [
       {
         label: '铜陵市',
         value: '340700',
-        children: [
-          {
+        children: [{
             label: '铜官区',
             value: '340705',
             children: null,
@@ -5479,8 +5359,7 @@ export const areaData = [
       {
         label: '安庆市',
         value: '340800',
-        children: [
-          {
+        children: [{
             label: '迎江区',
             value: '340802',
             children: null,
@@ -5535,8 +5414,7 @@ export const areaData = [
       {
         label: '黄山市',
         value: '341000',
-        children: [
-          {
+        children: [{
             label: '屯溪区',
             value: '341002',
             children: null,
@@ -5576,8 +5454,7 @@ export const areaData = [
       {
         label: '滁州市',
         value: '341100',
-        children: [
-          {
+        children: [{
             label: '琅琊区',
             value: '341102',
             children: null,
@@ -5622,8 +5499,7 @@ export const areaData = [
       {
         label: '阜阳市',
         value: '341200',
-        children: [
-          {
+        children: [{
             label: '颍州区',
             value: '341202',
             children: null,
@@ -5668,8 +5544,7 @@ export const areaData = [
       {
         label: '宿州市',
         value: '341300',
-        children: [
-          {
+        children: [{
             label: '埇桥区',
             value: '341302',
             children: null,
@@ -5699,8 +5574,7 @@ export const areaData = [
       {
         label: '六安市',
         value: '341500',
-        children: [
-          {
+        children: [{
             label: '金安区',
             value: '341502',
             children: null,
@@ -5740,8 +5614,7 @@ export const areaData = [
       {
         label: '亳州市',
         value: '341600',
-        children: [
-          {
+        children: [{
             label: '谯城区',
             value: '341602',
             children: null,
@@ -5766,8 +5639,7 @@ export const areaData = [
       {
         label: '池州市',
         value: '341700',
-        children: [
-          {
+        children: [{
             label: '贵池区',
             value: '341702',
             children: null,
@@ -5792,8 +5664,7 @@ export const areaData = [
       {
         label: '宣城市',
         value: '341800',
-        children: [
-          {
+        children: [{
             label: '宣州区',
             value: '341802',
             children: null,
@@ -5835,12 +5706,10 @@ export const areaData = [
   {
     label: '福建省',
     value: '350000',
-    children: [
-      {
+    children: [{
         label: '福州市',
         value: '350100',
-        children: [
-          {
+        children: [{
             label: '鼓楼区',
             value: '350102',
             children: null,
@@ -5910,8 +5779,7 @@ export const areaData = [
       {
         label: '厦门市',
         value: '350200',
-        children: [
-          {
+        children: [{
             label: '思明区',
             value: '350203',
             children: null,
@@ -5946,8 +5814,7 @@ export const areaData = [
       {
         label: '莆田市',
         value: '350300',
-        children: [
-          {
+        children: [{
             label: '城厢区',
             value: '350302',
             children: null,
@@ -5977,8 +5844,7 @@ export const areaData = [
       {
         label: '三明市',
         value: '350400',
-        children: [
-          {
+        children: [{
             label: '梅列区',
             value: '350402',
             children: null,
@@ -6043,8 +5909,7 @@ export const areaData = [
       {
         label: '泉州市',
         value: '350500',
-        children: [
-          {
+        children: [{
             label: '鲤城区',
             value: '350502',
             children: null,
@@ -6109,8 +5974,7 @@ export const areaData = [
       {
         label: '漳州市',
         value: '350600',
-        children: [
-          {
+        children: [{
             label: '芗城区',
             value: '350602',
             children: null,
@@ -6170,8 +6034,7 @@ export const areaData = [
       {
         label: '南平市',
         value: '350700',
-        children: [
-          {
+        children: [{
             label: '延平区',
             value: '350702',
             children: null,
@@ -6226,8 +6089,7 @@ export const areaData = [
       {
         label: '龙岩市',
         value: '350800',
-        children: [
-          {
+        children: [{
             label: '新罗区',
             value: '350802',
             children: null,
@@ -6267,8 +6129,7 @@ export const areaData = [
       {
         label: '宁德市',
         value: '350900',
-        children: [
-          {
+        children: [{
             label: '蕉城区',
             value: '350902',
             children: null,
@@ -6320,12 +6181,10 @@ export const areaData = [
   {
     label: '江西省',
     value: '360000',
-    children: [
-      {
+    children: [{
         label: '南昌市',
         value: '360100',
-        children: [
-          {
+        children: [{
             label: '东湖区',
             value: '360102',
             children: null,
@@ -6375,8 +6234,7 @@ export const areaData = [
       {
         label: '景德镇市',
         value: '360200',
-        children: [
-          {
+        children: [{
             label: '昌江区',
             value: '360202',
             children: null,
@@ -6401,8 +6259,7 @@ export const areaData = [
       {
         label: '萍乡市',
         value: '360300',
-        children: [
-          {
+        children: [{
             label: '安源区',
             value: '360302',
             children: null,
@@ -6432,8 +6289,7 @@ export const areaData = [
       {
         label: '九江市',
         value: '360400',
-        children: [
-          {
+        children: [{
             label: '濂溪区',
             value: '360402',
             children: null,
@@ -6503,8 +6359,7 @@ export const areaData = [
       {
         label: '新余市',
         value: '360500',
-        children: [
-          {
+        children: [{
             label: '渝水区',
             value: '360502',
             children: null,
@@ -6519,8 +6374,7 @@ export const areaData = [
       {
         label: '鹰潭市',
         value: '360600',
-        children: [
-          {
+        children: [{
             label: '月湖区',
             value: '360602',
             children: null,
@@ -6540,8 +6394,7 @@ export const areaData = [
       {
         label: '赣州市',
         value: '360700',
-        children: [
-          {
+        children: [{
             label: '章贡区',
             value: '360702',
             children: null,
@@ -6636,8 +6489,7 @@ export const areaData = [
       {
         label: '吉安市',
         value: '360800',
-        children: [
-          {
+        children: [{
             label: '吉州区',
             value: '360802',
             children: null,
@@ -6707,8 +6559,7 @@ export const areaData = [
       {
         label: '宜春市',
         value: '360900',
-        children: [
-          {
+        children: [{
             label: '袁州区',
             value: '360902',
             children: null,
@@ -6763,8 +6614,7 @@ export const areaData = [
       {
         label: '抚州市',
         value: '361000',
-        children: [
-          {
+        children: [{
             label: '临川区',
             value: '361002',
             children: null,
@@ -6824,8 +6674,7 @@ export const areaData = [
       {
         label: '上饶市',
         value: '361100',
-        children: [
-          {
+        children: [{
             label: '信州区',
             value: '361102',
             children: null,
@@ -6892,12 +6741,10 @@ export const areaData = [
   {
     label: '山东省',
     value: '370000',
-    children: [
-      {
+    children: [{
         label: '济南市',
         value: '370100',
-        children: [
-          {
+        children: [{
             label: '历下区',
             value: '370102',
             children: null,
@@ -6962,8 +6809,7 @@ export const areaData = [
       {
         label: '青岛市',
         value: '370200',
-        children: [
-          {
+        children: [{
             label: '市南区',
             value: '370202',
             children: null,
@@ -7018,8 +6864,7 @@ export const areaData = [
       {
         label: '淄博市',
         value: '370300',
-        children: [
-          {
+        children: [{
             label: '淄川区',
             value: '370302',
             children: null,
@@ -7064,8 +6909,7 @@ export const areaData = [
       {
         label: '枣庄市',
         value: '370400',
-        children: [
-          {
+        children: [{
             label: '市中区',
             value: '370402',
             children: null,
@@ -7100,8 +6944,7 @@ export const areaData = [
       {
         label: '东营市',
         value: '370500',
-        children: [
-          {
+        children: [{
             label: '东营区',
             value: '370502',
             children: null,
@@ -7131,8 +6974,7 @@ export const areaData = [
       {
         label: '烟台市',
         value: '370600',
-        children: [
-          {
+        children: [{
             label: '芝罘区',
             value: '370602',
             children: null,
@@ -7197,8 +7039,7 @@ export const areaData = [
       {
         label: '潍坊市',
         value: '370700',
-        children: [
-          {
+        children: [{
             label: '潍城区',
             value: '370702',
             children: null,
@@ -7263,8 +7104,7 @@ export const areaData = [
       {
         label: '济宁市',
         value: '370800',
-        children: [
-          {
+        children: [{
             label: '任城区',
             value: '370811',
             children: null,
@@ -7324,8 +7164,7 @@ export const areaData = [
       {
         label: '泰安市',
         value: '370900',
-        children: [
-          {
+        children: [{
             label: '泰山区',
             value: '370902',
             children: null,
@@ -7360,8 +7199,7 @@ export const areaData = [
       {
         label: '威海市',
         value: '371000',
-        children: [
-          {
+        children: [{
             label: '环翠区',
             value: '371002',
             children: null,
@@ -7386,8 +7224,7 @@ export const areaData = [
       {
         label: '日照市',
         value: '371100',
-        children: [
-          {
+        children: [{
             label: '东港区',
             value: '371102',
             children: null,
@@ -7412,8 +7249,7 @@ export const areaData = [
       {
         label: '临沂市',
         value: '371300',
-        children: [
-          {
+        children: [{
             label: '兰山区',
             value: '371302',
             children: null,
@@ -7478,8 +7314,7 @@ export const areaData = [
       {
         label: '德州市',
         value: '371400',
-        children: [
-          {
+        children: [{
             label: '德城区',
             value: '371402',
             children: null,
@@ -7539,8 +7374,7 @@ export const areaData = [
       {
         label: '聊城市',
         value: '371500',
-        children: [
-          {
+        children: [{
             label: '东昌府区',
             value: '371502',
             children: null,
@@ -7585,8 +7419,7 @@ export const areaData = [
       {
         label: '滨州市',
         value: '371600',
-        children: [
-          {
+        children: [{
             label: '滨城区',
             value: '371602',
             children: null,
@@ -7626,8 +7459,7 @@ export const areaData = [
       {
         label: '菏泽市',
         value: '371700',
-        children: [
-          {
+        children: [{
             label: '牡丹区',
             value: '371702',
             children: null,
@@ -7679,12 +7511,10 @@ export const areaData = [
   {
     label: '河南省',
     value: '410000',
-    children: [
-      {
+    children: [{
         label: '郑州市',
         value: '410100',
-        children: [
-          {
+        children: [{
             label: '中原区',
             value: '410102',
             children: null,
@@ -7749,8 +7579,7 @@ export const areaData = [
       {
         label: '开封市',
         value: '410200',
-        children: [
-          {
+        children: [{
             label: '龙亭区',
             value: '410202',
             children: null,
@@ -7800,8 +7629,7 @@ export const areaData = [
       {
         label: '洛阳市',
         value: '410300',
-        children: [
-          {
+        children: [{
             label: '老城区',
             value: '410302',
             children: null,
@@ -7881,8 +7709,7 @@ export const areaData = [
       {
         label: '平顶山市',
         value: '410400',
-        children: [
-          {
+        children: [{
             label: '新华区',
             value: '410402',
             children: null,
@@ -7937,8 +7764,7 @@ export const areaData = [
       {
         label: '安阳市',
         value: '410500',
-        children: [
-          {
+        children: [{
             label: '文峰区',
             value: '410502',
             children: null,
@@ -7988,8 +7814,7 @@ export const areaData = [
       {
         label: '鹤壁市',
         value: '410600',
-        children: [
-          {
+        children: [{
             label: '鹤山区',
             value: '410602',
             children: null,
@@ -8019,8 +7844,7 @@ export const areaData = [
       {
         label: '新乡市',
         value: '410700',
-        children: [
-          {
+        children: [{
             label: '红旗区',
             value: '410702',
             children: null,
@@ -8085,8 +7909,7 @@ export const areaData = [
       {
         label: '焦作市',
         value: '410800',
-        children: [
-          {
+        children: [{
             label: '解放区',
             value: '410802',
             children: null,
@@ -8141,8 +7964,7 @@ export const areaData = [
       {
         label: '濮阳市',
         value: '410900',
-        children: [
-          {
+        children: [{
             label: '华龙区',
             value: '410902',
             children: null,
@@ -8177,8 +7999,7 @@ export const areaData = [
       {
         label: '许昌市',
         value: '411000',
-        children: [
-          {
+        children: [{
             label: '魏都区',
             value: '411002',
             children: null,
@@ -8213,8 +8034,7 @@ export const areaData = [
       {
         label: '漯河市',
         value: '411100',
-        children: [
-          {
+        children: [{
             label: '源汇区',
             value: '411102',
             children: null,
@@ -8244,8 +8064,7 @@ export const areaData = [
       {
         label: '三门峡市',
         value: '411200',
-        children: [
-          {
+        children: [{
             label: '湖滨区',
             value: '411202',
             children: null,
@@ -8280,8 +8099,7 @@ export const areaData = [
       {
         label: '南阳市',
         value: '411300',
-        children: [
-          {
+        children: [{
             label: '宛城区',
             value: '411302',
             children: null,
@@ -8351,8 +8169,7 @@ export const areaData = [
       {
         label: '商丘市',
         value: '411400',
-        children: [
-          {
+        children: [{
             label: '梁园区',
             value: '411402',
             children: null,
@@ -8402,8 +8219,7 @@ export const areaData = [
       {
         label: '信阳市',
         value: '411500',
-        children: [
-          {
+        children: [{
             label: '浉河区',
             value: '411502',
             children: null,
@@ -8458,8 +8274,7 @@ export const areaData = [
       {
         label: '周口市',
         value: '411600',
-        children: [
-          {
+        children: [{
             label: '川汇区',
             value: '411602',
             children: null,
@@ -8514,8 +8329,7 @@ export const areaData = [
       {
         label: '驻马店市',
         value: '411700',
-        children: [
-          {
+        children: [{
             label: '驿城区',
             value: '411702',
             children: null,
@@ -8570,8 +8384,7 @@ export const areaData = [
       {
         label: '济源市',
         value: '419001',
-        children: [
-          {
+        children: [{
             label: '沁园街道',
             value: '419001001',
             children: null,
@@ -8658,12 +8471,10 @@ export const areaData = [
   {
     label: '湖北省',
     value: '420000',
-    children: [
-      {
+    children: [{
         label: '武汉市',
         value: '420100',
-        children: [
-          {
+        children: [{
             label: '江岸区',
             value: '420102',
             children: null,
@@ -8733,8 +8544,7 @@ export const areaData = [
       {
         label: '黄石市',
         value: '420200',
-        children: [
-          {
+        children: [{
             label: '黄石港区',
             value: '420202',
             children: null,
@@ -8769,8 +8579,7 @@ export const areaData = [
       {
         label: '十堰市',
         value: '420300',
-        children: [
-          {
+        children: [{
             label: '茅箭区',
             value: '420302',
             children: null,
@@ -8815,8 +8624,7 @@ export const areaData = [
       {
         label: '宜昌市',
         value: '420500',
-        children: [
-          {
+        children: [{
             label: '西陵区',
             value: '420502',
             children: null,
@@ -8886,8 +8694,7 @@ export const areaData = [
       {
         label: '襄阳市',
         value: '420600',
-        children: [
-          {
+        children: [{
             label: '襄城区',
             value: '420602',
             children: null,
@@ -8937,8 +8744,7 @@ export const areaData = [
       {
         label: '鄂州市',
         value: '420700',
-        children: [
-          {
+        children: [{
             label: '梁子湖区',
             value: '420702',
             children: null,
@@ -8958,8 +8764,7 @@ export const areaData = [
       {
         label: '荆门市',
         value: '420800',
-        children: [
-          {
+        children: [{
             label: '东宝区',
             value: '420802',
             children: null,
@@ -8989,8 +8794,7 @@ export const areaData = [
       {
         label: '孝感市',
         value: '420900',
-        children: [
-          {
+        children: [{
             label: '孝南区',
             value: '420902',
             children: null,
@@ -9030,8 +8834,7 @@ export const areaData = [
       {
         label: '荆州市',
         value: '421000',
-        children: [
-          {
+        children: [{
             label: '沙市区',
             value: '421002',
             children: null,
@@ -9076,8 +8879,7 @@ export const areaData = [
       {
         label: '黄冈市',
         value: '421100',
-        children: [
-          {
+        children: [{
             label: '黄州区',
             value: '421102',
             children: null,
@@ -9132,8 +8934,7 @@ export const areaData = [
       {
         label: '咸宁市',
         value: '421200',
-        children: [
-          {
+        children: [{
             label: '咸安区',
             value: '421202',
             children: null,
@@ -9168,8 +8969,7 @@ export const areaData = [
       {
         label: '随州市',
         value: '421300',
-        children: [
-          {
+        children: [{
             label: '曾都区',
             value: '421303',
             children: null,
@@ -9189,8 +8989,7 @@ export const areaData = [
       {
         label: '恩施土家族苗族自治州',
         value: '422800',
-        children: [
-          {
+        children: [{
             label: '恩施市',
             value: '422801',
             children: null,
@@ -9235,8 +9034,7 @@ export const areaData = [
       {
         label: '仙桃市',
         value: '429004',
-        children: [
-          {
+        children: [{
             label: '沙嘴街道',
             value: '429004001',
             children: null,
@@ -9356,8 +9154,7 @@ export const areaData = [
       {
         label: '潜江市',
         value: '429005',
-        children: [
-          {
+        children: [{
             label: '园林街道',
             value: '429005001',
             children: null,
@@ -9472,8 +9269,7 @@ export const areaData = [
       {
         label: '天门市',
         value: '429006',
-        children: [
-          {
+        children: [{
             label: '竟陵街道',
             value: '429006001',
             children: null,
@@ -9618,8 +9414,7 @@ export const areaData = [
       {
         label: '神农架林区',
         value: '429021',
-        children: [
-          {
+        children: [{
             label: '松柏镇',
             value: '429021100',
             children: null,
@@ -9666,12 +9461,10 @@ export const areaData = [
   {
     label: '湖南省',
     value: '430000',
-    children: [
-      {
+    children: [{
         label: '长沙市',
         value: '430100',
-        children: [
-          {
+        children: [{
             label: '芙蓉区',
             value: '430102',
             children: null,
@@ -9721,8 +9514,7 @@ export const areaData = [
       {
         label: '株洲市',
         value: '430200',
-        children: [
-          {
+        children: [{
             label: '荷塘区',
             value: '430202',
             children: null,
@@ -9772,8 +9564,7 @@ export const areaData = [
       {
         label: '湘潭市',
         value: '430300',
-        children: [
-          {
+        children: [{
             label: '雨湖区',
             value: '430302',
             children: null,
@@ -9803,8 +9594,7 @@ export const areaData = [
       {
         label: '衡阳市',
         value: '430400',
-        children: [
-          {
+        children: [{
             label: '珠晖区',
             value: '430405',
             children: null,
@@ -9869,8 +9659,7 @@ export const areaData = [
       {
         label: '邵阳市',
         value: '430500',
-        children: [
-          {
+        children: [{
             label: '双清区',
             value: '430502',
             children: null,
@@ -9935,8 +9724,7 @@ export const areaData = [
       {
         label: '岳阳市',
         value: '430600',
-        children: [
-          {
+        children: [{
             label: '岳阳楼区',
             value: '430602',
             children: null,
@@ -9986,8 +9774,7 @@ export const areaData = [
       {
         label: '常德市',
         value: '430700',
-        children: [
-          {
+        children: [{
             label: '武陵区',
             value: '430702',
             children: null,
@@ -10037,8 +9824,7 @@ export const areaData = [
       {
         label: '张家界市',
         value: '430800',
-        children: [
-          {
+        children: [{
             label: '永定区',
             value: '430802',
             children: null,
@@ -10063,8 +9849,7 @@ export const areaData = [
       {
         label: '益阳市',
         value: '430900',
-        children: [
-          {
+        children: [{
             label: '资阳区',
             value: '430902',
             children: null,
@@ -10099,8 +9884,7 @@ export const areaData = [
       {
         label: '郴州市',
         value: '431000',
-        children: [
-          {
+        children: [{
             label: '北湖区',
             value: '431002',
             children: null,
@@ -10160,8 +9944,7 @@ export const areaData = [
       {
         label: '永州市',
         value: '431100',
-        children: [
-          {
+        children: [{
             label: '零陵区',
             value: '431102',
             children: null,
@@ -10221,8 +10004,7 @@ export const areaData = [
       {
         label: '怀化市',
         value: '431200',
-        children: [
-          {
+        children: [{
             label: '鹤城区',
             value: '431202',
             children: null,
@@ -10287,8 +10069,7 @@ export const areaData = [
       {
         label: '娄底市',
         value: '431300',
-        children: [
-          {
+        children: [{
             label: '娄星区',
             value: '431302',
             children: null,
@@ -10318,8 +10099,7 @@ export const areaData = [
       {
         label: '湘西土家族苗族自治州',
         value: '433100',
-        children: [
-          {
+        children: [{
             label: '吉首市',
             value: '433101',
             children: null,
@@ -10366,12 +10146,10 @@ export const areaData = [
   {
     label: '广东省',
     value: '440000',
-    children: [
-      {
+    children: [{
         label: '广州市',
         value: '440100',
-        children: [
-          {
+        children: [{
             label: '荔湾区',
             value: '440103',
             children: null,
@@ -10431,8 +10209,7 @@ export const areaData = [
       {
         label: '韶关市',
         value: '440200',
-        children: [
-          {
+        children: [{
             label: '武江区',
             value: '440203',
             children: null,
@@ -10487,8 +10264,7 @@ export const areaData = [
       {
         label: '深圳市',
         value: '440300',
-        children: [
-          {
+        children: [{
             label: '罗湖区',
             value: '440303',
             children: null,
@@ -10538,8 +10314,7 @@ export const areaData = [
       {
         label: '珠海市',
         value: '440400',
-        children: [
-          {
+        children: [{
             label: '香洲区',
             value: '440402',
             children: null,
@@ -10564,8 +10339,7 @@ export const areaData = [
       {
         label: '汕头市',
         value: '440500',
-        children: [
-          {
+        children: [{
             label: '龙湖区',
             value: '440507',
             children: null,
@@ -10605,8 +10379,7 @@ export const areaData = [
       {
         label: '佛山市',
         value: '440600',
-        children: [
-          {
+        children: [{
             label: '禅城区',
             value: '440604',
             children: null,
@@ -10636,8 +10409,7 @@ export const areaData = [
       {
         label: '江门市',
         value: '440700',
-        children: [
-          {
+        children: [{
             label: '蓬江区',
             value: '440703',
             children: null,
@@ -10677,8 +10449,7 @@ export const areaData = [
       {
         label: '湛江市',
         value: '440800',
-        children: [
-          {
+        children: [{
             label: '赤坎区',
             value: '440802',
             children: null,
@@ -10728,8 +10499,7 @@ export const areaData = [
       {
         label: '茂名市',
         value: '440900',
-        children: [
-          {
+        children: [{
             label: '茂南区',
             value: '440902',
             children: null,
@@ -10759,8 +10529,7 @@ export const areaData = [
       {
         label: '肇庆市',
         value: '441200',
-        children: [
-          {
+        children: [{
             label: '端州区',
             value: '441202',
             children: null,
@@ -10805,8 +10574,7 @@ export const areaData = [
       {
         label: '惠州市',
         value: '441300',
-        children: [
-          {
+        children: [{
             label: '惠城区',
             value: '441302',
             children: null,
@@ -10836,8 +10604,7 @@ export const areaData = [
       {
         label: '梅州市',
         value: '441400',
-        children: [
-          {
+        children: [{
             label: '梅江区',
             value: '441402',
             children: null,
@@ -10882,8 +10649,7 @@ export const areaData = [
       {
         label: '汕尾市',
         value: '441500',
-        children: [
-          {
+        children: [{
             label: '城区',
             value: '441502',
             children: null,
@@ -10908,8 +10674,7 @@ export const areaData = [
       {
         label: '河源市',
         value: '441600',
-        children: [
-          {
+        children: [{
             label: '源城区',
             value: '441602',
             children: null,
@@ -10944,8 +10709,7 @@ export const areaData = [
       {
         label: '阳江市',
         value: '441700',
-        children: [
-          {
+        children: [{
             label: '江城区',
             value: '441702',
             children: null,
@@ -10970,8 +10734,7 @@ export const areaData = [
       {
         label: '清远市',
         value: '441800',
-        children: [
-          {
+        children: [{
             label: '清城区',
             value: '441802',
             children: null,
@@ -11016,30 +10779,25 @@ export const areaData = [
       {
         label: '东莞市',
         value: '441900',
-        children: [
-          {
-            label: '东莞市',
-            value: '441999',
-            children: null,
-          },
-        ],
+        children: [{
+          label: '东莞市',
+          value: '441999',
+          children: null,
+        }, ],
       },
       {
         label: '中山市',
         value: '442000',
-        children: [
-          {
-            label: '中山市',
-            value: '442099',
-            children: null,
-          },
-        ],
+        children: [{
+          label: '中山市',
+          value: '442099',
+          children: null,
+        }, ],
       },
       {
         label: '潮州市',
         value: '445100',
-        children: [
-          {
+        children: [{
             label: '湘桥区',
             value: '445102',
             children: null,
@@ -11059,8 +10817,7 @@ export const areaData = [
       {
         label: '揭阳市',
         value: '445200',
-        children: [
-          {
+        children: [{
             label: '榕城区',
             value: '445202',
             children: null,
@@ -11090,8 +10847,7 @@ export const areaData = [
       {
         label: '云浮市',
         value: '445300',
-        children: [
-          {
+        children: [{
             label: '云城区',
             value: '445302',
             children: null,
@@ -11123,12 +10879,10 @@ export const areaData = [
   {
     label: '广西壮族自治区',
     value: '450000',
-    children: [
-      {
+    children: [{
         label: '南宁市',
         value: '450100',
-        children: [
-          {
+        children: [{
             label: '兴宁区',
             value: '450102',
             children: null,
@@ -11193,8 +10947,7 @@ export const areaData = [
       {
         label: '柳州市',
         value: '450200',
-        children: [
-          {
+        children: [{
             label: '城中区',
             value: '450202',
             children: null,
@@ -11249,8 +11002,7 @@ export const areaData = [
       {
         label: '桂林市',
         value: '450300',
-        children: [
-          {
+        children: [{
             label: '秀峰区',
             value: '450302',
             children: null,
@@ -11340,8 +11092,7 @@ export const areaData = [
       {
         label: '梧州市',
         value: '450400',
-        children: [
-          {
+        children: [{
             label: '万秀区',
             value: '450403',
             children: null,
@@ -11381,8 +11132,7 @@ export const areaData = [
       {
         label: '北海市',
         value: '450500',
-        children: [
-          {
+        children: [{
             label: '海城区',
             value: '450502',
             children: null,
@@ -11407,8 +11157,7 @@ export const areaData = [
       {
         label: '防城港市',
         value: '450600',
-        children: [
-          {
+        children: [{
             label: '港口区',
             value: '450602',
             children: null,
@@ -11433,8 +11182,7 @@ export const areaData = [
       {
         label: '钦州市',
         value: '450700',
-        children: [
-          {
+        children: [{
             label: '钦南区',
             value: '450702',
             children: null,
@@ -11459,8 +11207,7 @@ export const areaData = [
       {
         label: '贵港市',
         value: '450800',
-        children: [
-          {
+        children: [{
             label: '港北区',
             value: '450802',
             children: null,
@@ -11490,8 +11237,7 @@ export const areaData = [
       {
         label: '玉林市',
         value: '450900',
-        children: [
-          {
+        children: [{
             label: '玉州区',
             value: '450902',
             children: null,
@@ -11531,8 +11277,7 @@ export const areaData = [
       {
         label: '百色市',
         value: '451000',
-        children: [
-          {
+        children: [{
             label: '右江区',
             value: '451002',
             children: null,
@@ -11597,8 +11342,7 @@ export const areaData = [
       {
         label: '贺州市',
         value: '451100',
-        children: [
-          {
+        children: [{
             label: '八步区',
             value: '451102',
             children: null,
@@ -11628,8 +11372,7 @@ export const areaData = [
       {
         label: '河池市',
         value: '451200',
-        children: [
-          {
+        children: [{
             label: '金城江区',
             value: '451202',
             children: null,
@@ -11689,8 +11432,7 @@ export const areaData = [
       {
         label: '来宾市',
         value: '451300',
-        children: [
-          {
+        children: [{
             label: '兴宾区',
             value: '451302',
             children: null,
@@ -11725,8 +11467,7 @@ export const areaData = [
       {
         label: '崇左市',
         value: '451400',
-        children: [
-          {
+        children: [{
             label: '江州区',
             value: '451402',
             children: null,
@@ -11768,12 +11509,10 @@ export const areaData = [
   {
     label: '海南省',
     value: '460000',
-    children: [
-      {
+    children: [{
         label: '海口市',
         value: '460100',
-        children: [
-          {
+        children: [{
             label: '秀英区',
             value: '460105',
             children: null,
@@ -11798,8 +11537,7 @@ export const areaData = [
       {
         label: '三亚市',
         value: '460200',
-        children: [
-          {
+        children: [{
             label: '海棠区',
             value: '460202',
             children: null,
@@ -11824,8 +11562,7 @@ export const areaData = [
       {
         label: '三沙市',
         value: '460300',
-        children: [
-          {
+        children: [{
             label: '西沙群岛',
             value: '460321',
             children: null,
@@ -11845,19 +11582,16 @@ export const areaData = [
       {
         label: '儋州市',
         value: '460400',
-        children: [
-          {
-            label: '儋州市',
-            value: '460499',
-            children: null,
-          },
-        ],
+        children: [{
+          label: '儋州市',
+          value: '460499',
+          children: null,
+        }, ],
       },
       {
         label: '五指山市',
         value: '469001',
-        children: [
-          {
+        children: [{
             label: '通什镇',
             value: '469001100',
             children: null,
@@ -11902,8 +11636,7 @@ export const areaData = [
       {
         label: '琼海市',
         value: '469002',
-        children: [
-          {
+        children: [{
             label: '嘉积镇',
             value: '469002100',
             children: null,
@@ -11993,8 +11726,7 @@ export const areaData = [
       {
         label: '文昌市',
         value: '469005',
-        children: [
-          {
+        children: [{
             label: '文城镇',
             value: '469005100',
             children: null,
@@ -12094,8 +11826,7 @@ export const areaData = [
       {
         label: '万宁市',
         value: '469006',
-        children: [
-          {
+        children: [{
             label: '万城镇',
             value: '469006100',
             children: null,
@@ -12180,8 +11911,7 @@ export const areaData = [
       {
         label: '东方市',
         value: '469007',
-        children: [
-          {
+        children: [{
             label: '八所镇',
             value: '469007100',
             children: null,
@@ -12251,8 +11981,7 @@ export const areaData = [
       {
         label: '定安县',
         value: '469021',
-        children: [
-          {
+        children: [{
             label: '定城镇',
             value: '469021100',
             children: null,
@@ -12327,8 +12056,7 @@ export const areaData = [
       {
         label: '屯昌县',
         value: '469022',
-        children: [
-          {
+        children: [{
             label: '屯城镇',
             value: '469022100',
             children: null,
@@ -12403,8 +12131,7 @@ export const areaData = [
       {
         label: '澄迈县',
         value: '469023',
-        children: [
-          {
+        children: [{
             label: '金江镇',
             value: '469023100',
             children: null,
@@ -12484,8 +12211,7 @@ export const areaData = [
       {
         label: '临高县',
         value: '469024',
-        children: [
-          {
+        children: [{
             label: '临城镇',
             value: '469024100',
             children: null,
@@ -12550,8 +12276,7 @@ export const areaData = [
       {
         label: '白沙黎族自治县',
         value: '469025',
-        children: [
-          {
+        children: [{
             label: '牙叉镇',
             value: '469025100',
             children: null,
@@ -12626,8 +12351,7 @@ export const areaData = [
       {
         label: '昌江黎族自治县',
         value: '469026',
-        children: [
-          {
+        children: [{
             label: '石碌镇',
             value: '469026100',
             children: null,
@@ -12682,8 +12406,7 @@ export const areaData = [
       {
         label: '乐东黎族自治县',
         value: '469027',
-        children: [
-          {
+        children: [{
             label: '抱由镇',
             value: '469027100',
             children: null,
@@ -12763,8 +12486,7 @@ export const areaData = [
       {
         label: '陵水黎族自治县',
         value: '469028',
-        children: [
-          {
+        children: [{
             label: '椰林镇',
             value: '469028100',
             children: null,
@@ -12834,8 +12556,7 @@ export const areaData = [
       {
         label: '保亭黎族苗族自治县',
         value: '469029',
-        children: [
-          {
+        children: [{
             label: '保城镇',
             value: '469029100',
             children: null,
@@ -12910,8 +12631,7 @@ export const areaData = [
       {
         label: '琼中黎族苗族自治县',
         value: '469030',
-        children: [
-          {
+        children: [{
             label: '营根镇',
             value: '469030100',
             children: null,
@@ -12988,214 +12708,209 @@ export const areaData = [
   {
     label: '重庆市',
     value: '500000',
-    children: [
-      {
-        label: '重庆市',
-        value: '500100',
-        children: [
-          {
-            label: '万州区',
-            value: '500101',
-            children: null,
-          },
-          {
-            label: '涪陵区',
-            value: '500102',
-            children: null,
-          },
-          {
-            label: '渝中区',
-            value: '500103',
-            children: null,
-          },
-          {
-            label: '大渡口区',
-            value: '500104',
-            children: null,
-          },
-          {
-            label: '江北区',
-            value: '500105',
-            children: null,
-          },
-          {
-            label: '沙坪坝区',
-            value: '500106',
-            children: null,
-          },
-          {
-            label: '九龙坡区',
-            value: '500107',
-            children: null,
-          },
-          {
-            label: '南岸区',
-            value: '500108',
-            children: null,
-          },
-          {
-            label: '北碚区',
-            value: '500109',
-            children: null,
-          },
-          {
-            label: '綦江区',
-            value: '500110',
-            children: null,
-          },
-          {
-            label: '大足区',
-            value: '500111',
-            children: null,
-          },
-          {
-            label: '渝北区',
-            value: '500112',
-            children: null,
-          },
-          {
-            label: '巴南区',
-            value: '500113',
-            children: null,
-          },
-          {
-            label: '黔江区',
-            value: '500114',
-            children: null,
-          },
-          {
-            label: '长寿区',
-            value: '500115',
-            children: null,
-          },
-          {
-            label: '江津区',
-            value: '500116',
-            children: null,
-          },
-          {
-            label: '合川区',
-            value: '500117',
-            children: null,
-          },
-          {
-            label: '永川区',
-            value: '500118',
-            children: null,
-          },
-          {
-            label: '南川区',
-            value: '500119',
-            children: null,
-          },
-          {
-            label: '璧山区',
-            value: '500120',
-            children: null,
-          },
-          {
-            label: '铜梁区',
-            value: '500151',
-            children: null,
-          },
-          {
-            label: '潼南区',
-            value: '500152',
-            children: null,
-          },
-          {
-            label: '荣昌区',
-            value: '500153',
-            children: null,
-          },
-          {
-            label: '开州区',
-            value: '500154',
-            children: null,
-          },
-          {
-            label: '梁平区',
-            value: '500155',
-            children: null,
-          },
-          {
-            label: '武隆区',
-            value: '500156',
-            children: null,
-          },
-          {
-            label: '城口县',
-            value: '500229',
-            children: null,
-          },
-          {
-            label: '丰都县',
-            value: '500230',
-            children: null,
-          },
-          {
-            label: '垫江县',
-            value: '500231',
-            children: null,
-          },
-          {
-            label: '忠县',
-            value: '500233',
-            children: null,
-          },
-          {
-            label: '云阳县',
-            value: '500235',
-            children: null,
-          },
-          {
-            label: '奉节县',
-            value: '500236',
-            children: null,
-          },
-          {
-            label: '巫山县',
-            value: '500237',
-            children: null,
-          },
-          {
-            label: '巫溪县',
-            value: '500238',
-            children: null,
-          },
-          {
-            label: '石柱土家族自治县',
-            value: '500240',
-            children: null,
-          },
-          {
-            label: '秀山土家族苗族自治县',
-            value: '500241',
-            children: null,
-          },
-          {
-            label: '酉阳土家族苗族自治县',
-            value: '500242',
-            children: null,
-          },
-          {
-            label: '彭水苗族土家族自治县',
-            value: '500243',
-            children: null,
-          },
-        ],
-      },
-    ],
+    children: [{
+      label: '重庆市',
+      value: '500100',
+      children: [{
+          label: '万州区',
+          value: '500101',
+          children: null,
+        },
+        {
+          label: '涪陵区',
+          value: '500102',
+          children: null,
+        },
+        {
+          label: '渝中区',
+          value: '500103',
+          children: null,
+        },
+        {
+          label: '大渡口区',
+          value: '500104',
+          children: null,
+        },
+        {
+          label: '江北区',
+          value: '500105',
+          children: null,
+        },
+        {
+          label: '沙坪坝区',
+          value: '500106',
+          children: null,
+        },
+        {
+          label: '九龙坡区',
+          value: '500107',
+          children: null,
+        },
+        {
+          label: '南岸区',
+          value: '500108',
+          children: null,
+        },
+        {
+          label: '北碚区',
+          value: '500109',
+          children: null,
+        },
+        {
+          label: '綦江区',
+          value: '500110',
+          children: null,
+        },
+        {
+          label: '大足区',
+          value: '500111',
+          children: null,
+        },
+        {
+          label: '渝北区',
+          value: '500112',
+          children: null,
+        },
+        {
+          label: '巴南区',
+          value: '500113',
+          children: null,
+        },
+        {
+          label: '黔江区',
+          value: '500114',
+          children: null,
+        },
+        {
+          label: '长寿区',
+          value: '500115',
+          children: null,
+        },
+        {
+          label: '江津区',
+          value: '500116',
+          children: null,
+        },
+        {
+          label: '合川区',
+          value: '500117',
+          children: null,
+        },
+        {
+          label: '永川区',
+          value: '500118',
+          children: null,
+        },
+        {
+          label: '南川区',
+          value: '500119',
+          children: null,
+        },
+        {
+          label: '璧山区',
+          value: '500120',
+          children: null,
+        },
+        {
+          label: '铜梁区',
+          value: '500151',
+          children: null,
+        },
+        {
+          label: '潼南区',
+          value: '500152',
+          children: null,
+        },
+        {
+          label: '荣昌区',
+          value: '500153',
+          children: null,
+        },
+        {
+          label: '开州区',
+          value: '500154',
+          children: null,
+        },
+        {
+          label: '梁平区',
+          value: '500155',
+          children: null,
+        },
+        {
+          label: '武隆区',
+          value: '500156',
+          children: null,
+        },
+        {
+          label: '城口县',
+          value: '500229',
+          children: null,
+        },
+        {
+          label: '丰都县',
+          value: '500230',
+          children: null,
+        },
+        {
+          label: '垫江县',
+          value: '500231',
+          children: null,
+        },
+        {
+          label: '忠县',
+          value: '500233',
+          children: null,
+        },
+        {
+          label: '云阳县',
+          value: '500235',
+          children: null,
+        },
+        {
+          label: '奉节县',
+          value: '500236',
+          children: null,
+        },
+        {
+          label: '巫山县',
+          value: '500237',
+          children: null,
+        },
+        {
+          label: '巫溪县',
+          value: '500238',
+          children: null,
+        },
+        {
+          label: '石柱土家族自治县',
+          value: '500240',
+          children: null,
+        },
+        {
+          label: '秀山土家族苗族自治县',
+          value: '500241',
+          children: null,
+        },
+        {
+          label: '酉阳土家族苗族自治县',
+          value: '500242',
+          children: null,
+        },
+        {
+          label: '彭水苗族土家族自治县',
+          value: '500243',
+          children: null,
+        },
+      ],
+    }, ],
   },
   {
     label: '四川省',
     value: '510000',
-    children: [
-      {
+    children: [{
         label: '成都市',
         value: '510100',
-        children: [
-          {
+        children: [{
             label: '锦江区',
             value: '510104',
             children: null,
@@ -13300,8 +13015,7 @@ export const areaData = [
       {
         label: '自贡市',
         value: '510300',
-        children: [
-          {
+        children: [{
             label: '自流井区',
             value: '510302',
             children: null,
@@ -13336,8 +13050,7 @@ export const areaData = [
       {
         label: '攀枝花市',
         value: '510400',
-        children: [
-          {
+        children: [{
             label: '东区',
             value: '510402',
             children: null,
@@ -13367,8 +13080,7 @@ export const areaData = [
       {
         label: '泸州市',
         value: '510500',
-        children: [
-          {
+        children: [{
             label: '江阳区',
             value: '510502',
             children: null,
@@ -13408,8 +13120,7 @@ export const areaData = [
       {
         label: '德阳市',
         value: '510600',
-        children: [
-          {
+        children: [{
             label: '旌阳区',
             value: '510603',
             children: null,
@@ -13444,8 +13155,7 @@ export const areaData = [
       {
         label: '绵阳市',
         value: '510700',
-        children: [
-          {
+        children: [{
             label: '涪城区',
             value: '510703',
             children: null,
@@ -13495,8 +13205,7 @@ export const areaData = [
       {
         label: '广元市',
         value: '510800',
-        children: [
-          {
+        children: [{
             label: '利州区',
             value: '510802',
             children: null,
@@ -13536,8 +13245,7 @@ export const areaData = [
       {
         label: '遂宁市',
         value: '510900',
-        children: [
-          {
+        children: [{
             label: '船山区',
             value: '510903',
             children: null,
@@ -13567,8 +13275,7 @@ export const areaData = [
       {
         label: '内江市',
         value: '511000',
-        children: [
-          {
+        children: [{
             label: '市中区',
             value: '511002',
             children: null,
@@ -13598,8 +13305,7 @@ export const areaData = [
       {
         label: '乐山市',
         value: '511100',
-        children: [
-          {
+        children: [{
             label: '市中区',
             value: '511102',
             children: null,
@@ -13659,8 +13365,7 @@ export const areaData = [
       {
         label: '南充市',
         value: '511300',
-        children: [
-          {
+        children: [{
             label: '顺庆区',
             value: '511302',
             children: null,
@@ -13710,8 +13415,7 @@ export const areaData = [
       {
         label: '眉山市',
         value: '511400',
-        children: [
-          {
+        children: [{
             label: '东坡区',
             value: '511402',
             children: null,
@@ -13746,8 +13450,7 @@ export const areaData = [
       {
         label: '宜宾市',
         value: '511500',
-        children: [
-          {
+        children: [{
             label: '翠屏区',
             value: '511502',
             children: null,
@@ -13802,8 +13505,7 @@ export const areaData = [
       {
         label: '广安市',
         value: '511600',
-        children: [
-          {
+        children: [{
             label: '广安区',
             value: '511602',
             children: null,
@@ -13838,8 +13540,7 @@ export const areaData = [
       {
         label: '达州市',
         value: '511700',
-        children: [
-          {
+        children: [{
             label: '通川区',
             value: '511702',
             children: null,
@@ -13879,8 +13580,7 @@ export const areaData = [
       {
         label: '雅安市',
         value: '511800',
-        children: [
-          {
+        children: [{
             label: '雨城区',
             value: '511802',
             children: null,
@@ -13925,8 +13625,7 @@ export const areaData = [
       {
         label: '巴中市',
         value: '511900',
-        children: [
-          {
+        children: [{
             label: '巴州区',
             value: '511902',
             children: null,
@@ -13956,8 +13655,7 @@ export const areaData = [
       {
         label: '资阳市',
         value: '512000',
-        children: [
-          {
+        children: [{
             label: '雁江区',
             value: '512002',
             children: null,
@@ -13977,8 +13675,7 @@ export const areaData = [
       {
         label: '阿坝藏族羌族自治州',
         value: '513200',
-        children: [
-          {
+        children: [{
             label: '马尔康市',
             value: '513201',
             children: null,
@@ -14048,8 +13745,7 @@ export const areaData = [
       {
         label: '甘孜藏族自治州',
         value: '513300',
-        children: [
-          {
+        children: [{
             label: '康定市',
             value: '513301',
             children: null,
@@ -14144,8 +13840,7 @@ export const areaData = [
       {
         label: '凉山彝族自治州',
         value: '513400',
-        children: [
-          {
+        children: [{
             label: '西昌市',
             value: '513401',
             children: null,
@@ -14237,12 +13932,10 @@ export const areaData = [
   {
     label: '贵州省',
     value: '520000',
-    children: [
-      {
+    children: [{
         label: '贵阳市',
         value: '520100',
-        children: [
-          {
+        children: [{
             label: '南明区',
             value: '520102',
             children: null,
@@ -14297,8 +13990,7 @@ export const areaData = [
       {
         label: '六盘水市',
         value: '520200',
-        children: [
-          {
+        children: [{
             label: '钟山区',
             value: '520201',
             children: null,
@@ -14323,8 +14015,7 @@ export const areaData = [
       {
         label: '遵义市',
         value: '520300',
-        children: [
-          {
+        children: [{
             label: '红花岗区',
             value: '520302',
             children: null,
@@ -14399,8 +14090,7 @@ export const areaData = [
       {
         label: '安顺市',
         value: '520400',
-        children: [
-          {
+        children: [{
             label: '西秀区',
             value: '520402',
             children: null,
@@ -14435,8 +14125,7 @@ export const areaData = [
       {
         label: '毕节市',
         value: '520500',
-        children: [
-          {
+        children: [{
             label: '七星关区',
             value: '520502',
             children: null,
@@ -14481,8 +14170,7 @@ export const areaData = [
       {
         label: '铜仁市',
         value: '520600',
-        children: [
-          {
+        children: [{
             label: '碧江区',
             value: '520602',
             children: null,
@@ -14537,8 +14225,7 @@ export const areaData = [
       {
         label: '黔西南布依族苗族自治州',
         value: '522300',
-        children: [
-          {
+        children: [{
             label: '兴义市',
             value: '522301',
             children: null,
@@ -14583,8 +14270,7 @@ export const areaData = [
       {
         label: '黔东南苗族侗族自治州',
         value: '522600',
-        children: [
-          {
+        children: [{
             label: '凯里市',
             value: '522601',
             children: null,
@@ -14669,8 +14355,7 @@ export const areaData = [
       {
         label: '黔南布依族苗族自治州',
         value: '522700',
-        children: [
-          {
+        children: [{
             label: '都匀市',
             value: '522701',
             children: null,
@@ -14737,12 +14422,10 @@ export const areaData = [
   {
     label: '云南省',
     value: '530000',
-    children: [
-      {
+    children: [{
         label: '昆明市',
         value: '530100',
-        children: [
-          {
+        children: [{
             label: '五华区',
             value: '530102',
             children: null,
@@ -14817,8 +14500,7 @@ export const areaData = [
       {
         label: '曲靖市',
         value: '530300',
-        children: [
-          {
+        children: [{
             label: '麒麟区',
             value: '530302',
             children: null,
@@ -14868,8 +14550,7 @@ export const areaData = [
       {
         label: '玉溪市',
         value: '530400',
-        children: [
-          {
+        children: [{
             label: '红塔区',
             value: '530402',
             children: null,
@@ -14919,8 +14600,7 @@ export const areaData = [
       {
         label: '保山市',
         value: '530500',
-        children: [
-          {
+        children: [{
             label: '隆阳区',
             value: '530502',
             children: null,
@@ -14950,8 +14630,7 @@ export const areaData = [
       {
         label: '昭通市',
         value: '530600',
-        children: [
-          {
+        children: [{
             label: '昭阳区',
             value: '530602',
             children: null,
@@ -15011,8 +14690,7 @@ export const areaData = [
       {
         label: '丽江市',
         value: '530700',
-        children: [
-          {
+        children: [{
             label: '古城区',
             value: '530702',
             children: null,
@@ -15042,8 +14720,7 @@ export const areaData = [
       {
         label: '普洱市',
         value: '530800',
-        children: [
-          {
+        children: [{
             label: '思茅区',
             value: '530802',
             children: null,
@@ -15098,8 +14775,7 @@ export const areaData = [
       {
         label: '临沧市',
         value: '530900',
-        children: [
-          {
+        children: [{
             label: '临翔区',
             value: '530902',
             children: null,
@@ -15144,8 +14820,7 @@ export const areaData = [
       {
         label: '楚雄彝族自治州',
         value: '532300',
-        children: [
-          {
+        children: [{
             label: '楚雄市',
             value: '532301',
             children: null,
@@ -15200,8 +14875,7 @@ export const areaData = [
       {
         label: '红河哈尼族彝族自治州',
         value: '532500',
-        children: [
-          {
+        children: [{
             label: '个旧市',
             value: '532501',
             children: null,
@@ -15271,8 +14945,7 @@ export const areaData = [
       {
         label: '文山壮族苗族自治州',
         value: '532600',
-        children: [
-          {
+        children: [{
             label: '文山市',
             value: '532601',
             children: null,
@@ -15317,8 +14990,7 @@ export const areaData = [
       {
         label: '西双版纳傣族自治州',
         value: '532800',
-        children: [
-          {
+        children: [{
             label: '景洪市',
             value: '532801',
             children: null,
@@ -15338,8 +15010,7 @@ export const areaData = [
       {
         label: '大理白族自治州',
         value: '532900',
-        children: [
-          {
+        children: [{
             label: '大理市',
             value: '532901',
             children: null,
@@ -15404,8 +15075,7 @@ export const areaData = [
       {
         label: '德宏傣族景颇族自治州',
         value: '533100',
-        children: [
-          {
+        children: [{
             label: '瑞丽市',
             value: '533102',
             children: null,
@@ -15435,8 +15105,7 @@ export const areaData = [
       {
         label: '怒江傈僳族自治州',
         value: '533300',
-        children: [
-          {
+        children: [{
             label: '泸水市',
             value: '533301',
             children: null,
@@ -15461,8 +15130,7 @@ export const areaData = [
       {
         label: '迪庆藏族自治州',
         value: '533400',
-        children: [
-          {
+        children: [{
             label: '香格里拉市',
             value: '533401',
             children: null,
@@ -15484,12 +15152,10 @@ export const areaData = [
   {
     label: '西藏自治区',
     value: '540000',
-    children: [
-      {
+    children: [{
         label: '拉萨市',
         value: '540100',
-        children: [
-          {
+        children: [{
             label: '城关区',
             value: '540102',
             children: null,
@@ -15534,8 +15200,7 @@ export const areaData = [
       {
         label: '日喀则市',
         value: '540200',
-        children: [
-          {
+        children: [{
             label: '桑珠孜区',
             value: '540202',
             children: null,
@@ -15630,8 +15295,7 @@ export const areaData = [
       {
         label: '昌都市',
         value: '540300',
-        children: [
-          {
+        children: [{
             label: '卡若区',
             value: '540302',
             children: null,
@@ -15691,8 +15355,7 @@ export const areaData = [
       {
         label: '林芝市',
         value: '540400',
-        children: [
-          {
+        children: [{
             label: '巴宜区',
             value: '540402',
             children: null,
@@ -15732,8 +15395,7 @@ export const areaData = [
       {
         label: '山南市',
         value: '540500',
-        children: [
-          {
+        children: [{
             label: '乃东区',
             value: '540502',
             children: null,
@@ -15798,8 +15460,7 @@ export const areaData = [
       {
         label: '那曲市',
         value: '540600',
-        children: [
-          {
+        children: [{
             label: '色尼区',
             value: '540602',
             children: null,
@@ -15859,8 +15520,7 @@ export const areaData = [
       {
         label: '阿里地区',
         value: '542500',
-        children: [
-          {
+        children: [{
             label: '普兰县',
             value: '542521',
             children: null,
@@ -15902,12 +15562,10 @@ export const areaData = [
   {
     label: '陕西省',
     value: '610000',
-    children: [
-      {
+    children: [{
         label: '西安市',
         value: '610100',
-        children: [
-          {
+        children: [{
             label: '新城区',
             value: '610102',
             children: null,
@@ -15977,8 +15635,7 @@ export const areaData = [
       {
         label: '铜川市',
         value: '610200',
-        children: [
-          {
+        children: [{
             label: '王益区',
             value: '610202',
             children: null,
@@ -16003,8 +15660,7 @@ export const areaData = [
       {
         label: '宝鸡市',
         value: '610300',
-        children: [
-          {
+        children: [{
             label: '渭滨区',
             value: '610302',
             children: null,
@@ -16069,8 +15725,7 @@ export const areaData = [
       {
         label: '咸阳市',
         value: '610400',
-        children: [
-          {
+        children: [{
             label: '秦都区',
             value: '610402',
             children: null,
@@ -16145,8 +15800,7 @@ export const areaData = [
       {
         label: '渭南市',
         value: '610500',
-        children: [
-          {
+        children: [{
             label: '临渭区',
             value: '610502',
             children: null,
@@ -16206,8 +15860,7 @@ export const areaData = [
       {
         label: '延安市',
         value: '610600',
-        children: [
-          {
+        children: [{
             label: '宝塔区',
             value: '610602',
             children: null,
@@ -16277,8 +15930,7 @@ export const areaData = [
       {
         label: '汉中市',
         value: '610700',
-        children: [
-          {
+        children: [{
             label: '汉台区',
             value: '610702',
             children: null,
@@ -16338,8 +15990,7 @@ export const areaData = [
       {
         label: '榆林市',
         value: '610800',
-        children: [
-          {
+        children: [{
             label: '榆阳区',
             value: '610802',
             children: null,
@@ -16404,8 +16055,7 @@ export const areaData = [
       {
         label: '安康市',
         value: '610900',
-        children: [
-          {
+        children: [{
             label: '汉滨区',
             value: '610902',
             children: null,
@@ -16460,8 +16110,7 @@ export const areaData = [
       {
         label: '商洛市',
         value: '611000',
-        children: [
-          {
+        children: [{
             label: '商州区',
             value: '611002',
             children: null,
@@ -16503,12 +16152,10 @@ export const areaData = [
   {
     label: '甘肃省',
     value: '620000',
-    children: [
-      {
+    children: [{
         label: '兰州市',
         value: '620100',
-        children: [
-          {
+        children: [{
             label: '城关区',
             value: '620102',
             children: null,
@@ -16553,19 +16200,16 @@ export const areaData = [
       {
         label: '嘉峪关市',
         value: '620200',
-        children: [
-          {
-            label: '嘉峪关市',
-            value: '620299',
-            children: null,
-          },
-        ],
+        children: [{
+          label: '嘉峪关市',
+          value: '620299',
+          children: null,
+        }, ],
       },
       {
         label: '金昌市',
         value: '620300',
-        children: [
-          {
+        children: [{
             label: '金川区',
             value: '620302',
             children: null,
@@ -16580,8 +16224,7 @@ export const areaData = [
       {
         label: '白银市',
         value: '620400',
-        children: [
-          {
+        children: [{
             label: '白银区',
             value: '620402',
             children: null,
@@ -16611,8 +16254,7 @@ export const areaData = [
       {
         label: '天水市',
         value: '620500',
-        children: [
-          {
+        children: [{
             label: '秦州区',
             value: '620502',
             children: null,
@@ -16652,8 +16294,7 @@ export const areaData = [
       {
         label: '武威市',
         value: '620600',
-        children: [
-          {
+        children: [{
             label: '凉州区',
             value: '620602',
             children: null,
@@ -16678,8 +16319,7 @@ export const areaData = [
       {
         label: '张掖市',
         value: '620700',
-        children: [
-          {
+        children: [{
             label: '甘州区',
             value: '620702',
             children: null,
@@ -16714,8 +16354,7 @@ export const areaData = [
       {
         label: '平凉市',
         value: '620800',
-        children: [
-          {
+        children: [{
             label: '崆峒区',
             value: '620802',
             children: null,
@@ -16755,8 +16394,7 @@ export const areaData = [
       {
         label: '酒泉市',
         value: '620900',
-        children: [
-          {
+        children: [{
             label: '肃州区',
             value: '620902',
             children: null,
@@ -16796,8 +16434,7 @@ export const areaData = [
       {
         label: '庆阳市',
         value: '621000',
-        children: [
-          {
+        children: [{
             label: '西峰区',
             value: '621002',
             children: null,
@@ -16842,8 +16479,7 @@ export const areaData = [
       {
         label: '定西市',
         value: '621100',
-        children: [
-          {
+        children: [{
             label: '安定区',
             value: '621102',
             children: null,
@@ -16883,8 +16519,7 @@ export const areaData = [
       {
         label: '陇南市',
         value: '621200',
-        children: [
-          {
+        children: [{
             label: '武都区',
             value: '621202',
             children: null,
@@ -16934,8 +16569,7 @@ export const areaData = [
       {
         label: '临夏回族自治州',
         value: '622900',
-        children: [
-          {
+        children: [{
             label: '临夏市',
             value: '622901',
             children: null,
@@ -16980,8 +16614,7 @@ export const areaData = [
       {
         label: '甘南藏族自治州',
         value: '623000',
-        children: [
-          {
+        children: [{
             label: '合作市',
             value: '623001',
             children: null,
@@ -17028,12 +16661,10 @@ export const areaData = [
   {
     label: '青海省',
     value: '630000',
-    children: [
-      {
+    children: [{
         label: '西宁市',
         value: '630100',
-        children: [
-          {
+        children: [{
             label: '城东区',
             value: '630102',
             children: null,
@@ -17073,8 +16704,7 @@ export const areaData = [
       {
         label: '海东市',
         value: '630200',
-        children: [
-          {
+        children: [{
             label: '乐都区',
             value: '630202',
             children: null,
@@ -17109,8 +16739,7 @@ export const areaData = [
       {
         label: '海北藏族自治州',
         value: '632200',
-        children: [
-          {
+        children: [{
             label: '门源回族自治县',
             value: '632221',
             children: null,
@@ -17135,8 +16764,7 @@ export const areaData = [
       {
         label: '黄南藏族自治州',
         value: '632300',
-        children: [
-          {
+        children: [{
             label: '同仁县',
             value: '632321',
             children: null,
@@ -17161,8 +16789,7 @@ export const areaData = [
       {
         label: '海南藏族自治州',
         value: '632500',
-        children: [
-          {
+        children: [{
             label: '共和县',
             value: '632521',
             children: null,
@@ -17192,8 +16819,7 @@ export const areaData = [
       {
         label: '果洛藏族自治州',
         value: '632600',
-        children: [
-          {
+        children: [{
             label: '玛沁县',
             value: '632621',
             children: null,
@@ -17228,8 +16854,7 @@ export const areaData = [
       {
         label: '玉树藏族自治州',
         value: '632700',
-        children: [
-          {
+        children: [{
             label: '玉树市',
             value: '632701',
             children: null,
@@ -17264,8 +16889,7 @@ export const areaData = [
       {
         label: '海西蒙古族藏族自治州',
         value: '632800',
-        children: [
-          {
+        children: [{
             label: '格尔木市',
             value: '632801',
             children: null,
@@ -17307,12 +16931,10 @@ export const areaData = [
   {
     label: '宁夏回族自治区',
     value: '640000',
-    children: [
-      {
+    children: [{
         label: '银川市',
         value: '640100',
-        children: [
-          {
+        children: [{
             label: '兴庆区',
             value: '640104',
             children: null,
@@ -17347,8 +16969,7 @@ export const areaData = [
       {
         label: '石嘴山市',
         value: '640200',
-        children: [
-          {
+        children: [{
             label: '大武口区',
             value: '640202',
             children: null,
@@ -17368,8 +16989,7 @@ export const areaData = [
       {
         label: '吴忠市',
         value: '640300',
-        children: [
-          {
+        children: [{
             label: '利通区',
             value: '640302',
             children: null,
@@ -17399,8 +17019,7 @@ export const areaData = [
       {
         label: '固原市',
         value: '640400',
-        children: [
-          {
+        children: [{
             label: '原州区',
             value: '640402',
             children: null,
@@ -17430,8 +17049,7 @@ export const areaData = [
       {
         label: '中卫市',
         value: '640500',
-        children: [
-          {
+        children: [{
             label: '沙坡头区',
             value: '640502',
             children: null,
@@ -17453,12 +17071,10 @@ export const areaData = [
   {
     label: '新疆维吾尔自治区',
     value: '650000',
-    children: [
-      {
+    children: [{
         label: '乌鲁木齐市',
         value: '650100',
-        children: [
-          {
+        children: [{
             label: '天山区',
             value: '650102',
             children: null,
@@ -17503,8 +17119,7 @@ export const areaData = [
       {
         label: '克拉玛依市',
         value: '650200',
-        children: [
-          {
+        children: [{
             label: '独山子区',
             value: '650202',
             children: null,
@@ -17529,8 +17144,7 @@ export const areaData = [
       {
         label: '吐鲁番市',
         value: '650400',
-        children: [
-          {
+        children: [{
             label: '高昌区',
             value: '650402',
             children: null,
@@ -17550,8 +17164,7 @@ export const areaData = [
       {
         label: '哈密市',
         value: '650500',
-        children: [
-          {
+        children: [{
             label: '伊州区',
             value: '650502',
             children: null,
@@ -17571,8 +17184,7 @@ export const areaData = [
       {
         label: '昌吉回族自治州',
         value: '652300',
-        children: [
-          {
+        children: [{
             label: '昌吉市',
             value: '652301',
             children: null,
@@ -17612,8 +17224,7 @@ export const areaData = [
       {
         label: '博尔塔拉蒙古自治州',
         value: '652700',
-        children: [
-          {
+        children: [{
             label: '博乐市',
             value: '652701',
             children: null,
@@ -17638,8 +17249,7 @@ export const areaData = [
       {
         label: '巴音郭楞蒙古自治州',
         value: '652800',
-        children: [
-          {
+        children: [{
             label: '库尔勒市',
             value: '652801',
             children: null,
@@ -17689,8 +17299,7 @@ export const areaData = [
       {
         label: '阿克苏地区',
         value: '652900',
-        children: [
-          {
+        children: [{
             label: '阿克苏市',
             value: '652901',
             children: null,
@@ -17740,8 +17349,7 @@ export const areaData = [
       {
         label: '克孜勒苏柯尔克孜自治州',
         value: '653000',
-        children: [
-          {
+        children: [{
             label: '阿图什市',
             value: '653001',
             children: null,
@@ -17766,8 +17374,7 @@ export const areaData = [
       {
         label: '喀什地区',
         value: '653100',
-        children: [
-          {
+        children: [{
             label: '喀什市',
             value: '653101',
             children: null,
@@ -17832,8 +17439,7 @@ export const areaData = [
       {
         label: '和田地区',
         value: '653200',
-        children: [
-          {
+        children: [{
             label: '和田市',
             value: '653201',
             children: null,
@@ -17878,8 +17484,7 @@ export const areaData = [
       {
         label: '伊犁哈萨克自治州',
         value: '654000',
-        children: [
-          {
+        children: [{
             label: '伊宁市',
             value: '654002',
             children: null,
@@ -17939,8 +17544,7 @@ export const areaData = [
       {
         label: '塔城地区',
         value: '654200',
-        children: [
-          {
+        children: [{
             label: '塔城市',
             value: '654201',
             children: null,
@@ -17980,8 +17584,7 @@ export const areaData = [
       {
         label: '阿勒泰地区',
         value: '654300',
-        children: [
-          {
+        children: [{
             label: '阿勒泰市',
             value: '654301',
             children: null,
@@ -18021,8 +17624,7 @@ export const areaData = [
       {
         label: '石河子市',
         value: '659001',
-        children: [
-          {
+        children: [{
             label: '新城街道',
             value: '659001001',
             children: null,
@@ -18067,8 +17669,7 @@ export const areaData = [
       {
         label: '阿拉尔市',
         value: '659002',
-        children: [
-          {
+        children: [{
             label: '金银川路街道',
             value: '659002001',
             children: null,
@@ -18178,8 +17779,7 @@ export const areaData = [
       {
         label: '图木舒克市',
         value: '659003',
-        children: [
-          {
+        children: [{
             label: '齐干却勒街道',
             value: '659003001',
             children: null,
@@ -18234,8 +17834,7 @@ export const areaData = [
       {
         label: '五家渠市',
         value: '659004',
-        children: [
-          {
+        children: [{
             label: '军垦路街道',
             value: '659004001',
             children: null,
@@ -18270,8 +17869,7 @@ export const areaData = [
       {
         label: '北屯市',
         value: '659005',
-        children: [
-          {
+        children: [{
             label: '兵团一八七团',
             value: '659005502',
             children: null,
@@ -18286,8 +17884,7 @@ export const areaData = [
       {
         label: '铁门关市',
         value: '659006',
-        children: [
-          {
+        children: [{
             label: '兵团二十九团',
             value: '659006501',
             children: null,
@@ -18302,8 +17899,7 @@ export const areaData = [
       {
         label: '双河市',
         value: '659007',
-        children: [
-          {
+        children: [{
             label: '兵团八十一团',
             value: '659007501',
             children: null,
@@ -18333,8 +17929,7 @@ export const areaData = [
       {
         label: '可克达拉市',
         value: '659008',
-        children: [
-          {
+        children: [{
             label: '兵团六十七团',
             value: '659008502',
             children: null,
@@ -18364,8 +17959,7 @@ export const areaData = [
       {
         label: '昆玉市',
         value: '659009',
-        children: [
-          {
+        children: [{
             label: '兵团一牧场',
             value: '659009400',
             children: null,
@@ -18387,12 +17981,10 @@ export const areaData = [
   {
     label: '台湾省',
     value: '710000',
-    children: [
-      {
+    children: [{
         label: '台北市',
         value: '710100',
-        children: [
-          {
+        children: [{
             label: '中正区',
             value: '710101',
             children: null,
@@ -18457,8 +18049,7 @@ export const areaData = [
       {
         label: '高雄市',
         value: '710200',
-        children: [
-          {
+        children: [{
             label: '新兴区',
             value: '710201',
             children: null,
@@ -18653,8 +18244,7 @@ export const areaData = [
       {
         label: '台南市',
         value: '710300',
-        children: [
-          {
+        children: [{
             label: '中西区',
             value: '710301',
             children: null,
@@ -18844,8 +18434,7 @@ export const areaData = [
       {
         label: '台中市',
         value: '710400',
-        children: [
-          {
+        children: [{
             label: '中区',
             value: '710401',
             children: null,
@@ -18995,8 +18584,7 @@ export const areaData = [
       {
         label: '南投县',
         value: '710600',
-        children: [
-          {
+        children: [{
             label: '南投市',
             value: '710614',
             children: null,
@@ -19066,8 +18654,7 @@ export const areaData = [
       {
         label: '基隆市',
         value: '710700',
-        children: [
-          {
+        children: [{
             label: '仁爱区',
             value: '710701',
             children: null,
@@ -19107,8 +18694,7 @@ export const areaData = [
       {
         label: '新竹市',
         value: '710800',
-        children: [
-          {
+        children: [{
             label: '东区',
             value: '710801',
             children: null,
@@ -19128,8 +18714,7 @@ export const areaData = [
       {
         label: '嘉义市',
         value: '710900',
-        children: [
-          {
+        children: [{
             label: '东区',
             value: '710901',
             children: null,
@@ -19144,8 +18729,7 @@ export const areaData = [
       {
         label: '新北市',
         value: '711100',
-        children: [
-          {
+        children: [{
             label: '万里区',
             value: '711130',
             children: null,
@@ -19295,8 +18879,7 @@ export const areaData = [
       {
         label: '宜兰县',
         value: '711200',
-        children: [
-          {
+        children: [{
             label: '宜兰市',
             value: '711214',
             children: null,
@@ -19361,8 +18944,7 @@ export const areaData = [
       {
         label: '新竹县',
         value: '711300',
-        children: [
-          {
+        children: [{
             label: '竹北市',
             value: '711314',
             children: null,
@@ -19432,8 +19014,7 @@ export const areaData = [
       {
         label: '桃园市',
         value: '711400',
-        children: [
-          {
+        children: [{
             label: '中坜区',
             value: '711414',
             children: null,
@@ -19503,8 +19084,7 @@ export const areaData = [
       {
         label: '苗栗县',
         value: '711500',
-        children: [
-          {
+        children: [{
             label: '竹南镇',
             value: '711519',
             children: null,
@@ -19599,8 +19179,7 @@ export const areaData = [
       {
         label: '彰化县',
         value: '711700',
-        children: [
-          {
+        children: [{
             label: '彰化市',
             value: '711727',
             children: null,
@@ -19735,8 +19314,7 @@ export const areaData = [
       {
         label: '嘉义县',
         value: '711900',
-        children: [
-          {
+        children: [{
             label: '番路乡',
             value: '711919',
             children: null,
@@ -19831,8 +19409,7 @@ export const areaData = [
       {
         label: '云林县',
         value: '712100',
-        children: [
-          {
+        children: [{
             label: '斗南镇',
             value: '712121',
             children: null,
@@ -19937,8 +19514,7 @@ export const areaData = [
       {
         label: '屏东县',
         value: '712400',
-        children: [
-          {
+        children: [{
             label: '屏东市',
             value: '712434',
             children: null,
@@ -20108,8 +19684,7 @@ export const areaData = [
       {
         label: '台东县',
         value: '712500',
-        children: [
-          {
+        children: [{
             label: '台东市',
             value: '712517',
             children: null,
@@ -20194,8 +19769,7 @@ export const areaData = [
       {
         label: '花莲县',
         value: '712600',
-        children: [
-          {
+        children: [{
             label: '花莲市',
             value: '712615',
             children: null,
@@ -20265,8 +19839,7 @@ export const areaData = [
       {
         label: '澎湖县',
         value: '712700',
-        children: [
-          {
+        children: [{
             label: '马公市',
             value: '712707',
             children: null,
@@ -20303,135 +19876,129 @@ export const areaData = [
   {
     label: '香港特别行政区',
     value: '810000',
-    children: [
-      {
-        label: '香港特别行政区',
-        value: '810100',
-        children: [
-          {
-            label: '中西区',
-            value: '810101',
-            children: null,
-          },
-          {
-            label: '东区',
-            value: '810102',
-            children: null,
-          },
-          {
-            label: '九龙城区',
-            value: '810103',
-            children: null,
-          },
-          {
-            label: '观塘区',
-            value: '810104',
-            children: null,
-          },
-          {
-            label: '南区',
-            value: '810105',
-            children: null,
-          },
-          {
-            label: '深水埗区',
-            value: '810106',
-            children: null,
-          },
-          {
-            label: '湾仔区',
-            value: '810107',
-            children: null,
-          },
-          {
-            label: '黄大仙区',
-            value: '810108',
-            children: null,
-          },
-          {
-            label: '油尖旺区',
-            value: '810109',
-            children: null,
-          },
-          {
-            label: '离岛区',
-            value: '810110',
-            children: null,
-          },
-          {
-            label: '葵青区',
-            value: '810111',
-            children: null,
-          },
-          {
-            label: '北区',
-            value: '810112',
-            children: null,
-          },
-          {
-            label: '西贡区',
-            value: '810113',
-            children: null,
-          },
-          {
-            label: '沙田区',
-            value: '810114',
-            children: null,
-          },
-          {
-            label: '屯门区',
-            value: '810115',
-            children: null,
-          },
-          {
-            label: '大埔区',
-            value: '810116',
-            children: null,
-          },
-          {
-            label: '荃湾区',
-            value: '810117',
-            children: null,
-          },
-          {
-            label: '元朗区',
-            value: '810118',
-            children: null,
-          },
-        ],
-      },
-    ],
+    children: [{
+      label: '香港特别行政区',
+      value: '810100',
+      children: [{
+          label: '中西区',
+          value: '810101',
+          children: null,
+        },
+        {
+          label: '东区',
+          value: '810102',
+          children: null,
+        },
+        {
+          label: '九龙城区',
+          value: '810103',
+          children: null,
+        },
+        {
+          label: '观塘区',
+          value: '810104',
+          children: null,
+        },
+        {
+          label: '南区',
+          value: '810105',
+          children: null,
+        },
+        {
+          label: '深水埗区',
+          value: '810106',
+          children: null,
+        },
+        {
+          label: '湾仔区',
+          value: '810107',
+          children: null,
+        },
+        {
+          label: '黄大仙区',
+          value: '810108',
+          children: null,
+        },
+        {
+          label: '油尖旺区',
+          value: '810109',
+          children: null,
+        },
+        {
+          label: '离岛区',
+          value: '810110',
+          children: null,
+        },
+        {
+          label: '葵青区',
+          value: '810111',
+          children: null,
+        },
+        {
+          label: '北区',
+          value: '810112',
+          children: null,
+        },
+        {
+          label: '西贡区',
+          value: '810113',
+          children: null,
+        },
+        {
+          label: '沙田区',
+          value: '810114',
+          children: null,
+        },
+        {
+          label: '屯门区',
+          value: '810115',
+          children: null,
+        },
+        {
+          label: '大埔区',
+          value: '810116',
+          children: null,
+        },
+        {
+          label: '荃湾区',
+          value: '810117',
+          children: null,
+        },
+        {
+          label: '元朗区',
+          value: '810118',
+          children: null,
+        },
+      ],
+    }, ],
   },
   {
     label: '澳门特别行政区',
     value: '820000',
-    children: [
-      {
-        label: '澳门特别行政区',
-        value: '820100',
-        children: [
-          {
-            label: '澳门半岛',
-            value: '820101',
-            children: null,
-          },
-          {
-            label: '凼仔',
-            value: '820102',
-            children: null,
-          },
-          {
-            label: '路凼城',
-            value: '820103',
-            children: null,
-          },
-          {
-            label: '路环',
-            value: '820104',
-            children: null,
-          },
-        ],
-      },
-    ],
+    children: [{
+      label: '澳门特别行政区',
+      value: '820100',
+      children: [{
+          label: '澳门半岛',
+          value: '820101',
+          children: null,
+        },
+        {
+          label: '凼仔',
+          value: '820102',
+          children: null,
+        },
+        {
+          label: '路凼城',
+          value: '820103',
+          children: null,
+        },
+        {
+          label: '路环',
+          value: '820104',
+          children: null,
+        },
+      ],
+    }, ],
   },
 ];

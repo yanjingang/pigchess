@@ -1,8 +1,8 @@
 export default [
-  /* {
+  /*{
     icon: 'home',
     text: '首页',
-    url: 'pages/home/home',
+    url: 'pages/home/index',
   },*/
   {
     icon: 'sort',
