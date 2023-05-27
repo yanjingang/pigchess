@@ -176,6 +176,7 @@ class ApiGameChess(tornado.web.RequestHandler):
                         'role': session['human_player_id'], 
                         'step': session['step'],
                         'moves': ','.join(session['moves']), 
+                        'sans': ','.join(session['sans']), 
                         'scores': ','.join(session['scores']),
                         'winner': res['winner'],
                         'result': result,
@@ -189,6 +190,49 @@ class ApiGameChess(tornado.web.RequestHandler):
 
         # 组织返回格式
         return {'code': 0, 'msg': 'success', 'data': res}
+
+
+
+
+class ApiChessScreen(tornado.web.RequestHandler):
+    """终局盘面截屏图片处理"""
+    def get(self):
+        """get请求处理"""
+        try:
+            result = self.execute()
+        except:
+            logging.error('execute fail ' + utils.get_trace())
+            result = {'code': 1, 'msg': '请求失败'}
+        logging.info('API RES[' + self.request.path + '][' + self.request.method + ']['
+                     + str(result['code']) + '][' + str(result['msg']) + '][' + str(result['data']) + ']')
+        self.write(json.dumps(result))
+
+    def post(self):
+        """post请求处理"""
+        try:
+            result = self.execute()
+        except:
+            logging.error('execute fail ' + utils.get_trace())
+            result = {'code': 1, 'msg': '请求失败'}
+        logging.info('API RES[' + self.request.path + '][' + self.request.method + ']['
+                     + str(result['code']) + '][' + str(result['msg']) + ']')
+        self.write(json.dumps(result))
+
+    def execute(self):
+        """执行业务逻辑"""
+        logging.info('API REQUEST INFO[' + self.request.path + '][' + self.request.method + ']['
+                     + self.request.remote_ip + '][' + str(self.request.arguments) + ']')
+        session = self.get_argument('session', '')
+        nick = self.get_argument('nick', '')
+        img_file = self.get_argument('img_file', '')
+        ret = 0
+        if session == '' or nick == '':
+            return {'code': 2, 'msg': 'session or nick is empty', 'data': {}}
+
+        ret = db.update('games', {'session': session, 'nick': nick}, {'screen': img_file})
+        logging.info("game board screen save to db: {}".format(ret))
+
+        return {'code': 0, 'msg': 'success', 'data': ret}
 
 
 if __name__ == '__main__':
@@ -216,8 +260,8 @@ if __name__ == '__main__':
     # 启动服务
     app = tornado.web.Application(
         handlers=[
-            (r'/piglab/game/chess', ApiGameChess)
-            # (r'/piglab/game/chess_board', ApiGameChessImage)
+            (r'/piglab/game/chess', ApiGameChess),
+            (r'/piggy-chess/screen', ApiChessScreen),
         ]
     )
     http_server = tornado.httpserver.HTTPServer(app, xheaders=True)
