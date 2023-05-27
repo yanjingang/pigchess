@@ -262,6 +262,7 @@ if __name__ == '__main__':
     table = 'games'
     # insert
     id = db.insert(table, {
+        'session': 1685171469016,
         'nick': '风笑痴', 
         'player': 1, 
         'step': 26,

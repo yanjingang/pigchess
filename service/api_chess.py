@@ -158,6 +158,7 @@ class ApiGameChess(tornado.web.RequestHandler):
                     utils.pickle_dump(play_data, data_file)
                     logging.info("api vs play save to databuffer: {}".format(data_file))
                     ret = db.insert('games', {
+                        'session': session_id,
                         'nick': self.request.arguments['user_nick'], 
                         'player': session['human_player_id'], 
                         'step': session['step'],
