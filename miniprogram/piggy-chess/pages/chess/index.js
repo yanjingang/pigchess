@@ -453,7 +453,7 @@ Page({
                             msg: '游戏结束，Winner is ' + self.WINNER[self.data['winner']]
                         });
                         //上传终局截屏
-                        this.UploadEndBoardImage();
+                        self.UploadEndBoardImage();
                         return true;
                     }
                     //远端ai走子
@@ -521,7 +521,7 @@ Page({
                             msg: '游戏结束，Winner is ' + self.WINNER[self.data['winner']]
                         });
                         //上传终局截屏
-                        this.UploadEndBoardImage();
+                        self.UploadEndBoardImage();
                         return true;
                     }
                 } else {
@@ -567,10 +567,10 @@ Page({
                     filePath: res.tempFilePath,
                     name: 'data',
                     formData: {
-                        'type': 'chess-board',
-                        'session_id': self.session_id,
-                        'user_nick': self.user_nick,
-                        'human_player_id': this.data.human_player_id,
+                        'type': 'chess',
+                        'session': self.session_id,
+                        'nick': self.user_nick,
+                        'role': this.data.human_player_id,
                     },
                     success(res) {
                         console.log('uploadImage success, res is:', res)

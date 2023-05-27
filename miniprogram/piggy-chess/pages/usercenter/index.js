@@ -132,7 +132,7 @@ Page({
             desc: '获取您的微信个人信息',
             success: (res) => {
                 console.log("getUserProfile res:");
-                console.log(res.userInfo);
+                console.log(res);
                 this.setData({
                     userInfo: res.userInfo,
                     // hasUserInfo: true,
