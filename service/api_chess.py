@@ -78,6 +78,7 @@ class ApiGameChess(tornado.web.RequestHandler):
                 session['human_player_id'] = int(self.get_argument('human_player_id', '1'))  # human默认执黑
                 session['ai_player_id'] = (session['human_player_id'] + 1) % 2  # ai与human相反
                 session['players'] = {session['human_player_id']: 'Human', session['ai_player_id']: 'AI'}
+                session['nick'] = self.get_argument('user_nick', '')
                 session['step'] = 0
                 session['actions'], session['mcts_probs'] = [], []
                 # 初始化棋盘
@@ -159,7 +160,7 @@ class ApiGameChess(tornado.web.RequestHandler):
                     logging.info("api vs play save to databuffer: {}".format(data_file))
                     ret = db.insert('games', {
                         'session': session_id,
-                        'nick': self.request.arguments['user_nick'], 
+                        'nick': session['nick'],
                         'player': session['human_player_id'], 
                         'step': session['step'],
                         'actions': str(session['actions']), 
@@ -204,6 +205,7 @@ if __name__ == '__main__':
     app = tornado.web.Application(
         handlers=[
             (r'/piglab/game/chess', ApiGameChess)
+            # (r'/piglab/game/chess_board', ApiGameChessImage)
         ]
     )
     http_server = tornado.httpserver.HTTPServer(app, xheaders=True)
