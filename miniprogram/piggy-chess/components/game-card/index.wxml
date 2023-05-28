@@ -1,4 +1,4 @@
-<view id="{{independentID}}" class="goods-card" bind:tap="clickHandle" data-goods="{{ goods }}">
+<view id="{{independentID}}" class="game-card" bind:tap="clickHandle" data-goods="{{ goods }}">
   <view class="goods-card__main">
     <view class="goods-card__thumb" bind:tap="clickThumbHandle">
       <t-image wx:if="{{ !!goods.thumb }}" t-class="goods-card__img" src="{{ goods.thumb }}" mode="aspectFill" lazy-load />

@@ -1,0 +1,18 @@
+@import "/pages/chess/weui.wxss";
+
+.page-body-wrapper {
+  text-align: center;
+}
+
+.board {
+  width: 370px;
+  height: 370px;
+  margin: 0 auto;
+  /*background-color: rgba(248, 227, 201, 1);*/
+  background-color: #fff;
+}
+
+.picker {
+  padding: 19rpx 26rpx;
+  background-color: #FFFFFF;
+}

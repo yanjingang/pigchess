@@ -1,4 +1,4 @@
-.goods-list-wrap {
+.game-list-wrap {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;

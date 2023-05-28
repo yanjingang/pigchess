@@ -1,4 +1,4 @@
-.goods-card {
+.game-card {
   box-sizing: border-box;
   font-size: 24rpx;
   border-radius: 0 0 16rpx 16rpx;

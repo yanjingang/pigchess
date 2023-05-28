@@ -13,22 +13,22 @@
 @z-index-tooltip:@z-index-component + 70;
 */
 /* var() css变量适配*/
-.goods-list-wrap {
+.game-list-wrap {
   padding-left: 24rpx;
   background-color: #fff;
 }
 
-.goods-list-wrap .wr-goods-card {
+.game-list-wrap .wr-game-card {
   padding: 24rpx 24rpx 24rpx 0;
   border-bottom: 1rpx solid #e6e6e6;
   background-color: #fff;
 }
 
-.goods-list-wrap .wr-goods-card.no-border {
+.game-list-wrap .wr-game-card.no-border {
   border-bottom: none;
 }
 
-.goods-list-wrap .wr-goods-card .wr-goods-card__thumb {
+.game-list-wrap .wr-game-card .wr-goods-card__thumb {
   width: 200rpx;
   height: 200rpx;
   margin-right: 24rpx;
@@ -36,7 +36,7 @@
   overflow: hidden;
 }
 
-.goods-list-wrap .wr-goods-card .wr-goods-card__content {
+.game-list-wrap .wr-game-card .wr-goods-card__content {
   position: relative;
   display: flex;
   flex-flow: column nowrap;
@@ -45,7 +45,7 @@
   height: 200rpx;
 }
 
-.goods-list-wrap .wr-goods-card .wr-goods-card__content .wr-goods-card__title {
+.game-list-wrap .wr-game-card .wr-goods-card__content .wr-goods-card__title {
   overflow: hidden;
   margin-bottom: 24rpx;
   text-overflow: ellipsis;
@@ -58,19 +58,19 @@
   font-weight: 400;
 }
 
-.goods-list-wrap .wr-goods-card .wr-goods-card__content .card-index--wr-goods-card__price {
+.game-list-wrap .wr-game-card .wr-goods-card__content .card-index--wr-goods-card__price {
   font-size: 32rpx;
 }
 
-.goods-list-wrap .wr-goods-card .wr-goods-card__content .card-index--wr-goods-card__price .symbol {
+.game-list-wrap .wr-game-card .wr-goods-card__content .card-index--wr-goods-card__price .symbol {
   font-size: 24rpx;
 }
 
-.goods-list-wrap .wr-goods-card .wr-goods-card__tags {
+.game-list-wrap .wr-game-card .wr-goods-card__tags {
   flex-grow: 2;
 }
 
-.goods-list-wrap .wr-goods-card .goods-card-tags-wrap {
+.game-list-wrap .wr-game-card .game-card-tags-wrap {
   color: #fa550f;
   color: var(--color-primary, #fa550f);
   display: flex;
@@ -81,7 +81,7 @@
   flex-shrink: 0;
 }
 
-.goods-list-wrap .wr-goods-card .goods-card-tags-wrap .tag {
+.game-list-wrap .wr-game-card .game-card-tags-wrap .tag {
   box-sizing: border-box;
   font-size: 20rpx;
   border-radius: 4rpx;
@@ -91,13 +91,13 @@
   background-color: #fff;
 }
 
-.goods-list-wrap .wr-goods-card .goods-card-tags-wrap .tag::after {
+.game-list-wrap .wr-game-card .game-card-tags-wrap .tag::after {
   border-radius: 4rpx;
   border: 2rpx solid #fa550f;
   border: 2rpx solid var(--color-primary, #fa550f);
 }
 
-.goods-list-wrap .wr-goods-card .goods-add-cart {
+.game-list-wrap .wr-game-card .goods-add-cart {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,12 +107,12 @@
   width: 48rpx;
 }
 
-.goods-list-wrap .wr-goods-card .goods-add-cart .goods-add-cart {
+.game-list-wrap .wr-game-card .goods-add-cart .goods-add-cart {
   line-height: 48rpx;
   height: 48rpx;
 }
 
-.goods-list-wrap.vertical {
+.game-list-wrap.vertical {
   padding: 20rpx 24rpx;
   display: flex;
   flex-flow: row wrap;
@@ -120,7 +120,7 @@
   background-color: transparent;
 }
 
-.goods-list-wrap.vertical .wr-goods-card {
+.game-list-wrap.vertical .wr-game-card {
   width: 340rpx;
   height: 574rpx;
   overflow: hidden;
@@ -132,12 +132,12 @@
   margin-bottom: 24rpx;
 }
 
-.goods-list-wrap.vertical .wr-goods-card .wr-goods-card__thumb {
+.game-list-wrap.vertical .wr-game-card .wr-goods-card__thumb {
   width: 100%;
   height: 340rpx;
 }
 
-.goods-list-wrap.vertical .wr-goods-card .wr-goods-card__content {
+.game-list-wrap.vertical .wr-game-card .wr-goods-card__content {
   width: 100%;
   padding: 20rpx;
   overflow: hidden;
@@ -145,7 +145,7 @@
   box-sizing: border-box;
 }
 
-.goods-list-wrap.vertical .wr-goods-card .wr-goods-card__content .wr-goods-card__title {
+.game-list-wrap.vertical .wr-game-card .wr-goods-card__content .wr-goods-card__title {
   -webkit-box-orient: horizontal;
   -webkit-line-clamp: 1;
   line-clamp: 1;
@@ -155,7 +155,7 @@
   display: block;
 }
 
-.goods-list-wrap.vertical .wr-goods-card .wr-goods-card__content .card-index--wr-goods-card__origin-price {
+.game-list-wrap.vertical .wr-game-card .wr-goods-card__content .card-index--wr-goods-card__origin-price {
   position: absolute;
   left: 20rpx;
   bottom: 72rpx;
@@ -164,7 +164,7 @@
   color: #aaaaaa;
 }
 
-.goods-list-wrap.vertical .wr-goods-card .wr-goods-card__content .wr-goods-card__groupon-price {
+.game-list-wrap.vertical .wr-game-card .wr-goods-card__content .wr-goods-card__groupon-price {
   position: absolute;
   left: 20rpx;
   bottom: 72rpx;
@@ -173,16 +173,16 @@
   color: #aaaaaa;
 }
 
-.goods-list-wrap.vertical .wr-goods-card .goods-add-cart {
+.game-list-wrap.vertical .wr-game-card .goods-add-cart {
   right: 20rpx;
   bottom: 20rpx;
 }
 
-.goods-list-wrap.vertical .grouponPrice {
+.game-list-wrap.vertical .grouponPrice {
   margin-bottom: 50rpx;
 }
 
-.goods-list-wrap .wr-goods-card__twoLine .wr-goods-card__title {
+.game-list-wrap .wr-goods-card__twoLine .wr-goods-card__title {
   -webkit-line-clamp: 2 !important;
   line-clamp: 2 !important;
   display: -webkit-box !important;

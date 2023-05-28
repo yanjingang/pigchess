@@ -2,6 +2,7 @@
   "pages": [
     "pages/home/index",
     "pages/chess/index",
+    "pages/replay/index",
     "pages/usercenter/index"
   ],
   "tabBar": {

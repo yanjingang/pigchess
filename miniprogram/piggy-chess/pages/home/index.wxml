@@ -13,7 +13,7 @@
     </t-tabs>
   </view>
 
-  <goods-list wr-class="goods-list-container" gameList="{{gameList}}" bind:click="gameListClickHandle" bind:addcart="gameListAddCartHandle" />
+  <game-list wr-class="game-list-container" gameList="{{gameList}}" bind:click="gameListClickHandle" bind:addcart="gameListAddCartHandle" />
   <load-more list-is-empty="{{!gameList.length}}" status="{{gameListLoadStatus}}" bind:retry="onReTry" />
   <t-toast id="t-toast" />
 </view>

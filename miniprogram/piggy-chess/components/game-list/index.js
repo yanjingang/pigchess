@@ -71,7 +71,7 @@ Component({
         });
       } else {
         this.setData({
-          independentID: `goods-list-${~~(Math.random() * 10 ** 8)}`,
+          independentID: `game-list-${~~(Math.random() * 10 ** 8)}`,
         });
       }
     },
