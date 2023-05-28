@@ -33,7 +33,7 @@ from mysql import Mysql
 
 
 class ApiGameChess(tornado.web.RequestHandler):
-    """API逻辑封装"""
+    """下棋逻辑封装"""
     #model_file = CUR_PATH + '/model/best_policy.model'
     #best_policy = PolicyValueNet(Board().action_ids_size, model_file=model_file)
     games = {}
@@ -193,8 +193,7 @@ class ApiGameChess(tornado.web.RequestHandler):
 
 
 
-
-class ApiChessScreen(tornado.web.RequestHandler):
+class ApiChessThumb(tornado.web.RequestHandler):
     """终局盘面截屏图片处理"""
     def get(self):
         """get请求处理"""
@@ -229,10 +228,11 @@ class ApiChessScreen(tornado.web.RequestHandler):
         if session == '' or nick == '':
             return {'code': 2, 'msg': 'session or nick is empty', 'data': {}}
 
-        ret = db.update('games', {'session': session, 'nick': nick}, {'screen': img_file})
-        logging.info("game board screen save to db: {}".format(ret))
+        ret = db.update('games', {'session': session, 'nick': nick}, {'thumb': img_file})
+        logging.info("game board thumb save to db: {}".format(ret))
 
         return {'code': 0, 'msg': 'success', 'data': ret}
+
 
 
 class ApiChessList(tornado.web.RequestHandler):
@@ -264,10 +264,24 @@ class ApiChessList(tornado.web.RequestHandler):
         logging.info('API REQUEST INFO[' + self.request.path + '][' + self.request.method + ']['
                      + self.request.remote_ip + '][' + str(self.request.arguments) + ']')
         nick = self.get_argument('nick', '')
+        page = int(self.get_argument('page', 0))
+        page_size = int(self.get_argument('page_size', 10))
+        tab = int(self.get_argument('tab', 0))
         if nick == '':
             return {'code': 2, 'msg': 'nick is empty', 'data': {}}
 
-        res = db.query('games', {'nick': nick}, 'id,nick,role,step,sans,result,screen,createtime')
+
+        where = {'nick': nick}  # 用户自己
+        if tab == 1 : # 所有普通用户
+            where = {'type': 0}
+        elif tab == 2 : # 所有国际大师
+            where = {'type': 1}
+        elif tab == 3 : # 赛事直播
+            where = {'type': 2}
+        select = 'id,nick,role,opponent,step,sans,result,thumb,createtime as date'
+        orderby = 'id desc'
+        limit = str(page * page_size) + ',' + str(page_size)
+        res = db.query('games', where=where, select=select, orderby=orderby, limit=limit)
         logging.info("game get list: {}".format(res))
 
         roles = {'0': '白', '1': '黑'}
@@ -275,8 +289,8 @@ class ApiChessList(tornado.web.RequestHandler):
         for i in range(len(res)):
             res[i]['role'] = roles[str(res[i]['role'])]
             res[i]['result'] = results[str(res[i]['result'])]
-            res[i]['screen'] = 'http://www.yanjingang.com/piglab/' + res[i]['screen']
-            res[i]['createtime'] = str(res[i]['createtime'])
+            res[i]['thumb'] = 'http://www.yanjingang.com/piglab/' + res[i]['thumb']
+            res[i]['date'] = str(res[i]['date'])[5:7] + '月' + str(res[i]['date'])[8:10] + '日'
         return {'code': 0, 'msg': 'success', 'data': res}
 
 
@@ -306,7 +320,7 @@ if __name__ == '__main__':
     app = tornado.web.Application(
         handlers=[
             (r'/piggy-chess/move', ApiGameChess),
-            (r'/piggy-chess/screen', ApiChessScreen),
+            (r'/piggy-chess/thumb', ApiChessThumb),
             (r'/piggy-chess/list', ApiChessList),
         ]
     )
