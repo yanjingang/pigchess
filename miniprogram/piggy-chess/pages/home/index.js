@@ -66,7 +66,7 @@ Page({
         const userInfo = wx.getStorageSync('userInfo');
         console.log("getStorageInfo:", userInfo);
         if (userInfo && userInfo.nickName != '') {
-            this.user_nick = "风笑痴"; // userInfo.nickName;
+            this.user_nick = userInfo.nickName;
         }
         // get list
         wx.stopPullDownRefresh();
@@ -116,7 +116,10 @@ Page({
                 if (result['statusCode'] != 200) { //网络通信失败
                     console.log('chess-list req http status err: ', result['statusCode'])
                 } else if (result['data']['code'] != 0) { //状态异常
-                    console.log('chess-list req ret code err: ', result['data']['code'] + result['data']['msg'])
+                    console.log('chess-list req ret code err: ', result['data']['code'], result['data']['msg'])
+                    self.setData({
+                        gameList: fresh ? [] : self.data.gameList.concat([]),
+                    });
                 } else if (result['statusCode'] == 200 && result['data']['code'] == 0) {
                     const nextList = result['data']['data']
                     console.log('chess-list req res: ', nextList)
