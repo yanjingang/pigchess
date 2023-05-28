@@ -27,7 +27,7 @@ export function genCartGroupData() {
                   uid: '88888888205468',
                   saasId: '88888888',
                   storeId: '1000',
-                  spuId: '12',
+                  id: '12',
                   skuId: '135691622',
                   isSelected: 1,
                   thumb:
@@ -63,7 +63,7 @@ export function genCartGroupData() {
                   uid: '88888888205468',
                   saasId: '88888888',
                   storeId: '1000',
-                  spuId: '18',
+                  id: '18',
                   skuId: '135681631',
                   isSelected: 1,
                   thumb:
@@ -99,7 +99,7 @@ export function genCartGroupData() {
                   uid: '88888888205468',
                   saasId: '88888888',
                   storeId: '1000',
-                  spuId: '13',
+                  id: '13',
                   skuId: '135698362',
                   isSelected: 1,
                   thumb:
@@ -135,7 +135,7 @@ export function genCartGroupData() {
                   uid: '88888888205468',
                   saasId: '88888888',
                   storeId: '1000',
-                  spuId: '7',
+                  id: '7',
                   skuId: '135681625',
                   isSelected: 1,
                   thumb:
@@ -186,7 +186,7 @@ export function genCartGroupData() {
                   uid: '88888888205468',
                   saasId: '88888888',
                   storeId: '1000',
-                  spuId: '11',
+                  id: '11',
                   skuId: '135691629',
                   isSelected: 0,
                   thumb:
@@ -221,7 +221,7 @@ export function genCartGroupData() {
                   uid: '88888888205468',
                   saasId: '88888888',
                   storeId: '1000',
-                  spuId: '5',
+                  id: '5',
                   skuId: '135691635',
                   isSelected: 0,
                   thumb:
@@ -277,7 +277,7 @@ export function genCartGroupData() {
           uid: '88888888205468',
           saasId: '88888888',
           storeId: '1000',
-          spuId: '1',
+          id: '1',
           skuId: '135691631',
           isSelected: 1,
           thumb: 'https://cdn-we-retail.ym.tencent.com/tsr/goods/nz-08b.png',

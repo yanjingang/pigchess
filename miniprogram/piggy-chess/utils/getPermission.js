@@ -1,4 +1,7 @@
-const getPermission = ({ code, name }) => {
+const getPermission = ({
+  code,
+  name
+}) => {
   return new Promise((resolve, reject) => {
     wx.getSetting({
       success: (res) => {

@@ -42,10 +42,10 @@
 .goods-card__body {
   display: flex;
   flex: 1 1 auto;
-  background: #fff;
   border-radius: 0 0 16rpx 16rpx;
-  padding: 16rpx 24rpx 18rpx;
+  padding: 16rpx 16rpx 18rpx;
   flex-direction: column;
+  text-align: center;
 }
 
 .goods-card__upper {
@@ -57,11 +57,10 @@
 
 .goods-card__title {
   flex-shrink: 0;
-  font-size: 28rpx;
+  font-size: 24rpx;
   color: #333;
   font-weight: 400;
   display: -webkit-box;
-  height: 72rpx;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;

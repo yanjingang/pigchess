@@ -4,7 +4,7 @@ export function getPromotion(baseID = 0, length = 10) {
   return {
     list: getGoodsList(baseID, length).map((item) => {
       return {
-        spuId: item.spuId,
+        id: item.id,
         thumb: item.primaryImage,
         title: item.title,
         price: item.minSalePrice,

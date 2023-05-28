@@ -25,9 +25,11 @@ page {
   overflow: hidden;
   margin-bottom: 20rpx;
 }
+
 .icon-color {
   color: #aaa;
 }
+
 .cell-class {
   height: 100rpx;
   display: flex;
@@ -60,6 +62,7 @@ page {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 .order-content-t {
   margin-top: 10rpx;
   font-size: 24rpx;
@@ -73,7 +76,8 @@ page {
   margin-bottom: env(safe-area-inset-bottom);
   border-radius: 16rpx 16rpx 0 0;
 }
-.popup-content .popup-title {
+
+.popup-content .popup-nick {
   background: #fff;
   text-align: center;
   font-size: 24rpx;
@@ -101,6 +105,7 @@ page {
   transform-origin: left top;
   border-bottom: 2rpx solid #e5e5e5;
 }
+
 .popup-content .popup-phone,
 .popup-content .popup-close {
   background: #fff;
@@ -114,12 +119,15 @@ page {
   font-weight: 400;
   color: #333;
 }
+
 .popup-content .popup-phone.online {
   margin-bottom: 20rpx;
 }
+
 .popup-content .popup-phone.online::after {
   content: none;
 }
+
 .popup-content .popup-close {
   color: #333;
   border: 0;
@@ -138,9 +146,11 @@ page {
   font-size: 24rpx;
   line-height: 32rpx;
 }
+
 .cell-box .order-group__left {
   margin-right: 0;
 }
+
 .cell-box .t-cell-padding {
   padding: 24rpx 18rpx 24rpx 32rpx;
 }

@@ -1,18 +1,18 @@
 import { config } from '../../config/index';
 
 /** 获取商品详情页评论数 */
-function mockFetchGoodDetailsCommentsCount(spuId = 0) {
+function mockFetchGoodDetailsCommentsCount(id = 0) {
   const { delay } = require('../_utils/delay');
   const {
     getGoodsDetailsCommentsCount,
   } = require('../../model/detailsComments');
-  return delay().then(() => getGoodsDetailsCommentsCount(spuId));
+  return delay().then(() => getGoodsDetailsCommentsCount(id));
 }
 
 /** 获取商品详情页评论数 */
-export function getGoodsDetailsCommentsCount(spuId = 0) {
+export function getGoodsDetailsCommentsCount(id = 0) {
   if (config.useMock) {
-    return mockFetchGoodDetailsCommentsCount(spuId);
+    return mockFetchGoodDetailsCommentsCount(id);
   }
   return new Promise((resolve) => {
     resolve('real api');
@@ -20,16 +20,16 @@ export function getGoodsDetailsCommentsCount(spuId = 0) {
 }
 
 /** 获取商品详情页评论 */
-function mockFetchGoodDetailsCommentList(spuId = 0) {
+function mockFetchGoodDetailsCommentList(id = 0) {
   const { delay } = require('../_utils/delay');
   const { getGoodsDetailsComments } = require('../../model/detailsComments');
-  return delay().then(() => getGoodsDetailsComments(spuId));
+  return delay().then(() => getGoodsDetailsComments(id));
 }
 
 /** 获取商品详情页评论 */
-export function getGoodsDetailsCommentList(spuId = 0) {
+export function getGoodsDetailsCommentList(id = 0) {
   if (config.useMock) {
-    return mockFetchGoodDetailsCommentList(spuId);
+    return mockFetchGoodDetailsCommentList(id);
   }
   return new Promise((resolve) => {
     resolve('real api');

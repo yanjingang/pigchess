@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/chess/index",
     "pages/home/index",
+    "pages/chess/index",
     "pages/usercenter/index"
   ],
   "tabBar": {

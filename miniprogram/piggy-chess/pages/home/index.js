@@ -1,156 +1,161 @@
-import {
-  fetchHome
-} from '../../services/home/home';
-import {
-  fetchGoodsList
-} from '../../services/good/fetchGoods';
+const requestUrl = require('../../config').requestUrl
 import Toast from 'tdesign-miniprogram/toast/index';
 
 Page({
-  data: {
-    imgSrcs: [],
-    tabList: [],
-    goodsList: [],
-    goodsListLoadStatus: 0,
-    pageLoading: false,
-    current: 1,
-    autoplay: true,
-    duration: '500',
-    interval: 5000,
-    navigation: {
-      type: 'dots'
-    },
-    swiperImageProps: {
-      mode: 'scaleToFill'
-    },
-  },
-
-  goodListPagination: {
-    index: 0,
-    num: 20,
-  },
-
-  privateData: {
-    tabIndex: 0,
-  },
-
-  onShow() {
-    this.getTabBar().init();
-  },
-
-  onLoad() {
-    this.init();
-  },
-
-  onReachBottom() {
-    if (this.data.goodsListLoadStatus === 0) {
-      this.loadGoodsList();
-    }
-  },
-
-  onPullDownRefresh() {
-    this.init();
-  },
-
-  init() {
-    this.loadHomePage();
-  },
-
-  loadHomePage() {
-    wx.stopPullDownRefresh();
-
-    this.setData({
-      pageLoading: true,
-    });
-    fetchHome().then(({
-      swiper,
-      tabList
-    }) => {
-      this.setData({
-        tabList,
-        imgSrcs: swiper,
+    data: {
+        imgSrcs: [
+            'https://www.yanjingang.com/piglab/upload/chess/banner/banner1.jpg',
+            'https://www.yanjingang.com/piglab/upload/chess/banner/banner2.jpg',
+            'https://www.yanjingang.com/piglab/upload/chess/banner/banner3.jpg',
+            'https://www.yanjingang.com/piglab/upload/chess/banner/banner4.jpg',
+            'https://www.yanjingang.com/piglab/upload/chess/banner/banner5.jpg',
+        ],
+        tabIndex: 0,
+        tabList: [{
+                text: '我的棋谱',
+                key: 0,
+            },
+            {
+                text: '联盟观战',
+                key: 1,
+            },
+            {
+                text: '国际大师',
+                key: 2,
+            },
+            {
+                text: '竞赛直播',
+                key: 3,
+            }
+        ],
+        gameList: [],
+        gameListLoadStatus: 0,
         pageLoading: false,
-      });
-      this.loadGoodsList(true);
-    });
-  },
+        current: 1,
+        autoplay: true,
+        duration: '500',
+        interval: 5000,
+        navigation: {
+            type: 'dots'
+        },
+        swiperImageProps: {
+            mode: 'scaleToFill'
+        },
+    },
+    gameListPagination: {
+        index: 0,
+        num: 20,
+    },
+    onShow() {
+        this.getTabBar().init();
+    },
+    onLoad() {
+        this.init();
+    },
+    onReachBottom() {
+        if (this.data.gameListLoadStatus === 0) {
+            this.loadGoodsList();
+        }
+    },
+    onPullDownRefresh() {
+        this.init();
+    },
+    init() {
+        // get user
+        this.user_nick = '';
+        const userInfo = wx.getStorageSync('userInfo');
+        console.log("getStorageInfo:", userInfo);
+        if (userInfo && userInfo.nickName != '') {
+            this.user_nick = "风笑痴"; // userInfo.nickName;
+        }
+        // get list
+        wx.stopPullDownRefresh();
+        this.loadGoodsList(true);
+    },
+    tabChangeHandle(e) {
+        this.data.tabIndex = e.detail.value;
+        this.loadGoodsList(true);
+    },
+    onReTry() {
+        this.loadGoodsList();
+    },
+    async loadGoodsList(fresh = false) {
+        if (fresh) {
+            wx.pageScrollTo({
+                scrollTop: 0,
+            });
+        }
 
-  tabChangeHandle(e) {
-    this.privateData.tabIndex = e.detail;
-    this.loadGoodsList(true);
-  },
+        this.setData({
+            gameListLoadStatus: 1
+        });
 
-  onReTry() {
-    this.loadGoodsList();
-  },
+        const pageSize = this.gameListPagination.num;
+        let pageIndex = pageSize + this.gameListPagination.index + 1;
+        if (fresh) {
+            pageIndex = 0;
+        }
 
-  async loadGoodsList(fresh = false) {
-    if (fresh) {
-      wx.pageScrollTo({
-        scrollTop: 0,
-      });
-    }
+        // 对战列表
+        const self = this;
+        wx.request({
+            url: requestUrl,
+            data: {
+                'req_type': 'chess-list',
+                'nick': self.user_nick,
+                'page': pageIndex,
+                'page_size': pageSize,
+                'tab': self.data.tabIndex
+            },
+            success(result) {
+                wx.hideToast();
+                self.setData({
+                    gameListLoadStatus: 0
+                });
 
-    this.setData({
-      goodsListLoadStatus: 1
-    });
+                if (result['statusCode'] != 200) { //网络通信失败
+                    console.log('chess-list req http status err: ', result['statusCode'])
+                } else if (result['data']['code'] != 0) { //状态异常
+                    console.log('chess-list req ret code err: ', result['data']['code'] + result['data']['msg'])
+                } else if (result['statusCode'] == 200 && result['data']['code'] == 0) {
+                    const nextList = result['data']['data']
+                    console.log('chess-list req res: ', nextList)
+                    self.setData({
+                        gameList: fresh ? nextList : self.data.gameList.concat(nextList),
+                    });
+                    self.gameListPagination.index = pageIndex;
+                    self.gameListPagination.num = pageSize;
+                }
+            },
+            fail({
+                errMsg
+            }) {
+                wx.hideToast();
+                console.log('chess-list req fail: ', errMsg)
+            }
+        });
 
-    const pageSize = this.goodListPagination.num;
-    let pageIndex = this.privateData.tabIndex * pageSize + this.goodListPagination.index + 1;
-    if (fresh) {
-      pageIndex = 0;
-    }
+    },
 
-    try {
-      const nextList = await fetchGoodsList(pageIndex, pageSize);
-      this.setData({
-        goodsList: fresh ? nextList : this.data.goodsList.concat(nextList),
-        goodsListLoadStatus: 0,
-      });
-
-      this.goodListPagination.index = pageIndex;
-      this.goodListPagination.num = pageSize;
-    } catch (err) {
-      this.setData({
-        goodsListLoadStatus: 3
-      });
-    }
-  },
-
-  goodListClickHandle(e) {
-    const {
-      index
-    } = e.detail;
-    const {
-      spuId
-    } = this.data.goodsList[index];
-    wx.navigateTo({
-      url: `/pages/goods/details/index?spuId=${spuId}`,
-    });
-  },
-
-  goodListAddCartHandle() {
-    Toast({
-      context: this,
-      selector: '#t-toast',
-      message: '点击加入购物车',
-    });
-  },
-
-  navToSearchPage() {
-    wx.navigateTo({
-      url: '/pages/goods/search/index'
-    });
-  },
-
-  navToActivityDetail({
-    detail
-  }) {
-    const {
-      index: promotionID = 0
-    } = detail || {};
-    wx.navigateTo({
-      url: `/pages/promotion-detail/index?promotion_id=${promotionID}`,
-    });
-  },
+    gameListClickHandle(e) {
+        const {
+            index
+        } = e.detail;
+        const {
+            id
+        } = this.data.gameList[index];
+        wx.navigateTo({
+            url: `/pages/goods/details/index?id=${id}`,
+        });
+    },
+    navToActivityDetail({
+        detail
+    }) {
+        const {
+            index: promotionID = 0
+        } = detail || {};
+        wx.navigateTo({
+            url: `/pages/promotion-detail/index?promotion_id=${promotionID}`,
+        });
+    },
 });

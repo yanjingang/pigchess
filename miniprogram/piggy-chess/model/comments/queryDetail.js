@@ -42,7 +42,7 @@ const queryDetail = {
 
 /**
  * @param {string} skuId
- * @param {string} spuId
+ * @param {string} id
  * @param {string} orderNo
  */
 export function queryCommentDetail() {

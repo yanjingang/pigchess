@@ -60,6 +60,7 @@ page {
 .home-page-container .tab.order-nav .order-nav-item.scroll-width {
   min-width: 165rpx;
 }
+
 .home-page-container .tab .order-nav-item.active {
   color: #fa550f !important;
 }

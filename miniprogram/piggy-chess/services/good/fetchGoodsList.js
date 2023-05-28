@@ -10,14 +10,14 @@ function mockFetchGoodsList(params) {
 
   if (data.spuList.length) {
     data.spuList.forEach((item) => {
-      item.spuId = item.spuId;
+      item.id = item.id;
       item.thumb = item.primaryImage;
-      item.title = item.title;
+      item.nick = item.nick;
       item.price = item.minSalePrice;
       item.originPrice = item.maxLinePrice;
       item.desc = '';
       if (item.spuTagList) {
-        item.tags = item.spuTagList.map((tag) => tag.title);
+        item.tags = item.spuTagList.map((tag) => tag.nick);
       } else {
         item.tags = [];
       }

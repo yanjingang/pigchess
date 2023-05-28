@@ -6,7 +6,7 @@ export const transformGoodsDataToConfirmData = (goodsDataList) => {
   goodsDataList.forEach((goodsData) => {
     list.push({
       storeId: goodsData.storeId,
-      spuId: goodsData.spuId,
+      id: goodsData.id,
       skuId: goodsData.skuId,
       goodsName: goodsData.title,
       image: goodsData.primaryImage,
