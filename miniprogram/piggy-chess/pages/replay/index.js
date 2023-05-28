@@ -46,36 +46,6 @@ Page({
         wx.setNavigationBarTitle({
             title: nick + " vs " + opponent + " [" + result + "]"
         });
-
-        // 对局信息
-        const self = this;
-        wx.request({
-            url: requestUrl,
-            data: {
-                'req_type': 'chess-info',
-                'id': id,
-            },
-            success(result) {
-                wx.hideToast();
-
-                if (result['statusCode'] != 200) { //网络通信失败
-                    console.log('chess-info req http status err: ', result['statusCode'])
-                } else if (result['data']['code'] != 0) { //状态异常
-                    console.log('chess-info req ret code err: ', result['data']['code'], result['data']['msg'])
-                } else if (result['statusCode'] == 200 && result['data']['code'] == 0) {
-                    console.log('chess-info req res: ', result['data']['data'])
-                    self.setData({
-                        game_info: result['data']['data'],
-                    });
-                }
-            },
-            fail({
-                errMsg
-            }) {
-                wx.hideToast();
-                console.log('chess-info req fail: ', errMsg)
-            }
-        });
     },
     //page初始化
     onReady() {
@@ -114,17 +84,43 @@ Page({
         //move
         //this.movePiece(this.WHITE, 'g1f3', 'Nf4')
 
-        //start play
-        //this.aiMove();
+        // 对局信息
+        const self = this;
+        wx.request({
+            url: requestUrl,
+            data: {
+                'req_type': 'chess-info',
+                'id': self.data.id,
+            },
+            success(result) {
+                wx.hideToast();
 
-        // user_nick
-        const userInfo = wx.getStorageSync('userInfo');
-        console.log("getStorageInfo:", userInfo);
-        if (userInfo && userInfo.nickName != '') {
-            this.user_nick = userInfo.nickName;
-        }
-
-        // wx.stopPullDownRefresh();
+                if (result['statusCode'] != 200) { //网络通信失败
+                    console.log('chess-info req http status err: ', result['statusCode'])
+                } else if (result['data']['code'] != 0) { //状态异常
+                    console.log('chess-info req ret code err: ', result['data']['code'], result['data']['msg'])
+                } else if (result['statusCode'] == 200 && result['data']['code'] == 0) {
+                    console.log('chess-info req res: ', result['data']['data'])
+                    self.setData({
+                        game_info: result['data']['data'],
+                    });
+                    // auto move
+                    for (var i = 0; i < result['data']['data'].moves.length; i++) {
+                        // await sleep_inner(1000);
+                        var move = result['data']['data'].moves[i];
+                        var san = result['data']['data'].sans[i];
+                        console.log(result['data']['data'].moves[i]);
+                        self.movePiece((self.data.role + i) % 2, move, san);
+                    }
+                }
+            },
+            fail({
+                errMsg
+            }) {
+                wx.hideToast();
+                console.log('chess-info req fail: ', errMsg)
+            }
+        });
     },
     //初始化棋盘
     initBoard(angle_player) {
@@ -316,281 +312,5 @@ Page({
             this.drawPiece('R' + mt, player, this.data.human_player_id);
         }
         return true;
-    },
-    /*//悔棋
-    rollbackMove(move) {
-      //*注：此函数未实现完毕
-      var mf = move.substring(0, 2);
-      var mt = move.substring(2, 4);
-      var piece_type = this.data['state'][mt]; //区分大小写
-      var player = 0;
-      if (piece_type >= 'b' && piece_type <= 'r') { //小写是黑方
-        player = 1;
-      }
-      this.clearPiece(mt, this.data.human_player_id);
-      this.drawPiece(piece_type + mf, player, this.data.human_player_id);
-      this.data['state'][mf] = piece_type;
-      delete this.data['state'][mt];
-      //TODO:王车移位逻辑
-      //TODO:后端通信逻辑
-      return true;
-    },*/
-    //人类选择角色
-    onPlayerSelect(e) {
-        this.setData({
-            human_player_id: e.detail.value
-        })
-        console.log('select human_player_id:', this.data.human_player_id)
-        this.setData({
-            msg: '你选择了角色: ' + this.PLAYERS[this.data.human_player_id]
-        });
-        //重绘棋盘
-        this.initBoard(this.data.human_player_id)
-    },
-    //开始游戏
-    onStartPlay(e) {
-        if (this.data.human_player_id == this.BLACK) { //human执黑时，让ai先走
-            this.aiMove();
-        }
-    },
-    //棋盘点击事件
-    onBoardClick(e) {
-        //检查游戏是否已结束
-        if (this.data['end']) {
-            return false;
-        }
-        //check是否该human了
-        if (this.data['curr_player'] != this.data.human_player_id) { //该ai走了
-            var msg = '当前应 ' + this.PLAYERS[this.data['curr_player']] + 'AI 走子';
-            this.setData({
-                msg: msg
-            });
-            console.log("curr_player is ai!")
-            return false;
-        }
-        //获取当前点击位置的坐标
-        //console.log(e)
-        var x = e.touches[0].pageX - e.target.offsetLeft - this.border_width;
-        var y = e.touches[0].pageY - e.target.offsetTop - this.border_width;
-        var w = Math.floor(x / this.line_width);
-        var h = this.board_size - Math.floor(y / this.line_width) - 1;
-        if (this.data.human_player_id == 1) { //黑方视角
-            w = this.board_size - Math.floor(x / this.line_width) - 1;
-            h = Math.floor(y / this.line_width);
-        }
-        var select = String.fromCharCode(97 + w) + (h + 1);
-        if (this.select_mf == '') { //选子操作
-            //检查选子是否合法（选中的是否自己的棋子/是否是空位置）
-            if (!(select in this.data['state'])) { //此位置没有棋子
-                console.log(select + " empty!");
-                this.setData({
-                    msg: '选择位置没有棋子！'
-                });
-                return false;
-            }
-            var piece_player = (this.data['state'][select] >= 'B' && this.data['state'][select] <= 'R') ? this.WHITE : this.BLACK;
-            //console.log(this.data.human_player_id)
-            //console.log(piece_player)
-            if (this.data.human_player_id != piece_player) { //检查选中棋子是否自己的棋子
-                console.log(select + " not your piece! " + this.data['state'][select])
-                this.setData({
-                    msg: '选中的不是你的棋子！' + select + '是' + this.PLAYERS[piece_player] + this.data['state'][select]
-                });
-                return false;
-            }
-            //选中
-            this.select_mf = select;
-            console.log(h + ',' + w + ' | select: ' + select)
-            this.setData({
-                msg: '你选中: ' + select + ', ' + this.data['state'][select]
-            });
-            return;
-        }
-        //确定move操作
-        var move = this.select_mf + select;
-        var piece_type = this.data['state'][this.select_mf];
-        var piece_player = (this.data['state'][this.select_mf] >= 'B' && this.data['state'][this.select_mf] <= 'R') ? this.WHITE : this.BLACK;
-        var mt_h = parseInt(select.substring(1, 2));
-        console.log(piece_type + ' | ' + piece_player + ' | ' + mt_h)
-        if (piece_type.toUpperCase() == 'P' && ((piece_player == this.WHITE && mt_h == 8) || (piece_player == this.BLACK && mt_h == 1))) { //兵已经攻到底要升变了
-            move += 'q'; //自动升变为后
-        }
-        this.select_mf = '';
-        console.log(h + ',' + w + ' | move: ' + move)
-        this.setData({
-            msg: '你选择move: ' + move
-        });
-
-        //落子操作
-        //检查落子是否合法
-        //console.log(this.data['availables'].indexOf(move))
-        if (this.data['availables'].indexOf(move) == -1 && this.data['step'] > 0) {
-            this.setData({
-                msg: '错误的落子位置: ' + move
-            });
-            console.log("move not in availables!")
-            return false;
-        }
-        //human走子
-        const self = this;
-        wx.showToast({
-            icon: 'loading',
-            duration: 100000
-        });
-        self.setData({
-            msg: '正在执行走子...'
-        });
-        wx.request({
-            url: requestUrl,
-            data: {
-                'req_type': 'chess',
-                'session_id': self.session_id,
-                'user_nick': self.user_nick,
-                'human_player_id': this.data.human_player_id,
-                'move': move
-            },
-            success(result) {
-                wx.hideToast();
-                console.log('human req res: ', result)
-                if (result['statusCode'] != 200) { //网络通信失败
-                    console.log('human req http status err: ', result['statusCode'])
-                    self.setData({
-                        msg: '网络请求失败！ ' + result['statusCode']
-                    });
-                    console.log('网络请求失败');
-                    // wx.showToast({
-                    //     title: '网络请求失败',
-                    //     icon: 'none',
-                    //     duration: 3000
-                    // });
-                } else if (result['data']['code'] != 0) { //状态异常
-                    console.log('human req ret code err: ', result['data']['code'] + result['data']['msg'])
-                    self.setData({
-                        msg: result['data']['msg']
-                    });
-                    console.log(result['data']['msg']);
-                    // wx.showToast({
-                    //     title: result['data']['msg'],
-                    //     icon: 'none',
-                    //     duration: 3000
-                    // });
-                } else if (result['statusCode'] == 200 && result['data']['code'] == 0) { //执行Human走子
-                    self.data = result['data']['data']
-                    console.log('data: ', self.data)
-                    //move
-                    self.movePiece(self.data['player'], self.data['move'], self.data['san'])
-                    self.setData({
-                        msg: '你走子: ' + self.data['san']
-                    });
-                    //check end
-                    if (self.data['end']) {
-                        wx.showModal({
-                            title: 'Game Over',
-                            content: '游戏结束，Winner is ' + self.WINNER[self.data['winner']],
-                            showCancel: false,
-                            confirmText: '确定'
-                        });
-                        self.setData({
-                            msg: '游戏结束，Winner is ' + self.WINNER[self.data['winner']]
-                        });
-                        return true;
-                    }
-                    //远端ai走子
-                    self.aiMove();
-                }
-            },
-            fail({
-                errMsg
-            }) {
-                wx.hideToast();
-                console.log('human req fail: ', errMsg)
-                self.setData({
-                    msg: '网络请求失败！ ' + errMsg
-                });
-                // wx.showToast({
-                //     title: '网络请求失败',
-                //     icon: 'none',
-                //     duration: 3000
-                // })
-            }
-        });
-    },
-    //获取AI走子
-    aiMove() {
-        const self = this
-        //请求ai走子
-        wx.showToast({
-            title: 'AI Loading',
-            icon: 'loading',
-            duration: 100000
-        });
-        self.setData({
-            msg: '等待' + self.WINNER[self.data.curr_player] + 'AI走子...'
-        });
-        wx.request({
-            url: requestUrl,
-            data: {
-                'req_type': 'chess',
-                'session_id': self.session_id,
-                'user_nick': self.user_nick,
-                'human_player_id': this.data.human_player_id,
-                'move': ''
-            },
-            success(result) {
-                wx.hideToast();
-                console.log('ai req succ: ', result)
-                //执行AI走子
-                if (result['statusCode'] == 200 && result['data'] !== null && result['data']['code'] == 0) {
-                    self.data = result['data']['data']
-                    console.log('data: ', self.data)
-                    //move
-                    self.movePiece(self.data['player'], self.data['move'], self.data['san']);
-                    self.setData({
-                        msg: self.WINNER[self.data['player']] + '走子: ' + self.data['san'] + '  盘面打分: ' + self.data['score'] + '  AI推荐: ' + self.data['ponder']
-                    });
-                    //check end
-                    if (self.data['end']) {
-                        wx.showModal({
-                            title: 'Game Over',
-                            content: '游戏结束，Winner is ' + self.WINNER[self.data['winner']],
-                            showCancel: false,
-                            confirmText: '确定'
-                        });
-                        self.setData({
-                            msg: '游戏结束，Winner is ' + self.WINNER[self.data['winner']]
-                        });
-                        return true;
-                    }
-                } else {
-                    console.log('ai req err: ', result)
-                    var msg = 'statusCode: ' + result['statusCode'];
-                    if (result['data'] !== null) {
-                        msg = result['data']['code'] + ':' + result['data']['msg']
-                    }
-                    self.setData({
-                        msg: 'AI走子请求失败！ ' + msg
-                    });
-                    wx.showToast({
-                        title: '网络请求失败',
-                        icon: 'none',
-                        duration: 3000
-                    })
-                }
-            },
-            fail({
-                errMsg
-            }) {
-                wx.hideToast()
-                console.log('ai req fail: ', errMsg)
-                self.setData({
-                    msg: '网络请求失败! ' + errMsg
-                });
-                wx.showToast({
-                    title: '网络请求失败',
-                    icon: 'none',
-                    duration: 3000
-                });
-            }
-        });
     }
 })
