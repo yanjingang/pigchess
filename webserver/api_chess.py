@@ -235,6 +235,51 @@ class ApiChessScreen(tornado.web.RequestHandler):
         return {'code': 0, 'msg': 'success', 'data': ret}
 
 
+class ApiChessList(tornado.web.RequestHandler):
+    """棋谱列表查询"""
+    def get(self):
+        """get请求处理"""
+        try:
+            result = self.execute()
+        except:
+            logging.error('execute fail ' + utils.get_trace())
+            result = {'code': 1, 'msg': '请求失败'}
+        logging.info('API RES[' + self.request.path + '][' + self.request.method + ']['
+                     + str(result['code']) + '][' + str(result['msg']) + '][' + str(result['data']) + ']')
+        self.write(json.dumps(result))
+
+    def post(self):
+        """post请求处理"""
+        try:
+            result = self.execute()
+        except:
+            logging.error('execute fail ' + utils.get_trace())
+            result = {'code': 1, 'msg': '请求失败'}
+        logging.info('API RES[' + self.request.path + '][' + self.request.method + ']['
+                     + str(result['code']) + '][' + str(result['msg']) + ']')
+        self.write(json.dumps(result))
+
+    def execute(self):
+        """执行业务逻辑"""
+        logging.info('API REQUEST INFO[' + self.request.path + '][' + self.request.method + ']['
+                     + self.request.remote_ip + '][' + str(self.request.arguments) + ']')
+        nick = self.get_argument('nick', '')
+        if nick == '':
+            return {'code': 2, 'msg': 'nick is empty', 'data': {}}
+
+        res = db.query('games', {'nick': nick}, 'id,nick,role,step,sans,result,screen,createtime')
+        logging.info("game get list: {}".format(res))
+
+        roles = {'0': '白', '1': '黑'}
+        results = {'0.0': '负', '0.5': '和', '1.0': '胜'}
+        for i in range(len(res)):
+            res[i]['role'] = roles[str(res[i]['role'])]
+            res[i]['result'] = results[str(res[i]['result'])]
+            res[i]['screen'] = 'http://www.yanjingang.com/piglab/' + res[i]['screen']
+            res[i]['createtime'] = str(res[i]['createtime'])
+        return {'code': 0, 'msg': 'success', 'data': res}
+
+
 if __name__ == '__main__':
     """服务入口"""
     port = 8024
@@ -260,8 +305,9 @@ if __name__ == '__main__':
     # 启动服务
     app = tornado.web.Application(
         handlers=[
-            (r'/piglab/game/chess', ApiGameChess),
+            (r'/piggy-chess/move', ApiGameChess),
             (r'/piggy-chess/screen', ApiChessScreen),
+            (r'/piggy-chess/list', ApiChessList),
         ]
     )
     http_server = tornado.httpserver.HTTPServer(app, xheaders=True)
