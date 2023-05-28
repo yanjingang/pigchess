@@ -267,16 +267,16 @@ class ApiChessList(tornado.web.RequestHandler):
         page = int(self.get_argument('page', 0))
         page_size = int(self.get_argument('page_size', 10))
         tab = int(self.get_argument('tab', 0))
-        if nick == '':
+        if tab == 0 and nick == '':
             return {'code': 2, 'msg': 'nick is empty', 'data': {}}
 
 
         where = {'nick': nick}  # 用户自己
-        if tab == 1 : # 所有普通用户
+        if tab == 1: # 所有普通用户
             where = {'type': 0}
-        elif tab == 2 : # 所有国际大师
+        elif tab == 2: # 所有国际大师
             where = {'type': 1}
-        elif tab == 3 : # 赛事直播
+        elif tab == 3: # 赛事直播
             where = {'type': 2}
         select = 'id,nick,role,opponent,step,sans,result,thumb,createtime as date'
         orderby = 'id desc'
