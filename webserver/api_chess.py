@@ -338,6 +338,8 @@ class ApiChessInfo(tornado.web.RequestHandler):
         # roles = {'0': '白', '1': '黑'}
         results = {'0.0': '负', '0.5': '和', '1.0': '胜'}
         res['role'] = res['role']    # roles[str(res['role'])]
+        res['moves'] = res['moves'].split(',')
+        res['sans'] = res['sans'].split(',')
         res['result'] = results[str(res['result'])]
         res['thumb'] = 'http://www.yanjingang.com/piglab/' + res['thumb']
         res['date'] = str(res['date'])[5:7] + '月' + str(res['date'])[8:10] + '日'
