@@ -125,7 +125,7 @@ Page({
         });
     },
     //下一步
-    onNextMove(e) {
+    onReplay(e) {
         if (this.data.i >= this.data.game_info.step) {
             return;
         }
