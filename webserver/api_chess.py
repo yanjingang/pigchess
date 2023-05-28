@@ -284,13 +284,63 @@ class ApiChessList(tornado.web.RequestHandler):
         res = db.query('games', where=where, select=select, orderby=orderby, limit=limit)
         logging.info("game get list: {}".format(res))
 
-        roles = {'0': '白', '1': '黑'}
+        # roles = {'0': '白', '1': '黑'}
         results = {'0.0': '负', '0.5': '和', '1.0': '胜'}
         for i in range(len(res)):
-            res[i]['role'] = roles[str(res[i]['role'])]
+            res[i]['role'] = res[i]['role']    # roles[str(res[i]['role'])]
             res[i]['result'] = results[str(res[i]['result'])]
             res[i]['thumb'] = 'http://www.yanjingang.com/piglab/' + res[i]['thumb']
             res[i]['date'] = str(res[i]['date'])[5:7] + '月' + str(res[i]['date'])[8:10] + '日'
+        return {'code': 0, 'msg': 'success', 'data': res}
+
+
+class ApiChessInfo(tornado.web.RequestHandler):
+    """棋谱列表查询"""
+    def get(self):
+        """get请求处理"""
+        try:
+            result = self.execute()
+        except:
+            logging.error('execute fail ' + utils.get_trace())
+            result = {'code': 1, 'msg': '请求失败'}
+        logging.info('API RES[' + self.request.path + '][' + self.request.method + ']['
+                     + str(result['code']) + '][' + str(result['msg']) + '][' + str(result['data']) + ']')
+        self.write(json.dumps(result))
+
+    def post(self):
+        """post请求处理"""
+        try:
+            result = self.execute()
+        except:
+            logging.error('execute fail ' + utils.get_trace())
+            result = {'code': 1, 'msg': '请求失败'}
+        logging.info('API RES[' + self.request.path + '][' + self.request.method + ']['
+                     + str(result['code']) + '][' + str(result['msg']) + ']')
+        self.write(json.dumps(result))
+
+    def execute(self):
+        """执行业务逻辑"""
+        logging.info('API REQUEST INFO[' + self.request.path + '][' + self.request.method + ']['
+                     + self.request.remote_ip + '][' + str(self.request.arguments) + ']')
+        id = int(self.get_argument('id', 0))
+        if id <= 0:
+            return {'code': 2, 'msg': 'id is invalid', 'data': {}}
+
+
+        where = {'id': id}
+        select = 'id,nick,role,opponent,step,moves,sans,result,thumb,createtime as date'
+        res = db.query('games', where=where, select=select)
+        logging.info("game get info: {}".format(res))
+        if len(res) == 0:
+            return {'code': 3, 'msg': 'id is not exists', 'data': {}}
+        res = res[0]
+
+        # roles = {'0': '白', '1': '黑'}
+        results = {'0.0': '负', '0.5': '和', '1.0': '胜'}
+        res['role'] = res['role']    # roles[str(res['role'])]
+        res['result'] = results[str(res['result'])]
+        res['thumb'] = 'http://www.yanjingang.com/piglab/' + res['thumb']
+        res['date'] = str(res['date'])[5:7] + '月' + str(res['date'])[8:10] + '日'
         return {'code': 0, 'msg': 'success', 'data': res}
 
 
@@ -322,6 +372,7 @@ if __name__ == '__main__':
             (r'/piggy-chess/move', ApiGameChess),
             (r'/piggy-chess/thumb', ApiChessThumb),
             (r'/piggy-chess/list', ApiChessList),
+            (r'/piggy-chess/info', ApiChessInfo),
         ]
     )
     http_server = tornado.httpserver.HTTPServer(app, xheaders=True)
