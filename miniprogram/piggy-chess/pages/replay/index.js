@@ -14,6 +14,7 @@ Page({
         role: 0,
         result: 0,
         game_info: {},
+        i: 0,
         human_player_id: 0,
         ai_player_id: 1,
         curr_player: 0,
@@ -103,15 +104,16 @@ Page({
                     console.log('chess-info req res: ', result['data']['data'])
                     self.setData({
                         game_info: result['data']['data'],
+                        i: 0,
                     });
                     // auto move
-                    for (var i = 0; i < result['data']['data'].moves.length; i++) {
-                        // await sleep_inner(1000);
-                        var move = result['data']['data'].moves[i];
-                        var san = result['data']['data'].sans[i];
-                        console.log(result['data']['data'].moves[i]);
-                        self.movePiece((self.data.role + i) % 2, move, san);
-                    }
+                    // for (var i = 0; i < result['data']['data'].moves.length; i++) {
+                    //     // await sleep_inner(1000);
+                    //     var move = result['data']['data'].moves[i];
+                    //     var san = result['data']['data'].sans[i];
+                    //     console.log(result['data']['data'].moves[i]);
+                    //     self.movePiece((self.data.role + i) % 2, move, san);
+                    // }
                 }
             },
             fail({
@@ -121,6 +123,18 @@ Page({
                 console.log('chess-info req fail: ', errMsg)
             }
         });
+    },
+    //下一步
+    onNextMove(e) {
+        if (this.data.i >= this.data.game_info.step) {
+            return;
+        }
+
+        var move = this.data.game_info.moves[this.data.i];
+        var san = this.data.game_info.sans[this.data.i];
+        console.log(this.data.game_info.moves[this.data.i]);
+        this.movePiece((this.data.role + this.data.i) % 2, move, san);
+        this.data.i += 1;
     },
     //初始化棋盘
     initBoard(angle_player) {

@@ -1,5 +1,20 @@
 <view class="container">
   <view class="page-body">
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label"></view>
+        </view>
+        <view class="weui-cell__bd">
+          <picker class="picker">
+            <view class="weui-input"></view>
+          </picker>
+        </view>
+        <view class="weui-cell__hd">
+          <button type="default" plain="true" bindtap="onNextMove">Next</button>
+        </view>
+      </view>
+    </view>
     <view class="page-body-wrapper">
       <text>{{opponent}}\n</text>
       <canvas canvas-id="board" class="board" bindtap="onBoardClick"></canvas>
