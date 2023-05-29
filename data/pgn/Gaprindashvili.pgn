@@ -502,25 +502,6 @@
 [Site "Rijeka"]
 [Date "1963.??.??"]
 [Round "?"]
-[White "Lazarevic, Milunka"]
-[Black "Gaprindashvili, Nona"]
-[Result "1-0"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "B08"]
-
-1.e4 g6 2.d4 Bg7 3.Bc4 d6 4.Nc3 Nf6 5.Nf3 O-O 6.Qe2 Nfd7 7.h4 Nb6 8.h5 Nxc4
-9.Qxc4 c5 10.hxg6 hxg6 11.Bh6 Bxh6 12.Rxh6 Kg7 13.Rh1 cxd4 14.Qxd4+ f6 15.Qe3 Rh8
-16.O-O-O Nc6 17.Nh4 Qa5 18.Nxg6 Rxh1 19.Rxh1 Kxg6 20.Qh6+ Kf7 21.Qh7+ Ke8
-22.Nd5 Be6 23.Qh8+ Kd7 24.Qxa8 Nd8 25.Qb8 Bxd5 26.exd5 a6 27.a3 Qxd5 28.Rh8 Qa5
-29.Kb1 Qb6 30.a4 a5 31.f4 f5 32.Ka2 Qc7 33.Qxc7+ Kxc7 34.Rh5 e6 35.Rh7+ Kc6
-36.Re7 b6 37.c3 Kd5 38.Rd7 Nc6 39.Rb7 e5 40.Rxb6 Ne7 41.Rb5+ Ke4 42.fxe5 dxe5
-43.Rxa5 f4 44.Ra7 Nd5 45.a5 Kf5 46.Rd7 Nf6 47.Rf7 e4 48.a6 e3  1-0
-
-[Event "JUG-URS"]
-[Site "Rijeka"]
-[Date "1963.??.??"]
-[Round "?"]
 [White "Gaprindashvili, Nona"]
 [Black "Nedeljkovic Jovanovic, Verica"]
 [Result "0-1"]
@@ -536,6 +517,25 @@
 37.Qg2 Bc5 38.Rc2 e4 39.Rdc1 Rdc8 40.Qf1 d3 41.Rc4 f4 42.Rd1 fxg3 43.hxg3 Qxg3+
 44.Qg2 Bxf2+ 45.Kf1 Qxg2+ 46.Kxg2 Rxc4 47.Nxc4 Bd4 48.Kg3 Re8 49.Nd2 Bb6
 50.Kf4 e3 51.Kf3  0-1
+
+[Event "JUG-URS"]
+[Site "Rijeka"]
+[Date "1963.??.??"]
+[Round "?"]
+[White "Lazarevic, Milunka"]
+[Black "Gaprindashvili, Nona"]
+[Result "1-0"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "B08"]
+
+1.e4 g6 2.d4 Bg7 3.Bc4 d6 4.Nc3 Nf6 5.Nf3 O-O 6.Qe2 Nfd7 7.h4 Nb6 8.h5 Nxc4
+9.Qxc4 c5 10.hxg6 hxg6 11.Bh6 Bxh6 12.Rxh6 Kg7 13.Rh1 cxd4 14.Qxd4+ f6 15.Qe3 Rh8
+16.O-O-O Nc6 17.Nh4 Qa5 18.Nxg6 Rxh1 19.Rxh1 Kxg6 20.Qh6+ Kf7 21.Qh7+ Ke8
+22.Nd5 Be6 23.Qh8+ Kd7 24.Qxa8 Nd8 25.Qb8 Bxd5 26.exd5 a6 27.a3 Qxd5 28.Rh8 Qa5
+29.Kb1 Qb6 30.a4 a5 31.f4 f5 32.Ka2 Qc7 33.Qxc7+ Kxc7 34.Rh5 e6 35.Rh7+ Kc6
+36.Re7 b6 37.c3 Kd5 38.Rd7 Nc6 39.Rb7 e5 40.Rxb6 Ne7 41.Rb5+ Ke4 42.fxe5 dxe5
+43.Rxa5 f4 44.Ra7 Nd5 45.a5 Kf5 46.Rd7 Nf6 47.Rf7 e4 48.a6 e3  1-0
 
 [Event "JUG-URS"]
 [Site "Rijeka"]
@@ -665,6 +665,23 @@
 [Site "Split"]
 [Date "1963.??.??"]
 [Round "8"]
+[White "Gaprindashvili, Nona"]
+[Black "Lazarevic, Milunka"]
+[Result "1-0"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "C47"]
+
+1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 Bb4 5.d5 Ne7 6.Nxe5 d6 7.Nf3 Nxe4 8.Qd4 Bxc3+
+9.bxc3 Nf6 10.Bb5+ Bd7 11.Bxd7+ Qxd7 12.O-O Nfxd5 13.c4 c5 14.Qb2 Nb6 15.Qxg7 Rg8
+16.Qf6 Rg6 17.Qh8+ Rg8 18.Qf6 O-O-O 19.Ng5 Nxc4 20.Qxf7 Ne5 21.Qxh7 Rh8 22.Qe4 Rdg8
+23.f4 Rh4 24.Qe2 Rgh8 25.fxe5 Rxh2 26.Rf8+ Rxf8 27.Kxh2 d5 28.Nh3 Qf5 29.Bf4 Ng6
+30.Rf1 Nxe5 31.Kg1 Nc4 32.Qe7  1-0
+
+[Event "Split ol (Women)"]
+[Site "Split"]
+[Date "1963.??.??"]
+[Round "8"]
 [White "Gresser, Gisela Kahn"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -681,19 +698,20 @@
 [Event "Split ol (Women)"]
 [Site "Split"]
 [Date "1963.??.??"]
-[Round "8"]
-[White "Gaprindashvili, Nona"]
-[Black "Lazarevic, Milunka"]
-[Result "1-0"]
+[Round "9"]
+[White "Loeffler, Louise"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
 [WhiteElo ""]
 [BlackElo ""]
-[ECO "C47"]
+[ECO "E78"]
 
-1.e4 e5 2.Nf3 Nc6 3.Nc3 Nf6 4.d4 Bb4 5.d5 Ne7 6.Nxe5 d6 7.Nf3 Nxe4 8.Qd4 Bxc3+
-9.bxc3 Nf6 10.Bb5+ Bd7 11.Bxd7+ Qxd7 12.O-O Nfxd5 13.c4 c5 14.Qb2 Nb6 15.Qxg7 Rg8
-16.Qf6 Rg6 17.Qh8+ Rg8 18.Qf6 O-O-O 19.Ng5 Nxc4 20.Qxf7 Ne5 21.Qxh7 Rh8 22.Qe4 Rdg8
-23.f4 Rh4 24.Qe2 Rgh8 25.fxe5 Rxh2 26.Rf8+ Rxf8 27.Kxh2 d5 28.Nh3 Qf5 29.Bf4 Ng6
-30.Rf1 Nxe5 31.Kg1 Nc4 32.Qe7  1-0
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.f4 d6 5.e4 c5 6.Nf3 O-O 7.Be2 Qa5 8.O-O Nc6
+9.d5 Nd4 10.Be3 Ng4 11.Bxd4 cxd4 12.Nb5 Ne3 13.Qd3 Nxf1 14.Bxf1 Bg4 15.Nfxd4 Qb6
+16.a4 a6 17.a5 Qc5 18.b4 Qxb4 19.Na3 Qxa5 20.Nac2 Qc5 21.Kh1 Bd7 22.Re1 b5
+23.cxb5 Bxb5 24.Nxb5 axb5 25.Ne3 Ra3 26.Qe2 Rfa8 27.f5 Qxe3 28.Qxe3 Rxe3
+29.Rxe3 Ra1 30.Rf3 b4 31.g3 b3 32.Kg2 b2 33.Bd3 Rd1 34.Bc2 Rd2+ 35.Rf2 Rxc2
+36.Rxc2 b1=Q 37.Re2 Qd3 38.Kf2 Bd4+ 39.Ke1 g5  0-1
 
 [Event "Split ol (Women)"]
 [Site "Split"]
@@ -713,24 +731,6 @@
 29.Kh1 Nxe3 30.Rd2 Qf3+ 31.Kg1 Nc4 32.Qxf3 Rxf3 33.Ne4 Nxd2 34.Nxd2 Bd4+
 35.Kh1 Rd3 36.Nb3 Be5 37.Na5 Kg7 38.Rc1 Kf6 39.Rc7 h5 40.Rb7 Rd5 41.Nc6 Bc3
 42.Ne7 Rd1+ 43.Kg2 Bxb4 44.Ng8+ Ke5 45.Rxb5+ Bc5 46.Ne7 Rd2+ 47.Kf1  0-1
-
-[Event "Split ol (Women)"]
-[Site "Split"]
-[Date "1963.??.??"]
-[Round "9"]
-[White "Loeffler, Louise"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "E78"]
-
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.f4 d6 5.e4 c5 6.Nf3 O-O 7.Be2 Qa5 8.O-O Nc6
-9.d5 Nd4 10.Be3 Ng4 11.Bxd4 cxd4 12.Nb5 Ne3 13.Qd3 Nxf1 14.Bxf1 Bg4 15.Nfxd4 Qb6
-16.a4 a6 17.a5 Qc5 18.b4 Qxb4 19.Na3 Qxa5 20.Nac2 Qc5 21.Kh1 Bd7 22.Re1 b5
-23.cxb5 Bxb5 24.Nxb5 axb5 25.Ne3 Ra3 26.Qe2 Rfa8 27.f5 Qxe3 28.Qxe3 Rxe3
-29.Rxe3 Ra1 30.Rf3 b4 31.g3 b3 32.Kg2 b2 33.Bd3 Rd1 34.Bc2 Rd2+ 35.Rf2 Rxc2
-36.Rxc2 b1=Q 37.Re2 Qd3 38.Kf2 Bd4+ 39.Ke1 g5  0-1
 
 [Event "Split ol (Women)"]
 [Site "Split"]
@@ -1446,6 +1446,27 @@
 [Site "URS"]
 [Date "1966.??.??"]
 [Round "?"]
+[White "Gaprindashvili, Nona"]
+[Black "Kushnir, Alla"]
+[Result "1/2-1/2"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "C87"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 d6 7.Bxc6+ bxc6 8.d4 exd4
+9.Nxd4 Bg4 10.Qd3 Qd7 11.c4 O-O 12.Nc3 Rfe8 13.Be3 Kh8 14.f3 Bh5 15.Nf5 Bf8
+16.Bg5 Ng8 17.Rad1 f6 18.Bf4 Bf7 19.c5 d5 20.Be3 g6 21.Ng3 Ne7 22.Bd4 Bg7
+23.e5 Ng8 24.exf6 Nxf6 25.Be5 Rxe5 26.Rxe5 Ng4 27.Re2 Ne5 28.Qb1 d4 29.Nce4 d3
+30.Red2 Qd4+ 31.Kh1 Bh6 32.Rxd3 Nxd3 33.Rxd3 Qe5 34.Qc2 Re8 35.b3 Bd5 36.Qc3 Qxc3
+37.Rxc3 Bg7 38.Rd3 a5 39.Kg1 a4 40.Kf2 axb3 41.axb3 Rb8 42.Nd2 Bf8 43.Nge4 Rb5
+44.Nc3 Bxc5+ 45.Ke2 Rb8 46.Nxd5 cxd5 47.Rxd5 Bd6 48.g3 Kg7 49.Rd3 Kf7 50.Ne4 h6
+51.Ke3 Ke6 52.Kd4 Rb4+ 53.Kc3 Rb8 54.Re3 h5 55.Ng5+ Kf6 56.Ne4+ Ke6 57.Kc4 Rb4+
+58.Kc3 Rb8  1/2-1/2
+
+[Event "URS-chT"]
+[Site "URS"]
+[Date "1966.??.??"]
+[Round "?"]
 [White "Rootare, Salme"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -1477,27 +1498,6 @@
 9.Nbd2 Na5 10.Bc2 c5 11.O-O Nc6 12.Rd1 Be6 13.Nf1 Nd7 14.Ng3 Bf6 15.Be3 g6
 16.h3 Rc8 17.a4 b4 18.d4 cxd4 19.cxd4 exd4 20.Nxd4 Bxd4 21.Bxd4 b3 22.Bb1 Nxd4
 23.Rxd4 Rc1+ 24.Kh2 Ne5 25.Qd2 Ng4+  0-1
-
-[Event "URS-chT"]
-[Site "URS"]
-[Date "1966.??.??"]
-[Round "?"]
-[White "Gaprindashvili, Nona"]
-[Black "Kushnir, Alla"]
-[Result "1/2-1/2"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "C87"]
-
-1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 d6 7.Bxc6+ bxc6 8.d4 exd4
-9.Nxd4 Bg4 10.Qd3 Qd7 11.c4 O-O 12.Nc3 Rfe8 13.Be3 Kh8 14.f3 Bh5 15.Nf5 Bf8
-16.Bg5 Ng8 17.Rad1 f6 18.Bf4 Bf7 19.c5 d5 20.Be3 g6 21.Ng3 Ne7 22.Bd4 Bg7
-23.e5 Ng8 24.exf6 Nxf6 25.Be5 Rxe5 26.Rxe5 Ng4 27.Re2 Ne5 28.Qb1 d4 29.Nce4 d3
-30.Red2 Qd4+ 31.Kh1 Bh6 32.Rxd3 Nxd3 33.Rxd3 Qe5 34.Qc2 Re8 35.b3 Bd5 36.Qc3 Qxc3
-37.Rxc3 Bg7 38.Rd3 a5 39.Kg1 a4 40.Kf2 axb3 41.axb3 Rb8 42.Nd2 Bf8 43.Nge4 Rb5
-44.Nc3 Bxc5+ 45.Ke2 Rb8 46.Nxd5 cxd5 47.Rxd5 Bd6 48.g3 Kg7 49.Rd3 Kf7 50.Ne4 h6
-51.Ke3 Ke6 52.Kd4 Rb4+ 53.Kc3 Rb8 54.Re3 h5 55.Ng5+ Kf6 56.Ne4+ Ke6 57.Kc4 Rb4+
-58.Kc3 Rb8  1/2-1/2
 
 [Event "URS-JUG"]
 [Site "URS"]
@@ -1538,22 +1538,6 @@
 [Site "URS"]
 [Date "1966.??.??"]
 [Round "3"]
-[White "Jovanovic, Katarina"]
-[Black "Gaprindashvili, Nona"]
-[Result "1/2-1/2"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "B49"]
-
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be3 Qc7 6.Be2 Nf6 7.Nc3 a6 8.Nxc6 bxc6
-9.O-O e5 10.f3 Be7 11.Na4 Rb8 12.c4 d6 13.b3 O-O 14.Qc2 Be6 15.Rfd1 Qb7 16.Nc3 Rbc8
-17.Qb2 Rfd8 18.Rac1 d5 19.cxd5 cxd5 20.exd5 Nxd5 21.Nxd5 Rxd5 22.Rxc8+ Bxc8
-23.Rxd5 Qxd5 24.Qc2  1/2-1/2
-
-[Event "URS-JUG"]
-[Site "URS"]
-[Date "1966.??.??"]
-[Round "3"]
 [White "Gaprindashvili, Nona"]
 [Black "Stadler, Tereza"]
 [Result "1-0"]
@@ -1566,6 +1550,22 @@
 16.c3 Nd5 17.cxd4 Bxd4 18.Qd2 Ne7 19.Nc3 Bg4 20.Rec1 c6 21.Be3 Bxe3 22.Qxe3 Qd8
 23.Qf4 Be6 24.h4 d5 25.a3 h5 26.Bf3 Rc8 27.Ne2 Qd7 28.Rd1 d4 29.Qg5 Bg4 30.Bxg4 hxg4
 31.h5 Rcd8 32.Nf4 Kh7 33.Kg2 Rh8 34.Rh1 Kg7 35.hxg6 fxg6 36.Nh5+ Rxh5 37.Rxh5  1-0
+
+[Event "URS-JUG"]
+[Site "URS"]
+[Date "1966.??.??"]
+[Round "3"]
+[White "Jovanovic, Katarina"]
+[Black "Gaprindashvili, Nona"]
+[Result "1/2-1/2"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "B49"]
+
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nc6 5.Be3 Qc7 6.Be2 Nf6 7.Nc3 a6 8.Nxc6 bxc6
+9.O-O e5 10.f3 Be7 11.Na4 Rb8 12.c4 d6 13.b3 O-O 14.Qc2 Be6 15.Rfd1 Qb7 16.Nc3 Rbc8
+17.Qb2 Rfd8 18.Rac1 d5 19.cxd5 cxd5 20.exd5 Nxd5 21.Nxd5 Rxd5 22.Rxc8+ Bxc8
+23.Rxd5 Qxd5 24.Qc2  1/2-1/2
 
 [Event "URS-chT"]
 [Site "URS"]
@@ -1648,21 +1648,6 @@
 [Site "URS"]
 [Date "1967.??.??"]
 [Round "?"]
-[White "Guseva, E."]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "A04"]
-
-1.Nf3 g6 2.g3 Bg7 3.Bg2 c5 4.O-O Nc6 5.d3 e6 6.e4 Nge7 7.Re1 d6 8.Nbd2 O-O
-9.Rb1 h6 10.Nf1 e5 11.Ne3 Be6 12.a3 Qd7 13.Bd2 b6 14.Qc1 Kh7 15.h4 f5 16.exf5 gxf5
-17.Bh3 f4 18.Bxe6 Qxe6 19.Nf1 fxg3  0-1
-
-[Event "URS-chT"]
-[Site "URS"]
-[Date "1967.??.??"]
-[Round "?"]
 [White "Gaprindashvili, Nona"]
 [Black "Belova, Valentina M"]
 [Result "1-0"]
@@ -1714,6 +1699,21 @@
 9.b4 d5 10.cxd5 exd5 11.b5 Nce7 12.d4 Be6 13.a4 cxd4 14.exd4 Rc8 15.Ne2 Nd6
 16.Nf4 Bf5 17.Ne5 Nc4 18.Re1 Be4 19.f3 Bf5 20.Bf1 Re8 21.Ra2 Nxe5 22.dxe5 Qc7
 23.Rae2 Bc2 24.Nxd5 Qc5+ 25.Be3 Qxd5 26.Rxc2 Qxd1 27.Rxc8 Qd7  0-1
+
+[Event "URS-chT"]
+[Site "URS"]
+[Date "1967.??.??"]
+[Round "?"]
+[White "Guseva, E."]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "A04"]
+
+1.Nf3 g6 2.g3 Bg7 3.Bg2 c5 4.O-O Nc6 5.d3 e6 6.e4 Nge7 7.Re1 d6 8.Nbd2 O-O
+9.Rb1 h6 10.Nf1 e5 11.Ne3 Be6 12.a3 Qd7 13.Bd2 b6 14.Qc1 Kh7 15.h4 f5 16.exf5 gxf5
+17.Bh3 f4 18.Bxe6 Qxe6 19.Nf1 fxg3  0-1
 
 [Event "URS-chT"]
 [Site "URS"]
@@ -1955,23 +1955,6 @@
 [Site "URS"]
 [Date "1968.??.??"]
 [Round "?"]
-[White "Andreieva, Olga A"]
-[Black "Gaprindashvili, Nona"]
-[Result "1-0"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "B43"]
-
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3 Qc7 6.Bd3 Nf6 7.O-O Be7 8.Be3 b5
-9.f4 b4 10.Nb1 Bb7 11.Qf3 d6 12.c3 Nc6 13.a3 bxa3 14.Nxa3 O-O 15.Nac2 Nxd4
-16.Nxd4 Nd7 17.Rae1 Nc5 18.Bb1 d5 19.e5 Ne4 20.Qh3 g6 21.f5 exf5 22.Nxf5 gxf5
-23.Bxe4 dxe4 24.Qxf5 Qc6 25.Rf4 Qe6 26.Qh5 f5 27.exf6 Rxf6 28.Rh4 Qf5 29.Rg4+ Kh8
-30.Rg5 Qe6 31.Bd4 Rg8 32.Re3 Bd8 33.Rh3 Qd7 34.Rg6 Qxd4+ 35.cxd4  1-0
-
-[Event "URS-chT"]
-[Site "URS"]
-[Date "1968.??.??"]
-[Round "?"]
 [White "Gaprindashvili, Nona"]
 [Black "Mosionzhik, Bronislava"]
 [Result "1-0"]
@@ -2035,6 +2018,23 @@
 16.Be3 Bf6 17.Na4 Qc8 18.Nc5 Bd5 19.Qa4 a5 20.Bb5 Bxf3 21.gxf3 Nxb5 22.Qxb5 Rxd1+
 23.Rxd1 Rd8 24.Rxd8 Bxd8 25.Bf4 Ka7 26.h5 Be7 27.Nb3 Bd6 28.Be3+ Kb8 29.Nxa5 Nd8
 30.Nc4 Qe6 31.Qa4 b6  0-1
+
+[Event "URS-chT"]
+[Site "URS"]
+[Date "1968.??.??"]
+[Round "?"]
+[White "Andreieva, Olga A"]
+[Black "Gaprindashvili, Nona"]
+[Result "1-0"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "B43"]
+
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 a6 5.Nc3 Qc7 6.Bd3 Nf6 7.O-O Be7 8.Be3 b5
+9.f4 b4 10.Nb1 Bb7 11.Qf3 d6 12.c3 Nc6 13.a3 bxa3 14.Nxa3 O-O 15.Nac2 Nxd4
+16.Nxd4 Nd7 17.Rae1 Nc5 18.Bb1 d5 19.e5 Ne4 20.Qh3 g6 21.f5 exf5 22.Nxf5 gxf5
+23.Bxe4 dxe4 24.Qxf5 Qc6 25.Rf4 Qe6 26.Qh5 f5 27.exf6 Rxf6 28.Rh4 Qf5 29.Rg4+ Kh8
+30.Rg5 Qe6 31.Bd4 Rg8 32.Re3 Bd8 33.Rh3 Qd7 34.Rg6 Qxd4+ 35.cxd4  1-0
 
 [Event "URS-chT"]
 [Site "URS"]
@@ -3255,6 +3255,24 @@
 [Site "Skopje"]
 [Date "1972.??.??"]
 [Round "?"]
+[White "Polihroniade, Elisabeta"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo "2225"]
+[BlackElo "2450"]
+[ECO "B06"]
+
+1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 c6 5.Bc4 e6 6.a4 d5 7.Bd3 Ne7 8.O-O h6 9.Bf4 O-O
+10.e5 c5 11.Qd2 cxd4 12.Nb5 Kh7 13.Nbxd4 Nbc6 14.Rfe1 Bd7 15.a5 a6 16.h4 Nxd4
+17.Nxd4 Nf5 18.Bxf5 gxf5 19.Ra3 Rg8 20.Rg3 Rc8 21.Nf3 Rc4 22.b3 Re4 23.Rxe4 dxe4
+24.Nd4 Bc8 25.f3 exf3 26.Nxf3 Qxd2 27.Nxd2 Bd7 28.Nc4 Bc6 29.Nd6 f6 30.exf6 Bxf6
+31.Rxg8 Kxg8 32.Bxh6 Bxh4 33.Bd2 Bg3 34.Nc4 Be4 35.Ne3 Kf7 36.Nf1 Bc7 37.c4 Bc2
+38.b4 Bd3 39.c5 e5 40.Kf2 Ke6 41.g3  0-1
+
+[Event "Skopje ol (Women)"]
+[Site "Skopje"]
+[Date "1972.??.??"]
+[Round "?"]
 [White "Jansen, Ingrid"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -3304,24 +3322,6 @@
 23.Rxa4 Nxb2 24.Rxa8 Rxa8 25.Rxa8 Qxa8 26.h4 Bd8 27.Qb5 Kf8 28.Kg2 Qc8 29.c3 Qc4
 30.Qxc4 Nxc4 31.Kf3 Nb6 32.Ke2 Nxd5 33.exd5 g6 34.fxg6 hxg6 35.Nd2 f5 36.Nc4 Ke7
 37.Kd3 Kd7 38.h5 gxh5 39.Ne3 h4 40.gxh4 Bxh4 41.Nxf5  1/2-1/2
-
-[Event "Skopje ol (Women)"]
-[Site "Skopje"]
-[Date "1972.??.??"]
-[Round "?"]
-[White "Polihroniade, Elisabeta"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2225"]
-[BlackElo "2450"]
-[ECO "B06"]
-
-1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.Nf3 c6 5.Bc4 e6 6.a4 d5 7.Bd3 Ne7 8.O-O h6 9.Bf4 O-O
-10.e5 c5 11.Qd2 cxd4 12.Nb5 Kh7 13.Nbxd4 Nbc6 14.Rfe1 Bd7 15.a5 a6 16.h4 Nxd4
-17.Nxd4 Nf5 18.Bxf5 gxf5 19.Ra3 Rg8 20.Rg3 Rc8 21.Nf3 Rc4 22.b3 Re4 23.Rxe4 dxe4
-24.Nd4 Bc8 25.f3 exf3 26.Nxf3 Qxd2 27.Nxd2 Bd7 28.Nc4 Bc6 29.Nd6 f6 30.exf6 Bxf6
-31.Rxg8 Kxg8 32.Bxh6 Bxh4 33.Bd2 Bg3 34.Nc4 Be4 35.Ne3 Kf7 36.Nf1 Bc7 37.c4 Bc2
-38.b4 Bd3 39.c5 e5 40.Kf2 Ke6 41.g3  0-1
 
 [Event "Skopje ol (Women)"]
 [Site "Skopje"]
@@ -3429,6 +3429,23 @@
 [Site "Olot"]
 [Date "1973.??.??"]
 [Round "?"]
+[White "Bukic, Enver"]
+[Black "Gaprindashvili, Nona"]
+[Result "1/2-1/2"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "D94"]
+
+1.Nf3 Nf6 2.c4 g6 3.Nc3 d5 4.d4 Bg7 5.e3 O-O 6.Bd2 c5 7.dxc5 Na6 8.cxd5 Nxc5
+9.Bc4 Bf5 10.O-O Rc8 11.Qe2 Nfe4 12.Nd4 Nxd2 13.Qxd2 Ne4 14.Qe2 Nxc3 15.bxc3 Be4
+16.Bb3 Bxd5 17.c4 Be4 18.Rad1 Qb6 19.f3 Bc6 20.Nxc6 Qxc6 21.Rd3 Rfd8 22.Rfd1 Rxd3
+23.Qxd3 Qc5 24.Qe4 Bf6 25.Kf2 Rc6 26.Rd5 Qa3 27.Qd3 Kg7 28.f4 Qc1 29.Qd1 Qxd1
+30.Rxd1 Rc7 31.Kf3 e6  1/2-1/2
+
+[Event "Olot"]
+[Site "Olot"]
+[Date "1973.??.??"]
+[Round "?"]
 [White "Gaprindashvili, Nona"]
 [Black "Medina Garcia, Antonio Angel"]
 [Result "1/2-1/2"]
@@ -3461,23 +3478,6 @@
 29.Qe8 Rd7 30.Qe6 Rd6 31.Qe8 Rd7 32.Qe6 Rd6 33.Qb3 Qe7 34.Bxb6+ Nxb6 35.a4 Qe5
 36.a5 Nc4 37.Nxc4 Qa1+ 38.Qb1 Rd1+ 39.Kxd1 Qxb1+ 40.Kd2 Qxb4+ 41.Kd3 Qc5
 42.Re8 Qxh5 43.Re3 Qf5+ 44.Kc3 Qxf2 45.Re8 Qxg3+ 46.Kb2 Qg5  0-1
-
-[Event "Olot"]
-[Site "Olot"]
-[Date "1973.??.??"]
-[Round "?"]
-[White "Bukic, Enver"]
-[Black "Gaprindashvili, Nona"]
-[Result "1/2-1/2"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "D94"]
-
-1.Nf3 Nf6 2.c4 g6 3.Nc3 d5 4.d4 Bg7 5.e3 O-O 6.Bd2 c5 7.dxc5 Na6 8.cxd5 Nxc5
-9.Bc4 Bf5 10.O-O Rc8 11.Qe2 Nfe4 12.Nd4 Nxd2 13.Qxd2 Ne4 14.Qe2 Nxc3 15.bxc3 Be4
-16.Bb3 Bxd5 17.c4 Be4 18.Rad1 Qb6 19.f3 Bc6 20.Nxc6 Qxc6 21.Rd3 Rfd8 22.Rfd1 Rxd3
-23.Qxd3 Qc5 24.Qe4 Bf6 25.Kf2 Rc6 26.Rd5 Qa3 27.Qd3 Kg7 28.f4 Qc1 29.Qd1 Qxd1
-30.Rxd1 Rc7 31.Kf3 e6  1/2-1/2
 
 [Event "URS-JUG"]
 [Site "Tbilisi"]
@@ -3514,24 +3514,6 @@
 23.Rb1 Bd5 24.Nd2 f6 25.Nec4 Rd8 26.f4 h6 27.Nd6 Kh7 28.Rb4 g5 29.fxg5 hxg5
 30.N2e4 Kg6 31.Nc3 Nxc3 32.Rxc3 Rda8 33.Nb5 Rc6 34.a4 Ra5 35.g3 g4 36.Kf2 Kg5
 37.Ke3 e5 38.Nd6 Ra7 39.Ne4+ Bxe4 40.Kxe4 exd4 41.Kxd4  1-0
-
-[Event "Goglidze mem"]
-[Site "Tbilisi"]
-[Date "1974.??.??"]
-[Round "?"]
-[White "Sigurjonsson, Gudmundur"]
-[Black "Gaprindashvili, Nona"]
-[Result "1/2-1/2"]
-[WhiteElo ""]
-[BlackElo ""]
-[ECO "B14"]
-
-1.e4 d5 2.exd5 Nf6 3.c4 c6 4.Nc3 cxd5 5.d4 g6 6.cxd5 Nxd5 7.Bc4 Nb6 8.Bb3 Bg7
-9.Nf3 O-O 10.d5 Bg4 11.Bg5 N8d7 12.h3 Bxf3 13.Qxf3 Nc5 14.Rd1 Qd7 15.O-O Rac8
-16.Rfe1 Rfe8 17.Re3 a5 18.Rde1 Bf8 19.h4 a4 20.Bc2 Nc4 21.R3e2 b5 22.h5 Nd6
-23.hxg6 hxg6 24.a3 Nb3 25.Bxb3 axb3 26.Ne4 Nxe4 27.Qxe4 Rc5 28.Rd2 Rd8 29.Bxe7 Re8
-30.d6 Bxe7 31.Rd3 Rc4 32.Qe3 Qe6 33.Qxe6 fxe6 34.Rxe6 Rc1+ 35.Kh2 Bxd6+ 36.Rdxd6 Rxe6
-37.Rxe6 Rc2 38.Rxg6+ Kf7 39.Rb6 Rxf2 40.Rxb5 Rxb2 41.a4 Ra2  1/2-1/2
 
 [Event "Goglidze mem"]
 [Site "Tbilisi"]
@@ -3577,6 +3559,24 @@
 44.b4 Kc8 45.Rh7 Rf8+ 46.Ke3 Rf7 47.Rxf7 Bxf7 48.Nc5 c6 49.Kd4 Kc7 50.Ne4 Bg6
 51.Nd2 Kd6 52.Nb3 Bf7 53.Nc5 Kc7 54.Ne4 Bg6 55.Ke5 Bf7 56.Nc5 Bg8 57.Nd3 Bf7
 58.Kd4 Kd6 59.Nc5 Kc7 60.Ke5 Bg8 61.Nd3 Bf7 62.Kd4 Bg6 63.Ne5 Bf5 64.Kc5 Be4  1-0
+
+[Event "Goglidze mem"]
+[Site "Tbilisi"]
+[Date "1974.??.??"]
+[Round "?"]
+[White "Sigurjonsson, Gudmundur"]
+[Black "Gaprindashvili, Nona"]
+[Result "1/2-1/2"]
+[WhiteElo ""]
+[BlackElo ""]
+[ECO "B14"]
+
+1.e4 d5 2.exd5 Nf6 3.c4 c6 4.Nc3 cxd5 5.d4 g6 6.cxd5 Nxd5 7.Bc4 Nb6 8.Bb3 Bg7
+9.Nf3 O-O 10.d5 Bg4 11.Bg5 N8d7 12.h3 Bxf3 13.Qxf3 Nc5 14.Rd1 Qd7 15.O-O Rac8
+16.Rfe1 Rfe8 17.Re3 a5 18.Rde1 Bf8 19.h4 a4 20.Bc2 Nc4 21.R3e2 b5 22.h5 Nd6
+23.hxg6 hxg6 24.a3 Nb3 25.Bxb3 axb3 26.Ne4 Nxe4 27.Qxe4 Rc5 28.Rd2 Rd8 29.Bxe7 Re8
+30.d6 Bxe7 31.Rd3 Rc4 32.Qe3 Qe6 33.Qxe6 fxe6 34.Rxe6 Rc1+ 35.Kh2 Bxd6+ 36.Rdxd6 Rxe6
+37.Rxe6 Rc2 38.Rxg6+ Kf7 39.Rb6 Rxf2 40.Rxb5 Rxb2 41.a4 Ra2  1/2-1/2
 
 [Event "Goglidze mem"]
 [Site "Tbilisi"]
@@ -3960,6 +3960,24 @@
 [Date "1975.??.??"]
 [Round "?"]
 [White "Gaprindashvili, Nona"]
+[Black "Nevednichaia, Raisa"]
+[Result "1-0"]
+[WhiteElo "2425"]
+[BlackElo "2000"]
+[ECO "C07"]
+
+1.e4 e6 2.d4 d5 3.Nd2 c5 4.Ngf3 Nc6 5.Bb5 Bd6 6.e5 Be7 7.O-O Bd7 8.Bxc6 Bxc6
+9.dxc5 Bxc5 10.Nb3 Be7 11.Nbd4 h5 12.c3 g6 13.b4 Qd7 14.a4 a6 15.Qd3 b6 16.Ng5 Bxg5
+17.Bxg5 Ne7 18.b5 Bb7 19.Bf6 Rg8 20.Qe3 Nf5 21.Nxf5 gxf5 22.Qxb6 Rg4 23.f3 Rc4
+24.Qe3 Qc8 25.bxa6 Bxa6 26.Qg5 Kd7 27.Qxh5 Qg8 28.Rfc1 Rac8 29.Qh6 Rxc3 30.Qd2 Rxc1+
+31.Rxc1 Rxc1+ 32.Qxc1 Qb8 33.h4 Qb6+ 34.Kh2 Qf2 35.h5 Bf1 36.Qg5 f4 37.h6 Qg3+
+38.Qxg3 fxg3+ 39.Kxg3 Bd3 40.Bg5 Bh7 41.Be3 Kc6 42.Kf4  1-0
+
+[Event "URS-chT"]
+[Site "Riga"]
+[Date "1975.??.??"]
+[Round "?"]
+[White "Gaprindashvili, Nona"]
 [Black "Levitina, Irina S"]
 [Result "1-0"]
 [WhiteElo "2425"]
@@ -3989,24 +4007,6 @@
 24.Qg4 Ref8 25.Nc5 Ne3 26.Bxe3 fxe3 27.Rxf5 exf5 28.Qf3 Re8 29.Kg2 Bxd4 30.cxd4 Qxd4
 31.Nb3 Qxh4 32.Rxe3 Qxg5+ 33.Qg3 Qxe3 34.Qxg6+ Kh8 35.Qf6+ Kh7 36.Qf7+ Kh6
 37.Qf6+ Kh5 38.Qf7+ Kh4 39.Qh7+ Kg5 40.Qg7+ Kh5 41.Qf7+ Kg4  1/2-1/2
-
-[Event "URS-chT"]
-[Site "Riga"]
-[Date "1975.??.??"]
-[Round "?"]
-[White "Gaprindashvili, Nona"]
-[Black "Nevednichaia, Raisa"]
-[Result "1-0"]
-[WhiteElo "2425"]
-[BlackElo "2000"]
-[ECO "C07"]
-
-1.e4 e6 2.d4 d5 3.Nd2 c5 4.Ngf3 Nc6 5.Bb5 Bd6 6.e5 Be7 7.O-O Bd7 8.Bxc6 Bxc6
-9.dxc5 Bxc5 10.Nb3 Be7 11.Nbd4 h5 12.c3 g6 13.b4 Qd7 14.a4 a6 15.Qd3 b6 16.Ng5 Bxg5
-17.Bxg5 Ne7 18.b5 Bb7 19.Bf6 Rg8 20.Qe3 Nf5 21.Nxf5 gxf5 22.Qxb6 Rg4 23.f3 Rc4
-24.Qe3 Qc8 25.bxa6 Bxa6 26.Qg5 Kd7 27.Qxh5 Qg8 28.Rfc1 Rac8 29.Qh6 Rxc3 30.Qd2 Rxc1+
-31.Rxc1 Rxc1+ 32.Qxc1 Qb8 33.h4 Qb6+ 34.Kh2 Qf2 35.h5 Bf1 36.Qg5 f4 37.h6 Qg3+
-38.Qxg3 fxg3+ 39.Kxg3 Bd3 40.Bg5 Bh7 41.Be3 Kc6 42.Kf4  1-0
 
 [Event "URS-chT"]
 [Site "Riga"]
@@ -4988,6 +4988,21 @@
 [Site "Buenos Aires"]
 [Date "1978.??.??"]
 [Round "?"]
+[White "Caldwell, Susan L"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo "2000"]
+[BlackElo "2425"]
+[ECO "B09"]
+
+1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4 Nf6 5.Nf3 O-O 6.e5 dxe5 7.dxe5 Qxd1+ 8.Kxd1 Nh5
+9.Be2 Nc6 10.Be3 f6 11.exf6 Bxf6 12.g3 Ng7 13.Bc4+ Kh8 14.Ke2 Bg4 15.h3 Bxf3+
+16.Kxf3 Bxc3  0-1
+
+[Event "Buenos Aires ol (Women)"]
+[Site "Buenos Aires"]
+[Date "1978.??.??"]
+[Round "?"]
 [White "Stretch, Winsome R"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -4999,21 +5014,6 @@
 9.Nf3 Bg4 10.fxe5 Bxe5 11.Bxe5 Bxf3 12.Qxf3 Qxe5 13.d4 Qe7 14.c4 Nf6 15.Nc3 O-O
 16.Kf2 Rfe8 17.Rae1 dxc4 18.bxc4 Qb4 19.Rc1 Qxc4 20.Ne2 Qxa2 21.Rxc6 Ne4+
 22.Kg1 Ng5 23.Qf5 Qd2  0-1
-
-[Event "Buenos Aires ol (Women)"]
-[Site "Buenos Aires"]
-[Date "1978.??.??"]
-[Round "?"]
-[White "Caldwell, Susan L"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2000"]
-[BlackElo "2425"]
-[ECO "B09"]
-
-1.e4 g6 2.d4 Bg7 3.Nc3 d6 4.f4 Nf6 5.Nf3 O-O 6.e5 dxe5 7.dxe5 Qxd1+ 8.Kxd1 Nh5
-9.Be2 Nc6 10.Be3 f6 11.exf6 Bxf6 12.g3 Ng7 13.Bc4+ Kh8 14.Ke2 Bg4 15.h3 Bxf3+
-16.Kxf3 Bxc3  0-1
 
 [Event "Buenos Aires ol (Women)"]
 [Site "Buenos Aires"]
@@ -5936,6 +5936,25 @@
 [Site "URS"]
 [Date "1979.??.??"]
 [Round "?"]
+[White "Khalafian, Erua"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo "2000"]
+[BlackElo "2405"]
+[ECO "B24"]
+
+1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.g3 d5 7.exd5 exd5 8.Bg2 Be7
+9.O-O O-O 10.Re1 Bg4 11.Nxc6 bxc6 12.Qd3 Be6 13.Ne2 Ng4 14.Nd4 Qb6 15.h3 Bf6
+16.c3 Ne5 17.Qc2 Bd7 18.Nb3 Nc4 19.Be3 Nxe3 20.Rxe3 Rab8 21.Re2 a5 22.Rd1 Rfe8
+23.Rxe8+ Rxe8 24.Kh2 g6 25.Nd4 a4 26.b4 c5 27.bxc5 Qxc5 28.Qb2 Rc8 29.Rd3 Kg7
+30.Qb7 Bxd4 31.cxd4 Qb5 32.Qxb5 Bxb5 33.Rd2 Bc4 34.a3 Rb8 35.Bf3 Rb3 36.Be2 Rxa3
+37.Bxc4 dxc4 38.Rc2 c3 39.Kg2 Kf6 40.Kf3 Ke6 41.Ke4 f5+ 42.Kd3 Kd5 43.f4 Rb3
+44.g4 Rb2 45.Rxc3 Rb3  0-1
+
+[Event "URS Spartakiad"]
+[Site "URS"]
+[Date "1979.??.??"]
+[Round "?"]
 [White "Litinskaya, Marta I"]
 [Black "Gaprindashvili, Nona"]
 [Result "1-0"]
@@ -5989,25 +6008,6 @@
 16.Bxf6 Bxf6 17.Nd5 Bxd4+ 18.Qxd4 Qxd4+ 19.Rxd4 Rxc2 20.Nxe7+ Kg7 21.e5 d5
 22.Nxd5 Rxb2 23.Nf6 Bc6 24.Rc1 Ra2 25.Rcc4 Rc8 26.Rc1 Re2 27.Rc5 b6 28.Rc1 Rxe5
 29.Nd5 Rd8  1/2-1/2
-
-[Event "URS Spartakiad"]
-[Site "URS"]
-[Date "1979.??.??"]
-[Round "?"]
-[White "Khalafian, Erua"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2000"]
-[BlackElo "2405"]
-[ECO "B24"]
-
-1.e4 c5 2.Nf3 e6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.g3 d5 7.exd5 exd5 8.Bg2 Be7
-9.O-O O-O 10.Re1 Bg4 11.Nxc6 bxc6 12.Qd3 Be6 13.Ne2 Ng4 14.Nd4 Qb6 15.h3 Bf6
-16.c3 Ne5 17.Qc2 Bd7 18.Nb3 Nc4 19.Be3 Nxe3 20.Rxe3 Rab8 21.Re2 a5 22.Rd1 Rfe8
-23.Rxe8+ Rxe8 24.Kh2 g6 25.Nd4 a4 26.b4 c5 27.bxc5 Qxc5 28.Qb2 Rc8 29.Rd3 Kg7
-30.Qb7 Bxd4 31.cxd4 Qb5 32.Qxb5 Bxb5 33.Rd2 Bc4 34.a3 Rb8 35.Bf3 Rb3 36.Be2 Rxa3
-37.Bxc4 dxc4 38.Rc2 c3 39.Kg2 Kf6 40.Kf3 Ke6 41.Ke4 f5+ 42.Kd3 Kd5 43.f4 Rb3
-44.g4 Rb2 45.Rxc3 Rb3  0-1
 
 [Event "URS Spartakiad"]
 [Site "URS"]
@@ -6308,6 +6308,23 @@
 [Site "La Valetta"]
 [Date "1980.??.??"]
 [Round "?"]
+[White "Hund, Barbara"]
+[Black "Gaprindashvili, Nona"]
+[Result "1-0"]
+[WhiteElo "2110"]
+[BlackElo "2375"]
+[ECO "B06"]
+
+1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.g3 d5 5.Nge2 dxe4 6.Nxe4 Bg4 7.Bg2 Nd7 8.c3 Ngf6
+9.Nxf6+ Nxf6 10.O-O O-O 11.Re1 Qd7 12.Qb3 Rfe8 13.Nf4 Bf5 14.d5 c5 15.c4 Rac8
+16.a4 h5 17.a5 Ng4 18.h3 Ne5 19.Bd2 e6 20.Bc3 exd5 21.Nxd5 Nc6 22.Nf6+ Bxf6
+23.Bxf6 Bxh3 24.Bd5 Qf5 25.Rxe8+ Rxe8 26.Qxb7 Qxf6 27.Qxc6 Qe7 28.Qxg6+ Kf8
+29.Qxh5 Be6 30.Qh8+  1-0
+
+[Event "Malta ol (Women)"]
+[Site "La Valetta"]
+[Date "1980.??.??"]
+[Round "?"]
 [White "Gaprindashvili, Nona"]
 [Black "Crotto, Rachel"]
 [Result "0-1"]
@@ -6357,23 +6374,6 @@
 9.Bg5 Be6 10.f4 exf4 11.Bxf4 Nc6 12.Kh1 Rc8 13.Qe1 Ne8 14.Rd1 Bh4 15.Qd2 Bf6
 16.Rf3 Ne5 17.Rg3 Ng6 18.Bg5 Bxg5 19.Rxg5 Nf6 20.Bf3 Ne5 21.Nd4 Qe7 22.Rg3 Kh8
 23.Nf5 Bxf5 24.exf5 Nxf3 25.Rxf3 Rfe8 26.h3 d5 27.Nxd5 Nxd5 28.Qxd5 Rcd8  0-1
-
-[Event "Malta ol (Women)"]
-[Site "La Valetta"]
-[Date "1980.??.??"]
-[Round "?"]
-[White "Hund, Barbara"]
-[Black "Gaprindashvili, Nona"]
-[Result "1-0"]
-[WhiteElo "2110"]
-[BlackElo "2375"]
-[ECO "B06"]
-
-1.e4 g6 2.d4 Bg7 3.Nc3 c6 4.g3 d5 5.Nge2 dxe4 6.Nxe4 Bg4 7.Bg2 Nd7 8.c3 Ngf6
-9.Nxf6+ Nxf6 10.O-O O-O 11.Re1 Qd7 12.Qb3 Rfe8 13.Nf4 Bf5 14.d5 c5 15.c4 Rac8
-16.a4 h5 17.a5 Ng4 18.h3 Ne5 19.Bd2 e6 20.Bc3 exd5 21.Nxd5 Nc6 22.Nf6+ Bxf6
-23.Bxf6 Bxh3 24.Bd5 Qf5 25.Rxe8+ Rxe8 26.Qxb7 Qxf6 27.Qxc6 Qe7 28.Qxg6+ Kf8
-29.Qxh5 Be6 30.Qh8+  1-0
 
 [Event "Rostov"]
 [Site "Rostov"]
@@ -6653,6 +6653,23 @@
 23.g3 Nd3 24.Rd1 Bxf3 25.Rxd3 Bd5 26.Qd1 h5 27.f3 Rc8 28.Kf2 h4 29.g4 Qf4
 30.Kg1 h3 31.Bd4 Rc1  0-1
 
+[Event "Candidats (Women) qf4"]
+[Site "Tbilisi"]
+[Date "1980.??.??"]
+[Round "7"]
+[White "Gaprindashvili, Nona"]
+[Black "Gurieli, Nino"]
+[Result "0-1"]
+[WhiteElo "2375"]
+[BlackElo "2255"]
+[ECO "B07"]
+
+1.d4 d6 2.e4 Nf6 3.Nc3 g6 4.g3 Bg7 5.Bg2 O-O 6.Nge2 Nbd7 7.h3 e5 8.O-O exd4
+9.Nxd4 Re8 10.Re1 Nc5 11.a4 a5 12.Ndb5 Bd7 13.Bg5 h6 14.Bf4 Bc6 15.e5 Nh5
+16.exd6 Rxe1+ 17.Qxe1 Nxf4 18.dxc7 Qg5 19.Bxc6 bxc6 20.Na7 Bd4 21.Kh2 Qf5
+22.g4 Qd7 23.c8=Q+ Rxc8 24.Nxc8 Qxc8 25.Rd1 Nce6 26.Ne4 Qb8 27.Qxa5 Nd5+
+28.Kg2 Qe5 29.Qa8+ Kg7 30.Ng3 Nef4+ 31.Kf1 Bxf2  0-1
+
 [Event "Candidats (Women) sf1"]
 [Site "Tbilisi"]
 [Date "1980.??.??"]
@@ -6670,23 +6687,6 @@
 23.Rd1 b4 24.Qc2 Qa4 25.Qd2 b3 26.h3 Na5 27.Qe2 Ba6 28.Nh4 Qxe4 29.Nhf5 Qa4
 30.c4 Bc8 31.Qh5 Nc6 32.f4 Nd4 33.fxe5 dxe5 34.Rf1 Qd7 35.Nxh6+ gxh6 36.Ng4 Ne2+
 37.Kh2 Nxg3 38.Nf6+ Kg7 39.Kxg3 Qe6 40.Nxe8+ Qxe8 41.Re1 Bd6 42.Kh2 e4+ 43.Kh1  0-1
-
-[Event "Candidats (Women) qf4"]
-[Site "Tbilisi"]
-[Date "1980.??.??"]
-[Round "7"]
-[White "Gaprindashvili, Nona"]
-[Black "Gurieli, Nino"]
-[Result "0-1"]
-[WhiteElo "2375"]
-[BlackElo "2255"]
-[ECO "B07"]
-
-1.d4 d6 2.e4 Nf6 3.Nc3 g6 4.g3 Bg7 5.Bg2 O-O 6.Nge2 Nbd7 7.h3 e5 8.O-O exd4
-9.Nxd4 Re8 10.Re1 Nc5 11.a4 a5 12.Ndb5 Bd7 13.Bg5 h6 14.Bf4 Bc6 15.e5 Nh5
-16.exd6 Rxe1+ 17.Qxe1 Nxf4 18.dxc7 Qg5 19.Bxc6 bxc6 20.Na7 Bd4 21.Kh2 Qf5
-22.g4 Qd7 23.c8=Q+ Rxc8 24.Nxc8 Qxc8 25.Rd1 Nce6 26.Ne4 Qb8 27.Qxa5 Nd5+
-28.Kg2 Qe5 29.Qa8+ Kg7 30.Ng3 Nef4+ 31.Kf1 Bxf2  0-1
 
 [Event "Candidats (Women) qf4"]
 [Site "Tbilisi"]
@@ -6726,23 +6726,6 @@
 58.Ke2 Nh3 59.Rc8+ Kd7 60.Rh8 Ng5 61.Rh5 Nf7 62.Rh7 Ke8 63.Kd3 Ng5 64.Rb7 Nf3
 65.Rxb6 Ne1+ 66.Kd2 Nf3+ 67.Ke2 Ng1+ 68.Kd3  1-0
 
-[Event "Candidats (Women) qf4"]
-[Site "Tbilisi"]
-[Date "1980.??.??"]
-[Round "9"]
-[White "Gaprindashvili, Nona"]
-[Black "Gurieli, Nino"]
-[Result "1-0"]
-[WhiteElo "2375"]
-[BlackElo "2255"]
-[ECO "E74"]
-
-1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 O-O 6.Bg5 c5 7.d5 b5 8.cxb5 a6 9.a4 h6
-10.Bd2 Nbd7 11.Nf3 axb5 12.axb5 Bb7 13.O-O Qc7 14.Qc2 Rfe8 15.Ra3 Nb6 16.Rfa1 e6
-17.Rxa8 Bxa8 18.dxe6 Rxe6 19.Bd3 Re8 20.Re1 c4 21.Bf1 Nbd7 22.Qa4 Nb6 23.Qc2 g5
-24.Be3 Ng4 25.Bxb6 Qxb6 26.Bxc4 Bd4 27.Nxd4 Qxd4 28.Qe2 Nf6 29.Bd3 d5 30.e5 Ng4
-31.Rd1 Qb4 32.Na2 Qb3 33.Qxg4 Qxa2 34.Qf5 Re6 35.Rc1 Rg6 36.Qc8+ Kg7 37.Bxg6  1-0
-
 [Event "Candidats (Women) sf1"]
 [Site "Tbilisi"]
 [Date "1980.??.??"]
@@ -6761,6 +6744,23 @@
 30.Rxd8 Qc6 31.Red1 Kh7 32.Ne3 Rd7 33.R8xd7 Nxd7 34.Qd2 Nc5 35.Qxb4 Ne4 36.Be1 h5
 37.Nd5 Qc2 38.Ne3 Qe2 39.Qd4 Bh6 40.Qd3 Qa2 41.Qc4 Qxc4 42.Nxc4 Bc6 43.Na5 Ba4
 44.Rd4 Bc2 45.g3 h4 46.Nc4 Nxg3 47.Bxg3 hxg3 48.Nd6  1-0
+
+[Event "Candidats (Women) qf4"]
+[Site "Tbilisi"]
+[Date "1980.??.??"]
+[Round "9"]
+[White "Gaprindashvili, Nona"]
+[Black "Gurieli, Nino"]
+[Result "1-0"]
+[WhiteElo "2375"]
+[BlackElo "2255"]
+[ECO "E74"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 O-O 6.Bg5 c5 7.d5 b5 8.cxb5 a6 9.a4 h6
+10.Bd2 Nbd7 11.Nf3 axb5 12.axb5 Bb7 13.O-O Qc7 14.Qc2 Rfe8 15.Ra3 Nb6 16.Rfa1 e6
+17.Rxa8 Bxa8 18.dxe6 Rxe6 19.Bd3 Re8 20.Re1 c4 21.Bf1 Nbd7 22.Qa4 Nb6 23.Qc2 g5
+24.Be3 Ng4 25.Bxb6 Qxb6 26.Bxc4 Bd4 27.Nxd4 Qxd4 28.Qe2 Nf6 29.Bd3 d5 30.e5 Ng4
+31.Rd1 Qb4 32.Na2 Qb3 33.Qxg4 Qxa2 34.Qf5 Re6 35.Rc1 Rg6 36.Qc8+ Kg7 37.Bxg6  1-0
 
 [Event "Candidats (Women) sf1"]
 [Site "Tbilisi"]
@@ -6882,6 +6882,26 @@
 [Site "Ckhaltubo"]
 [Date "1981.??.??"]
 [Round "?"]
+[White "Vasiukov, Evgeni"]
+[Black "Gaprindashvili, Nona"]
+[Result "1-0"]
+[WhiteElo "2545"]
+[BlackElo "2300"]
+[ECO "B50"]
+
+1.e4 c5 2.Nf3 d6 3.Nc3 Nf6 4.g3 e5 5.Bg2 g6 6.d3 Bg7 7.Bg5 h6 8.Bxf6 Bxf6
+9.h4 Bg4 10.Bh3 Bxh3 11.Rxh3 Qd7 12.Rh1 Nc6 13.Nd5 Bg7 14.h5 O-O-O 15.Nh4 Qe6
+16.c3 Bf8 17.Qb3 Kb8 18.hxg6 fxg6 19.Nb4 Qxb3 20.Nxc6+ bxc6 21.axb3 Rg8 22.Ke2 Rd7
+23.Nf3 Bg7 24.Nd2 Rf8 25.Nc4 Rdf7 26.Rhf1 Rf6 27.Ra4 R8f7 28.Na5 d5 29.b4 cxb4
+30.Rxb4+ Kc8 31.Ra4 Bf8 32.b4 h5 33.c4 dxe4 34.dxe4 g5 35.c5 h4 36.g4 Rd7
+37.f3 Be7 38.Rfa1 h3 39.Nc4 h2 40.Nxe5 Rb7 41.Rh1 Rh6 42.Nc4 Kd7 43.Kf1 Bf6
+44.e5 Bh8 45.Nd6 Rc7 46.Nf7 Rh4 47.Ra2 Ke6 48.Nxg5+ Kd5 49.Rhxh2 Rxh2 50.Rxh2 Bxe5
+51.Re2 Rb7 52.Re4 Bc3 53.Ne6  1-0
+
+[Event "Ckhaltubo"]
+[Site "Ckhaltubo"]
+[Date "1981.??.??"]
+[Round "?"]
 [White "Giorgadze, Tamaz"]
 [Black "Gaprindashvili, Nona"]
 [Result "1-0"]
@@ -6940,25 +6960,24 @@
 63.Ke6 Nf5 64.Ra4 Ng7+ 65.Kd5 Kf5 66.Kd6 Kg6 67.Rf4 Nf5+ 68.Kd5 Ng7 69.Ke4 Kf7
 70.Rf1 Kg6 71.Rg1+ Kf7 72.Rg3 Ne6 73.Ra3 Ng7  1/2-1/2
 
-[Event "Ckhaltubo"]
-[Site "Ckhaltubo"]
+[Event "URS-ch (Women)"]
+[Site "Ivano Frankovsk"]
 [Date "1981.??.??"]
 [Round "?"]
-[White "Vasiukov, Evgeni"]
+[White "Zaitseva, Ludmila G"]
 [Black "Gaprindashvili, Nona"]
-[Result "1-0"]
-[WhiteElo "2545"]
+[Result "0-1"]
+[WhiteElo "2160"]
 [BlackElo "2300"]
-[ECO "B50"]
+[ECO "A53"]
 
-1.e4 c5 2.Nf3 d6 3.Nc3 Nf6 4.g3 e5 5.Bg2 g6 6.d3 Bg7 7.Bg5 h6 8.Bxf6 Bxf6
-9.h4 Bg4 10.Bh3 Bxh3 11.Rxh3 Qd7 12.Rh1 Nc6 13.Nd5 Bg7 14.h5 O-O-O 15.Nh4 Qe6
-16.c3 Bf8 17.Qb3 Kb8 18.hxg6 fxg6 19.Nb4 Qxb3 20.Nxc6+ bxc6 21.axb3 Rg8 22.Ke2 Rd7
-23.Nf3 Bg7 24.Nd2 Rf8 25.Nc4 Rdf7 26.Rhf1 Rf6 27.Ra4 R8f7 28.Na5 d5 29.b4 cxb4
-30.Rxb4+ Kc8 31.Ra4 Bf8 32.b4 h5 33.c4 dxe4 34.dxe4 g5 35.c5 h4 36.g4 Rd7
-37.f3 Be7 38.Rfa1 h3 39.Nc4 h2 40.Nxe5 Rb7 41.Rh1 Rh6 42.Nc4 Kd7 43.Kf1 Bf6
-44.e5 Bh8 45.Nd6 Rc7 46.Nf7 Rh4 47.Ra2 Ke6 48.Nxg5+ Kd5 49.Rhxh2 Rxh2 50.Rxh2 Bxe5
-51.Re2 Rb7 52.Re4 Bc3 53.Ne6  1-0
+1.d4 d6 2.Nf3 Bg4 3.e3 Nd7 4.Be2 e5 5.c4 Ngf6 6.Nc3 c6 7.O-O Be7 8.b4 O-O
+9.Qb3 a5 10.bxa5 Qxa5 11.a4 e4 12.Nd2 Bxe2 13.Nxe2 b5 14.cxb5 cxb5 15.Nc3 Rfb8
+16.Bb2 bxa4 17.Rxa4 Qxa4 18.Qxa4 Rxa4 19.Nxa4 d5 20.Bc3 Ra8 21.Ra1 Ne8 22.Nb3 Nc7
+23.Nac5 Rxa1+ 24.Bxa1 Bxc5 25.dxc5 f6 26.Bc3 Nb8 27.Ba5 Ne6 28.Kf1 Kf7 29.Ke2 Ke8
+30.Kd2 Kd7 31.Kc3 Nc6 32.Bb4 f5 33.Ba3 g5 34.Nd4 f4 35.Nxe6 Kxe6 36.Bc1 d4+
+37.Kc4 dxe3 38.fxe3 f3 39.gxf3 exf3 40.Kd3 Ne5+ 41.Kd2 Kd5 42.e4+ Kxe4 43.Ke1 Nd3+
+44.Kf1 Nxc1 45.c6 Ke3  0-1
 
 [Event "URS-ch (Women)"]
 [Site "Ivano Frankovsk"]
@@ -6998,22 +7017,6 @@
 [Site "Ivano Frankovsk"]
 [Date "1981.??.??"]
 [Round "?"]
-[White "Gurieli, Nino"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2290"]
-[BlackElo "2300"]
-[ECO "D79"]
-
-1.Nf3 Nf6 2.g3 g6 3.Bg2 Bg7 4.O-O O-O 5.c4 c6 6.d4 d5 7.cxd5 cxd5 8.Ne5 Nc6
-9.Nc3 e6 10.Nxc6 bxc6 11.Na4 Nd7 12.Be3 Ba6 13.Rc1 Qa5 14.b3 Rfc8 15.Qc2 Bb5
-16.Nc3 Ba6 17.Na4 Bf8 18.Nc5 Nxc5 19.dxc5 Bg7 20.Bd2 Qa3 21.Rfe1 Bb5 22.e4 dxe4
-23.Bxe4 Rd8 24.Rcd1 f5 25.Bc1 Qb4 26.Bg2 Bd3 27.Ba3 Qxe1+  0-1
-
-[Event "URS-ch (Women)"]
-[Site "Ivano Frankovsk"]
-[Date "1981.??.??"]
-[Round "?"]
 [White "Titorenko, Natalia I"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -7039,20 +7042,17 @@
 [Site "Ivano Frankovsk"]
 [Date "1981.??.??"]
 [Round "?"]
-[White "Zaitseva, Ludmila G"]
+[White "Gurieli, Nino"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
-[WhiteElo "2160"]
+[WhiteElo "2290"]
 [BlackElo "2300"]
-[ECO "A53"]
+[ECO "D79"]
 
-1.d4 d6 2.Nf3 Bg4 3.e3 Nd7 4.Be2 e5 5.c4 Ngf6 6.Nc3 c6 7.O-O Be7 8.b4 O-O
-9.Qb3 a5 10.bxa5 Qxa5 11.a4 e4 12.Nd2 Bxe2 13.Nxe2 b5 14.cxb5 cxb5 15.Nc3 Rfb8
-16.Bb2 bxa4 17.Rxa4 Qxa4 18.Qxa4 Rxa4 19.Nxa4 d5 20.Bc3 Ra8 21.Ra1 Ne8 22.Nb3 Nc7
-23.Nac5 Rxa1+ 24.Bxa1 Bxc5 25.dxc5 f6 26.Bc3 Nb8 27.Ba5 Ne6 28.Kf1 Kf7 29.Ke2 Ke8
-30.Kd2 Kd7 31.Kc3 Nc6 32.Bb4 f5 33.Ba3 g5 34.Nd4 f4 35.Nxe6 Kxe6 36.Bc1 d4+
-37.Kc4 dxe3 38.fxe3 f3 39.gxf3 exf3 40.Kd3 Ne5+ 41.Kd2 Kd5 42.e4+ Kxe4 43.Ke1 Nd3+
-44.Kf1 Nxc1 45.c6 Ke3  0-1
+1.Nf3 Nf6 2.g3 g6 3.Bg2 Bg7 4.O-O O-O 5.c4 c6 6.d4 d5 7.cxd5 cxd5 8.Ne5 Nc6
+9.Nc3 e6 10.Nxc6 bxc6 11.Na4 Nd7 12.Be3 Ba6 13.Rc1 Qa5 14.b3 Rfc8 15.Qc2 Bb5
+16.Nc3 Ba6 17.Na4 Bf8 18.Nc5 Nxc5 19.dxc5 Bg7 20.Bd2 Qa3 21.Rfe1 Bb5 22.e4 dxe4
+23.Bxe4 Rd8 24.Rcd1 f5 25.Bc1 Qb4 26.Bg2 Bd3 27.Ba3 Qxe1+  0-1
 
 [Event "Luzern ol (Women)"]
 [Site "Luzern"]
@@ -7328,20 +7328,6 @@
 [Site "Bela Crkva"]
 [Date "1984.??.??"]
 [Round "?"]
-[White "Martinovic, Slobodan"]
-[Black "Gaprindashvili, Nona"]
-[Result "1/2-1/2"]
-[WhiteElo "2460"]
-[BlackElo "2330"]
-[ECO "B50"]
-
-1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Bd3 Nc6 5.Bc2 Bg4 6.d3 g6 7.Nbd2 Bg7 8.h3 Bd7
-9.a3 O-O 10.O-O Ne8 11.Nb3 a5 12.Be3 a4 13.Nc1 b5 14.d4  1/2-1/2
-
-[Event "Bela Crkva op"]
-[Site "Bela Crkva"]
-[Date "1984.??.??"]
-[Round "?"]
 [White "Velimirovic, Dragoljub"]
 [Black "Gaprindashvili, Nona"]
 [Result "1/2-1/2"]
@@ -7357,24 +7343,19 @@
 37.Qa5+ Nb6 38.Rf8+ Kc7 39.Qc3+ Kb7 40.Rf7 Qxe6+ 41.Qf6 Qg4+ 42.Kh6 Rxf7
 43.Qxf7+ Nd7 44.Qd5+ Kb6 45.Qd6+ Kb7 46.b4 h4 47.Qd5+ Kc7  1/2-1/2
 
-[Event "Jajce (Women)"]
-[Site "Jajce"]
+[Event "Bela Crkva op"]
+[Site "Bela Crkva"]
 [Date "1984.??.??"]
 [Round "?"]
-[White "Gaprindashvili, Nona"]
-[Black "Nutu Gajic, Dana"]
+[White "Martinovic, Slobodan"]
+[Black "Gaprindashvili, Nona"]
 [Result "1/2-1/2"]
-[WhiteElo "2330"]
-[BlackElo "2165"]
-[ECO "D28"]
+[WhiteElo "2460"]
+[BlackElo "2330"]
+[ECO "B50"]
 
-1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 6.Qe2 a6 7.dxc5 Bxc5 8.O-O Nc6
-9.Nc3 Qc7 10.Bd2 O-O 11.Rac1 Bd7 12.Bd3 Ne5 13.Bb1 Nxf3+ 14.Qxf3 Bc6 15.e4 Bd6
-16.h3 Qb6 17.Qe2 Be5 18.Be3 Bd4 19.Bxd4 Qxd4 20.Rcd1 Qe5 21.f4 Qc5+ 22.Qf2 Qxf2+
-23.Kxf2 Rfd8 24.Ke3 Kf8 25.g4 h6 26.Rxd8+ Rxd8 27.Rc1 Ke7 28.Ne2 Rc8 29.Nd4 Bd7
-30.Rxc8 Bxc8 31.Nf3 b6 32.b4 Bb7 33.Bd3 Nd7 34.h4 f6 35.h5 Kd8 36.Nd4 Nf8
-37.Be2 Bc8 38.Nf3 e5 39.fxe5 fxe5 40.g5 hxg5 41.Nxg5 Ke7 42.Bc4 Kf6 43.Nf7 Be6
-44.Bxe6 Kxe6 45.Nd8+ Kd7  1/2-1/2
+1.e4 c5 2.Nf3 d6 3.c3 Nf6 4.Bd3 Nc6 5.Bc2 Bg4 6.d3 g6 7.Nbd2 Bg7 8.h3 Bd7
+9.a3 O-O 10.O-O Ne8 11.Nb3 a5 12.Be3 a4 13.Nc1 b5 14.d4  1/2-1/2
 
 [Event "Jajce (Women)"]
 [Site "Jajce"]
@@ -7451,6 +7432,26 @@
 [Site "Jajce"]
 [Date "1984.??.??"]
 [Round "?"]
+[White "Maksimovic, Suzana"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo "2000"]
+[BlackElo "2330"]
+[ECO "A22"]
+
+1.c4 Nf6 2.Nc3 d6 3.g3 e5 4.Bg2 Be7 5.e3 c6 6.Nge2 Be6 7.d3 Qd7 8.O-O Bh3
+9.f4 h5 10.e4 h4 11.f5 hxg3 12.hxg3 Na6 13.Bxh3 Rxh3 14.Kg2 Rh8 15.Rh1 O-O-O
+16.Be3 Ng4 17.Bxa7 g6 18.Na4 Qe8 19.Qd2 gxf5 20.exf5 Qg8 21.Rxh8 Qxh8 22.Rh1 Qg7
+23.Nec3 Rh8 24.Qd1 Rxh1 25.Qxh1 Qh6 26.Qxh6 Nxh6 27.g4 Nxg4 28.Kf3 Nf6 29.a3 Nc7
+30.b4 b5 31.Nb2 d5 32.cxd5 cxd5 33.Bb6 d4 34.Ne4 Nfd5 35.Bc5 Kd7 36.a4 bxa4
+37.Nxa4 Kc6 38.Nb2 Bxc5 39.bxc5 Na6 40.Nc4 f6 41.Na5+ Kb5 42.Nb7 Nab4 43.Nbd6+ Kc6
+44.Ke2 Nf4+ 45.Kf3 Nbd5 46.Nf2 Kxc5 47.Nf7 Kc6 48.Nh6 Kd7 49.Nhg4 Ke7 50.Nh2 Nc3
+51.Nf1 Nxd3 52.Nxd3 e4+ 53.Kf2 exd3 54.Nd2 Kd6 55.Ke1 Kd5 56.Nb3 Ne4  0-1
+
+[Event "Jajce (Women)"]
+[Site "Jajce"]
+[Date "1984.??.??"]
+[Round "?"]
 [White "Alexandria, Nana"]
 [Black "Gaprindashvili, Nona"]
 [Result "1/2-1/2"]
@@ -7505,21 +7506,20 @@
 [Site "Jajce"]
 [Date "1984.??.??"]
 [Round "?"]
-[White "Maksimovic, Suzana"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2000"]
-[BlackElo "2330"]
-[ECO "A22"]
+[White "Gaprindashvili, Nona"]
+[Black "Nutu Gajic, Dana"]
+[Result "1/2-1/2"]
+[WhiteElo "2330"]
+[BlackElo "2165"]
+[ECO "D28"]
 
-1.c4 Nf6 2.Nc3 d6 3.g3 e5 4.Bg2 Be7 5.e3 c6 6.Nge2 Be6 7.d3 Qd7 8.O-O Bh3
-9.f4 h5 10.e4 h4 11.f5 hxg3 12.hxg3 Na6 13.Bxh3 Rxh3 14.Kg2 Rh8 15.Rh1 O-O-O
-16.Be3 Ng4 17.Bxa7 g6 18.Na4 Qe8 19.Qd2 gxf5 20.exf5 Qg8 21.Rxh8 Qxh8 22.Rh1 Qg7
-23.Nec3 Rh8 24.Qd1 Rxh1 25.Qxh1 Qh6 26.Qxh6 Nxh6 27.g4 Nxg4 28.Kf3 Nf6 29.a3 Nc7
-30.b4 b5 31.Nb2 d5 32.cxd5 cxd5 33.Bb6 d4 34.Ne4 Nfd5 35.Bc5 Kd7 36.a4 bxa4
-37.Nxa4 Kc6 38.Nb2 Bxc5 39.bxc5 Na6 40.Nc4 f6 41.Na5+ Kb5 42.Nb7 Nab4 43.Nbd6+ Kc6
-44.Ke2 Nf4+ 45.Kf3 Nbd5 46.Nf2 Kxc5 47.Nf7 Kc6 48.Nh6 Kd7 49.Nhg4 Ke7 50.Nh2 Nc3
-51.Nf1 Nxd3 52.Nxd3 e4+ 53.Kf2 exd3 54.Nd2 Kd6 55.Ke1 Kd5 56.Nb3 Ne4  0-1
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 6.Qe2 a6 7.dxc5 Bxc5 8.O-O Nc6
+9.Nc3 Qc7 10.Bd2 O-O 11.Rac1 Bd7 12.Bd3 Ne5 13.Bb1 Nxf3+ 14.Qxf3 Bc6 15.e4 Bd6
+16.h3 Qb6 17.Qe2 Be5 18.Be3 Bd4 19.Bxd4 Qxd4 20.Rcd1 Qe5 21.f4 Qc5+ 22.Qf2 Qxf2+
+23.Kxf2 Rfd8 24.Ke3 Kf8 25.g4 h6 26.Rxd8+ Rxd8 27.Rc1 Ke7 28.Ne2 Rc8 29.Nd4 Bd7
+30.Rxc8 Bxc8 31.Nf3 b6 32.b4 Bb7 33.Bd3 Nd7 34.h4 f6 35.h5 Kd8 36.Nd4 Nf8
+37.Be2 Bc8 38.Nf3 e5 39.fxe5 fxe5 40.g5 hxg5 41.Nxg5 Ke7 42.Bc4 Kf6 43.Nf7 Be6
+44.Bxe6 Kxe6 45.Nd8+ Kd7  1/2-1/2
 
 [Event "Jajce (Women)"]
 [Site "Jajce"]
@@ -7775,6 +7775,26 @@
 [Site "Albena"]
 [Date "1985.??.??"]
 [Round "?"]
+[White "Ermenkov, Evgenij"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo "2500"]
+[BlackElo "2350"]
+[ECO "B71"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.f4 g6 7.Be3 Bg7 8.Nb3 Ng4
+9.Bg1 e5 10.fxe5 Bxe5 11.Qf3 Qg5 12.g3 O-O 13.h3 Nf6 14.g4 h5 15.gxh5 Nxh5
+16.Bf2 Be6 17.Rg1 Qh6 18.Bd3 Nf4 19.h4 Nh3 20.Rh1 Nxf2 21.Qxf2 Kg7 22.Nd2 Bg4
+23.Ne2 Bxe2 24.Kxe2 Bxb2 25.Rab1 Bd4 26.Qg2 Ne5 27.Rh3 Qh5+ 28.Nf3 Bb6 29.a4 d5
+30.Rb5 dxe4 31.Bxe4 Rae8 32.Kf1 Ng4 33.Ng5 Ne3+ 34.Rxe3 Bxe3 35.Nf3 Qh6 36.Bd3 Qf4
+37.Rxb7 Qf6 38.h5 Qa1+ 39.Ne1 Bg5 40.Qxg5 Qxe1+ 41.Kg2 Re2+ 42.Bxe2 Qxe2+
+43.Kh1 Qf3+ 44.Qg2 Qxh5+ 45.Kg1 Qd1+ 46.Qf1 Qxc2 47.Rxa7 Qc5+ 48.Qf2 Qc4
+49.a5 Rb8 50.Re7 Qc1+ 51.Qe1 Qg5+ 52.Kf1 Rb5 53.Qe3 Qf6+  0-1
+
+[Event "Albena"]
+[Site "Albena"]
+[Date "1985.??.??"]
+[Round "?"]
 [White "Yudasin, Leonid"]
 [Black "Gaprindashvili, Nona"]
 [Result "1/2-1/2"]
@@ -7805,26 +7825,6 @@
 15.Rac1 Rac8 16.Qa4 Bxf3 17.Bxf3 Nd2 18.Bg4 Nxf1 19.Rxc8 Rxc8 20.Bxc8 Nxe3
 21.Qd7 Qxd7 22.Bxd7 Nd1 23.Bc8 b6 24.b3 Nc3 25.a3 Kf8 26.f3 Ke7 27.Kf2 Nb5
 28.a4 Nd4 29.b4 Kd6 30.Ba6 Nc2 31.b5 Kc5 32.Ke2 Kc4 33.Kd2 Nd4  0-1
-
-[Event "Albena"]
-[Site "Albena"]
-[Date "1985.??.??"]
-[Round "?"]
-[White "Ermenkov, Evgenij"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2500"]
-[BlackElo "2350"]
-[ECO "B71"]
-
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.f4 g6 7.Be3 Bg7 8.Nb3 Ng4
-9.Bg1 e5 10.fxe5 Bxe5 11.Qf3 Qg5 12.g3 O-O 13.h3 Nf6 14.g4 h5 15.gxh5 Nxh5
-16.Bf2 Be6 17.Rg1 Qh6 18.Bd3 Nf4 19.h4 Nh3 20.Rh1 Nxf2 21.Qxf2 Kg7 22.Nd2 Bg4
-23.Ne2 Bxe2 24.Kxe2 Bxb2 25.Rab1 Bd4 26.Qg2 Ne5 27.Rh3 Qh5+ 28.Nf3 Bb6 29.a4 d5
-30.Rb5 dxe4 31.Bxe4 Rae8 32.Kf1 Ng4 33.Ng5 Ne3+ 34.Rxe3 Bxe3 35.Nf3 Qh6 36.Bd3 Qf4
-37.Rxb7 Qf6 38.h5 Qa1+ 39.Ne1 Bg5 40.Qxg5 Qxe1+ 41.Kg2 Re2+ 42.Bxe2 Qxe2+
-43.Kh1 Qf3+ 44.Qg2 Qxh5+ 45.Kg1 Qd1+ 46.Qf1 Qxc2 47.Rxa7 Qc5+ 48.Qf2 Qc4
-49.a5 Rb8 50.Re7 Qc1+ 51.Qe1 Qg5+ 52.Kf1 Rb5 53.Qe3 Qf6+  0-1
 
 [Event "Albena"]
 [Site "Albena"]
@@ -8242,6 +8242,21 @@
 [Site "Polanica Zdroj"]
 [Date "1986.??.??"]
 [Round "?"]
+[White "Lukacs, Peter"]
+[Black "Gaprindashvili, Nona"]
+[Result "1/2-1/2"]
+[WhiteElo "2435"]
+[BlackElo "2350"]
+[ECO "D53"]
+
+1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 Nbd7 6.cxd5 Nxd5 7.Bxe7 Qxe7 8.e4 Nxc3
+9.bxc3 O-O 10.Bd3 c5 11.O-O cxd4 12.cxd4 e5 13.d5 Nc5 14.Rc1 Bg4 15.h3 Bxf3
+16.Qxf3 Rac8  1/2-1/2
+
+[Event "Rubinstein mem"]
+[Site "Polanica Zdroj"]
+[Date "1986.??.??"]
+[Round "?"]
 [White "Gaprindashvili, Nona"]
 [Black "Murshed, Niaz"]
 [Result "1-0"]
@@ -8290,21 +8305,6 @@
 43.fxe3 Qc1+ 44.Kg2 Qd2+ 45.Kh3 Qxa5 46.Rbb7 Ke4 47.Rf4+ Kxe3 48.Rb3+ Ke2
 49.Kg2 Qd5+ 50.Rff3 Qe4 51.Rb2+ Ke1 52.Rf2 g5 53.Rf1+ Kd2 54.h3 h5 55.Kg1 Qd4+
 56.Kh2 Ke2 57.Kg2 Qe4 58.Rf2+ Ke1 59.Kh2 Qd5 60.Rf1+ Ke2 61.R1f2+ Ke1 62.h4  1/2-1/2
-
-[Event "Rubinstein mem"]
-[Site "Polanica Zdroj"]
-[Date "1986.??.??"]
-[Round "?"]
-[White "Lukacs, Peter"]
-[Black "Gaprindashvili, Nona"]
-[Result "1/2-1/2"]
-[WhiteElo "2435"]
-[BlackElo "2350"]
-[ECO "D53"]
-
-1.d4 d5 2.c4 e6 3.Nc3 Be7 4.Nf3 Nf6 5.Bg5 Nbd7 6.cxd5 Nxd5 7.Bxe7 Qxe7 8.e4 Nxc3
-9.bxc3 O-O 10.Bd3 c5 11.O-O cxd4 12.cxd4 e5 13.d5 Nc5 14.Rc1 Bg4 15.h3 Bxf3
-16.Qxf3 Rac8  1/2-1/2
 
 [Event "Rubinstein mem"]
 [Site "Polanica Zdroj"]
@@ -8525,6 +8525,23 @@
 [Site "Wijk aan Zee"]
 [Date "1987.??.??"]
 [Round "?"]
+[White "Piket, Jeroen"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo "2405"]
+[BlackElo "2475"]
+[ECO "D66"]
+
+1.d4 d5 2.Nf3 Nf6 3.c4 e6 4.Nc3 Be7 5.Bg5 Nbd7 6.e3 h6 7.Bh4 O-O 8.Rc1 c6
+9.Bd3 dxc4 10.Bxc4 b5 11.Bd3 Bb7 12.O-O Rc8 13.e4 b4 14.Bxf6 Nxf6 15.e5 bxc3
+16.exf6 Bxf6 17.Rxc3 c5 18.Rxc5 Rxc5 19.dxc5 Qa5 20.b4 Qxb4 21.Qb1 Qxb1 22.Rxb1 Bc6
+23.Kf1 Rd8 24.Ke2 g5 25.Nd2 Bc3 26.f3 Bxd2 27.Kxd2 Rd5 28.Rb8+ Kg7 29.h3 Kf6
+30.Rh8 Bb5  0-1
+
+[Event "Hoogovens-B"]
+[Site "Wijk aan Zee"]
+[Date "1987.??.??"]
+[Round "?"]
 [White "Winants, Luc"]
 [Black "Gaprindashvili, Nona"]
 [Result "1/2-1/2"]
@@ -8605,23 +8622,6 @@
 16.Qe2 f5 17.Nfd4 Bxd4 18.exd4 Nf6 19.d5 exd5 20.Qxe7 Nxe7 21.Bxf6 Rxf6 22.Re1 Kf7
 23.cxd5 f4 24.Nc7 fxg3 25.hxg3 Rf5 26.Rad1 Re5 27.Rxe5 dxe5 28.Bh3 Kf6 29.d6 Nf5
 30.Bxf5 Kxf5 31.f4 exf4 32.gxf4 g5 33.fxg5 Ke5 34.d7 Bc6 35.Ne8 Rxd7  1/2-1/2
-
-[Event "Hoogovens-B"]
-[Site "Wijk aan Zee"]
-[Date "1987.??.??"]
-[Round "?"]
-[White "Piket, Jeroen"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2405"]
-[BlackElo "2475"]
-[ECO "D66"]
-
-1.d4 d5 2.Nf3 Nf6 3.c4 e6 4.Nc3 Be7 5.Bg5 Nbd7 6.e3 h6 7.Bh4 O-O 8.Rc1 c6
-9.Bd3 dxc4 10.Bxc4 b5 11.Bd3 Bb7 12.O-O Rc8 13.e4 b4 14.Bxf6 Nxf6 15.e5 bxc3
-16.exf6 Bxf6 17.Rxc3 c5 18.Rxc5 Rxc5 19.dxc5 Qa5 20.b4 Qxb4 21.Qb1 Qxb1 22.Rxb1 Bc6
-23.Kf1 Rd8 24.Ke2 g5 25.Nd2 Bc3 26.f3 Bxd2 27.Kxd2 Rd5 28.Rb8+ Kg7 29.h3 Kf6
-30.Rh8 Bb5  0-1
 
 [Event "Hoogovens-B"]
 [Site "Wijk aan Zee"]
@@ -8730,24 +8730,15 @@
 [Site "Berlin-West"]
 [Date "1988.??.??"]
 [Round "?"]
-[White "Gueldner, Kurt"]
+[White "Hermann, Manfred"]
 [Black "Gaprindashvili, Nona"]
 [Result "1/2-1/2"]
-[WhiteElo ""]
+[WhiteElo "2385"]
 [BlackElo "2485"]
-[ECO "D35"]
+[ECO "B22"]
 
-1.d4 d5 2.c4 e6 3.Nc3 Be7 4.cxd5 exd5 5.Bf4 Nf6 6.e3 Bf5 7.Qb3 Nc6 8.Qxb7 Nb4
-9.Bb5+ Kf8 10.Rc1 a6 11.Be2 Ne8 12.a3 Rb8 13.Qa7 Nd3+ 14.Bxd3 Bxd3 15.b4 Bc4
-16.Ne4 Qc8 17.Nc5 Bb5 18.Nf3 f6 19.Bxc7 Nxc7 20.Qxc7 Qxc7 21.Ne6+ Kf7 22.Nxc7 Rhc8
-23.Kd2 Bc4 24.Rxc4 dxc4 25.Nxa6 Ra8 26.Nc5 Rxa3 27.Rc1 Rb8 28.Rxc4 Ra2+ 29.Ke1 Rb2
-30.Nd3 Bxb4+ 31.Nxb4 R8xb4 32.Rxb4 Rxb4 33.Ke2 Rb2+ 34.Nd2 Ra2 35.Kd3 Ra1
-36.Ke2 Ke6 37.f3 Ra4 38.Kd3 Ra3+ 39.Ke2 Kd5 40.Kf2 f5 41.f4 Ra2 42.Ke2 h6
-43.g3 Kc6 44.Kd3 Kb5 45.Nf3 Ra3+ 46.Ke2 Kc4 47.Nh4 Ra5 48.Kf3 Kd3 49.h3 h5
-50.Ng6 Kd2 51.Ne5 Rb5 52.Kf2 Kc3 53.Ke2 Rb2+ 54.Kf3 Rd2 55.Nc6 Rd3 56.Kf2 Rd2+
-57.Kf3 Rd3 58.Ne7 g6 59.Nd5+ Kd2 60.Kf2 Rb3 61.h4 Rb2 62.Ne7 Kd3+ 63.Kf3 Re2
-64.Nxg6 Kd2 65.Ne5 Ke1 66.g4 hxg4+ 67.Nxg4 fxg4+ 68.Kxg4 Kd2 69.h5 Kxe3 70.h6 Kxd4
-71.Kf5 Rh2 72.Kg6 Ke4 73.h7 Kxf4 74.Kg7  1/2-1/2
+1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 e6 5.Nf3 Nf6 6.Be2 Be7 7.O-O O-O 8.c4 Qf5
+9.Nc3 cxd4 10.Nxd4 Qe5 11.Nf3 Qf5 12.Nd4 Qe5 13.Nf3 Qf5  1/2-1/2
 
 [Event "Berlin Neukoelln"]
 [Site "Berlin-West"]
@@ -8861,6 +8852,29 @@
 [Site "Berlin-West"]
 [Date "1988.??.??"]
 [Round "?"]
+[White "Gueldner, Kurt"]
+[Black "Gaprindashvili, Nona"]
+[Result "1/2-1/2"]
+[WhiteElo ""]
+[BlackElo "2485"]
+[ECO "D35"]
+
+1.d4 d5 2.c4 e6 3.Nc3 Be7 4.cxd5 exd5 5.Bf4 Nf6 6.e3 Bf5 7.Qb3 Nc6 8.Qxb7 Nb4
+9.Bb5+ Kf8 10.Rc1 a6 11.Be2 Ne8 12.a3 Rb8 13.Qa7 Nd3+ 14.Bxd3 Bxd3 15.b4 Bc4
+16.Ne4 Qc8 17.Nc5 Bb5 18.Nf3 f6 19.Bxc7 Nxc7 20.Qxc7 Qxc7 21.Ne6+ Kf7 22.Nxc7 Rhc8
+23.Kd2 Bc4 24.Rxc4 dxc4 25.Nxa6 Ra8 26.Nc5 Rxa3 27.Rc1 Rb8 28.Rxc4 Ra2+ 29.Ke1 Rb2
+30.Nd3 Bxb4+ 31.Nxb4 R8xb4 32.Rxb4 Rxb4 33.Ke2 Rb2+ 34.Nd2 Ra2 35.Kd3 Ra1
+36.Ke2 Ke6 37.f3 Ra4 38.Kd3 Ra3+ 39.Ke2 Kd5 40.Kf2 f5 41.f4 Ra2 42.Ke2 h6
+43.g3 Kc6 44.Kd3 Kb5 45.Nf3 Ra3+ 46.Ke2 Kc4 47.Nh4 Ra5 48.Kf3 Kd3 49.h3 h5
+50.Ng6 Kd2 51.Ne5 Rb5 52.Kf2 Kc3 53.Ke2 Rb2+ 54.Kf3 Rd2 55.Nc6 Rd3 56.Kf2 Rd2+
+57.Kf3 Rd3 58.Ne7 g6 59.Nd5+ Kd2 60.Kf2 Rb3 61.h4 Rb2 62.Ne7 Kd3+ 63.Kf3 Re2
+64.Nxg6 Kd2 65.Ne5 Ke1 66.g4 hxg4+ 67.Nxg4 fxg4+ 68.Kxg4 Kd2 69.h5 Kxe3 70.h6 Kxd4
+71.Kf5 Rh2 72.Kg6 Ke4 73.h7 Kxf4 74.Kg7  1/2-1/2
+
+[Event "Berlin Neukoelln"]
+[Site "Berlin-West"]
+[Date "1988.??.??"]
+[Round "?"]
 [White "Cladouras, Panagiotis"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -8876,20 +8890,6 @@
 36.Kf2 Ne6 37.Ke3 Na3 38.f4 Bb5 39.Nc3 Nc2+ 40.Kf2 Bc6 41.Ne2 Ncxd4 42.Nxd4 Nxd4
 43.Ke3 Nc2+ 44.Kf2 Kc5 45.Bf1 Kb4 46.Ba6 Kc3 47.Ke2 Bb5+ 48.Bxb5 Nd4+ 49.Kd1 Nxb5
 50.g4 Nd4 51.h4 Nxb3 52.Nf1 Kd3 53.Ng3 a5  0-1
-
-[Event "Berlin Neukoelln"]
-[Site "Berlin-West"]
-[Date "1988.??.??"]
-[Round "?"]
-[White "Hermann, Manfred"]
-[Black "Gaprindashvili, Nona"]
-[Result "1/2-1/2"]
-[WhiteElo "2385"]
-[BlackElo "2485"]
-[ECO "B22"]
-
-1.e4 c5 2.c3 d5 3.exd5 Qxd5 4.d4 e6 5.Nf3 Nf6 6.Be2 Be7 7.O-O O-O 8.c4 Qf5
-9.Nc3 cxd4 10.Nxd4 Qe5 11.Nf3 Qf5 12.Nd4 Qe5 13.Nf3 Qf5  1/2-1/2
 
 [Event "Berlin Neukoelln"]
 [Site "Berlin-West"]
@@ -9140,26 +9140,6 @@
 [Site "Tskhaltubo"]
 [Date "1988.??.??"]
 [Round "?"]
-[White "Gaprindashvili, Nona"]
-[Black "Litinskaya, Marta I"]
-[Result "0-1"]
-[WhiteElo "2485"]
-[BlackElo "2415"]
-[ECO "D39"]
-
-1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 dxc4 5.e4 Bb4 6.Bg5 c5 7.e5 cxd4 8.Nxd4 Qa5
-9.exf6 Bxc3+ 10.bxc3 Qxg5 11.fxg7 Qxg7 12.Qf3 Nd7 13.Bxc4 O-O 14.Be2 Nc5
-15.O-O b6 16.Rfe1 Bb7 17.Qh3 Rad8 18.Bf1 Kh8 19.Re3 Rg8 20.Rae1 Qg4 21.Qxg4 Rxg4
-22.f3 Rgg8 23.f4 Bd5 24.f5 exf5 25.Nxf5 Bxa2 26.Ne7 Rg5 27.Ra1 Rd2 28.h4 Rg4
-29.Nc6 Re4 30.Rxe4 Nxe4 31.Nxa7 Nxc3 32.Re1 Be6 33.Re3 Nd1 34.Rg3 Nf2 35.Nc6 Ng4
-36.Rd3 Rxd3 37.Bxd3 Kg7 38.Nd4 Bd5 39.Be2 Ne3 40.g4 Bc4 41.Bf3 Kf6 42.Kf2 Nd5
-43.g5+ Ke5 44.Nc6+ Kf4 45.Nd8 Nc3 46.Bh5 Ne4+ 47.Kg2 Nd6 48.Kh3 b5 49.Nc6 Bd5
-50.Nb4 Be6+ 51.Kh2 Nf5 52.Nd3+ Ke3 53.Nc5 Nxh4 54.Nxe6 fxe6 55.Kh3 Nf3  0-1
-
-[Event "Candidats (Women)"]
-[Site "Tskhaltubo"]
-[Date "1988.??.??"]
-[Round "?"]
 [White "Alexandria, Nana"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -9191,6 +9171,26 @@
 22.Bxb5 Kc7 23.fxe6 Rb8 24.Qc3+ Kd8 25.Bc4 Qb4 26.Qxb4 Rxb4 27.b3 fxe6 28.Bxe6 Rxh2
 29.Bf5 Rg2 30.Rg1 Rg5 31.Rh1 Kc7 32.Rh3 Rb5 33.Rc3+ Kb6 34.Rc8 Rc5 35.Rb8+ Ka7
 36.Re8 Rc7 37.Rd4 Rg1+ 38.Kb2 Rg2 39.Rc4 Bd8 40.Rxd8 Rxc4 41.bxc4 h4  1-0
+
+[Event "Candidats (Women)"]
+[Site "Tskhaltubo"]
+[Date "1988.??.??"]
+[Round "?"]
+[White "Gaprindashvili, Nona"]
+[Black "Litinskaya, Marta I"]
+[Result "0-1"]
+[WhiteElo "2485"]
+[BlackElo "2415"]
+[ECO "D39"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 dxc4 5.e4 Bb4 6.Bg5 c5 7.e5 cxd4 8.Nxd4 Qa5
+9.exf6 Bxc3+ 10.bxc3 Qxg5 11.fxg7 Qxg7 12.Qf3 Nd7 13.Bxc4 O-O 14.Be2 Nc5
+15.O-O b6 16.Rfe1 Bb7 17.Qh3 Rad8 18.Bf1 Kh8 19.Re3 Rg8 20.Rae1 Qg4 21.Qxg4 Rxg4
+22.f3 Rgg8 23.f4 Bd5 24.f5 exf5 25.Nxf5 Bxa2 26.Ne7 Rg5 27.Ra1 Rd2 28.h4 Rg4
+29.Nc6 Re4 30.Rxe4 Nxe4 31.Nxa7 Nxc3 32.Re1 Be6 33.Re3 Nd1 34.Rg3 Nf2 35.Nc6 Ng4
+36.Rd3 Rxd3 37.Bxd3 Kg7 38.Nd4 Bd5 39.Be2 Ne3 40.g4 Bc4 41.Bf3 Kf6 42.Kf2 Nd5
+43.g5+ Ke5 44.Nc6+ Kf4 45.Nd8 Nc3 46.Bh5 Ne4+ 47.Kg2 Nd6 48.Kh3 b5 49.Nc6 Bd5
+50.Nb4 Be6+ 51.Kh2 Nf5 52.Nd3+ Ke3 53.Nc5 Nxh4 54.Nxe6 fxe6 55.Kh3 Nf3  0-1
 
 [Event "Candidats (Women)"]
 [Site "Tskhaltubo"]
@@ -11495,6 +11495,24 @@
 [Site "Tbilisi"]
 [Date "1991.??.??"]
 [Round "?"]
+[White "Zaichik, Gennadi"]
+[Black "Gaprindashvili, Nona"]
+[Result "1-0"]
+[WhiteElo "2455"]
+[BlackElo "2450"]
+[ECO "B07"]
+
+1.d4 d6 2.e4 Nf6 3.Nc3 g6 4.Be3 Bg7 5.Qd3 Ng4 6.Bg5 h6 7.Bh4 c5 8.dxc5 dxc5
+9.Qxd8+ Kxd8 10.O-O-O+ Bd7 11.h3 Ne5 12.f4 Nec6 13.Nd5 Re8 14.c3 Kc8 15.Nf3 Na6
+16.Bxa6 bxa6 17.Nd2 g5 18.fxg5 Ne5 19.gxh6 Bxh6 20.Kb1 f6 21.Bg3 Bb5 22.c4 Bxc4
+23.Nxc4 Nxc4 24.Rhe1 Kb7 25.b3 Na3+ 26.Kb2 Nb5 27.Bf4 Bxf4 28.Nxf4 Rad8 29.Rd5 Kb6
+30.Red1 Rd6 31.a4 Nd4 32.b4 Rxd5 33.exd5 a5 34.bxc5+ Kxc5 35.Kc3 Nf5 36.g4 Nd6
+37.Ne6+ Kb6 38.Rb1+  1-0
+
+[Event "Tbilisi"]
+[Site "Tbilisi"]
+[Date "1991.??.??"]
+[Round "?"]
 [White "Gaprindashvili, Nona"]
 [Black "Sturua, Zurab"]
 [Result "1-0"]
@@ -11579,24 +11597,6 @@
 1.d4 d6 2.c4 e5 3.Nf3 e4 4.Ng5 f5 5.Nh3 c6 6.Nc3 Nf6 7.e3 Be7 8.Nf4 Na6 9.d5 O-O
 10.h4 c5 11.a3 Ng4 12.g3 Bf6 13.Bd2 Ne5 14.Be2 Nc7 15.Kf1 a6 16.a4 a5 17.Kg2 Qe7
 18.Qb3 Na6 19.Nb5 b6 20.Rad1 Nc7 21.Nxc7 Qxc7 22.Bc3 Bd7 23.Rd2 Rae8 24.Qc2  1/2-1/2
-
-[Event "Tbilisi"]
-[Site "Tbilisi"]
-[Date "1991.??.??"]
-[Round "?"]
-[White "Zaichik, Gennadi"]
-[Black "Gaprindashvili, Nona"]
-[Result "1-0"]
-[WhiteElo "2455"]
-[BlackElo "2450"]
-[ECO "B07"]
-
-1.d4 d6 2.e4 Nf6 3.Nc3 g6 4.Be3 Bg7 5.Qd3 Ng4 6.Bg5 h6 7.Bh4 c5 8.dxc5 dxc5
-9.Qxd8+ Kxd8 10.O-O-O+ Bd7 11.h3 Ne5 12.f4 Nec6 13.Nd5 Re8 14.c3 Kc8 15.Nf3 Na6
-16.Bxa6 bxa6 17.Nd2 g5 18.fxg5 Ne5 19.gxh6 Bxh6 20.Kb1 f6 21.Bg3 Bb5 22.c4 Bxc4
-23.Nxc4 Nxc4 24.Rhe1 Kb7 25.b3 Na3+ 26.Kb2 Nb5 27.Bf4 Bxf4 28.Nxf4 Rad8 29.Rd5 Kb6
-30.Red1 Rd6 31.a4 Nd4 32.b4 Rxd5 33.exd5 a5 34.bxc5+ Kxc5 35.Kc3 Nf5 36.g4 Nd6
-37.Ne6+ Kb6 38.Rb1+  1-0
 
 [Event "Tbilisi"]
 [Site "Tbilisi"]
@@ -12007,6 +12007,22 @@
 [Site "Manila"]
 [Date "1992.??.??"]
 [Round "?"]
+[White "Tungalag, Nyamaa"]
+[Black "Gaprindashvili, Nona"]
+[Result "0-1"]
+[WhiteElo "2080"]
+[BlackElo "2450"]
+[ECO "B00"]
+
+1.e4 b6 2.g3 Bb7 3.Bg2 f5 4.Nc3 g6 5.f3 Nh6 6.d3 e6 7.Be3 Bg7 8.Qd2 Nf7 9.h4 Nc6
+10.Nge2 Nce5 11.O-O-O fxe4 12.Nxe4 Qe7 13.N2c3 O-O-O 14.Kb1 h6 15.Qe2 d5
+16.d4 Nc6 17.Nf2 Nd6 18.Rhe1 Nf5 19.Nh1 Ncxd4 20.Qd3 Nxe3 21.Rxe3 Qf7 22.Bh3 Kb8
+23.Ne2 Nxe2 24.Bxe6 Qf6 25.c3 d4 26.Rxe2 dxc3 27.Qc2 Rxd1+  0-1
+
+[Event "Manila ol (Women)"]
+[Site "Manila"]
+[Date "1992.??.??"]
+[Round "?"]
 [White "Maskova, Jana"]
 [Black "Gaprindashvili, Nona"]
 [Result "1/2-1/2"]
@@ -12076,22 +12092,6 @@
 58.Re7 Qc1 59.h6+ Kg8 60.Re8+ Rf8 61.Re7 f5 62.Qd4 Rff6 63.Kg3 Kf8 64.Re2 Kf7
 65.Kf2 Kg6 66.a5 g4 67.fxg4 fxg4+ 68.Kg3 Qxh6 69.Qe4+ Kg7 70.Qe5 Kg8 71.a6 Qg7
 72.Re4 Kf8 73.Qxd6+  1-0
-
-[Event "Manila ol (Women)"]
-[Site "Manila"]
-[Date "1992.??.??"]
-[Round "?"]
-[White "Tungalag, Nyamaa"]
-[Black "Gaprindashvili, Nona"]
-[Result "0-1"]
-[WhiteElo "2080"]
-[BlackElo "2450"]
-[ECO "B00"]
-
-1.e4 b6 2.g3 Bb7 3.Bg2 f5 4.Nc3 g6 5.f3 Nh6 6.d3 e6 7.Be3 Bg7 8.Qd2 Nf7 9.h4 Nc6
-10.Nge2 Nce5 11.O-O-O fxe4 12.Nxe4 Qe7 13.N2c3 O-O-O 14.Kb1 h6 15.Qe2 d5
-16.d4 Nc6 17.Nf2 Nd6 18.Rhe1 Nf5 19.Nh1 Ncxd4 20.Qd3 Nxe3 21.Rxe3 Qf7 22.Bh3 Kb8
-23.Ne2 Nxe2 24.Bxe6 Qf6 25.c3 d4 26.Rxe2 dxc3 27.Qc2 Rxd1+  0-1
 
 [Event "Manila ol (Women)"]
 [Site "Manila"]
@@ -13371,6 +13371,22 @@
 [Site "Vrnjacka Banja"]
 [Date "1996.??.??"]
 [Round "?"]
+[White "Gaprindashvili, Nona"]
+[Black "Lazic, Marina"]
+[Result "1-0"]
+[WhiteElo "2380"]
+[BlackElo "2230"]
+[ECO "A01"]
+
+1.b3 Nf6 2.Bb2 d5 3.e3 c5 4.d3 Nc6 5.Nd2 e6 6.g3 Be7 7.Bg2 b6 8.f4 Bb7 9.Nh3 Qc7
+10.O-O h5 11.Nf2 O-O-O 12.Nf3 Ne8 13.Qe2 Bf6 14.c4 d4 15.e4 e5 16.Bc1 Kb8
+17.a3 Ka8 18.Bd2 g6 19.b4 Bg7 20.bxc5 bxc5 21.Rab1 Nd6 22.Nh3 Rhe8 23.Qd1 Rb8
+24.Qa4 Bc8 25.Rxb8+ Kxb8 26.Rb1+ Ka8 27.fxe5 Nxe5 28.Nf4 Bd7 29.Nd5 Qc6 30.Qxc6+  1-0
+
+[Event "JUG-ch (Women) 2"]
+[Site "Vrnjacka Banja"]
+[Date "1996.??.??"]
+[Round "?"]
 [White "Vuksanovic, Sanja"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -13387,22 +13403,6 @@
 44.Kf4 Ke7 45.Ke5 Rf8 46.Rh4 Rf7 47.Rf4 Rf8 48.Bf1 Rd8 49.Bg2 a4 50.e4 Ra8
 51.Rh4 dxe4 52.fxe4 Ra5+ 53.Kf4 fxe4 54.Bxe4 e5+ 55.dxe5 Ke6 56.Rh2 Rxe5
 57.Rd2 Rc5 58.Rd8 Rc7 59.Ra8 Rd7 60.Ke3 Rd1 61.Rxa4 Re1+ 62.Kd4 Re2 63.Bd5+  0-1
-
-[Event "JUG-ch (Women) 2"]
-[Site "Vrnjacka Banja"]
-[Date "1996.??.??"]
-[Round "?"]
-[White "Gaprindashvili, Nona"]
-[Black "Lazic, Marina"]
-[Result "1-0"]
-[WhiteElo "2380"]
-[BlackElo "2230"]
-[ECO "A01"]
-
-1.b3 Nf6 2.Bb2 d5 3.e3 c5 4.d3 Nc6 5.Nd2 e6 6.g3 Be7 7.Bg2 b6 8.f4 Bb7 9.Nh3 Qc7
-10.O-O h5 11.Nf2 O-O-O 12.Nf3 Ne8 13.Qe2 Bf6 14.c4 d4 15.e4 e5 16.Bc1 Kb8
-17.a3 Ka8 18.Bd2 g6 19.b4 Bg7 20.bxc5 bxc5 21.Rab1 Nd6 22.Nh3 Rhe8 23.Qd1 Rb8
-24.Qa4 Bc8 25.Rxb8+ Kxb8 26.Rb1+ Ka8 27.fxe5 Nxe5 28.Nf4 Bd7 29.Nd5 Qc6 30.Qxc6+  1-0
 
 [Event "JUG-ch (Women) 3"]
 [Site "Vrnjacka Banja"]
@@ -14189,23 +14189,6 @@
 [Site "Iki Burul/Yashalta"]
 [Date "1998.??.??"]
 [Round "?"]
-[White "Demina, Julia"]
-[Black "Gaprindashvili, Nona"]
-[Result "1/2-1/2"]
-[WhiteElo "2355"]
-[BlackElo "2340"]
-[ECO "A41"]
-
-1.Nf3 g6 2.d4 Bg7 3.g3 d6 4.Bg2 Nd7 5.c4 e5 6.Nc3 Ne7 7.dxe5 dxe5 8.Qc2 O-O
-9.O-O Nc6 10.Rd1 Nd4 11.Nxd4 exd4 12.Nb5 Nc5 13.Qd2 Ne6 14.e3 c5 15.exd4 Nxd4
-16.Nxd4 Bxd4 17.a4 Bg4 18.Re1 Qd7 19.Qf4 Be6 20.Be3 Bxc4 21.Rac1 Ba6 22.Bxd4 Qxd4
-23.Qxd4 cxd4 24.b4 Bd3 25.Red1 Bf5 26.Rxd4 Rac8 27.Rxc8 Bxc8 28.f4 b6 29.a5 bxa5
-30.bxa5 Be6 31.Rd6  1/2-1/2
-
-[Event "Women's Champions"]
-[Site "Iki Burul/Yashalta"]
-[Date "1998.??.??"]
-[Round "?"]
 [White "Kovalevskaya, Ekaterina"]
 [Black "Gaprindashvili, Nona"]
 [Result "0-1"]
@@ -14224,6 +14207,23 @@
 58.Qd3 Kg7 59.Qc2 Qe7 60.Qe4 Qc5 61.Qb7+ Kh6 62.Qf7 Qd6 63.Be4 Bc5 64.Kh3 Kg5
 65.Kg2 Qb6 66.Kg3 Bxf2+ 67.Qxf2 h4+ 68.Kf3 Qxf2+ 69.Kxf2 Kf4 70.Bxg6 e4 71.Bf7 h3
 72.Bc4 h2 73.Kg2 Ke3 74.Bd5 Kd3 75.Kxh2 e3 76.Kg3 e2 77.Bc4+ Ke3  0-1
+
+[Event "Women's Champions"]
+[Site "Iki Burul/Yashalta"]
+[Date "1998.??.??"]
+[Round "?"]
+[White "Demina, Julia"]
+[Black "Gaprindashvili, Nona"]
+[Result "1/2-1/2"]
+[WhiteElo "2355"]
+[BlackElo "2340"]
+[ECO "A41"]
+
+1.Nf3 g6 2.d4 Bg7 3.g3 d6 4.Bg2 Nd7 5.c4 e5 6.Nc3 Ne7 7.dxe5 dxe5 8.Qc2 O-O
+9.O-O Nc6 10.Rd1 Nd4 11.Nxd4 exd4 12.Nb5 Nc5 13.Qd2 Ne6 14.e3 c5 15.exd4 Nxd4
+16.Nxd4 Bxd4 17.a4 Bg4 18.Re1 Qd7 19.Qf4 Be6 20.Be3 Bxc4 21.Rac1 Ba6 22.Bxd4 Qxd4
+23.Qxd4 cxd4 24.b4 Bd3 25.Red1 Bf5 26.Rxd4 Rac8 27.Rxc8 Bxc8 28.f4 b6 29.a5 bxa5
+30.bxa5 Be6 31.Rd6  1/2-1/2
 
 [Event "Women's Champions"]
 [Site "Iki Burul/Yashalta"]
@@ -14876,24 +14876,6 @@
 [Event "ch-Europe Women"]
 [Site "Batumi GEO"]
 [Date "2000.05.30"]
-[Round "2.4"]
-[White "Zatonskih,A"]
-[Black "Gaprindashvili,N"]
-[Result "1-0"]
-[WhiteElo "2441"]
-[BlackElo "2383"]
-[ECO "B00"]
-
-1.e4 b6 2.d4 Bb7 3.Nc3 e6 4.Nf3 d6 5.Bd3 Nd7 6.O-O g6 7.Bg5 Ne7 8.Qd2 h6
-9.Be3 Bg7 10.h3 a6 11.a4 Nf6 12.Qe2 O-O 13.Bf4 Nd7 14.Rad1 Kh7 15.Bg3 Qe8
-16.Rfe1 Nf6 17.e5 dxe5 18.Bxe5 Qd7 19.Ne4 Ne8 20.Bxg7 Kxg7 21.a5 Nd5 22.Ne5 Qe7
-23.Qd2 f5 24.Nc3 b5 25.Nxd5 Bxd5 26.c4 bxc4 27.Bxc4 Nf6 28.Bxd5 Nxd5 29.Rc1 Rf6
-30.Rc4 Qe8 31.Nd3 Ra7 32.Nf4 Qd7 33.Rc5 Ne7 34.Qc3 Kf7 35.Rc1 c6 36.Nd3 Qd6
-37.Ne5+ Kg7 38.Nxc6 Rd7 39.Ne5 Rb7 40.Rc7  1-0
-
-[Event "ch-Europe Women"]
-[Site "Batumi GEO"]
-[Date "2000.05.30"]
 [Round "2.2"]
 [White "Zatonskih,A"]
 [Black "Gaprindashvili,N"]
@@ -14923,6 +14905,24 @@
 16.Rfb1 Rb6 17.e4 Nf6 18.Be3 Rxb1+ 19.Rxb1 Nd7 20.Rb4 Ne5 21.Bg2 Bb5 22.a4 Bd3
 23.Qb3 Ng4 24.Bf4 e5 25.Bd2 Qc5 26.Be1 a5 27.Rb8 g6 28.Rxf8+ Kxf8 29.h3 Nf6
 30.Bd2 Kg7 31.Be3 Qd6 32.f3 Be2 33.Qb6 Qd1+ 34.Kh2 Bxf3 35.Qxa5 Qe2 36.Bf2  0-1
+
+[Event "ch-Europe Women"]
+[Site "Batumi GEO"]
+[Date "2000.05.30"]
+[Round "2.4"]
+[White "Zatonskih,A"]
+[Black "Gaprindashvili,N"]
+[Result "1-0"]
+[WhiteElo "2441"]
+[BlackElo "2383"]
+[ECO "B00"]
+
+1.e4 b6 2.d4 Bb7 3.Nc3 e6 4.Nf3 d6 5.Bd3 Nd7 6.O-O g6 7.Bg5 Ne7 8.Qd2 h6
+9.Be3 Bg7 10.h3 a6 11.a4 Nf6 12.Qe2 O-O 13.Bf4 Nd7 14.Rad1 Kh7 15.Bg3 Qe8
+16.Rfe1 Nf6 17.e5 dxe5 18.Bxe5 Qd7 19.Ne4 Ne8 20.Bxg7 Kxg7 21.a5 Nd5 22.Ne5 Qe7
+23.Qd2 f5 24.Nc3 b5 25.Nxd5 Bxd5 26.c4 bxc4 27.Bxc4 Nf6 28.Bxd5 Nxd5 29.Rc1 Rf6
+30.Rc4 Qe8 31.Nd3 Ra7 32.Nf4 Qd7 33.Rc5 Ne7 34.Qc3 Kf7 35.Rc1 c6 36.Nd3 Qd6
+37.Ne5+ Kg7 38.Nxc6 Rd7 39.Ne5 Rb7 40.Rc7  1-0
 
 [Event "FIDE WCh Women KO"]
 [Site "New Delhi ITA"]
@@ -15407,25 +15407,6 @@
 72.Rf4 Ke5 73.Rf8 Bc5 74.Rf7 Bd4 75.Kd1 Kd5 76.Rf5+ Ke6 77.Rf8 Ke5 78.Kc2 Ke6
 79.Ra8 Kf5 80.Rd8 Be5 81.Re8 Bd4 82.Rd8  1/2-1/2
 
-[Event "FIDE WCh Women KO"]
-[Site "Moscow RUS"]
-[Date "2001.11.27"]
-[Round "1.1"]
-[White "Gaprindashvili,N"]
-[Black "Zielinska,Mar"]
-[Result "1-0"]
-[WhiteElo "2349"]
-[BlackElo "2405"]
-[ECO "E90"]
-
-1.d4 Nf6 2.c4 c5 3.d5 g6 4.Nc3 d6 5.e4 Bg7 6.h3 O-O 7.Nf3 e6 8.Bd3 Na6 9.O-O e5
-10.a3 h6 11.Be3 Nh7 12.Qd2 f5 13.Bxh6 f4 14.Bxg7 Kxg7 15.Rfb1 Ng5 16.Nxg5 Qxg5
-17.Kf1 Rh8 18.Qe2 f3 19.Qxf3 Bxh3 20.gxh3 Raf8 21.Qg2 Qe3 22.Be2 Rxh3 23.Nd1 Qh6
-24.Bg4 Rh1+ 25.Ke2 Rf4 26.Ne3 Rh2 27.Qg3 Rfxf2+ 28.Qxf2 Rxf2+ 29.Kxf2 Qh2+
-30.Kf3 Qf4+ 31.Ke2 Qxe4 32.Rg1 Qd4 33.Bf5 e4 34.Rad1 Qxb2+ 35.Rd2 Qe5 36.Rxg6+ Kf8
-37.Rg4 Qh2+ 38.Kd1 Qh1+ 39.Kc2 Qa1 40.Rxe4 Qxa3 41.Kd1 Qa1+ 42.Ke2 Nb4 43.Kf3 Qh1+
-44.Kg4 Qe1 45.Rh2 Qg1+ 46.Rg2 Qh1 47.Bg6 a5 48.Kg5  1-0
-
 [Event "FIDE WCh KO"]
 [Site "Moscow RUS"]
 [Date "2001.11.27"]
@@ -15483,6 +15464,25 @@
 17.Kf1 Rh8 18.Qe2 Bd7 19.Qf3 Rh4 20.Ne2 Qe7 21.Ng1 g5 22.Qd1 g4 23.hxg4 Rh1
 24.f3 Rah8 25.Qe1 R8h2 26.Qf2 Qg5 27.Ke1 Qh6 28.Bf1 b5 29.cxb5 Bxb5 30.Kd2 Bxf1
 31.Rxf1 Kf6 32.Ne2 Rxf1 33.Rxf1 Nc7 34.Nc3 Kg5 35.Kd3  0-1
+
+[Event "FIDE WCh Women KO"]
+[Site "Moscow RUS"]
+[Date "2001.11.27"]
+[Round "1.1"]
+[White "Gaprindashvili,N"]
+[Black "Zielinska,Mar"]
+[Result "1-0"]
+[WhiteElo "2349"]
+[BlackElo "2405"]
+[ECO "E90"]
+
+1.d4 Nf6 2.c4 c5 3.d5 g6 4.Nc3 d6 5.e4 Bg7 6.h3 O-O 7.Nf3 e6 8.Bd3 Na6 9.O-O e5
+10.a3 h6 11.Be3 Nh7 12.Qd2 f5 13.Bxh6 f4 14.Bxg7 Kxg7 15.Rfb1 Ng5 16.Nxg5 Qxg5
+17.Kf1 Rh8 18.Qe2 f3 19.Qxf3 Bxh3 20.gxh3 Raf8 21.Qg2 Qe3 22.Be2 Rxh3 23.Nd1 Qh6
+24.Bg4 Rh1+ 25.Ke2 Rf4 26.Ne3 Rh2 27.Qg3 Rfxf2+ 28.Qxf2 Rxf2+ 29.Kxf2 Qh2+
+30.Kf3 Qf4+ 31.Ke2 Qxe4 32.Rg1 Qd4 33.Bf5 e4 34.Rad1 Qxb2+ 35.Rd2 Qe5 36.Rxg6+ Kf8
+37.Rg4 Qh2+ 38.Kd1 Qh1+ 39.Kc2 Qa1 40.Rxe4 Qxa3 41.Kd1 Qa1+ 42.Ke2 Nb4 43.Kf3 Qh1+
+44.Kg4 Qe1 45.Rh2 Qg1+ 46.Rg2 Qh1 47.Bg6 a5 48.Kg5  1-0
 
 [Event "FIDE WCh Women KO"]
 [Site "Moscow RUS"]
@@ -21284,3 +21284,793 @@
 57.Rcc7 Nh7 58.Bc1 Rf8 59.Bh6 Ra1 60.Kd3 Rh1 61.Bxg7 Kxg7 62.e6 Ng5 63.e7 Re8
 64.d6 Rh3+ 65.Kc4 Ne6 66.Nd5 Rh4+ 67.Kc3 Rh3+ 68.Kc4 Rh4+ 69.Kb3 Rh3+ 70.Kb4 Nxc7
 71.Nxc7 Rh4+ 72.Kc5 Rh5+ 73.Kc6 Reh8 74.e8=Q  1-0
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.06"]
+[Round "1.3"]
+[White "Gaprindashvili,N1"]
+[Black "Sorokina,T"]
+[Result "1-0"]
+[WhiteElo "2294"]
+[BlackElo "2051"]
+[ECO "A74"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 c5 4.d5 exd5 5.cxd5 d6 6.e4 a6 7.a4 g6 8.Be2 Bg7 9.Nf3 O-O
+10.O-O Re8 11.Qc2 Bg4 12.h3 Bxf3 13.Bxf3 Nbd7 14.a5 Qc7 15.Be3 Rab8 16.Rfc1 b5
+17.axb6 Rxb6 18.Be2 Nb8 19.Ra4 Qb7 20.Rb1 Rb4 21.f3 Nfd7 22.Rxb4 cxb4 23.Na4 f5
+24.Rc1 fxe4 25.fxe4 Nf6 26.Bd3 Qe7 27.Bf2 Nbd7 28.Re1 Nh5 29.Bxa6 Be5 30.Qd1 Rf8
+31.Qg4 Rxf2 32.Kxf2 Bg3+ 33.Ke2 Nf4+ 34.Kd1 Bxe1 35.Qxf4 Bh4 36.Qg4 Nf8 37.Kc2 Bf6
+38.Kb3 Qa7 39.Bb5 Qe3+ 40.Kxb4 Bxb2 41.Nxb2 Qc5+ 42.Ka4 Qc2+ 43.Ka3 Qc5+
+44.Kb3 Qxb5+ 45.Kc3 Qa5+ 46.Kc2 Qc5+ 47.Kb1 Qg1+ 48.Nd1 Qb6+ 49.Kc2 Kg7 50.Nc3 Qc7
+51.Qh4 h6 52.e5 dxe5 53.Qb4 Qd7 54.g4 Nh7 55.Qb8 Nf6 56.Qxe5 Kf7 57.Kd3  1-0
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.07"]
+[Round "2.4"]
+[White "Titorenko,N"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "2153"]
+[BlackElo "2294"]
+[ECO "B00"]
+
+1.e4 b6 2.d4 Bb7 3.Bd3 g6 4.Nf3 Bg7 5.h4 h5 6.Qe2 c5 7.c3 cxd4 8.Nxd4 a6
+9.Nd2 d6 10.N2f3 Nd7 11.Bc4 Qc8 12.a4 Ngf6 13.Ng5 O-O 14.Ndf3 d5 15.exd5 Bxd5
+16.Bxd5 Nxd5 17.O-O e6 18.Nh3 Qc6 19.Be3 Nxe3 20.Qxe3 Nc5 21.Nd4 Qd7 22.Rfd1 Rfd8
+23.Qf3 Qe8 24.a5 b5 25.Ng5 Rd5 26.Ne4 Nxe4 27.Qxe4 Rad8 28.Qf3 Qd7 29.Re1 Bxd4
+30.cxd4 Rxd4 31.Re4 Rd1+ 32.Rxd1 Qxd1+ 33.Qxd1 Rxd1+ 34.Kh2 Rd2 35.b4 Rxf2
+36.Rd4 Rb2 37.Kh3 Kg7 38.Rd6 Rxb4 39.Rxa6 Rb3+ 40.Kh2 Ra3 41.Ra7 b4 42.a6 b3
+43.g3 Ra2+ 44.Kh3 e5 45.Rb7 Rxa6 46.Rxb3 Ra2 47.Rb8 Kf6 48.Rb6+ Kf5 49.Rb7 f6
+50.Rb8 Ra5 51.Rb2 e4 52.Rf2+ Ke5 53.Kg2 Rd5 54.Ra2 Rd3 55.Ra5+ Kd4 56.Ra6 Rd2+
+57.Kf1 Ke5 58.Ra5+ Rd5 59.Ra6 Kf5 60.Kg2 Rd2+ 61.Kf1 g5 62.hxg5 fxg5 63.Ra4 Kg4
+64.Rxe4+ Kxg3 65.Re3+ Kf4 66.Ra3 h4 67.Kg1 Rd4 68.Kg2 g4 69.Ra2 Re4 70.Rf2+ Kg5
+71.Ra2 h3+ 72.Kh2 Kh4 73.Ra1 g3+ 74.Kg1 Kg4 75.Kh1 Re2 76.Kg1 h2+  0-1
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.08"]
+[Round "3.2"]
+[White "Gaprindashvili,N1"]
+[Black "Sinchurina,T"]
+[Result "0-1"]
+[WhiteElo "2294"]
+[BlackElo "1967"]
+[ECO "D32"]
+
+1.d4 d5 2.c4 e6 3.Nc3 c5 4.cxd5 cxd4 5.Qxd4 Nc6 6.Qd1 exd5 7.Qxd5 Bd7 8.Bg5 Nf6
+9.Qd2 h6 10.Bh4 g5 11.Bg3 Qa5 12.Bd6 O-O-O 13.Bxf8 Rhxf8 14.f3 Bf5 15.Qc1 Kb8
+16.e4 Rfe8 17.Ne2 Bxe4 18.fxe4 Nxe4 19.Qe3 Nc5 20.Qg3+ Ka8 21.Rd1 Rxd1+ 22.Kxd1 Rd8+
+23.Kc2 Ne4 24.Qe3 Nb4+ 25.Kc1 Nxa2+ 26.Kc2 Nb4+ 27.Kc1 Qa1+ 28.Nb1 Nd3+ 29.Qxd3 Rxd3
+30.Nc3 Nxc3 31.Bxd3 Na2+ 32.Kd2 Qxb2+ 33.Ke3  0-1
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.09"]
+[Round "4.5"]
+[White "Fatalibekova,E"]
+[Black "Gaprindashvili,N1"]
+[Result "1-0"]
+[WhiteElo "2148"]
+[BlackElo "2294"]
+[ECO "B00"]
+
+1.e4 b6 2.d4 Bb7 3.Bd3 g6 4.Nf3 Bg7 5.c4 c5 6.d5 e5 7.Nc3 d6 8.O-O Nh6 9.Ng5 Bc8
+10.h3 O-O 11.f4 Nd7 12.f5 Kh8 13.Qe1 Nf6 14.g4 Nfg8 15.Be3 a6 16.a4 Bd7 17.Qg3 Qe7
+18.Rf2 b5 19.cxb5 axb5 20.Bxb5 Bxb5 21.Nxb5 gxf5 22.gxf5 Rfb8 23.Rff1 Nf6
+24.Qf3 Nhg8 25.Nxd6 Nh6 26.Nb5 c4 27.Qf2 Nd7 28.d6 Qf8 29.Nc7 Ra5 30.Qd2  1-0
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.10"]
+[Round "5.1"]
+[White "Gaprindashvili,N1"]
+[Black "Podlovna,Stella"]
+[Result "1-0"]
+[WhiteElo "2294"]
+[BlackElo "1599"]
+[ECO "D11"]
+
+1.d4 c6 2.c4 d5 3.Nf3 Bf5 4.Qb3 b6 5.cxd5 cxd5 6.Nc3 Nf6 7.Bg5 Nbd7 8.e3 h6
+9.Bxf6 Nxf6 10.Bb5+ Bd7 11.Nxd5 Nxd5 12.Qxd5 Bxb5 13.Qxb5+ Qd7 14.Qxd7+ Kxd7
+15.Ne5+ Ke6 16.Rc1 Rd8 17.Rc7 a5 18.Ke2 f6 19.Nc4 Rb8 20.Rc1 g5 21.e4 Bg7
+22.d5+ Kf7 23.Nd6+ Kg6 24.Nf5 Bf8 25.R1c6 Rh7 26.Kd3 b5 27.b3 a4 28.b4 g4
+29.Re6 Rf7 30.Kd4 h5 31.Kc5 Kg5 32.Kc6 h4 33.d6 g3 34.hxg3 hxg3 35.Nxg3 Kg6
+36.d7 Bh6 37.Nf5 Bf4 38.Rc8 Rf8 39.Rxf8 Rxf8 40.Rxe7  1-0
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.11"]
+[Round "6.5"]
+[White "Gaprindashvili,N1"]
+[Black "Burchardt,B"]
+[Result "1-0"]
+[WhiteElo "2294"]
+[BlackElo "2136"]
+[ECO "D11"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3 dxc4 5.Qxc4 Bf5 6.g3 e6 7.Bg2 Nbd7 8.O-O Be7
+9.e3 O-O 10.Nc3 Rc8 11.Qe2 Bg6 12.e4 c5 13.e5 Nd5 14.Nxd5 exd5 15.Bf4 Be4
+16.Rfd1 Qb6 17.Bh3 Rcd8 18.dxc5 Nxc5 19.Nd4 Rfe8 20.Be3 Qg6 21.f3 Bd3 22.Qd2 Ba6
+23.b4 Nd3 24.Bf5 Bxb4 25.Qc2 Qxf5 26.Nxf5 Rxe5 27.Bd4 Rxf5 28.Rxd3  1-0
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.12"]
+[Round "7.2"]
+[White "Khmiadashvili,T"]
+[Black "Gaprindashvili,N1"]
+[Result "1/2-1/2"]
+[WhiteElo "1976"]
+[BlackElo "2294"]
+[ECO "A03"]
+
+1.f4 d5 2.Nf3 Nf6 3.e3 g6 4.d4 Bg7 5.Nc3 O-O 6.Be2 c5 7.Ne5 Nc6 8.Nxc6 bxc6
+9.O-O Qa5 10.dxc5 Qxc5 11.Na4 Qd6 12.c4 Be6 13.c5 Qc7 14.Bd3 Bf5 15.Bxf5 gxf5
+16.Bd2 Ne4 17.Be1 Qd7 18.Bc3 f6 19.Qh5 Rf7 20.b4 Rb8 21.Be1 d4 22.Rd1 d3
+23.Nb2 d2 24.Bxd2 Nxd2 25.Qe2 Rxb4 26.Rxd2 Qe6 27.Rd8+ Bf8 28.Nd3 Ra4 29.Rf2 Re4
+30.Rf3 Rg7 31.Kf2 Qf7 32.Rg3 Ra4 33.Nc1 Rc4 34.Nb3 e5 35.Rxg7+ Kxg7 36.Qd3 e4
+37.Qd2 Kg6 38.Rd7 Qe6 39.Rxa7 Qd5 40.Qxd5 cxd5 41.c6 Rc2+ 42.Kf1 Rxc6 43.Ra5 Rc3
+44.Ke2 Rc2+ 45.Kf1 Bg7  1/2-1/2
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.13"]
+[Round "8.4"]
+[White "Gaprindashvili,N1"]
+[Black "Kabanova,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2294"]
+[BlackElo "1816"]
+[ECO "E20"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.g3 c5 5.Nf3 Nc6 6.Bg2 d5 7.a3 Bxc3+ 8.bxc3 O-O
+9.cxd5 exd5 10.O-O Be6 11.Bf4 Qe7 12.a4 b6 13.Qc1 Ne4 14.Qa3 f6 15.Rfd1 g5
+16.Bc1 Na5 17.Nd2 Nxd2 18.Bxd2 Nc4 19.Qa2 Rac8 20.Bc1 Qd7 21.dxc5 bxc5 22.Qc2 Qf7
+23.f4 gxf4 24.Bxf4 Rfd8 25.e3 d4 26.exd4 cxd4 27.Rxd4 Rxd4 28.cxd4 Ne3 29.Qxc8+ Bxc8
+30.Bxe3 Bb7  1/2-1/2
+
+[Event "ch-Euro Seniors +65 Women"]
+[Site "Rhodes GRE"]
+[Date "2019.04.14"]
+[Round "9.3"]
+[White "Ristoja,Aulikki"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "1551"]
+[BlackElo "2294"]
+[ECO "A40"]
+
+1.d4 g6 2.Bf4 Bg7 3.Nc3 d6 4.e3 Nd7 5.Bc4 e6 6.Nf3 Ne7 7.Bb3 b6 8.O-O Bb7
+9.Qe2 O-O 10.Rad1 a6 11.e4 h6 12.Rfe1 Kh7 13.Bg3 Qe8 14.Nb1 Nf6 15.e5 Nh5
+16.exd6 Nxg3 17.hxg3 cxd6 18.c3 b5 19.Nbd2 Qd8 20.Bc2 Qb6 21.Nh4 a5 22.Nf1 b4
+23.g4 Rac8 24.Qd2 Bf6 25.Nf3 Bxf3 26.gxf3 bxc3 27.bxc3 Qc6 28.Rc1 Qxf3 29.Nh2 Qh3
+30.Be4 Bg5 31.f4 Qg3+ 32.Qg2 Bxf4 33.Qxg3 Bxg3 34.Re2 Rc7 35.Rec2 Rfc8 36.Kg2 Bf4
+37.Rf1 e5 38.Nf3 Kg7 39.dxe5 dxe5 40.Rd1 f5 41.gxf5 gxf5 42.Bd5 Rd8 43.c4 Rxd5
+44.Rxd5 Nxd5 45.Re2 Ne3+ 46.Kh3 Kf6  0-1
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.12"]
+[Round "1.1"]
+[White "Serjmyadag,D"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "1874"]
+[BlackElo "2275"]
+[ECO "B00"]
+
+1.e4 b6 2.d4 Bb7 3.Nc3 e6 4.Bd3 g6 5.Nf3 Bg7 6.Be3 Ne7 7.Qd2 h6 8.Ne2 d5
+9.e5 Nf5 10.Bxf5 gxf5 11.Nf4 Nd7 12.Nh5 Bf8 13.h3 Qe7 14.Bf4 c5 15.c3 cxd4
+16.Qxd4 Qc5 17.O-O-O O-O-O 18.Kb1 Ba6 19.Qd2 Be7 20.Rhe1 Rdg8 21.Rg1 Kb7
+22.Nd4 Bg5 23.Rde1 Qc7 24.Nf3 Qc4 25.g4 fxg4 26.hxg4 Nc5 27.Nxg5 hxg5 28.Be3 Nd3
+29.Bd4 Nxe1 30.Qxe1 Qe2 31.Kc1 Rg6 32.Be3 Bd3 33.Qd2 Bc4 34.b3 Bd3 35.Ng3 Qxd2+
+36.Kxd2 Bb5 37.Nh5 a5 38.f3 Bc6 39.Bd4 Ra8 40.Ke3 a4 41.b4 a3 42.f4 gxf4+
+43.Kxf4 Bb5 44.Rg2 Bc4 45.Nf6 Rh8 46.Kg3 Kc6 47.Kf4 Rh1 48.Bg1 Rgh6 49.Nh5 Bf1
+50.Rg3 Be2 51.Nf6 R6h3 52.Rxh3 Rxh3 53.Bd4 Bc4 54.Kg5 Bxa2 55.Ne8 Bc4  0-1
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.13"]
+[Round "2.1"]
+[White "Gaprindashvili,N1"]
+[Black "Sorokina,T"]
+[Result "1-0"]
+[WhiteElo "2275"]
+[BlackElo "2064"]
+[ECO "A75"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 c5 4.d5 exd5 5.cxd5 d6 6.e4 a6 7.a4 g6 8.Be2 Bg7 9.Nf3 O-O
+10.O-O Bg4 11.Bf4 Re8 12.Nd2 Bxe2 13.Qxe2 Nh5 14.Be3 Bd4 15.Qd3 Bxe3 16.Qxe3 f5
+17.Nc4 Qc7 18.Qf3 Ng7 19.Qf4 Rd8 20.Rfe1 b6 21.Re2 Ra7 22.Rae1 Rb7 23.exf5 Nxf5
+24.Re8+ Rxe8 25.Rxe8+ Kg7 26.Re6 Qf7 27.Nxd6 Nxd6 28.Qxd6 b5 29.Qe5+ Kh6
+30.Ne4 bxa4 31.Nd6  1-0
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.14"]
+[Round "3.1"]
+[White "Burchardt,B"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "2082"]
+[BlackElo "2275"]
+[ECO "B11"]
+
+1.e4 c6 2.Nf3 d5 3.Nc3 Bg4 4.h3 Bxf3 5.Qxf3 e6 6.exd5 cxd5 7.Bb5+ Nc6 8.O-O Bd6
+9.d4 Ne7 10.Ne2 O-O 11.c3 a6 12.Bxc6 Nxc6 13.Bf4 b5 14.Rfc1 Be7 15.Be3 Na5
+16.Nf4 Nc4 17.Nd3 a5 18.Bf4 Qb6 19.Qg3 Rfc8 20.a3 b4 21.axb4 axb4 22.Rxa8 Rxa8
+23.cxb4 Nd6 24.Nc5 Rd8 25.Qa3 Nc4 26.Qc3 h6 27.Ra1 Bd6 28.Bxd6 Nxd6 29.Ra6 Qb5
+30.Qe1 Nf5 31.Qe5 Qc4 32.Qc7 Rf8 33.b5 Nxd4 34.Kh2 Nxb5 35.Qb6 Nd4 36.Ra4 Qb5
+37.Qxb5 Nxb5 38.Rb4 Nd6 39.Rb6 Nc4 40.Rb7 Rd8 41.f4 g5 42.Kg3 Nd6 43.Rb4 Kg7
+44.Kf3 Rc8 45.Nd3 Rc7 46.fxg5 hxg5 47.h4 gxh4 48.Rxh4 Rb7 49.Rg4+ Kf6 50.b4 e5
+51.Nc5 e4+ 52.Kf4 Rxb4 53.Nd7+ Ke7 54.Ne5 Ke6 55.Nc6 Rc4 56.Na5 Ra4 57.Nb3 e3+
+58.Kf3 e2 59.Nc5+ Kf5  0-1
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.15"]
+[Round "4.1"]
+[White "Gaprindashvili,N1"]
+[Black "Kozlovskaya,V"]
+[Result "1-0"]
+[WhiteElo "2275"]
+[BlackElo "2130"]
+[ECO "D30"]
+
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Bg5 Be7 5.Nc3 c6 6.e3 O-O 7.Qc2 Nbd7 8.a3 Re8
+9.h3 Nf8 10.Bf4 N6d7 11.Bd3 b6 12.cxd5 Bb7 13.dxe6 fxe6 14.O-O Bf6 15.Ne4 c5
+16.dxc5 bxc5 17.Rfd1 Qb6 18.Nfd2 Bd5 19.Nxf6+ gxf6 20.e4 Bc6 21.Nc4 Qd8 22.Be2 Qe7
+23.Na5 Rac8 24.Bd6 Qf7 25.Nxc6 Rxc6 26.Bxf8 Rxf8 27.Bb5 Rc7 28.Bxd7 Rxd7
+29.Qxc5 Rc7 30.Qe3 Kh8 31.Rac1 Rb7 32.b4 Rg8 33.Qf3 a5 34.bxa5 Rb5 35.a6 Rb6
+36.e5 Rxa6 37.Rd6 Ra5 38.Qxf6+ Qxf6 39.exf6 Rxa3 40.Rxe6 Rf8 41.Rc7  1-0
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.16"]
+[Round "5.1"]
+[White "Gaprindashvili,N1"]
+[Black "Pancu,Aureliana-Eugenia"]
+[Result "0-1"]
+[WhiteElo "2275"]
+[BlackElo "1833"]
+[ECO "D11"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3 dxc4 5.Qxc4 Bf5 6.g3 e6 7.Bg2 Nbd7 8.O-O Be7
+9.e3 O-O 10.Qe2 Ne4 11.Nc3 Nxc3 12.bxc3 Be4 13.Rd1 Qa5 14.Bd2 Rfd8 15.Bf1 Qh5
+16.Ne1 Qxe2 17.Bxe2 c5 18.a4 Rac8 19.f3 Bc6 20.Bb5 a6 21.Bxc6 Rxc6 22.a5 b5
+23.axb6 Rxb6 24.Kf2 Ra8 25.Ra2 Kf8 26.Ke2 Ke8 27.Nd3 a5 28.Nb2 Rb3 29.Kd3 cxd4
+30.exd4 Nb6 31.Kc2 Rb5 32.c4 Rc8 33.c5 Nd5 34.Nc4 Bxc5 35.Rxa5 Rxa5 36.Bxa5 Be7  0-1
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.18"]
+[Round "6.2"]
+[White "Titorenko,N"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "2135"]
+[BlackElo "2275"]
+[ECO "B00"]
+
+1.e4 b6 2.d4 Bb7 3.Bd3 e6 4.Nf3 g6 5.c3 Bg7 6.Bg5 Ne7 7.Qd2 h6 8.Bf4 d6 9.Na3 Nd7
+10.Rd1 g5 11.Be3 Ng6 12.h4 g4 13.h5 gxf3 14.hxg6 fxg2 15.gxf7+ Kxf7 16.Rg1 Qh4
+17.Bf4 Nf6 18.Qe3 Nh5 19.Bg3 Nxg3 20.Qxg3 Qxg3 21.fxg3 Bf6 22.Kf2 a6 23.Nc2 Rag8
+24.Ne3 Ke7 25.Rxg2 b5 26.Bc2 h5 27.Rh1 Bg5 28.Ke2 c5 29.Rgg1 cxd4 30.cxd4 Rc8
+31.Bb1 Bf6 32.Kd3 a5 33.Rc1 b4 34.Rxc8 Bxc8 35.Rd1 Ba6+ 36.Kc2 Rg8 37.g4 hxg4
+38.b3 g3 39.Ng2 Rh8 40.Ne3 Rh2+  0-1
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.19"]
+[Round "7.1"]
+[White "Fatalibekova,E"]
+[Black "Gaprindashvili,N1"]
+[Result "1-0"]
+[WhiteElo "2152"]
+[BlackElo "2275"]
+[ECO "B00"]
+
+1.e4 b6 2.d4 Bb7 3.Bd3 e6 4.Nf3 d6 5.c4 c5 6.d5 e5 7.Nc3 g6 8.O-O f6 9.Ne1 Nh6
+10.g3 Bc8 11.f4 Bh3 12.Ng2 Nd7 13.f5 Bg7 14.Bd2 O-O 15.Qc1 g5 16.Re1 Bxg2
+17.Kxg2 Nf7 18.Qd1 a6 19.a4 Re8 20.Qh5 Nf8 21.h4 Qe7 22.Bc2 Reb8 23.Rh1 h6
+24.Bd3 Nh7 25.Qd1 Qd8 26.Be2 Ra7 27.Bh5 Nf8 28.Qe2 Nh8 29.Rhf1 Nh7 30.Rf2 Rab7
+31.Raf1 Ra7 32.Qg4 Nf8 33.hxg5 hxg5 34.Rh1 Nf7 35.Qh3 Nh6 36.Be2 Nh7 37.Nd1 Bf8
+38.Ne3 Qe7 39.Ng4 Nxg4 40.Qxg4 Qd8 41.Rh5 Rg7 42.Kg1 Rbb7 43.Rfh2 Qe8 44.b3 Be7
+45.Qh3 Bd8 46.Rh6 Qd7 47.Bh5 b5 48.cxb5 axb5 49.a5 b4 50.a6 Ra7 51.Be2 Qf7
+52.Bc4 Bb6 53.Kf1 Kf8 54.Ke2 Rc7 55.Qf1 Qe8 56.Qh1 Kg8 57.Kd3 Ra7 58.Rxf6 Nxf6
+59.Rh8+ Kf7 60.Rxe8 Nxe8 61.Qh5+ Ke7 62.Bxg5+ Nf6 63.Bxf6+  1-0
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.20"]
+[Round "8.2"]
+[White "Gaprindashvili,N1"]
+[Black "Tsifanskaya,L"]
+[Result "1/2-1/2"]
+[WhiteElo "2275"]
+[BlackElo "1981"]
+[ECO "D37"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 dxc4 5.e3 a6 6.a4 c5 7.Bxc4 Qc7 8.Qe2 Nc6
+9.O-O Be7 10.Rd1 O-O 11.Bd2 b6 12.Rac1 Bb7 13.dxc5 bxc5 14.Be1 Nb4 15.e4  1/2-1/2
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.21"]
+[Round "9.2"]
+[White "Dotan,V"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "1873"]
+[BlackElo "2275"]
+[ECO "A04"]
+
+1.Nf3 g6 2.c4 d6 3.g3 e5 4.Bg2 Bg7 5.d3 Ne7 6.Nc3 h6 7.Bd2 c6 8.O-O O-O 9.Qc1 Kh7
+10.b4 Be6 11.h3 d5 12.c5 Qd7 13.Kh2 Na6 14.a3 f5 15.e4 fxe4 16.dxe4 d4 17.Na4 Rab8
+18.Nb2 b5 19.Ne1 Bb3 20.f3 Nc7 21.h4 Ng8 22.Bh3 Qe7 23.h5 g5 24.Bf5+ Kh8
+25.Kg2 Be6 26.Bxe6 Qxe6 27.Qd1 Nf6 28.g4 Rf7 29.Ned3 Rbf8 30.Qe2 Nd7 31.Rac1 Bf6
+32.a4 bxa4 33.Nxa4 Nb5 34.Nab2 Bd8 35.Nc4 Bc7 36.Kg3 Nc3 37.Bxc3 Qxc4 38.Bb2 Qb5
+39.Ra1 a5 40.bxa5 Nxc5 41.Rad1 Nxd3 42.Rxd3 Bxa5 43.Qc2 c5 44.Rdd1 c4 45.Bxd4 exd4
+46.Rxd4 Qe5+  0-1
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.22"]
+[Round "10.2"]
+[White "Hrivnakova,A"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "1548"]
+[BlackElo "2275"]
+[ECO "A41"]
+
+1.d4 d6 2.c4 Nd7 3.Nf3 e5 4.dxe5 dxe5 5.e3 Ngf6 6.a3 c6 7.Nc3 a5 8.Be2 e4
+9.Nd2 Nc5 10.O-O a4 11.h3 Bd6 12.Qc2 Qe7 13.b3 axb3 14.Nxb3 Nxb3 15.Qxb3 Qe5
+16.g3 Bxh3 17.Bb2 Qg5 18.Kh2 Bc8 19.Kg2 O-O 20.Rh1 Re8 21.Na4 Ng4 22.Bxg4 Bxg4
+23.Rh4 Bf3+ 24.Kh2 Qxh4+  0-1
+
+[Event "World Senior 65+ w 2019"]
+[Site "Bucharest ROU"]
+[Date "2019.11.23"]
+[Round "11.1"]
+[White "Gaprindashvili,N1"]
+[Black "Bujinlkham,Purevdorj"]
+[Result "1-0"]
+[WhiteElo "2275"]
+[BlackElo "1794"]
+[ECO "D61"]
+
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Bg5 Be7 5.Nc3 Nbd7 6.e3 O-O 7.Qc2 b6 8.cxd5 exd5
+9.Bd3 Bb7 10.O-O Re8 11.Bf4 c6 12.h3 Nf8 13.Rfd1 Ng6 14.Be5 Nd7 15.Bg3 Ndf8
+16.e4 f6 17.exd5 cxd5 18.Bb5 a6 19.Bxe8 Qxe8 20.Qb3 Qc6 21.Rac1 b5 22.Ne4 Qb6
+23.Nc5 Bc6 24.Re1 a5 25.a4 b4 26.Rc2 Rd8 27.h4 Bd6 28.h5 Nf4 29.h6 g5 30.Ne4 Kf7
+31.Nxd6+ Rxd6 32.Bxf4 gxf4 33.Rec1 Ne6 34.Qd3 Nf8 35.b3 Ng6 36.Qf5 Bd7 37.Rc7 Nf8
+38.Ne5+  1-0
+
+[Event "ch-EUR Women Blitz 2019"]
+[Site "Monaco MNC"]
+[Date "2019.11.29"]
+[Round "2.17"]
+[White "Berend,E"]
+[Black "Gaprindashvili,N1"]
+[Result "1-0"]
+[WhiteElo "2349"]
+[BlackElo "2275"]
+[ECO "A44"]
+
+1.d4 c5 2.d5 e5 3.c4 d6 4.e4 g6 5.Nc3 Nh6 6.Bd3 Bg7 7.Nge2 f5 8.f4 Qh4+ 9.g3 Qh5
+10.fxe5 dxe5 11.Nb5 Kd8 12.Nd6 Rf8 13.Be3 Bd7 14.Nxb7+ Kc7 15.Nxc5 Ng4 16.Bg1 f4
+17.Qb3 Bc8 18.d6+ Kd8 19.Nb7+ Ke8 20.O-O-O f3 21.Nc5 Nd7 22.Ne6 f2 23.Nxg7+ Kd8
+24.Nxh5 gxh5 25.Nc3 Rb8 26.Qa3 fxg1=Q 27.Rhxg1 Nf2 28.Qa5+ Ke8 29.Nd5 Nxd1
+30.Nc7+ Kf7 31.Qd5+ Kg7 32.Rxd1 Rf2 33.Ne6+ Kh6 34.b3 Nf6 35.Qxe5 Bxe6 36.Qxe6 Rxa2
+37.Bc2 Ra1+ 38.Kb2 Rxd1 39.Qxf6+  1-0
+
+[Event "ch-EUR Women Blitz 2019"]
+[Site "Monaco MNC"]
+[Date "2019.11.29"]
+[Round "6.16"]
+[White "Mkrtchian,L"]
+[Black "Gaprindashvili,N1"]
+[Result "1-0"]
+[WhiteElo "2402"]
+[BlackElo "2275"]
+[ECO "A10"]
+
+1.c4 d6 2.Nc3 e5 3.g3 g6 4.d4 Nd7 5.Bg2 Bg7 6.Nf3 Nh6 7.h4 f6 8.h5 Nf7 9.hxg6 hxg6
+10.Rxh8+ Bxh8 11.Nh4 Nf8 12.Be3 c6 13.Qd2 Bd7 14.O-O-O Qa5 15.Kb1 O-O-O 16.d5 c5
+17.Qc2 f5 18.Bc1 Bf6 19.Rh1 e4 20.Bd2 Qa6 21.b3 g5 22.Nxf5 Bxc3 23.Ne7+ Kc7
+24.Bxc3 Re8 25.Ng8 Bf5 26.Nf6 Re7 27.Bxe4 Bxe4 28.Nxe4 b5 29.cxb5 Qxb5 30.f3 Nd7
+31.Rh7 a5 32.a4 Qb7 33.Bxa5+ Kb8 34.Qb2 Qxd5 35.Nc3 Qf5+ 36.Qc2 Qxh7 37.Qxh7 Kb7
+38.Qg7 Nde5 39.Qf6 Rd7 40.Nd5 c4 41.Bc3 Nc6 42.b4 Nfe5 43.Bxe5 dxe5 44.Nc3 Nxb4
+45.Qxe5 Nc6 46.Qb5+ Kc7 47.Qxc4 Rd4 48.Nb5+ Kb6 49.Nxd4 Nxd4 50.Qxd4+ Kc6
+51.Qf6+ Kd5 52.Qxg5+ Kc4 53.Qb5+ Kd4 54.a5 Ke3 55.a6 Kf2 56.a7 Kg2 57.a8=Q Kg1
+58.Qa7+ Kf1 59.e4+ Kg2 60.Qe2+  1-0
+
+[Event "ch-EUR Women Blitz 2019"]
+[Site "Monaco MNC"]
+[Date "2019.11.29"]
+[Round "7.18"]
+[White "Gaprindashvili,N1"]
+[Black "Worek,J"]
+[Result "0-1"]
+[WhiteElo "2275"]
+[BlackElo "2316"]
+[ECO "A57"]
+
+1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.b6 d6 6.Nc3 Nbd7 7.e4 Qxb6 8.Nf3 g6
+9.Be2 Bg7 10.O-O O-O 11.Qc2 a5 12.Nd2 Ba6 13.Nc4 Bxc4 14.Bxc4 a4 15.Bg5 a3
+16.Rab1 axb2 17.Rxb2 Qa5 18.Rb5 Qc7 19.a4 Ne5 20.Be2 c4 21.Rfb1 h6 22.Be3 Rfc8
+23.Bb6 Qd7 24.a5 Nd3 25.Bxd3 cxd3 26.Qxd3 Ng4 27.Bd4 Ne5 28.Bxe5 Bxe5 29.Na4 Qc7
+30.g3 Rxa5 31.Nb6 Rb8 32.Rxa5 Rxb6 33.Rab5 Rxb5 34.Qxb5 Qc2 35.Re1 Bd4 36.Re2 Qd1+
+37.Kg2 Kg7 38.Qc4 Bc5 39.Qc3+ Bd4 40.Qc2 Qa1 41.h4 h5 42.Qd2 Bc5 43.Qf4 Bd4
+44.Qf3 Qd1 45.Re3 Qb1 46.Rd3 Be5 47.Qe2 Qb5 48.f4 Bd4 49.Qd2 Bc5 50.Qc3+ f6
+51.e5 Qb1 52.exf6+ exf6 53.Qd2 Qg1+ 54.Kh3 Qh1+ 55.Qh2 Qf1+ 56.Qg2 Qxd3 57.Qh1 Bf2
+58.Qg2 Bxg3 59.Qxg3 Qxd5 60.Qe3 Qf5+ 61.Kg3 Qg4+ 62.Kh2 Qxh4+ 63.Kg2 Qg4+
+64.Kf2 Kh6 65.f5+ g5 66.Qe6 Qf4+ 67.Kg2 Qe5 68.Qd7 g4 69.Qc8 Kg5 70.Qc1+ Kxf5
+71.Qc8+ Kg5 72.Qg8+ Kh4  0-1
+
+[Event "ch-EUR Women Blitz 2019"]
+[Site "Monaco MNC"]
+[Date "2019.11.29"]
+[Round "12.16"]
+[White "Gaprindashvili,N1"]
+[Black "Guichard,P"]
+[Result "0-1"]
+[WhiteElo "2275"]
+[BlackElo "2407"]
+[ECO "E73"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.Be2 O-O 6.Bg5 e5 7.dxe5 dxe5 8.Qxd8 Rxd8
+9.Nd5 Nbd7 10.Nxc7 Rb8 11.Nd5 h6 12.Bxf6 Nxf6 13.f3 Be6 14.O-O-O Bxd5 15.cxd5 Nh5
+16.g3 f5 17.Bd3 Rbc8+ 18.Kb1 fxe4 19.Bxe4 Nf6 20.Ne2 g5 21.Nc3 Bf8 22.Bf5 Rc4
+23.Rhe1 Bd6 24.Be4 a6 25.Re2 b5 26.a3 Rb8 27.Bd3 Rd4 28.Bc2 Rxd1+ 29.Bxd1 b4
+30.axb4 Rxb4 31.Bc2 a5 32.Be4 Kf7 33.Kc2 g4 34.fxg4 Nxg4 35.Bf5 Nf6 36.Be6+ Kg6
+37.h3 h5 38.g4 hxg4 39.hxg4 Nxg4 40.Rg2 Kg5 41.Nd1 Kh4 42.Bxg4 Rxg4 43.Rxg4+ Kxg4
+44.Kd3 Kf5 45.Nc3 Bb4 46.Ne4 Kg6 47.Kc4 Kf7 48.d6 Ke6 49.Kb5  0-1
+
+[Event "ch-EUR Women Rapid 2019"]
+[Site "Monaco MNC"]
+[Date "2019.11.30"]
+[Round "2.3"]
+[White "Gaprindashvili,N1"]
+[Black "Muzychuk,M"]
+[Result "0-1"]
+[WhiteElo "2275"]
+[BlackElo "2552"]
+[ECO "E20"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Bd2 b6 5.Qc2 Bb7 6.f3 c5 7.a3 Bxc3 8.Bxc3 cxd4
+9.Bxd4 O-O 10.e4 d5 11.O-O-O dxe4 12.Bc3 Qc7 13.Bxf6 Qf4+ 14.Kb1 Qxf6 15.fxe4 Nc6
+16.Nf3 Rfd8 17.Bd3 Ne5 18.Qe2 Nxd3 19.Rxd3 Qf4 20.Re3 Rd7 21.Rc1 Rad8 22.Rc2 h6
+23.Ka2 e5 24.Rcc3 Qf6 25.Qc2 Qe6 26.b3 Kh7 27.Kb2 Rd1 28.c5 bxc5 29.Rxc5 f6
+30.Rc7 Qb6 31.Qc5 Qxc5 32.Rxc5 R8d7 33.b4 Rf1 34.Re2 Rdd1 35.Kb3 Rd3+ 36.Rc3 Rb1+
+37.Kc2 Rxc3+ 38.Kxc3 Bc6 39.Kc2 Ra1 40.Kb2 Rd1 41.Nd2 Bb5 42.Rf2 Re1 43.h3 h5
+44.Kc3 Re3+ 45.Kb2 Kg6 46.Ka2 h4 47.Kb2 Kf7 48.Ka2 Ke6 49.Kb2 g5 50.Ka2 Bd3
+51.Rf3 Rxf3 52.gxf3 f5 53.a4 fxe4 54.fxe4 Be2 55.b5 g4 56.hxg4 h3 57.a5 h2  0-1
+
+[Event "ch-EUR Women Rapid 2019"]
+[Site "Monaco MNC"]
+[Date "2019.11.30"]
+[Round "4.11"]
+[White "Gaprindashvili,N1"]
+[Black "Stefanova,A"]
+[Result "0-1"]
+[WhiteElo "2275"]
+[BlackElo "2481"]
+[ECO "D11"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 g6 5.Nc3 Bg7 6.a3 O-O 7.Be2 b6 8.b4 c5 9.O-O dxc4
+10.bxc5 bxc5 11.Bxc4 cxd4 12.exd4 Qc7 13.Qb3 Nc6 14.Nb5 Qb6 15.Bd2 a6 16.Nc3 Qa7
+17.Ne2 Bg4 18.Ne5 Bxe2 19.Nxc6 Bxc4 20.Qxc4 Qd7 21.Bb4 Rfe8 22.Ne5 Qd5 23.Rac1 a5
+24.Bc5 e6 25.Rb1 Ne4 26.Qxd5 exd5 27.Nf3 g5 28.h3 h5 29.g4 hxg4 30.hxg4 f5
+31.Rb7 fxg4 32.Ne5 Nxc5 33.dxc5 Bxe5 34.Kg2 Rac8 35.Rb5 d4 36.Rxa5 d3 37.Rd1 Red8
+38.c6 Bf4 39.Ra6 d2 40.Kf1 Rd6  0-1
+
+[Event "ch-EUR Women Rapid 2019"]
+[Site "Monaco MNC"]
+[Date "2019.12.01"]
+[Round "6.4"]
+[White "Gaprindashvili,N1"]
+[Black "Chiburdanidze,M"]
+[Result "0-1"]
+[WhiteElo "2275"]
+[BlackElo "2500"]
+[ECO "D30"]
+
+1.d4 e6 2.c4 d5 3.Nf3 c6 4.Qc2 Nd7 5.Bf4 Ngf6 6.Nbd2 Be7 7.h3 O-O 8.e3 c5
+9.b3 b6 10.Bd3 Bb7 11.O-O Rc8 12.Rad1 Re8 13.Qb1 Nf8 14.dxc5 Bxc5 15.e4 dxe4
+16.Nxe4 Bxe4 17.Bxe4 Qe7 18.Bc2 Ng6 19.Bd2 Red8 20.Bc3 a5 21.Qc1 Nh5 22.Rxd8+ Rxd8
+23.Rd1 Nhf4 24.Rxd8+ Qxd8 25.Qd1 Qxd1+ 26.Bxd1 Nd3 27.Bd4 e5 28.Bxc5 bxc5
+29.Bc2 Ngf4 30.Kf1 Nb4 31.Bb1 f6 32.a3 Nc6 33.Nd2 Nd4 34.Be4 Kf7 35.h4 f5
+36.Bb1 Kf6 37.f3 Nfe2 38.g4 g6 39.h5 Nc1 40.hxg6 hxg6 41.gxf5 gxf5 42.b4 cxb4
+43.axb4 axb4 44.c5 Ke6 45.Ke1 Nce2 46.Bd3 Nc3 47.Bc4+ Kd7 48.Kf2 Kc6 49.Ke3 Kxc5
+50.f4 Nd1+ 51.Kd3 e4+  0-1
+
+[Event "ch-EUR Women Rapid 2019"]
+[Site "Monaco MNC"]
+[Date "2019.12.01"]
+[Round "8.19"]
+[White "Gaprindashvili,N1"]
+[Black "Ovod,E"]
+[Result "1-0"]
+[WhiteElo "2275"]
+[BlackElo "2347"]
+[ECO "D56"]
+
+1.d4 d5 2.c4 e6 3.Nf3 Nf6 4.Bg5 Be7 5.e3 O-O 6.Nc3 h6 7.Bh4 Ne4 8.Bxe7 Qxe7
+9.Qc2 Nxc3 10.Qxc3 dxc4 11.Qxc4 b6 12.Rc1 c6 13.Be2 Ba6 14.Qc3 Bxe2 15.Kxe2 Rc8
+16.Rhd1 Nd7 17.Kf1 c5 18.b4 cxd4 19.Qxc8+ Rxc8 20.Rxc8+ Kh7 21.Rc7 Qxb4 22.Nxd4 Nf6
+23.Rxf7 Qc4+ 24.Ne2 Qxa2 25.Rc1 Nd5 26.e4 Nb4 27.Rcc7 Qa1+ 28.Nc1 a5 29.f4 Kg6
+30.f5+ exf5 31.exf5+ Kg5 32.Rxg7+ Kxf5 33.g4+ Ke4 34.Kg2 Nd5 35.Rc4+ Ke5
+36.Rg6  1-0
+
+[Event "ch-EUR Women Rapid 2019"]
+[Site "Monaco MNC"]
+[Date "2019.12.01"]
+[Round "9.12"]
+[White "Gunina,V"]
+[Black "Gaprindashvili,N1"]
+[Result "1-0"]
+[WhiteElo "2509"]
+[BlackElo "2275"]
+[ECO "B00"]
+
+1.e4 b6 2.Bc4 Bb7 3.Nc3 e6 4.d3 Bb4 5.Qg4 Bxc3+ 6.bxc3 Qf6 7.Ne2 d5 8.Bg5 Qg6
+9.Nf4 f5 10.Qh4 Qf7 11.exd5 exd5 12.Bb3 h6 13.Ne2 Nd7 14.O-O Nc5 15.Nd4 Kf8
+16.Rae1 Qg6 17.Bd8 Rc8 18.Re5 Nf6 19.Bxf6 gxf6 20.Rxf5 Kg7 21.Rf3 Kf7 22.Rg3 Qh7
+23.Qh5+ Kf8 24.Rg6 Qe7 25.Nf5 Qe5 26.d4  1-0
+
+[Event "ch-EUR Women Rapid 2019"]
+[Site "Monaco MNC"]
+[Date "2019.12.01"]
+[Round "11.11"]
+[White "Bodnaruk,A"]
+[Black "Gaprindashvili,N1"]
+[Result "1-0"]
+[WhiteElo "2412"]
+[BlackElo "2275"]
+[ECO "B00"]
+
+1.e4 b6 2.d4 Bb7 3.Nc3 e6 4.a3 g6 5.f4 d5 6.e5 h5 7.Nf3 Nh6 8.Be3 Nf5 9.Bf2 c5
+10.Bd3 Ba6 11.Bxa6 Nxa6 12.g3 Qd7 13.O-O cxd4 14.Nxd4 Nxd4 15.Bxd4 Nc5 16.Qe2 Be7
+17.Rad1 Qc6 18.b4 Nd7 19.Nb1 Rc8 20.c3 a5 21.Nd2 Kf8 22.h3 Kg7 23.Kg2 Qa4
+24.g4 hxg4 25.hxg4 Qxa3 26.f5 Bg5 27.Nf3 Bf4 28.f6+ Kg8 29.Ra1 Qb3 30.Rfb1 Qc4
+31.Qxc4 Rxc4 32.bxa5 bxa5 33.Rxa5 Rc8 34.Ra7 Nf8 35.Rbb7 Rh7 36.g5 Rh5 37.Rxf7 Bxg5
+38.Rg7+ Kh8 39.Rgc7 Rd8 40.Bc5 Bh6 41.Rf7 Rb8 42.Kg3 Rc8 43.Rfc7 Rxc7 44.Rxc7 Kg8
+45.Bd6 Rf5 46.Nd4 Bf4+ 47.Kf3 Rxf6 48.exf6 Bxd6 49.Rg7+ Kh8 50.Kg4 Be5 51.Kg5 Bxd4
+52.cxd4 e5 53.dxe5 Ne6+ 54.Kxg6 Nxg7 55.fxg7+ Kg8 56.e6  1-0
+
+[Event "World Senior Teams +50"]
+[Site "Acqui Terme ITA"]
+[Date "2022.06.28"]
+[Round "8.2"]
+[White "Gaprindashvili,N1"]
+[Black "Arkell,K"]
+[Result "0-1"]
+[WhiteElo "2270"]
+[BlackElo "2390"]
+[ECO "E21"]
+
+1.d4 e6 2.Nf3 Nf6 3.c4 Bb4+ 4.Nc3 c5 5.g3 Ne4 6.Qd3 cxd4 7.Nxd4 Qa5 8.Nb3 Nxc3
+9.Bd2 Ne4 10.Qxe4 Bxd2+ 11.Nxd2 Nc6 12.Bg2 O-O 13.Qe3 d5 14.O-O d4 15.Qd3 e5
+16.a3 Qc7 17.f4 exf4 18.Rxf4 a5 19.Raf1 Be6 20.Bd5 Qd7 21.Ne4 Ne5 22.Qxd4 Ng6
+23.Nc5 Nxf4 24.Rxf4 Qe7 25.Re4 Qg5 26.Nxe6 fxe6 27.Bxe6+ Kh8 28.Rf4 Rxf4
+29.Qxf4 Qc5+ 30.Qf2 Qe5 31.Bd5 Qxb2 32.a4 Re8 33.e4 Qa1+ 34.Kg2 Qxa4 35.e5 Qb4
+36.e6 b6 37.Qf7 Qe7 38.Bc6 Qxf7 39.exf7 Rf8  0-1
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.15"]
+[Round "1.16"]
+[White "Ramusch,A"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "1907"]
+[BlackElo "2268"]
+[ECO "A04"]
+
+1.Nf3 g6 2.c4 Bg7 3.d4 d6 4.Nc3 Nd7 5.e4 c6 6.Be3 Ngf6 7.h3 e5 8.dxe5 dxe5
+9.Be2 Qe7 10.Qd2 Nc5 11.Qc2 O-O 12.g4 Ne8 13.O-O-O Ne6 14.Rhe1 N8c7 15.Qd2 Rd8
+16.Qc2 Nd4 17.Qa4 Nce6 18.Rd2 Qf6 19.Qd1 Nf4 20.Ng1 Be6 21.Bf1 Rd7 22.Kb1 Rad8
+23.Qc1 Qe7 24.Bxf4 exf4 25.Red1 f3  0-1
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.16"]
+[Round "2.14"]
+[White "Gaprindashvili,N1"]
+[Black "Hewson,Brian W R"]
+[Result "1-0"]
+[WhiteElo "2268"]
+[BlackElo "2028"]
+[ECO "D11"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3 Qb6 5.c5 Qxb3 6.axb3 Bg4 7.Nc3 Bxf3 8.gxf3 e5
+9.e3 Nfd7 10.b4 Be7 11.Ke2 Bf6 12.Kd3 Na6 13.Ra4 Nc7 14.f4 exd4 15.exd4 a6
+16.f5 O-O 17.Bf4 Nb5 18.Be3 Rfe8 19.Bg2 Nxc3 20.bxc3 Rad8 21.Ra2 Bh4 22.Rg1 Nf6
+23.Bf3 Rd7 24.Bd1 Re4 25.Rg2 Re8 26.Re2 Rde7 27.f3 g6 28.Bb3 Kg7 29.Bd1 Nh5
+30.Bd2 Rxe2 31.Bxe2 Bd8 32.c4 dxc4+ 33.Kxc4 Bc7 34.Bd3 Bf4 35.Be4 Bxd2 36.Rxd2 gxf5
+37.Bxf5 Nf4 38.Be4 h6 39.d5 cxd5+ 40.Bxd5 Re7 41.Be4 Ne6 42.Rd6 Ng5 43.Bd5  1-0
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.17"]
+[Round "3.10"]
+[White "Bagamasbad,E"]
+[Black "Gaprindashvili,N1"]
+[Result "0-1"]
+[WhiteElo "2051"]
+[BlackElo "2268"]
+[ECO "A25"]
+
+1.g3 e5 2.c4 Nc6 3.Bg2 g6 4.Nc3 Bg7 5.d3 Nge7 6.e3 d6 7.Nge2 O-O 8.O-O Bd7
+9.Nd5 Nxd5 10.cxd5 Ne7 11.e4 c6 12.dxc6 Bxc6 13.Be3 d5 14.Bc5 Re8 15.Nc3 d4
+16.Bxe7 Rxe7 17.Nd5 Bxd5 18.exd5 Rc7 19.Rc1 Rac8 20.Rxc7 Qxc7 21.Qa4 Qb6
+22.h4 Bf8 23.h5 a6 24.Rb1 Qb5 25.Qd1 Qc5 26.hxg6 hxg6 27.Qg4 Bd6 28.Be4 Kg7
+29.Kg2 Rh8 30.Qd7 Qb6 31.b4 Rd8 32.Qg4 Qc7 33.b5 a5 34.b6 Qc8 35.Qg5 Qd7
+36.Rh1 Rh8 37.Rh4 Rxh4 38.Qxh4 Qc8 39.g4 Qe8 40.Qh3 Qb8 41.Qh4 Qc8 42.Qg5 Qe8
+43.Bf3 Qh8 44.Qd2 Qa8 45.Qg5 Qc8 46.Be4 Qh8 47.a3 Qc8 48.Bf3 f6 49.Qd2 Qc3
+50.Qd1 Qxa3 51.g5 fxg5 52.Be4 Be7 53.Qg4 Qd6 54.Qc8 Qxb6 55.Qd7 Qd6 56.Qxb7 a4
+57.Qa8 a3 58.Bf3 Qd7 59.Kg3 Bd6 60.Bg4 Qf7 61.Kg2 Qf4 62.Be6 Qf8 63.Qa4 Kh6
+64.Qa6 Kh5 65.f3 g4 66.Bxg4+ Kh4 67.Qa5 Kg5 68.Qd2+ Qf4 69.Qa5 e4 70.dxe4 d3
+71.Kf2 a2 72.Qd8+ Qf6 73.f4+ Bxf4  0-1
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.18"]
+[Round "4.2"]
+[White "Sideifzade,F"]
+[Black "Gaprindashvili,N1"]
+[Result "1/2-1/2"]
+[WhiteElo "2391"]
+[BlackElo "2268"]
+[ECO "A44"]
+
+1.d4 c5 2.d5 e5 3.e4 d6 4.Nc3 g6 5.Be2 Nh6 6.g4 f6 7.h4 Nf7 8.h5 Na6 9.a4 Nc7
+10.f3 Bd7 11.Bd3 a6 12.Qe2 b6 13.Rb1 g5 14.b4 Be7 15.Kf2 O-O 16.Be3 Qc8 17.Qd2 Qe8
+18.Nge2 b5 19.Ng3 cxb4 20.Rxb4 bxa4 21.Nf5 Bd8 22.Rhb1 a3 23.R4b3 Nb5 24.Na2 Bxf5
+25.gxf5 Nh6 26.Rh1 Rf7 27.Bxb5 axb5 28.Qb4 Rc7 29.c3 Nf7 30.Qxb5 Qxb5 31.Rxb5 Kf8
+32.Rhb1 Ke8 33.Ke2 Rcc8 34.Kd3 Bc7 35.c4 Kd7 36.R5b3 Rg8 37.Rg1 Kc8 38.Bc1 Kd7
+39.Rg2 Rgb8 40.Rxb8 Rxb8 41.Nc3 Ba5 42.Nb5 Bb4 43.Ra2 Bc5 44.Be3 Bxe3 45.Kxe3 Ra8
+46.Rxa3 Rxa3+ 47.Nxa3 Nd8 48.Nc2 Nb7 49.Kd2 Nc5 50.Ne3 Nb3+ 51.Kd3 Ke7 52.Ng4 Nd4
+53.Nh2 Nb3 54.h6 Nc5+ 55.Kc2 Kd8 56.Ng4 Nd7 57.Nf2 Kc7 58.Nd3 Kb6 59.Kb3 Nb8
+60.Nb2 Na6 61.Na4+ Kc7 62.Kc3 Kd7 63.Nb2 Kc7 64.Nd3 Kb6 65.Nf2 Nc5 66.Ng4 Nd7
+67.Kb4 Ka6 68.Nf2 Nc5 69.Kc3 Ka5 70.Nd3 Nd7 71.Nc1 Kb6 72.Kb4 Nc5 73.Nb3 Na6+
+74.Kc3 Kc7 75.Nc1 g4 76.fxg4 Nc5 77.Kd2 Nxe4+ 78.Ke3 Ng5 79.Ne2 Nf7 80.Ng3 Kd7
+81.Ne4 Ke7 82.Kf3 Nxh6 83.c5 dxc5 84.Nxc5  1/2-1/2
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.19"]
+[Round "5.5"]
+[White "Gaprindashvili,N1"]
+[Black "Chapman,T"]
+[Result "1/2-1/2"]
+[WhiteElo "2268"]
+[BlackElo "2216"]
+[ECO "E20"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.g3 c5 5.Nf3 cxd4 6.Nxd4 O-O 7.Bg2 d5 8.cxd5 Nxd5
+9.Bd2 Nc6 10.Nxd5 Bxd2+ 11.Qxd2 exd5 12.O-O Qb6 13.Rfd1 Be6 14.e3 Rfd8 15.h3 Rac8
+16.Rac1  1/2-1/2
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.20"]
+[Round "6.2"]
+[White "Vaisser,A"]
+[Black "Gaprindashvili,N1"]
+[Result "1/2-1/2"]
+[WhiteElo "2463"]
+[BlackElo "2268"]
+[ECO "A44"]
+
+1.d4 c5 2.d5 e5 3.e4 d6 4.Nc3 g6 5.f4 f6 6.Nf3 exf4 7.Bxf4 Nh6 8.Bb5+ Nd7
+9.a4 a6 10.Be2 Nf7 11.O-O Bg7 12.Qe1 O-O 13.Qg3 Nde5 14.Nd1 Bd7 15.a5 Bb5
+16.Re1 Bxe2 17.Rxe2 Qd7 18.Nd2 Rae8 19.h3 Re7 20.Rf2 Qb5 21.Nc3 Qd7 22.Nd1 f5
+23.exf5 gxf5 24.Ne3 Ng6 25.Ndc4 Nfe5 26.Raf1 Nxc4 27.Nxc4 Re4 28.Nb6 Qd8
+29.Bg5 Qe8 30.c3 f4 31.Bxf4 Nxf4 32.Rxf4 Rfxf4 33.Rxf4 Qe5 34.Rg4 Re1+ 35.Kh2 Qxg3+
+36.Kxg3 Kf7 37.Nc4 Bf8 38.Rf4+ Ke8 39.Kf2 Rd1 40.Rf5 Be7 41.Rh5 h6 42.Ke2 Rg1
+43.g4 Bf8 44.Rf5 Be7 45.Rf3 Rh1 46.Kd2 Bg5+ 47.Kc2 Ke7 48.Ne3 Kd7 49.Kb3 Rh2
+50.Nc4 Ke7 51.Ka4 Rh1 52.Kb3 Rh2 53.Ne3 Kd7 54.Nf5 Bc1 55.Kc4 Rxb2 56.Rf1 Bg5
+57.h4 Bd8 58.Nxh6 Bxh4 59.Rf7+ Ke8 60.Rh7 Bf6 61.Nf5 Be5 62.Rh6 Kd7 63.Rh7+ Ke8
+64.Rh6 Kd7 65.Rh7+ Ke8  1/2-1/2
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.22"]
+[Round "7.11"]
+[White "Gaprindashvili,N1"]
+[Black "Molchanov,N"]
+[Result "1-0"]
+[WhiteElo "2268"]
+[BlackElo "2113"]
+[ECO "A40"]
+
+1.d4 e6 2.c4 b6 3.Nc3 Bb7 4.a3 f5 5.Nf3 Nf6 6.d5 Bd6 7.dxe6 dxe6 8.Nb5 O-O
+9.Nxd6 cxd6 10.e3 Qe7 11.Be2 Nbd7 12.O-O Rac8 13.b3 Rfd8 14.Bb2 Nc5 15.Nd4 d5
+16.b4 Nce4 17.cxd5 Nxd5 18.Bd3 Ndc3 19.Bxc3 Nxc3 20.Qb3 Bd5 21.Qb2 g6 22.Ba6 Rc7
+23.Rac1 Ne4 24.Rxc7 Qxc7 25.Rc1 Qd7 26.Qc2 e5 27.Nf3 Be6 28.Nxe5 Qd2 29.Qxd2 Rxd2
+30.f3 Nd6 31.Rc7 Rd5 32.Nc6 Rd1+ 33.Kf2 f4 34.Nd4 Bf7 35.Rc6 Ne8 36.Be2 fxe3+
+37.Kxe3 Ra1 38.Rc3 Nf6 39.Rc8+ Kg7 40.Nc2 Nd5+ 41.Kd2 Rh1 42.h3 Rg1 43.Ne3 Nxe3
+44.Kxe3 Rxg2 45.Rc7 Kf6 46.Rxa7 Rh2 47.Rb7 Rxh3 48.Rxb6+ Ke5 49.Bf1 Rh1 50.Kf2 Bd5
+51.a4 Bxf3 52.a5 Bd5 53.Rb5 Rh2+ 54.Kg3 Rc2 55.a6 Rc3+ 56.Kf2 Rc2+ 57.Ke3 Rc3+
+58.Bd3 Ra3 59.Rc5 h5 60.Rc8 Be6 61.Re8 Kd6 62.Kd4 Bd7 63.Rg8 Kc7 64.Rg7 h4
+65.Bb5 Kb6 66.Bxd7 Kxa6 67.Rxg6+ Ka7 68.Rh6 Ra2 69.Kc5 Rc2+ 70.Kb5 Rd2 71.Bc6 Rd8
+72.Rh7+ Kb8 73.Kb6  1-0
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.23"]
+[Round "8.3"]
+[White "Gaprindashvili,N1"]
+[Black "Jansa,Vl"]
+[Result "1/2-1/2"]
+[WhiteElo "2268"]
+[BlackElo "2390"]
+[ECO "A41"]
+
+1.d4 d6 2.c4 e5 3.Nc3 exd4 4.Qxd4 Nf6 5.b3 g6 6.Bb2 Bg7 7.g3 O-O 8.Bg2 Re8
+9.Nh3 Nbd7 10.Qd2 Nc5 11.Nf4 a5 12.Rd1 Bf5 13.O-O Nfe4 14.Nxe4 Bxe4 15.Bxg7 Kxg7
+16.Qb2+ Kg8 17.Bxe4 Nxe4 18.Nd5 c6 19.Nf4 Qe7  1/2-1/2
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.24"]
+[Round "9.7"]
+[White "Renman,N"]
+[Black "Gaprindashvili,N1"]
+[Result "1-0"]
+[WhiteElo "2320"]
+[BlackElo "2268"]
+[ECO "A44"]
+
+1.d4 c5 2.d5 e5 3.e4 d6 4.Nc3 g6 5.h4 f6 6.h5 Nh6 7.Be2 Na6 8.Nf3 g5 9.Nh2 Nc7
+10.a4 Bd7 11.Rb1 Qc8 12.Be3 Be7 13.Qd2 Nf7 14.Nf1 O-O 15.Ng3 Nh6 16.f3 Qe8
+17.b4 b6 18.bxc5 bxc5 19.O-O Bd8 20.Nb5 Nxb5 21.Bxb5 a6 22.Bxd7 Qxd7 23.a5 Qa4
+24.Ra1 Qe8 25.Rfb1 Rf7 26.Nf1 Rfa7 27.g4 Qd7 28.Qe1 Rb7 29.Rxb7 Qxb7 30.Bd2 Rb8
+31.Ne3 Qb5 32.Qf1 Nf7 33.Nc4 Kf8 34.Bc3 Bc7 35.Na3 Qxf1+ 36.Kxf1 Ke8 37.Ke2 Kd7
+38.Kd3 Kc8 39.Nc4 Rb5 40.Ne3 Nh6 41.Ra3 Kb7 42.Rb3 Ka7 43.Nc4 Nf7 44.Na3 Rb7
+45.Kc4 Bd8 46.Nb1 Bc7 47.Nd2 Bd8 48.Nf1 Bc7 49.Ne3 Nh6 50.Kd3 Rb5 51.Nc4 Nf7
+52.Kd2 Rb7 53.Kc1 Rb5 54.Kb2 Rb7 55.Ka3 Rb5 56.Ka4 Rb7 57.Bd2 Bd8 58.Be3 Bc7
+59.Bf2 Nh6 60.Nb2 Ka8 61.Nd3 Nf7 62.Rxb7 Kxb7 63.Bxc5 dxc5 64.Nxc5+ Ka7 65.Nd7 Bd8
+66.c4 Kb7 67.c5 Kc7 68.Nf8 h6 69.Ne6+ Kc8 70.Kb4 Be7 71.d6 Nxd6 72.cxd6 Bxd6+
+73.Kc4 Kd7 74.Kd5 Bb4 75.Ng7 Bxa5 76.Nf5 Bd8 77.Nxh6 Ke7 78.Nf5+ Kf8 79.Kc6 Kg8
+80.Nd6  1-0
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.25"]
+[Round "10.12"]
+[White "Gaprindashvili,N1"]
+[Black "Peretz,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2268"]
+[BlackElo "2142"]
+[ECO "D41"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 c5 5.cxd5 cxd4 6.Qxd4 Nxd5 7.Nxd5 Qxd5 8.Qxd5 exd5
+9.Bd2 Nc6 10.e3 Be7 11.Bc3 O-O 12.Rd1 Be6 13.a3 Rac8 14.Be2 Rfd8 15.O-O Nb8
+16.Rc1 Nd7 17.Bd4 Bc5 18.h3 Bxd4 19.Nxd4 Nb6 20.Rfd1 Rxc1 21.Rxc1 Rc8 22.Rxc8+ Nxc8
+23.f4 Nd6 24.Bd3 g6 25.g4 Bd7 26.Kf2 Kf8 27.Kg3 Ke7 28.h4 Nc4 29.Bxc4 dxc4
+30.f5 b5 31.Kf4 a5 32.e4 Kd6 33.Nc2 h6 34.Ne3 g5+ 35.hxg5 hxg5+ 36.Kxg5 Ke5
+37.Nd5 Bc6 38.Nc3 b4 39.axb4 axb4 40.Na2 b3 41.Nc3 Bxe4 42.Kh6 Bf3 43.Kg7 Bxg4
+44.Kxf7 Bxf5 45.Ke7 Bg4 46.Nb5 Kd5 47.Nc3+ Kc5 48.Na4+ Kd4 49.Kd6 Bf3 50.Nc3 Bh5
+51.Kc6 Be8+ 52.Kd6 Kd3 53.Kc5 Kc2 54.Kxc4 Kxb2 55.Nd1+ Ka3 56.Kc3 Bb5 57.Kd2 Bf1
+58.Ke1 Bh3 59.Kd2 Bf5 60.Kc3  1/2-1/2
+
+[Event "World Senior 65+ 2022"]
+[Site "Assisi ITA"]
+[Date "2022.11.26"]
+[Round "11.12"]
+[White "Roos,J"]
+[Black "Gaprindashvili,N1"]
+[Result "1/2-1/2"]
+[WhiteElo "2195"]
+[BlackElo "2268"]
+[ECO "B15"]
+
+1.d4 g6 2.e4 c6 3.Nc3 d5 4.h3 Nh6 5.Nf3 f6 6.Bf4 a6 7.Qd2 Nf7 8.Bd3 Bg7 9.O-O O-O
+10.e5 fxe5 11.Nxe5 Nd7 12.Nf3 Nb8  1/2-1/2

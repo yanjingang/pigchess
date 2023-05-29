@@ -15,8 +15,8 @@ import time
 import copy
 import pickle
 import zlib
-import chess
-import chess.uci
+# import chess
+# import chess.uci
 #import chess.enginedd 
 import random
 import numpy as np
@@ -26,8 +26,8 @@ CUR_PATH = os.path.dirname(os.path.abspath(__file__))
 
 from dp import utils
 from game import Game, Board
-from player import MCTS, MCTSPlayer, AIPlayer
-from train import Train
+# from player import MCTS, MCTSPlayer, AIPlayer
+# from train import Train
 #from net.policy_value_net_keras import PolicyValueNet
 #from net.policy_value_net_tensorflow import PolicyValueNet  # Tensorflow
 
@@ -41,8 +41,10 @@ class Test():
     def __init__(self):
         pass
 
-
+        
 if __name__ == '__main__':
+    utils.init_logging(log_file='test', log_path=CUR_PATH)
+
     """"
     #deepcopy test
     board2 = Board2()
@@ -145,11 +147,13 @@ if __name__ == '__main__':
 
     board = Board()
     print(board.action_ids_size)
+    """
 
     # 批量下载pgn棋谱
     game = Game()
-    game.download_pgn()
+    game.download_pgn(save_db=True, save_databuffer=False)
 
+    """
     model_path= CUR_PATH + '/model/'
     #net_params = utils.pickle_load(model_path+'current_policy.90530-3.2909.model.bak')
     #pickle.dump(net_params, open(model_path+'current_policy.90530-3.2909.model', 'wb'), protocol=4)  
@@ -166,7 +170,6 @@ if __name__ == '__main__':
     engine.quit()
 
 
-    """
     engine = chess.uci.popen_engine('./engine/stockfish-10-linux/Linux/stockfish_10_x64')
     info_handler = chess.uci.InfoHandler()
     engine.info_handlers.append(info_handler)
@@ -175,4 +178,5 @@ if __name__ == '__main__':
     res = engine.go(movetime=2000)
     print(res)
     print(res.bestmove, res.ponder, info_handler.info['score'][1].cp)
+    """
     

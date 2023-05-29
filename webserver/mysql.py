@@ -3,7 +3,7 @@
 """
 File: mysql.py
 Desc: mysql操作类
-Author:yanjingang(yanjingang@baidu.com)
+Author:yanjingang(yanjingang@mail.com)
 """
 
 import os

@@ -2551,6 +2551,26 @@
 [Event "Kasparov Cadet GP"]
 [Site "Internet"]
 [Date "2000.01.13"]
+[Round "2.2"]
+[White "Bu Xiangzhi"]
+[Black "Efimenko,Z"]
+[Result "1-0"]
+[WhiteElo "2465"]
+[BlackElo "2332"]
+[ECO "D03"]
+
+1.d4 Nf6 2.c3 g6 3.Nf3 Bg7 4.Bg5 O-O 5.Nbd2 d5 6.e3 b6 7.Bd3 Nbd7 8.O-O Bb7
+9.Bc2 Ne4 10.Nxe4 dxe4 11.Nd2 f5 12.f3 exf3 13.Nxf3 Nf6 14.Nd2 c5 15.Qe2 Qc7
+16.Bf4 Qc6 17.Nf3 Nd5 18.Bb3 e6 19.Be5 Bh6 20.Bxd5 Qxd5 21.Bf4 Bg7 22.Be5 c4
+23.Bxg7 Kxg7 24.Ne5 Rac8 25.Rf4 Qd8 26.Raf1 Bd5 27.h3 Qg5 28.Kh2 b5 29.Qc2 Be4
+30.Qe2 Bd5 31.Qf2 Qe7 32.Qg3 a5 33.R1f2 b4 34.h4 Rb8 35.e4 Bxe4 36.Nxc4 Qc7
+37.Ne5 Rbc8 38.cxb4 Qd6 39.h5 Qxd4 40.Nxg6 Rg8 41.Ne7+ Kf7 42.Nxg8 Rxg8 43.Qc3 Qd6
+44.Qd2 Qc7 45.b5 Ke8 46.Qc3 Qb8 47.g3 Qxb5 48.Rxe4 fxe4 49.Qc8+ Ke7 50.Qc7+ Ke8
+51.Qf7+  1-0
+
+[Event "Kasparov Cadet GP"]
+[Site "Internet"]
+[Date "2000.01.13"]
 [Round "2.1"]
 [White "Efimenko,Z"]
 [Black "Bu Xiangzhi"]
@@ -2568,23 +2588,22 @@
 
 [Event "Kasparov Cadet GP"]
 [Site "Internet"]
-[Date "2000.01.13"]
-[Round "2.2"]
-[White "Bu Xiangzhi"]
-[Black "Efimenko,Z"]
+[Date "2000.01.14"]
+[Round "3.2"]
+[White "Radjabov,T"]
+[Black "Bu Xiangzhi"]
 [Result "1-0"]
-[WhiteElo "2465"]
-[BlackElo "2332"]
-[ECO "D03"]
+[WhiteElo "2438"]
+[BlackElo "2465"]
+[ECO "D04"]
 
-1.d4 Nf6 2.c3 g6 3.Nf3 Bg7 4.Bg5 O-O 5.Nbd2 d5 6.e3 b6 7.Bd3 Nbd7 8.O-O Bb7
-9.Bc2 Ne4 10.Nxe4 dxe4 11.Nd2 f5 12.f3 exf3 13.Nxf3 Nf6 14.Nd2 c5 15.Qe2 Qc7
-16.Bf4 Qc6 17.Nf3 Nd5 18.Bb3 e6 19.Be5 Bh6 20.Bxd5 Qxd5 21.Bf4 Bg7 22.Be5 c4
-23.Bxg7 Kxg7 24.Ne5 Rac8 25.Rf4 Qd8 26.Raf1 Bd5 27.h3 Qg5 28.Kh2 b5 29.Qc2 Be4
-30.Qe2 Bd5 31.Qf2 Qe7 32.Qg3 a5 33.R1f2 b4 34.h4 Rb8 35.e4 Bxe4 36.Nxc4 Qc7
-37.Ne5 Rbc8 38.cxb4 Qd6 39.h5 Qxd4 40.Nxg6 Rg8 41.Ne7+ Kf7 42.Nxg8 Rxg8 43.Qc3 Qd6
-44.Qd2 Qc7 45.b5 Ke8 46.Qc3 Qb8 47.g3 Qxb5 48.Rxe4 fxe4 49.Qc8+ Ke7 50.Qc7+ Ke8
-51.Qf7+  1-0
+1.Nf3 d5 2.d4 Nf6 3.e3 c5 4.dxc5 e6 5.c4 Bxc5 6.Nc3 O-O 7.cxd5 exd5 8.Be2 Nc6
+9.O-O a6 10.Nd4 Bd6 11.Nxc6 bxc6 12.b3 Be5 13.Bb2 Ne4 14.Qc1 Qh4 15.f4 Nxc3
+16.Bxc3 Bd6 17.Bb2 Qe7 18.Bd3 Bd7 19.Rf3 f5 20.Qc2 h6 21.Rg3 Rf7 22.Be2 Qf8
+23.Rf1 Be8 24.Bd3 Bd7 25.Rff3 Qe7 26.Rg6 Kh7 27.Rfg3 Rg8 28.Qe2 Bc5 29.Be5 Qh4
+30.R3g4 Qd8 31.Qe1 Be7 32.Qg3 Qf8 33.Bxg7 Qxg7 34.Rxg7+ Rfxg7 35.Rxg7+ Rxg7
+36.Qh3 Kg6 37.g4 Kf7 38.Qh5+ Kf8 39.Bxf5 Bc5 40.Bxd7 Bxe3+ 41.Kg2 Rxd7 42.Qxh6+ Ke7
+43.Qg5+ Ke8 44.Qg8+ Ke7 45.f5 d4 46.g5 d3 47.f6+ Kd6 48.f7  1-0
 
 [Event "Kasparov Cadet GP"]
 [Site "Internet"]
@@ -2607,25 +2626,6 @@
 51.Rc4+ Kh5 52.b4 Rb7 53.Kf3 Ra7 54.Rc3 Ra2 55.Rc8 Rb2 56.Rb8 Kg6 57.h3 Rb1
 58.Kg3 Rg1+ 59.Kf2 Rb1 60.Kf3 Rf1+ 61.Kg2 Rb1 62.b5 Rb2+ 63.Kf1 Rb1+ 64.Ke2 Rb3
 65.b6 Kg7 66.Kd2 Rxh3 67.Kc2 Rh6 68.Kd3 g4 69.Ke3  1/2-1/2
-
-[Event "Kasparov Cadet GP"]
-[Site "Internet"]
-[Date "2000.01.14"]
-[Round "3.2"]
-[White "Radjabov,T"]
-[Black "Bu Xiangzhi"]
-[Result "1-0"]
-[WhiteElo "2438"]
-[BlackElo "2465"]
-[ECO "D04"]
-
-1.Nf3 d5 2.d4 Nf6 3.e3 c5 4.dxc5 e6 5.c4 Bxc5 6.Nc3 O-O 7.cxd5 exd5 8.Be2 Nc6
-9.O-O a6 10.Nd4 Bd6 11.Nxc6 bxc6 12.b3 Be5 13.Bb2 Ne4 14.Qc1 Qh4 15.f4 Nxc3
-16.Bxc3 Bd6 17.Bb2 Qe7 18.Bd3 Bd7 19.Rf3 f5 20.Qc2 h6 21.Rg3 Rf7 22.Be2 Qf8
-23.Rf1 Be8 24.Bd3 Bd7 25.Rff3 Qe7 26.Rg6 Kh7 27.Rfg3 Rg8 28.Qe2 Bc5 29.Be5 Qh4
-30.R3g4 Qd8 31.Qe1 Be7 32.Qg3 Qf8 33.Bxg7 Qxg7 34.Rxg7+ Rfxg7 35.Rxg7+ Rxg7
-36.Qh3 Kg6 37.g4 Kf7 38.Qh5+ Kf8 39.Bxf5 Bc5 40.Bxd7 Bxe3+ 41.Kg2 Rxd7 42.Qxh6+ Ke7
-43.Qg5+ Ke8 44.Qg8+ Ke7 45.f5 d4 46.g5 d3 47.f6+ Kd6 48.f7  1-0
 
 [Event "Petroff Mem Open"]
 [Site "St Petersburg RUS"]
@@ -4182,25 +4182,61 @@
 [Event "Young Masters"]
 [Site "Lausanne SUI"]
 [Date "2001.05.21"]
-[Round "1.3"]
+[Round "1.5"]
 [White "Kosteniuk,A"]
 [Black "Bu Xiangzhi"]
-[Result "1-0"]
+[Result "1/2-1/2"]
 [WhiteElo "2397"]
 [BlackElo "2558"]
 [ECO "B66"]
 
-1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6 6.Bg5 e6 7.Qd2 a6 8.O-O-O h6
-9.Be3 Qc7 10.f3 Bd7 11.g4 Ne5 12.h4 b5 13.Bd3 g6 14.g5 Nh5 15.f4 Nxd3+ 16.Qxd3 b4
-17.Nb1 Rc8 18.Rh2 Qc4 19.Qxc4 Rxc4 20.Nd2 Rc7 21.N4b3 Be7 22.Na5 Bb5 23.Kb1 O-O
-24.b3 Ng3 25.Bb6 Rcc8 26.Re1 Bd8 27.Bxd8 Rfxd8 28.Re3 Rc3 29.Re1 d5 30.exd5 Rxd5
-31.Kb2 Rd4 32.a3 Rxf4 33.axb4 Rc7 34.c4 Be8 35.Rg2 Nf5 36.h5 Nh4 37.Rg3 hxg5
-38.hxg6 Nxg6 39.Rxg5 Rf2 40.Kc3 Kf8 41.Ne4 Rf3+ 42.Kc2 f6 43.Nc5 Bf7 44.Rgg1 e5
-45.Nxa6 Rf2+ 46.Kc3 Nf4 47.b5 Rd7 48.Rd1 Rf3+ 49.Kb4 Nd3+ 50.Rxd3 Rdxd3 51.b6 Rd6
-52.b7 Rb6+ 53.Kc5 Rfxb3 54.Nxb3 Rxb7 55.Na5 Rb2 56.Nb4 Bxc4 57.Nxc4 Rf2 58.Nd5 Kf7
-59.Kd6 Rc2 60.Nde3 Rc3 61.Kd7 Kf8 62.Ke6 f5 63.Kxf5 Ke8 64.Kxe5 Kd7 65.Rg6 Rc1
-66.Kd5 Ke7 67.Ne5 Kd8 68.Kd6 Kc8 69.Rg7 Rh1 70.Rc7+ Kd8 71.Rg7 Kc8 72.Nd5 Rh6+
-73.Ng6 Kb8 74.Kc6 Rh1 75.Rb7+  1-0
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 e6 7.Qd2 a6 8.O-O-O h6
+9.Nxc6 bxc6 10.Bf4 d5 11.Qe3 Qa5 12.Be2 Bb4 13.Be5 dxe4 14.Bxf6 gxf6 15.Nxe4 Qxa2
+16.Nxf6+ Ke7 17.c3 Ba3 18.bxa3 Rb8 19.Qa7+ Rb7 20.Rd7+ Rxd7 21.Nxd7 Qxa3+
+22.Kd2 Rd8 23.Bd3 Rxd7 24.Qb8 Qc5 25.Qb4 Qxb4 26.cxb4 a5 27.Ke3 axb4 28.Rc1 Kd6
+29.h4 c5 30.g4 f6 31.f4 Rg7 32.g5 fxg5 33.fxg5 hxg5 34.h5 e5 35.Rd1 Ke7 36.h6 Rg8
+37.Rc1 Kd6 38.Rd1 Rh8 39.h7 Be6 40.Be4+ Ke7 41.Ra1 Kf6 42.Ra6 Kf7 43.Ra7+ Kf6
+44.Ra6 g4 45.Bd5 Rxh7 46.Bxe6 Kg5 47.Ra8 b3 48.Rb8 Rh1 49.Bxb3 Rb1 50.Rg8+ Kh4
+51.Bd5 Rb4 52.Rh8+ Kg3 53.Rc8 Rb5 54.Ke4 Kf2 55.Rf8+ Kg1 56.Rg8 Kf2 57.Rf8+ Kg1
+58.Rg8 Kf2  1/2-1/2
+
+[Event "Young Masters"]
+[Site "Lausanne SUI"]
+[Date "2001.05.21"]
+[Round "1.7"]
+[White "Bu Xiangzhi"]
+[Black "Kosteniuk,A"]
+[Result "1-0"]
+[WhiteElo "2558"]
+[BlackElo "2397"]
+[ECO "A07"]
+
+1.Nf3 d5 2.g3 c6 3.Bg2 Nf6 4.O-O Bg4 5.d3 e6 6.Nbd2 Be7 7.e4 O-O 8.Re1 Nbd7
+9.e5 Ne8 10.Nf1 Nc7 11.Bf4 c5 12.Qd2 Nb6 13.h3 Bh5 14.g4 Bg6 15.c3 c4 16.d4 Nd7
+17.Ng3 b5 18.a3 a5 19.Bf1 Rb8 20.Kg2 b4 21.axb4 axb4 22.h4 h6 23.h5 Bh7 24.Be2 bxc3
+25.bxc3 Rb6 26.g5 hxg5 27.Nxg5 Bxg5 28.Bxg5 Qb8 29.Be7 Re8 30.Qg5 Kh8 31.h6 g6
+32.Nh5 Rxe7 33.Qxe7 gxh5 34.Qxd7 Qg8+ 35.Kh2 Qg5 36.Qxc7 Qf4+ 37.Kg1 Be4
+38.Qd8+ Kh7 39.Ra8  1-0
+
+[Event "Young Masters"]
+[Site "Lausanne SUI"]
+[Date "2001.05.21"]
+[Round "1.2"]
+[White "Bu Xiangzhi"]
+[Black "Kosteniuk,A"]
+[Result "0-1"]
+[WhiteElo "2558"]
+[BlackElo "2397"]
+[ECO "D30"]
+
+1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 Nf6 5.Bg5 dxc4 6.Qxc4 b5 7.Qc2 Be7 8.Nbd2 Qb6
+9.Rc1 Bb7 10.e4 h6 11.Be3 Ng4 12.Bf4 Nf6 13.Be3 Qa5 14.a3 Nbd7 15.Be2 Rc8
+16.O-O O-O 17.b4 Qc7 18.Nb3 Qb8 19.Nfd2 Qa8 20.Nc5 Nxc5 21.bxc5 a5 22.f4 Ba6
+23.h3 Rb8 24.Qd3 Rfd8 25.g4 Nd7 26.Qc2 b4 27.Bxa6 Qxa6 28.a4 Nf6 29.Nb3 Rd7
+30.Kh2 Bd8 31.Rg1 Bc7 32.Rcf1 Rf8 33.Rf2 Ne8 34.Kh1 Bd8 35.f5 e5 36.Rd2 exd4
+37.Bxd4 Bg5 38.Rh2 Rxd4 39.Nxd4 Be3 40.Nb3 Bxg1 41.Kxg1 Nf6 42.e5 Nd5 43.Qe2 Qa7
+44.Rf2 Re8 45.e6 Qc7 46.g5 Qg3+ 47.Rg2 Qxb3 48.exf7+ Kxf7 49.Qh5+ Kf8 50.f6 Qe3+
+51.Kh1 Qe1+ 52.Kh2 Qe5+ 53.Kh1 Nxf6 54.Qg6 Qf4 55.gxf6 Re1+ 56.Rg1 Qf3+  0-1
 
 [Event "Young Masters"]
 [Site "Lausanne SUI"]
@@ -4226,6 +4262,29 @@
 [Event "Young Masters"]
 [Site "Lausanne SUI"]
 [Date "2001.05.21"]
+[Round "1.3"]
+[White "Kosteniuk,A"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2397"]
+[BlackElo "2558"]
+[ECO "B66"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 d6 6.Bg5 e6 7.Qd2 a6 8.O-O-O h6
+9.Be3 Qc7 10.f3 Bd7 11.g4 Ne5 12.h4 b5 13.Bd3 g6 14.g5 Nh5 15.f4 Nxd3+ 16.Qxd3 b4
+17.Nb1 Rc8 18.Rh2 Qc4 19.Qxc4 Rxc4 20.Nd2 Rc7 21.N4b3 Be7 22.Na5 Bb5 23.Kb1 O-O
+24.b3 Ng3 25.Bb6 Rcc8 26.Re1 Bd8 27.Bxd8 Rfxd8 28.Re3 Rc3 29.Re1 d5 30.exd5 Rxd5
+31.Kb2 Rd4 32.a3 Rxf4 33.axb4 Rc7 34.c4 Be8 35.Rg2 Nf5 36.h5 Nh4 37.Rg3 hxg5
+38.hxg6 Nxg6 39.Rxg5 Rf2 40.Kc3 Kf8 41.Ne4 Rf3+ 42.Kc2 f6 43.Nc5 Bf7 44.Rgg1 e5
+45.Nxa6 Rf2+ 46.Kc3 Nf4 47.b5 Rd7 48.Rd1 Rf3+ 49.Kb4 Nd3+ 50.Rxd3 Rdxd3 51.b6 Rd6
+52.b7 Rb6+ 53.Kc5 Rfxb3 54.Nxb3 Rxb7 55.Na5 Rb2 56.Nb4 Bxc4 57.Nxc4 Rf2 58.Nd5 Kf7
+59.Kd6 Rc2 60.Nde3 Rc3 61.Kd7 Kf8 62.Ke6 f5 63.Kxf5 Ke8 64.Kxe5 Kd7 65.Rg6 Rc1
+66.Kd5 Ke7 67.Ne5 Kd8 68.Kd6 Kc8 69.Rg7 Rh1 70.Rc7+ Kd8 71.Rg7 Kc8 72.Nd5 Rh6+
+73.Ng6 Kb8 74.Kc6 Rh1 75.Rb7+  1-0
+
+[Event "Young Masters"]
+[Site "Lausanne SUI"]
+[Date "2001.05.21"]
 [Round "1.6"]
 [White "Bu Xiangzhi"]
 [Black "Kosteniuk,A"]
@@ -4242,65 +4301,6 @@
 37.Qe1 g5 38.fxg5 Qxg5 39.Qf2 Kh6 40.Kg1 Kg7 41.Kf1 Qf6 42.Qd2 Be6 43.Bxe6 Qxe6
 44.Kf2 Kg6 45.g3 hxg3+ 46.Kxg3 Qe5+ 47.Kg2 Kh5 48.Qd1+ Kh4 49.Qd8+ Kh5 50.Qd7 Qb2+
 51.Kf1 Qc1+ 52.Kf2 Qb2+ 53.Kg3 Qe5+ 54.Kg2 Qb2+ 55.Kf1 Qc1+ 56.Kf2 Qb2+  1/2-1/2
-
-[Event "Young Masters"]
-[Site "Lausanne SUI"]
-[Date "2001.05.21"]
-[Round "1.5"]
-[White "Kosteniuk,A"]
-[Black "Bu Xiangzhi"]
-[Result "1/2-1/2"]
-[WhiteElo "2397"]
-[BlackElo "2558"]
-[ECO "B66"]
-
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 Nc6 6.Bg5 e6 7.Qd2 a6 8.O-O-O h6
-9.Nxc6 bxc6 10.Bf4 d5 11.Qe3 Qa5 12.Be2 Bb4 13.Be5 dxe4 14.Bxf6 gxf6 15.Nxe4 Qxa2
-16.Nxf6+ Ke7 17.c3 Ba3 18.bxa3 Rb8 19.Qa7+ Rb7 20.Rd7+ Rxd7 21.Nxd7 Qxa3+
-22.Kd2 Rd8 23.Bd3 Rxd7 24.Qb8 Qc5 25.Qb4 Qxb4 26.cxb4 a5 27.Ke3 axb4 28.Rc1 Kd6
-29.h4 c5 30.g4 f6 31.f4 Rg7 32.g5 fxg5 33.fxg5 hxg5 34.h5 e5 35.Rd1 Ke7 36.h6 Rg8
-37.Rc1 Kd6 38.Rd1 Rh8 39.h7 Be6 40.Be4+ Ke7 41.Ra1 Kf6 42.Ra6 Kf7 43.Ra7+ Kf6
-44.Ra6 g4 45.Bd5 Rxh7 46.Bxe6 Kg5 47.Ra8 b3 48.Rb8 Rh1 49.Bxb3 Rb1 50.Rg8+ Kh4
-51.Bd5 Rb4 52.Rh8+ Kg3 53.Rc8 Rb5 54.Ke4 Kf2 55.Rf8+ Kg1 56.Rg8 Kf2 57.Rf8+ Kg1
-58.Rg8 Kf2  1/2-1/2
-
-[Event "Young Masters"]
-[Site "Lausanne SUI"]
-[Date "2001.05.21"]
-[Round "1.2"]
-[White "Bu Xiangzhi"]
-[Black "Kosteniuk,A"]
-[Result "0-1"]
-[WhiteElo "2558"]
-[BlackElo "2397"]
-[ECO "D30"]
-
-1.d4 d5 2.c4 c6 3.Nf3 e6 4.Qc2 Nf6 5.Bg5 dxc4 6.Qxc4 b5 7.Qc2 Be7 8.Nbd2 Qb6
-9.Rc1 Bb7 10.e4 h6 11.Be3 Ng4 12.Bf4 Nf6 13.Be3 Qa5 14.a3 Nbd7 15.Be2 Rc8
-16.O-O O-O 17.b4 Qc7 18.Nb3 Qb8 19.Nfd2 Qa8 20.Nc5 Nxc5 21.bxc5 a5 22.f4 Ba6
-23.h3 Rb8 24.Qd3 Rfd8 25.g4 Nd7 26.Qc2 b4 27.Bxa6 Qxa6 28.a4 Nf6 29.Nb3 Rd7
-30.Kh2 Bd8 31.Rg1 Bc7 32.Rcf1 Rf8 33.Rf2 Ne8 34.Kh1 Bd8 35.f5 e5 36.Rd2 exd4
-37.Bxd4 Bg5 38.Rh2 Rxd4 39.Nxd4 Be3 40.Nb3 Bxg1 41.Kxg1 Nf6 42.e5 Nd5 43.Qe2 Qa7
-44.Rf2 Re8 45.e6 Qc7 46.g5 Qg3+ 47.Rg2 Qxb3 48.exf7+ Kxf7 49.Qh5+ Kf8 50.f6 Qe3+
-51.Kh1 Qe1+ 52.Kh2 Qe5+ 53.Kh1 Nxf6 54.Qg6 Qf4 55.gxf6 Re1+ 56.Rg1 Qf3+  0-1
-
-[Event "Young Masters"]
-[Site "Lausanne SUI"]
-[Date "2001.05.21"]
-[Round "1.7"]
-[White "Bu Xiangzhi"]
-[Black "Kosteniuk,A"]
-[Result "1-0"]
-[WhiteElo "2558"]
-[BlackElo "2397"]
-[ECO "A07"]
-
-1.Nf3 d5 2.g3 c6 3.Bg2 Nf6 4.O-O Bg4 5.d3 e6 6.Nbd2 Be7 7.e4 O-O 8.Re1 Nbd7
-9.e5 Ne8 10.Nf1 Nc7 11.Bf4 c5 12.Qd2 Nb6 13.h3 Bh5 14.g4 Bg6 15.c3 c4 16.d4 Nd7
-17.Ng3 b5 18.a3 a5 19.Bf1 Rb8 20.Kg2 b4 21.axb4 axb4 22.h4 h6 23.h5 Bh7 24.Be2 bxc3
-25.bxc3 Rb6 26.g5 hxg5 27.Nxg5 Bxg5 28.Bxg5 Qb8 29.Be7 Re8 30.Qg5 Kh8 31.h6 g6
-32.Nh5 Rxe7 33.Qxe7 gxh5 34.Qxd7 Qg8+ 35.Kh2 Qg5 36.Qxc7 Qf4+ 37.Kg1 Be4
-38.Qd8+ Kh7 39.Ra8  1-0
 
 [Event "Young Masters"]
 [Site "Lausanne SUI"]
@@ -4344,21 +4344,6 @@
 [Event "Young Masters"]
 [Site "Lausanne SUI"]
 [Date "2001.05.23"]
-[Round "2.2"]
-[White "Bruzon,L"]
-[Black "Bu Xiangzhi"]
-[Result "1/2-1/2"]
-[WhiteElo "2589"]
-[BlackElo "2558"]
-[ECO "A07"]
-
-1.Nf3 Nf6 2.g3 d5 3.Bg2 c6 4.O-O Bf5 5.d3 h6 6.c4 dxc4 7.dxc4 Qxd1 8.Rxd1 e6
-9.Nc3 Bc2 10.Rf1 Nbd7 11.Be3 Ng4 12.Bd2 Nge5 13.Nxe5 Nxe5 14.Bf4 Nxc4 15.Rac1 g5
-16.Bxg5 hxg5 17.Rxc2 Be7 18.Ne4 Nb6 19.Nc5 Bf8  1/2-1/2
-
-[Event "Young Masters"]
-[Site "Lausanne SUI"]
-[Date "2001.05.23"]
 [Round "2.4"]
 [White "Bu Xiangzhi"]
 [Black "Bruzon,L"]
@@ -4376,6 +4361,21 @@
 44.Qxe3 Bxe3 45.Bb4 h5 46.Be7 Kh7 47.Be2 g6 48.Bg5 Kg8 49.Bf1 Kh7 50.Kh2 Kg8
 51.g4 hxg4 52.hxg4 Kh7 53.Kg3 Kg8 54.Bb5 Bd5 55.Bh6 Kh7 56.Bf8 Kg8 57.Be7 Be4
 58.Bc4  1/2-1/2
+
+[Event "Young Masters"]
+[Site "Lausanne SUI"]
+[Date "2001.05.23"]
+[Round "2.2"]
+[White "Bruzon,L"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2589"]
+[BlackElo "2558"]
+[ECO "A07"]
+
+1.Nf3 Nf6 2.g3 d5 3.Bg2 c6 4.O-O Bf5 5.d3 h6 6.c4 dxc4 7.dxc4 Qxd1 8.Rxd1 e6
+9.Nc3 Bc2 10.Rf1 Nbd7 11.Be3 Ng4 12.Bd2 Nge5 13.Nxe5 Nxe5 14.Bf4 Nxc4 15.Rac1 g5
+16.Bxg5 hxg5 17.Rxc2 Be7 18.Ne4 Nb6 19.Nc5 Bf8  1/2-1/2
 
 [Event "Young Masters"]
 [Site "Lausanne SUI"]
@@ -7189,22 +7189,6 @@
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
 [Date "2005.03.26"]
-[Round "1.1"]
-[White "Panarin,M"]
-[Black "Bu Xiangzhi"]
-[Result "0-1"]
-[WhiteElo "2475"]
-[BlackElo "2607"]
-[ECO "B90"]
-
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 e5 7.Nb3 Be6 8.Be3 Be7
-9.Qd2 Nbd7 10.g4 b5 11.g5 b4 12.Ne2 Nh5 13.O-O-O a5 14.Kb1 a4 15.Nbc1 O-O
-16.Ng3 Nf4 17.h4 Qc7 18.Nf5 Bxf5 19.exf5 Rfc8 20.Bxf4 exf4 21.Bh3 f6 22.Bf1 Ne5
-23.g6 Nxf3 24.gxh7+ Kxh7 25.Qxf4 Qxc2+ 26.Ka1 a3  0-1
-
-[Event "Dos Hermanas Internet KO"]
-[Site "ICC INT"]
-[Date "2005.03.26"]
 [Round "1.3"]
 [White "Panarin,M"]
 [Black "Bu Xiangzhi"]
@@ -7237,6 +7221,22 @@
 31.Kh1 Ra2 32.Rb2 Ra1 33.Rbb1 R1a2 34.Qc3 Kh7 35.Ra1 Qh5 36.Rxa2 Rxa2 37.Qb3 Bxh3
 38.Qb7+ Kh8 39.Qb8+ Kh7 40.Qc7+ Kh8 41.gxh3 Qxh3+ 42.Kg1 Qg4+ 43.Qg3 Qxg3+
 44.fxg3 Ra5 45.Rf6  1-0
+
+[Event "Dos Hermanas Internet KO"]
+[Site "ICC INT"]
+[Date "2005.03.26"]
+[Round "1.1"]
+[White "Panarin,M"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2475"]
+[BlackElo "2607"]
+[ECO "B90"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.f3 e5 7.Nb3 Be6 8.Be3 Be7
+9.Qd2 Nbd7 10.g4 b5 11.g5 b4 12.Ne2 Nh5 13.O-O-O a5 14.Kb1 a4 15.Nbc1 O-O
+16.Ng3 Nf4 17.h4 Qc7 18.Nf5 Bxf5 19.exf5 Rfc8 20.Bxf4 exf4 21.Bh3 f6 22.Bf1 Ne5
+23.g6 Nxf3 24.gxh7+ Kxh7 25.Qxf4 Qxc2+ 26.Ka1 a3  0-1
 
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
@@ -7275,23 +7275,6 @@
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
 [Date "2005.03.26"]
-[Round "2.4"]
-[White "Bu Xiangzhi"]
-[Black "Guseinov,G"]
-[Result "1-0"]
-[WhiteElo "2607"]
-[BlackElo "2574"]
-[ECO "B51"]
-
-1.e4 c5 2.Nf3 d6 3.Bb5+ Nd7 4.d4 cxd4 5.Qxd4 e5 6.Qd3 Nf6 7.c4 Be7 8.Nc3 O-O
-9.Bxd7 Bxd7 10.Bg5 Nh5 11.Bxe7 Qxe7 12.Nd5 Qd8 13.O-O f5 14.exf5 Bxf5 15.Qe3 Be6
-16.Ng5 Bxd5 17.cxd5 Nf4 18.Ne4 Qd7 19.g3 Nh5 20.Rac1 h6 21.Rc3 Nf6 22.Nxf6+ Rxf6
-23.Rfc1 Raf8 24.R1c2 Qh3 25.Qe4 Qh5 26.Kg2 Qf7 27.f3 Qe8 28.a4 a5 29.b3 Qd8
-30.Qg4 Qb6 31.Rc7 R6f7 32.Rxf7 Rxf7 33.Qe6  1-0
-
-[Event "Dos Hermanas Internet KO"]
-[Site "ICC INT"]
-[Date "2005.03.26"]
 [Round "2.1"]
 [White "Guseinov,G"]
 [Black "Bu Xiangzhi"]
@@ -7313,26 +7296,20 @@
 
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
-[Date "2005.03.27"]
-[Round "3.1"]
+[Date "2005.03.26"]
+[Round "2.4"]
 [White "Bu Xiangzhi"]
-[Black "Sasikiran,K"]
-[Result "1/2-1/2"]
+[Black "Guseinov,G"]
+[Result "1-0"]
 [WhiteElo "2607"]
-[BlackElo "2657"]
-[ECO "D85"]
+[BlackElo "2574"]
+[ECO "B51"]
 
-1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.Na4 Nf6 6.Bf4 Bg7 7.Nf3 O-O 8.e3 c6
-9.Nc3 Bg4 10.Be2 Nbd7 11.Qb3 Qb6 12.O-O Be6 13.Qa3 Rfe8 14.Rfc1 Nd5 15.Bg3 a5
-16.Ng5 Nf8 17.Bc4 Nxc3 18.Nxe6 Ne2+ 19.Bxe2 Nxe6 20.Rab1 Nf8 21.Qc3 e6 22.b4 axb4
-23.Rxb4 Qa7 24.a4 Rad8 25.Rcb1 Rd7 26.Bf3 h5 27.h3 Nh7 28.Qc2 Nf6 29.a5 Nd5
-30.Ra4 Rc8 31.Be2 c5 32.Rc1 Rdd8 33.Be5 cxd4 34.Qxc8 Rxc8 35.Rxc8+ Kh7 36.Bxd4 Bxd4
-37.exd4 Nb6 38.axb6 Qxa4 39.Rc7 Kg7 40.Rxb7 Qxd4 41.g3 e5 42.Rb8 e4 43.Re8 Qxb6
-44.Kg2 Qc6 45.Re5 Kf6 46.Ra5 e3+ 47.f3 Qc2 48.Ra6+ Ke5 49.f4+ Kd4 50.Kf1 Qc1+
-51.Kg2 Qc7 52.Ra4+ Kc3 53.Ra3+ Kd2 54.Ra2+ Ke1 55.f5 Qe5 56.Bf3 Qb5 57.Ra1+ Kd2
-58.Rd1+ Kc2 59.Re1 Qe5 60.fxg6 fxg6 61.Rd1 Qc3 62.Be2 Qc6+ 63.Bf3 Qe6 64.Re1 Qe5
-65.Rd1 e2 66.Re1 Kd2 67.Rxe2+ Qxe2+ 68.Bxe2 Kxe2 69.h4 Ke3 70.g4 Kf4 71.gxh5 gxh5
-72.Kh3 Kf3  1/2-1/2
+1.e4 c5 2.Nf3 d6 3.Bb5+ Nd7 4.d4 cxd4 5.Qxd4 e5 6.Qd3 Nf6 7.c4 Be7 8.Nc3 O-O
+9.Bxd7 Bxd7 10.Bg5 Nh5 11.Bxe7 Qxe7 12.Nd5 Qd8 13.O-O f5 14.exf5 Bxf5 15.Qe3 Be6
+16.Ng5 Bxd5 17.cxd5 Nf4 18.Ne4 Qd7 19.g3 Nh5 20.Rac1 h6 21.Rc3 Nf6 22.Nxf6+ Rxf6
+23.Rfc1 Raf8 24.R1c2 Qh3 25.Qe4 Qh5 26.Kg2 Qf7 27.f3 Qe8 28.a4 a5 29.b3 Qd8
+30.Qg4 Qb6 31.Rc7 R6f7 32.Rxf7 Rxf7 33.Qe6  1-0
 
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
@@ -7372,6 +7349,29 @@
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
 [Date "2005.03.27"]
+[Round "3.1"]
+[White "Bu Xiangzhi"]
+[Black "Sasikiran,K"]
+[Result "1/2-1/2"]
+[WhiteElo "2607"]
+[BlackElo "2657"]
+[ECO "D85"]
+
+1.d4 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.Na4 Nf6 6.Bf4 Bg7 7.Nf3 O-O 8.e3 c6
+9.Nc3 Bg4 10.Be2 Nbd7 11.Qb3 Qb6 12.O-O Be6 13.Qa3 Rfe8 14.Rfc1 Nd5 15.Bg3 a5
+16.Ng5 Nf8 17.Bc4 Nxc3 18.Nxe6 Ne2+ 19.Bxe2 Nxe6 20.Rab1 Nf8 21.Qc3 e6 22.b4 axb4
+23.Rxb4 Qa7 24.a4 Rad8 25.Rcb1 Rd7 26.Bf3 h5 27.h3 Nh7 28.Qc2 Nf6 29.a5 Nd5
+30.Ra4 Rc8 31.Be2 c5 32.Rc1 Rdd8 33.Be5 cxd4 34.Qxc8 Rxc8 35.Rxc8+ Kh7 36.Bxd4 Bxd4
+37.exd4 Nb6 38.axb6 Qxa4 39.Rc7 Kg7 40.Rxb7 Qxd4 41.g3 e5 42.Rb8 e4 43.Re8 Qxb6
+44.Kg2 Qc6 45.Re5 Kf6 46.Ra5 e3+ 47.f3 Qc2 48.Ra6+ Ke5 49.f4+ Kd4 50.Kf1 Qc1+
+51.Kg2 Qc7 52.Ra4+ Kc3 53.Ra3+ Kd2 54.Ra2+ Ke1 55.f5 Qe5 56.Bf3 Qb5 57.Ra1+ Kd2
+58.Rd1+ Kc2 59.Re1 Qe5 60.fxg6 fxg6 61.Rd1 Qc3 62.Be2 Qc6+ 63.Bf3 Qe6 64.Re1 Qe5
+65.Rd1 e2 66.Re1 Kd2 67.Rxe2+ Qxe2+ 68.Bxe2 Kxe2 69.h4 Ke3 70.g4 Kf4 71.gxh5 gxh5
+72.Kh3 Kf3  1/2-1/2
+
+[Event "Dos Hermanas Internet KO"]
+[Site "ICC INT"]
+[Date "2005.03.27"]
 [Round "4.1"]
 [White "Bu Xiangzhi"]
 [Black "Volkov,S1"]
@@ -7388,22 +7388,6 @@
 37.Re2 Rxe2 38.Bxe2 Kg7 39.Bc4 Nd4 40.Kf4 Kg6 41.h4 b5 42.h5+ Kg7 43.Bd5 a4
 44.Kg5 a3 45.h6+ Kg8 46.Kf6 Kh7 47.Bxf7 Kxh6 48.e6 Nxb3 49.e7 Nc5 50.e8=Q Ne4+
 51.Ke5 b3 52.Qh8+ Kg5 53.Qh5+  1-0
-
-[Event "Dos Hermanas Internet KO"]
-[Site "ICC INT"]
-[Date "2005.03.27"]
-[Round "4.2"]
-[White "Volkov,S1"]
-[Black "Bu Xiangzhi"]
-[Result "0-1"]
-[WhiteElo "2612"]
-[BlackElo "2607"]
-[ECO "D11"]
-
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 a6 5.Nbd2 Bf5 6.Qb3 Qc7 7.a4 e6 8.Nh4 Bg6
-9.Nxg6 hxg6 10.h3 Nbd7 11.a5 c5 12.Be2 g5 13.g3 Bd6 14.Kf1 g4 15.h4 g5 16.h5 Nxh5
-17.Kg2 Ndf6 18.dxc5 Bxc5 19.cxd5 O-O-O 20.Nc4 exd5 21.Nb6+ Kb8 22.Bd2 d4
-23.Rac1 Qc6+ 24.Kg1 Nxg3 25.Rxh8 Rxh8 26.fxg3 Qh1+ 27.Kf2 Rh2+  0-1
 
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
@@ -7425,19 +7409,37 @@
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
 [Date "2005.03.27"]
-[Round "5.5"]
-[White "Fridman,D2"]
+[Round "4.2"]
+[White "Volkov,S1"]
 [Black "Bu Xiangzhi"]
-[Result "1/2-1/2"]
-[WhiteElo "2569"]
+[Result "0-1"]
+[WhiteElo "2612"]
 [BlackElo "2607"]
-[ECO "D45"]
+[ECO "D11"]
 
-1.d4 Nf6 2.Nf3 e6 3.c4 d5 4.Nc3 c6 5.e3 Nbd7 6.Qc2 Bd6 7.b3 O-O 8.Be2 Qe7
-9.O-O b6 10.Bb2 Bb7 11.Rad1 Rac8 12.Bd3 c5 13.cxd5 exd5 14.Qb1 c4 15.Bf5 a6
-16.bxc4 Rxc4 17.Rc1 Rfc8 18.Ne2 Ne4 19.Ng3 b5 20.Rxc4 bxc4 21.Ba3 Rb8 22.Bxd6 Qxd6
-23.Nxe4 dxe4 24.Bxe4 Bxe4 25.Qxe4 c3 26.h3 Nf6 27.Qd3 Nd5 28.Ne5 f6 29.Nf3 Qc6
-30.Rc1 Re8 31.a3 Qa4 32.Ra1 Qc6 33.Rc1 Qa4 34.Ra1 Qc6 35.Rc1  1/2-1/2
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 a6 5.Nbd2 Bf5 6.Qb3 Qc7 7.a4 e6 8.Nh4 Bg6
+9.Nxg6 hxg6 10.h3 Nbd7 11.a5 c5 12.Be2 g5 13.g3 Bd6 14.Kf1 g4 15.h4 g5 16.h5 Nxh5
+17.Kg2 Ndf6 18.dxc5 Bxc5 19.cxd5 O-O-O 20.Nc4 exd5 21.Nb6+ Kb8 22.Bd2 d4
+23.Rac1 Qc6+ 24.Kg1 Nxg3 25.Rxh8 Rxh8 26.fxg3 Qh1+ 27.Kf2 Rh2+  0-1
+
+[Event "Dos Hermanas Internet KO"]
+[Site "ICC INT"]
+[Date "2005.03.27"]
+[Round "5.2"]
+[White "Bu Xiangzhi"]
+[Black "Fridman,D2"]
+[Result "1-0"]
+[WhiteElo "2607"]
+[BlackElo "2569"]
+[ECO "D13"]
+
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.cxd5 cxd5 5.Bf4 Nc6 6.e3 Bf5 7.Rc1 a6 8.Nf3 e6
+9.Qb3 Bb4 10.Be2 O-O 11.O-O Qe7 12.a3 Bxc3 13.Rxc3 Rfc8 14.Bg5 Na5 15.Qb4 Qxb4
+16.axb4 Nc6 17.Bxf6 gxf6 18.Rfc1 Bg4 19.h3 Bxf3 20.Bxf3 Kf8 21.Be2 Ke7 22.Kh2 Kd6
+23.f4 Rc7 24.b5 axb5 25.Bxb5 Rac8 26.g4 e5 27.dxe5+ fxe5 28.Kg3 f6 29.Bd3 Ra8
+30.Rd1 Re7 31.Bc4 d4 32.Bb5 Kd5 33.Bxc6+ bxc6 34.exd4 exd4 35.b4 Re4 36.Kf3 Rae8
+37.Rc5+ Kd6 38.Rdc1 Re3+ 39.Kg2 Re2+ 40.Kg3 R8e3+ 41.Kh4 Rh2 42.Rxc6+ Kd5
+43.Rxf6 Rhxh3+ 44.Kg5 d3 45.Kf5 Re7 46.g5 Kd4 47.Rd6+ Ke3 48.Re1+  1-0
 
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
@@ -7500,21 +7502,19 @@
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
 [Date "2005.03.27"]
-[Round "5.2"]
-[White "Bu Xiangzhi"]
-[Black "Fridman,D2"]
-[Result "1-0"]
-[WhiteElo "2607"]
-[BlackElo "2569"]
-[ECO "D13"]
+[Round "5.5"]
+[White "Fridman,D2"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2569"]
+[BlackElo "2607"]
+[ECO "D45"]
 
-1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.cxd5 cxd5 5.Bf4 Nc6 6.e3 Bf5 7.Rc1 a6 8.Nf3 e6
-9.Qb3 Bb4 10.Be2 O-O 11.O-O Qe7 12.a3 Bxc3 13.Rxc3 Rfc8 14.Bg5 Na5 15.Qb4 Qxb4
-16.axb4 Nc6 17.Bxf6 gxf6 18.Rfc1 Bg4 19.h3 Bxf3 20.Bxf3 Kf8 21.Be2 Ke7 22.Kh2 Kd6
-23.f4 Rc7 24.b5 axb5 25.Bxb5 Rac8 26.g4 e5 27.dxe5+ fxe5 28.Kg3 f6 29.Bd3 Ra8
-30.Rd1 Re7 31.Bc4 d4 32.Bb5 Kd5 33.Bxc6+ bxc6 34.exd4 exd4 35.b4 Re4 36.Kf3 Rae8
-37.Rc5+ Kd6 38.Rdc1 Re3+ 39.Kg2 Re2+ 40.Kg3 R8e3+ 41.Kh4 Rh2 42.Rxc6+ Kd5
-43.Rxf6 Rhxh3+ 44.Kg5 d3 45.Kf5 Re7 46.g5 Kd4 47.Rd6+ Ke3 48.Re1+  1-0
+1.d4 Nf6 2.Nf3 e6 3.c4 d5 4.Nc3 c6 5.e3 Nbd7 6.Qc2 Bd6 7.b3 O-O 8.Be2 Qe7
+9.O-O b6 10.Bb2 Bb7 11.Rad1 Rac8 12.Bd3 c5 13.cxd5 exd5 14.Qb1 c4 15.Bf5 a6
+16.bxc4 Rxc4 17.Rc1 Rfc8 18.Ne2 Ne4 19.Ng3 b5 20.Rxc4 bxc4 21.Ba3 Rb8 22.Bxd6 Qxd6
+23.Nxe4 dxe4 24.Bxe4 Bxe4 25.Qxe4 c3 26.h3 Nf6 27.Qd3 Nd5 28.Ne5 f6 29.Nf3 Qc6
+30.Rc1 Re8 31.a3 Qa4 32.Ra1 Qc6 33.Rc1 Qa4 34.Ra1 Qc6 35.Rc1  1/2-1/2
 
 [Event "Dos Hermanas Internet KO"]
 [Site "ICC INT"]
@@ -8789,6 +8789,25 @@
 [Event "VII Dos Hermanas Internet"]
 [Site "ICC INT"]
 [Date "2006.03.24"]
+[Round "2.1"]
+[White "Gelashvili,T"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2575"]
+[BlackElo "2645"]
+[ECO "A36"]
+
+1.c4 e5 2.Nc3 c5 3.g3 Nc6 4.Bg2 g6 5.e3 Bg7 6.Nge2 Nge7 7.O-O O-O 8.d3 d6
+9.a3 Rb8 10.Rb1 a5 11.Bd2 h6 12.Qc2 Be6 13.Nd5 b5 14.Nxe7+ Nxe7 15.b4 axb4
+16.axb4 bxc4 17.dxc4 cxb4 18.Rxb4 Qc7 19.Rc1 Rxb4 20.Bxb4 Rc8 21.Qd2 Bxc4
+22.Bxd6 Qd7 23.Nc3 Nf5 24.Ne4 Ba6 25.Rxc8+ Bxc8 26.Bb4 Qxd2 27.Bxd2 Bf8 28.Bc3 Bg7
+29.h4 h5 30.Ng5 f6 31.Bd5+ Kh8 32.Ne4 Kh7 33.Bb4 Ba6 34.Kg2 Bd3 35.Kf3 Bc2
+36.Ke2 Ba4 37.Kd3 Bb5+ 38.Kc3 Nh6 39.Be7 Ng4 40.Kd2 f5 41.Ng5+ Kh6 42.Bg8 Be8
+43.Ne6 Nf6 44.Nxg7 Kxg7 45.Bb3 Ne4+ 46.Ke1 Bf7 47.Bc2 Bc4 48.Bxe4 fxe4 49.Kd2 Kf7  1/2-1/2
+
+[Event "VII Dos Hermanas Internet"]
+[Site "ICC INT"]
+[Date "2006.03.24"]
 [Round "2.2"]
 [White "Bu Xiangzhi"]
 [Black "Gelashvili,T"]
@@ -8809,25 +8828,6 @@
 
 [Event "VII Dos Hermanas Internet"]
 [Site "ICC INT"]
-[Date "2006.03.24"]
-[Round "2.1"]
-[White "Gelashvili,T"]
-[Black "Bu Xiangzhi"]
-[Result "1/2-1/2"]
-[WhiteElo "2575"]
-[BlackElo "2645"]
-[ECO "A36"]
-
-1.c4 e5 2.Nc3 c5 3.g3 Nc6 4.Bg2 g6 5.e3 Bg7 6.Nge2 Nge7 7.O-O O-O 8.d3 d6
-9.a3 Rb8 10.Rb1 a5 11.Bd2 h6 12.Qc2 Be6 13.Nd5 b5 14.Nxe7+ Nxe7 15.b4 axb4
-16.axb4 bxc4 17.dxc4 cxb4 18.Rxb4 Qc7 19.Rc1 Rxb4 20.Bxb4 Rc8 21.Qd2 Bxc4
-22.Bxd6 Qd7 23.Nc3 Nf5 24.Ne4 Ba6 25.Rxc8+ Bxc8 26.Bb4 Qxd2 27.Bxd2 Bf8 28.Bc3 Bg7
-29.h4 h5 30.Ng5 f6 31.Bd5+ Kh8 32.Ne4 Kh7 33.Bb4 Ba6 34.Kg2 Bd3 35.Kf3 Bc2
-36.Ke2 Ba4 37.Kd3 Bb5+ 38.Kc3 Nh6 39.Be7 Ng4 40.Kd2 f5 41.Ng5+ Kh6 42.Bg8 Be8
-43.Ne6 Nf6 44.Nxg7 Kxg7 45.Bb3 Ne4+ 46.Ke1 Bf7 47.Bc2 Bc4 48.Bxe4 fxe4 49.Kd2 Kf7  1/2-1/2
-
-[Event "VII Dos Hermanas Internet"]
-[Site "ICC INT"]
 [Date "2006.03.25"]
 [Round "3.1"]
 [White "Ganguly,S"]
@@ -8842,6 +8842,28 @@
 16.Qa5 Qc6 17.Bf3 b5 18.Rd3 Rac8 19.Rc3 Qb7 20.Rd1 Nc6 21.Rxc6 Qxc6 22.Qd2 b4
 23.Bg4 Rc7 24.Qd3 a5 25.Nxa5 Qc5 26.Nb3 Qxf2 27.Qe2 Qa7 28.Rd5 Rc6 29.Qd1 Ra6
 30.Nc1 Ra8 31.a3 bxa3 32.b3 a2+ 33.Ka1 Qe3 34.Rd3 Qxe4 35.Bf3 Qb4 36.c3 e4  0-1
+
+[Event "VII Dos Hermanas Internet"]
+[Site "ICC INT"]
+[Date "2006.03.25"]
+[Round "3.2"]
+[White "Bu Xiangzhi"]
+[Black "Ganguly,S"]
+[Result "1-0"]
+[WhiteElo "2645"]
+[BlackElo "2579"]
+[ECO "A57"]
+
+1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.b6 g6 6.Nc3 d6 7.e4 Qxb6 8.Nf3 Nbd7
+9.Be2 Bg7 10.Nd2 O-O 11.O-O Ne8 12.Nc4 Qb8 13.Bg5 f6 14.Bh4 Ne5 15.Nxe5 dxe5
+16.Na4 Nd6 17.Qc2 Bd7 18.Nxc5 Rc8 19.f3 Bb5 20.Bf2 Bh6 21.a3 a5 22.Rab1 a4
+23.b4 Bxe2 24.Qxe2 Qb5 25.Qxb5 Nxb5 26.Ra1 Kf7 27.Rfd1 Rc7 28.Kf1 Bg5 29.g3 h5
+30.h4 Bh6 31.Rd3 f5 32.Ke2 Nd6 33.Be3 Bxe3 34.Rxe3 Nc4 35.Rc3 Nd6 36.Kd3 Nb5
+37.Rcc1 Nd4 38.f4 Kf6 39.Re1 Nb5 40.exf5 exf4 41.fxg6 fxg3 42.Re6+ Kg7 43.Rb6 Rxc5
+44.bxc5 Nc7 45.Ke4 Rd8 46.d6 Ne6 47.dxe7 Nxc5+ 48.Kf3 Re8 49.Re1 Nd3 50.Re3 Nc5
+51.Kxg3 Nd7 52.Rc6 Nf6 53.Re5 Ng4 54.Rxh5 Nf6 55.Re5 Kxg6 56.Ree6 Kg7 57.Rxf6 Rxe7
+58.Rg6+ Kh7 59.Rh6+ Kg8 60.Rcg6+ Kf8 61.Rh8+ Kf7 62.Rh7+ Kxg6 63.Rxe7 Kh5
+64.Ra7  1-0
 
 [Event "VII Dos Hermanas Internet"]
 [Site "ICC INT"]
@@ -8885,28 +8907,6 @@
 [Event "VII Dos Hermanas Internet"]
 [Site "ICC INT"]
 [Date "2006.03.25"]
-[Round "3.2"]
-[White "Bu Xiangzhi"]
-[Black "Ganguly,S"]
-[Result "1-0"]
-[WhiteElo "2645"]
-[BlackElo "2579"]
-[ECO "A57"]
-
-1.d4 Nf6 2.c4 c5 3.d5 b5 4.cxb5 a6 5.b6 g6 6.Nc3 d6 7.e4 Qxb6 8.Nf3 Nbd7
-9.Be2 Bg7 10.Nd2 O-O 11.O-O Ne8 12.Nc4 Qb8 13.Bg5 f6 14.Bh4 Ne5 15.Nxe5 dxe5
-16.Na4 Nd6 17.Qc2 Bd7 18.Nxc5 Rc8 19.f3 Bb5 20.Bf2 Bh6 21.a3 a5 22.Rab1 a4
-23.b4 Bxe2 24.Qxe2 Qb5 25.Qxb5 Nxb5 26.Ra1 Kf7 27.Rfd1 Rc7 28.Kf1 Bg5 29.g3 h5
-30.h4 Bh6 31.Rd3 f5 32.Ke2 Nd6 33.Be3 Bxe3 34.Rxe3 Nc4 35.Rc3 Nd6 36.Kd3 Nb5
-37.Rcc1 Nd4 38.f4 Kf6 39.Re1 Nb5 40.exf5 exf4 41.fxg6 fxg3 42.Re6+ Kg7 43.Rb6 Rxc5
-44.bxc5 Nc7 45.Ke4 Rd8 46.d6 Ne6 47.dxe7 Nxc5+ 48.Kf3 Re8 49.Re1 Nd3 50.Re3 Nc5
-51.Kxg3 Nd7 52.Rc6 Nf6 53.Re5 Ng4 54.Rxh5 Nf6 55.Re5 Kxg6 56.Ree6 Kg7 57.Rxf6 Rxe7
-58.Rg6+ Kh7 59.Rh6+ Kg8 60.Rcg6+ Kf8 61.Rh8+ Kf7 62.Rh7+ Kxg6 63.Rxe7 Kh5
-64.Ra7  1-0
-
-[Event "VII Dos Hermanas Internet"]
-[Site "ICC INT"]
-[Date "2006.03.25"]
 [Round "4.2"]
 [White "Bu Xiangzhi"]
 [Black "Doettling,F"]
@@ -8923,26 +8923,6 @@
 35.Kf4 h6 36.Ra5 Rd7 37.g4 Rc7 38.g5+ hxg5+ 39.hxg5+ Ke7 40.e4 Kd8 41.b4 Kc8
 42.a3 Kb7 43.Rb5+ Kc8 44.Rc5 Rxc5 45.bxc5 Kd7 46.e5 Kc7 47.Ke3 Bd7 48.Bd5 Be8
 49.Kd4 Kd7 50.Kc4 Kc7 51.Kb4 Kb8 52.c6 Kc7 53.Kc5  1-0
-
-[Event "VII Dos Hermanas Internet"]
-[Site "ICC INT"]
-[Date "2006.03.25"]
-[Round "4.4"]
-[White "Bu Xiangzhi"]
-[Black "Doettling,F"]
-[Result "0-1"]
-[WhiteElo "2645"]
-[BlackElo "2542"]
-[ECO "D45"]
-
-1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3 Nf6 5.Nf3 a6 6.Qb3 Nbd7 7.cxd5 exd5 8.Bd3 Bd6
-9.O-O O-O 10.h3 Re8 11.Qc2 Qe7 12.Rb1 Ne4 13.b4 f5 14.a3 Kh8 15.Ne2 g5 16.Bb2 Rg8
-17.Rfe1 Rg6 18.Rbc1 Kg8 19.Qb3 Rh6 20.Qc2 Ndf6 21.Ne5 g4 22.Nf4 gxh3 23.gxh3 Nh5
-24.Kf1 Nxf4 25.exf4 Rxh3 26.Re3 Rxe3 27.fxe3 Be6 28.Qh2 Qf6 29.Ke2 Kh8 30.Rh1 Bg8
-31.Rg1 Bf7 32.Kd1 Rg8 33.Rh1 Rg7 34.Kc1 Bg8 35.Kb1 Bf7 36.Qh6 Qxh6 37.Rxh6 Bg6
-38.Nxg6+ Rxg6 39.Rh5 Rf6 40.Bc1 Kg7 41.Kc2 Kg6 42.Rh3 h5 43.Be2 Kg7 44.Bxh5 Rh6
-45.Bd2 Kh7 46.Be1 Nf6 47.a4 Rxh5 48.Rg3 Rh2+ 49.Kb3 Ne4 50.Rg1 Re2 51.b5 Rxe3+
-52.Kc2 axb5 53.Rh1+ Kg6 54.Bd2 Re2 55.Kd3 Rxd2+  0-1
 
 [Event "VII Dos Hermanas Internet"]
 [Site "ICC INT"]
@@ -8984,6 +8964,26 @@
 30.Ra3 f5 31.exf5 exf5 32.Rxa5 Bf7 33.Nb3 Rd1+ 34.Kf2 Bxb3 35.axb3 Rd2+ 36.Kf1 g6
 37.Ra7 Rb2 38.Rb7 Rb1+ 39.Kf2 Rb2+ 40.Kg1 Rb1+ 41.Kh2 Kf8 42.b4 Kg8 43.b5 f4
 44.b6 g5 45.Rb8+ Kg7 46.Rb7+ Kg8 47.Rb8+ Kg7  1/2-1/2
+
+[Event "VII Dos Hermanas Internet"]
+[Site "ICC INT"]
+[Date "2006.03.25"]
+[Round "4.4"]
+[White "Bu Xiangzhi"]
+[Black "Doettling,F"]
+[Result "0-1"]
+[WhiteElo "2645"]
+[BlackElo "2542"]
+[ECO "D45"]
+
+1.d4 d5 2.c4 e6 3.Nc3 c6 4.e3 Nf6 5.Nf3 a6 6.Qb3 Nbd7 7.cxd5 exd5 8.Bd3 Bd6
+9.O-O O-O 10.h3 Re8 11.Qc2 Qe7 12.Rb1 Ne4 13.b4 f5 14.a3 Kh8 15.Ne2 g5 16.Bb2 Rg8
+17.Rfe1 Rg6 18.Rbc1 Kg8 19.Qb3 Rh6 20.Qc2 Ndf6 21.Ne5 g4 22.Nf4 gxh3 23.gxh3 Nh5
+24.Kf1 Nxf4 25.exf4 Rxh3 26.Re3 Rxe3 27.fxe3 Be6 28.Qh2 Qf6 29.Ke2 Kh8 30.Rh1 Bg8
+31.Rg1 Bf7 32.Kd1 Rg8 33.Rh1 Rg7 34.Kc1 Bg8 35.Kb1 Bf7 36.Qh6 Qxh6 37.Rxh6 Bg6
+38.Nxg6+ Rxg6 39.Rh5 Rf6 40.Bc1 Kg7 41.Kc2 Kg6 42.Rh3 h5 43.Be2 Kg7 44.Bxh5 Rh6
+45.Bd2 Kh7 46.Be1 Nf6 47.a4 Rxh5 48.Rg3 Rh2+ 49.Kb3 Ne4 50.Rg1 Re2 51.b5 Rxe3+
+52.Kc2 axb5 53.Rh1+ Kg6 54.Bd2 Re2 55.Kd3 Rxd2+  0-1
 
 [Event "VII Dos Hermanas Internet"]
 [Site "ICC INT"]
@@ -13605,6 +13605,22 @@
 [Event "1st WMSG Rapid Ind KO"]
 [Site "Beijing CHN"]
 [Date "2008.10.08"]
+[Round "2.1"]
+[White "Bu Xiangzhi"]
+[Black "Korobov,A"]
+[Result "1-0"]
+[WhiteElo "2714"]
+[BlackElo "2605"]
+[ECO "D53"]
+
+1.Nf3 d5 2.d4 e6 3.c4 Nf6 4.Bg5 Be7 5.Nc3 O-O 6.Qc2 h6 7.Bxf6 Bxf6 8.O-O-O c5
+9.dxc5 d4 10.Nxd4 Bxd4 11.Qe4 Nc6 12.e3 f5 13.Qf3 e5 14.exd4 Qg5+ 15.Kb1 exd4
+16.Nb5 Kh8 17.Bd3 f4 18.Nd6 Be6 19.Qe4 Bg8 20.Nxb7 Nb4 21.Ka1 Rab8 22.h4 Qh5
+23.c6 Rfe8 24.Qg6 Qe5 25.Nd6 Nxd3 26.Nxe8 Nb4 27.Rhe1 Nc2+ 28.Qxc2  1-0
+
+[Event "1st WMSG Rapid Ind KO"]
+[Site "Beijing CHN"]
+[Date "2008.10.08"]
 [Round "2.2"]
 [White "Korobov,A"]
 [Black "Bu Xiangzhi"]
@@ -13619,22 +13635,6 @@
 23.Rb5 Nd5 24.Bb1 Re8 25.Bc2 a6 26.Rb2 exf3 27.Bxf5 Qxf5 28.Rxf3 Qd3 29.Qxd3 cxd3
 30.e4 Rxe4 31.Rxd3 Rc8 32.a5 b5 33.Bc5 f5 34.Rc2 Kf7 35.c4 bxc4 36.Rxc4 Rb8
 37.Bd6 Rb1+ 38.Kh2 Rh4+ 39.Rh3 Rxh3+ 40.Kxh3 Rb5 41.Be5  1/2-1/2
-
-[Event "1st WMSG Rapid Ind KO"]
-[Site "Beijing CHN"]
-[Date "2008.10.08"]
-[Round "2.1"]
-[White "Bu Xiangzhi"]
-[Black "Korobov,A"]
-[Result "1-0"]
-[WhiteElo "2714"]
-[BlackElo "2605"]
-[ECO "D53"]
-
-1.Nf3 d5 2.d4 e6 3.c4 Nf6 4.Bg5 Be7 5.Nc3 O-O 6.Qc2 h6 7.Bxf6 Bxf6 8.O-O-O c5
-9.dxc5 d4 10.Nxd4 Bxd4 11.Qe4 Nc6 12.e3 f5 13.Qf3 e5 14.exd4 Qg5+ 15.Kb1 exd4
-16.Nb5 Kh8 17.Bd3 f4 18.Nd6 Be6 19.Qe4 Bg8 20.Nxb7 Nb4 21.Ka1 Rab8 22.h4 Qh5
-23.c6 Rfe8 24.Qg6 Qe5 25.Nd6 Nxd3 26.Nxe8 Nb4 27.Rhe1 Nc2+ 28.Qxc2  1-0
 
 [Event "1st WMSG Blitz Team"]
 [Site "Beijing CHN"]
@@ -13866,24 +13866,6 @@
 [Event "1st WMSG Blitz Team KO"]
 [Site "Beijing CHN"]
 [Date "2008.10.14"]
-[Round "2.2"]
-[White "Almasi,Z"]
-[Black "Bu Xiangzhi"]
-[Result "1-0"]
-[WhiteElo "2663"]
-[BlackElo "2714"]
-[ECO "B90"]
-
-1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 e5 7.Nf3 Be7 8.Bc4 O-O
-9.O-O Nc6 10.Bg5 Be6 11.Bb3 Nd7 12.Bxe7 Qxe7 13.Nd5 Bxd5 14.Qxd5 Nf6 15.Qd3 Rad8
-16.Rfe1 Na5 17.Bd5 Qc7 18.c3 h6 19.Rad1 Nxd5 20.Qxd5 Nc4 21.b3 Na5 22.Re3 Nc6
-23.Qd2 Rfe8 24.Rd3 Re6 25.c4 b6 26.g3 a5 27.a3 Nb8 28.Rd5 Nc6 29.Kg2 Ne7
-30.Rxe5 Rxe5 31.Nxe5 Qc5 32.Qf4 f6 33.Nf3 Qxa3 34.Nd4 Re8 35.Qg4 Kf7 36.Qe6+ Kf8
-37.Nb5 Qxb3 38.Nxd6  1-0
-
-[Event "1st WMSG Blitz Team KO"]
-[Site "Beijing CHN"]
-[Date "2008.10.14"]
 [Round "2.1"]
 [White "Bu Xiangzhi"]
 [Black "Almasi,Z"]
@@ -13901,6 +13883,24 @@
 44.Kg2 h5 45.Re4 Rd8 46.Qe3 Qf6 47.Kh3 Qc3 48.Qxc3 bxc3 49.Rc4 Bg7 50.Be4 Rd2
 51.Kg3 f5 52.Bb1 g5 53.Rc6 Be5+ 54.Kf3 Kf7 55.Ke3 h4 56.Bd3 h3 57.Bc4 h2
 58.Rxe6 Kg7 59.Re7+ Kf8 60.Rf7+ Ke8 61.Rh7 Bf4+ 62.Kf3 c2  0-1
+
+[Event "1st WMSG Blitz Team KO"]
+[Site "Beijing CHN"]
+[Date "2008.10.14"]
+[Round "2.2"]
+[White "Almasi,Z"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2663"]
+[BlackElo "2714"]
+[ECO "B90"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Be3 e5 7.Nf3 Be7 8.Bc4 O-O
+9.O-O Nc6 10.Bg5 Be6 11.Bb3 Nd7 12.Bxe7 Qxe7 13.Nd5 Bxd5 14.Qxd5 Nf6 15.Qd3 Rad8
+16.Rfe1 Na5 17.Bd5 Qc7 18.c3 h6 19.Rad1 Nxd5 20.Qxd5 Nc4 21.b3 Na5 22.Re3 Nc6
+23.Qd2 Rfe8 24.Rd3 Re6 25.c4 b6 26.g3 a5 27.a3 Nb8 28.Rd5 Nc6 29.Kg2 Ne7
+30.Rxe5 Rxe5 31.Nxe5 Qc5 32.Qf4 f6 33.Nf3 Qxa3 34.Nd4 Re8 35.Qg4 Kf7 36.Qe6+ Kf8
+37.Nb5 Qxb3 38.Nxd6  1-0
 
 [Event "1st WMSG Rapid Team"]
 [Site "Beijing CHN"]
@@ -14031,6 +14031,20 @@
 [Event "1st WMSG Rapid Team KO"]
 [Site "Beijing CHN"]
 [Date "2008.10.17"]
+[Round "2.1"]
+[White "Drozdovskij,Y"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2587"]
+[BlackElo "2714"]
+[ECO "D12"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6 6.Bd2 Nbd7 7.g3 Bd6 8.Qe2 O-O
+9.Bg2 dxc4 10.Qxc4 Ne5 11.Qe2 Bc7 12.O-O  0-1
+
+[Event "1st WMSG Rapid Team KO"]
+[Site "Beijing CHN"]
+[Date "2008.10.17"]
 [Round "2.2"]
 [White "Bu Xiangzhi"]
 [Black "Drozdovskij,Y"]
@@ -14045,20 +14059,6 @@
 23.Rd2 Rxd2 24.Nxd2 Qb5 25.Qa8+ Kh7 26.Qe4+ g6 27.Nc4 Bc7 28.b3 Qc5 29.Nd2 Qd6
 30.Nf3 Bb6 31.Qb7 Qc7 32.Qxa6 Qc2 33.Qb7 Kg7 34.Ne5 Qf5 35.Nc4 Bc5 36.h3 Qc2
 37.g4 h5 38.Ne5 Bxe3 39.Qxf7+ Kh6 40.Qf8+ Kh7 41.Qf3 Bd4 42.Qf7+ Kh6 43.Qf4+  1-0
-
-[Event "1st WMSG Rapid Team KO"]
-[Site "Beijing CHN"]
-[Date "2008.10.17"]
-[Round "2.1"]
-[White "Drozdovskij,Y"]
-[Black "Bu Xiangzhi"]
-[Result "0-1"]
-[WhiteElo "2587"]
-[BlackElo "2714"]
-[ECO "D12"]
-
-1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6 6.Bd2 Nbd7 7.g3 Bd6 8.Qe2 O-O
-9.Bg2 dxc4 10.Qxc4 Ne5 11.Qe2 Bc7 12.O-O  0-1
 
 [Event "TCh-CHN Torch Real Estate Cup"]
 [Site "Jiangsu Wuxi CHN"]
@@ -15611,24 +15611,6 @@
 30.Qe2 Qe4 31.Qd2 Qd3 32.Qb2 Qd6+ 33.f4 a4 34.Ne5 Qd5 35.Qb4 f6 36.Nc6 Kh7
 37.Ne7 Qd3 38.f5 Qd6+  0-1
 
-[Event "3rd Asian Indoor Team Rapid Final"]
-[Site "Ha Long City VIE"]
-[Date "2009.11.07"]
-[Round "1"]
-[White "Bu Xiangzhi"]
-[Black "Le Quang Liem"]
-[Result "1/2-1/2"]
-[WhiteElo "2682"]
-[BlackElo "2635"]
-[ECO "A11"]
-
-1.c4 c6 2.Nf3 Nf6 3.Nc3 d5 4.e3 e6 5.b3 Nbd7 6.Bb2 Bd6 7.Be2 O-O 8.O-O a6
-9.d4 b6 10.Qc2 Bb7 11.Rfe1 Qe7 12.e4 dxe4 13.Nxe4 Nxe4 14.Qxe4 f5 15.Qe3 c5
-16.Ng5 Rae8 17.Bh5 g6 18.Bf3 Bxf3 19.Nxf3 Nf6 20.h3 Ne4 21.Rad1 Rd8 22.d5 Rfe8
-23.Qh6 Qf8 24.Qxf8+ Kxf8 25.dxe6 Rxe6 26.g4 Be7 27.gxf5 gxf5 28.Rxd8+ Bxd8
-29.Rd1 Rd6 30.Rxd6 Nxd6 31.Kg2 Ne4 32.Ne5 Bc7 33.f3 Ng5 34.Nd7+ Kf7 35.Nf6 Ne6
-36.Nd5  1/2-1/2
-
 [Event "3rd Asian Indoor Team Rapid S/F"]
 [Site "Ha Long City VIE"]
 [Date "2009.11.07"]
@@ -15646,6 +15628,24 @@
 23.Qd3 Qb6 24.Rc4 Rd5 25.Qc2 Nd7 26.Rc1 Nb8 27.g3 Rcd8 28.Qe2 Rc8 29.h4 Qd8
 30.Qh5 Qe8 31.Qe2 h6 32.Qc2 Qd8 33.Nec5 Qb6 34.Kg2 Rcd8 35.Ne4 Rc8 36.Qe2 Qd8
 37.Qg4 Kf8 38.Qf4 Kg8 39.Qg4 Kf8 40.Qf4  1/2-1/2
+
+[Event "3rd Asian Indoor Team Rapid Final"]
+[Site "Ha Long City VIE"]
+[Date "2009.11.07"]
+[Round "1"]
+[White "Bu Xiangzhi"]
+[Black "Le Quang Liem"]
+[Result "1/2-1/2"]
+[WhiteElo "2682"]
+[BlackElo "2635"]
+[ECO "A11"]
+
+1.c4 c6 2.Nf3 Nf6 3.Nc3 d5 4.e3 e6 5.b3 Nbd7 6.Bb2 Bd6 7.Be2 O-O 8.O-O a6
+9.d4 b6 10.Qc2 Bb7 11.Rfe1 Qe7 12.e4 dxe4 13.Nxe4 Nxe4 14.Qxe4 f5 15.Qe3 c5
+16.Ng5 Rae8 17.Bh5 g6 18.Bf3 Bxf3 19.Nxf3 Nf6 20.h3 Ne4 21.Rad1 Rd8 22.d5 Rfe8
+23.Qh6 Qf8 24.Qxf8+ Kxf8 25.dxe6 Rxe6 26.g4 Be7 27.gxf5 gxf5 28.Rxd8+ Bxd8
+29.Rd1 Rd6 30.Rxd6 Nxd6 31.Kg2 Ne4 32.Ne5 Bc7 33.f3 Ng5 34.Nd7+ Kf7 35.Nf6 Ne6
+36.Nd5  1/2-1/2
 
 [Event "3rd Asian Indoor Team Rapid Final"]
 [Site "Ha Long City VIE"]
@@ -17743,6 +17743,25 @@
 [Event "Trophee CCAS KO"]
 [Site "Cap d'Agde FRA"]
 [Date "2010.10.28"]
+[Round "1.2"]
+[White "Bu Xiangzhi"]
+[Black "Pelletier,Y"]
+[Result "1/2-1/2"]
+[WhiteElo "2695"]
+[BlackElo "2592"]
+[ECO "A30"]
+
+1.Nf3 Nf6 2.c4 b6 3.g3 Bb7 4.Bg2 c5 5.O-O e6 6.Nc3 Be7 7.d4 cxd4 8.Qxd4 d6
+9.Rd1 a6 10.b3 Nbd7 11.Bb2 O-O 12.Ne1 Bxg2 13.Nxg2 Qb8 14.Ne4 Rd8 15.Ne3 Ne8
+16.Rac1 Qb7 17.Rc2 f5 18.Nd2 Ne5 19.Ng2 Bf6 20.Qe3 Nc7 21.Nf3 Ng4 22.Qc1 Bxb2
+23.Qxb2 Nf6 24.Nf4 Rac8 25.Rcd2 Ne4 26.Rd3 Qc6 27.h4 h6 28.h5 Qe8 29.Nh4 b5
+30.Kg2 bxc4 31.bxc4 Rb8 32.Qa3 Qc6 33.f3 Nc5 34.Re3 Re8 35.Nfg6 Kh7 36.Qc3 Rb6
+37.Qc2 Qa4 38.Qxa4 Nxa4 39.Rb3 Rc6 40.Rdb1 Kg8 41.Rb8 Kf7 42.Rxe8 Nxe8 43.Rb8 Rxc4
+44.Nh8+ Ke7 45.N8g6+ Kf7 46.Nh8+ Ke7 47.N8g6+ Kf7  1/2-1/2
+
+[Event "Trophee CCAS KO"]
+[Site "Cap d'Agde FRA"]
+[Date "2010.10.28"]
 [Round "1.1"]
 [White "Pelletier,Y"]
 [Black "Bu Xiangzhi"]
@@ -17761,22 +17780,21 @@
 
 [Event "Trophee CCAS KO"]
 [Site "Cap d'Agde FRA"]
-[Date "2010.10.28"]
-[Round "1.2"]
+[Date "2010.10.30"]
+[Round "2.2"]
 [White "Bu Xiangzhi"]
-[Black "Pelletier,Y"]
-[Result "1/2-1/2"]
+[Black "Ivanchuk,V"]
+[Result "0-1"]
 [WhiteElo "2695"]
-[BlackElo "2592"]
-[ECO "A30"]
+[BlackElo "2754"]
+[ECO "D55"]
 
-1.Nf3 Nf6 2.c4 b6 3.g3 Bb7 4.Bg2 c5 5.O-O e6 6.Nc3 Be7 7.d4 cxd4 8.Qxd4 d6
-9.Rd1 a6 10.b3 Nbd7 11.Bb2 O-O 12.Ne1 Bxg2 13.Nxg2 Qb8 14.Ne4 Rd8 15.Ne3 Ne8
-16.Rac1 Qb7 17.Rc2 f5 18.Nd2 Ne5 19.Ng2 Bf6 20.Qe3 Nc7 21.Nf3 Ng4 22.Qc1 Bxb2
-23.Qxb2 Nf6 24.Nf4 Rac8 25.Rcd2 Ne4 26.Rd3 Qc6 27.h4 h6 28.h5 Qe8 29.Nh4 b5
-30.Kg2 bxc4 31.bxc4 Rb8 32.Qa3 Qc6 33.f3 Nc5 34.Re3 Re8 35.Nfg6 Kh7 36.Qc3 Rb6
-37.Qc2 Qa4 38.Qxa4 Nxa4 39.Rb3 Rc6 40.Rdb1 Kg8 41.Rb8 Kf7 42.Rxe8 Nxe8 43.Rb8 Rxc4
-44.Nh8+ Ke7 45.N8g6+ Kf7 46.Nh8+ Ke7 47.N8g6+ Kf7  1/2-1/2
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Be7 5.Bg5 h6 6.Bxf6 Bxf6 7.Qb3 c6 8.e3 O-O
+9.Be2 b6 10.O-O Bb7 11.Rfd1 Nd7 12.a4 Rb8 13.Qc2 Be7 14.b3 a5 15.h3 Qc7 16.Bd3 Rbc8
+17.Qe2 Nf6 18.Ne5 Rfd8 19.Rac1 Bd6 20.f4 Qe7 21.Rf1 Bb8 22.f5 Nd7 23.fxe6 Nxe5
+24.Bb1 Qxe6 25.cxd5 Qe7 26.dxe5 Bxe5 27.dxc6 Bxc6 28.Bd3 Bxg2 29.Qxg2 Rxc3
+30.Rxc3 Bxc3 31.Bc4 Bf6 32.Kh1 Kh8 33.Qf3 Rd2 34.Qa8+ Kh7 35.Bd5 Qxe3 36.Be4+ g6
+37.Bg2 Rf2 38.Rd1 Qxb3 39.Rc1 Rd2 40.Bf3 Qb2  0-1
 
 [Event "Trophee CCAS KO"]
 [Site "Cap d'Agde FRA"]
@@ -17800,24 +17818,6 @@
 58.Re5 Rd7 59.Kg4 Nb4 60.Rh6 Bf8 61.Rf6+ Kg7 62.Re8 Be7 63.Rf5 Bd6 64.Re6 Bc7
 65.Rb5 Nd3 66.f5 Kf7 67.g6+ Kg7 68.Kg5 Bf4+ 69.Kh5 Bc7 70.f6+ Kf8 71.g7+ Kf7
 72.Re7+  1-0
-
-[Event "Trophee CCAS KO"]
-[Site "Cap d'Agde FRA"]
-[Date "2010.10.30"]
-[Round "2.2"]
-[White "Bu Xiangzhi"]
-[Black "Ivanchuk,V"]
-[Result "0-1"]
-[WhiteElo "2695"]
-[BlackElo "2754"]
-[ECO "D55"]
-
-1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Be7 5.Bg5 h6 6.Bxf6 Bxf6 7.Qb3 c6 8.e3 O-O
-9.Be2 b6 10.O-O Bb7 11.Rfd1 Nd7 12.a4 Rb8 13.Qc2 Be7 14.b3 a5 15.h3 Qc7 16.Bd3 Rbc8
-17.Qe2 Nf6 18.Ne5 Rfd8 19.Rac1 Bd6 20.f4 Qe7 21.Rf1 Bb8 22.f5 Nd7 23.fxe6 Nxe5
-24.Bb1 Qxe6 25.cxd5 Qe7 26.dxe5 Bxe5 27.dxc6 Bxc6 28.Bd3 Bxg2 29.Qxg2 Rxc3
-30.Rxc3 Bxc3 31.Bc4 Bf6 32.Kh1 Kh8 33.Qf3 Rd2 34.Qa8+ Kh7 35.Bd5 Qxe3 36.Be4+ g6
-37.Bg2 Rf2 38.Rd1 Qxb3 39.Rc1 Rd2 40.Bf3 Qb2  0-1
 
 [Event "TCh-CHN"]
 [Site "Beijing CHN"]
@@ -28854,24 +28854,6 @@
 [Event "FIDE World Cup 2017"]
 [Site "Tbilisi GEO"]
 [Date "2017.09.14"]
-[Round "4.3"]
-[White "Bu Xiangzhi"]
-[Black "Svidler,P"]
-[Result "0-1"]
-[WhiteElo "2714"]
-[BlackElo "2756"]
-[ECO "A33"]
-
-1.Nf3 c5 2.c4 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 6.Bf4 d5 7.e3 Bb4 8.Be2 O-O
-9.O-O Bxc3 10.bxc3 Re8 11.Bg5 h6 12.Bh4 g5 13.Bg3 Ne4 14.Qc2 e5 15.Nxc6 bxc6
-16.cxd5 cxd5 17.Rfd1 Bf5 18.Qb3 Rb8 19.Rxd5 Qc7 20.Qc4 Qxc4 21.Bxc4 Be6 22.Rxe5 Nxg3
-23.Rxe6 Ne2+ 24.Kf1 fxe6 25.Bxe2 Rec8 26.Bd1 Rb2 27.Bb3 Kf7 28.Rd1 Rxc3 29.g4 Ke7
-30.Rd4 a5 31.Re4 Rc6 32.Kg2 Kf6 33.Rd4 Ke7 34.Re4 Rd6 35.Kg3 Kf6 36.f4 Rb1
-37.Re5 a4 38.Bxa4 gxf4+ 39.Kxf4 Rd3 40.Ra5 Ra3 41.e4 Rf1+  0-1
-
-[Event "FIDE World Cup 2017"]
-[Site "Tbilisi GEO"]
-[Date "2017.09.14"]
 [Round "4.4"]
 [White "Svidler,P"]
 [Black "Bu Xiangzhi"]
@@ -28886,6 +28868,24 @@
 22.f3 Nxd3 23.cxd3 Bf5 24.Ree7 Bxd3 25.Rxg7+ Kh8 26.Rgc7 Bg6 27.h3 Rb4 28.Nxa7 Rxb7
 29.Rxb7 Rd1+ 30.Kh2 Bd3 31.Rd7 c4 32.Nc6 Rb1 33.Ne5 Bf1 34.Rd2 Ra1 35.a3 Ra2
 36.Rf2  1-0
+
+[Event "FIDE World Cup 2017"]
+[Site "Tbilisi GEO"]
+[Date "2017.09.14"]
+[Round "4.3"]
+[White "Bu Xiangzhi"]
+[Black "Svidler,P"]
+[Result "0-1"]
+[WhiteElo "2714"]
+[BlackElo "2756"]
+[ECO "A33"]
+
+1.Nf3 c5 2.c4 Nc6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 e6 6.Bf4 d5 7.e3 Bb4 8.Be2 O-O
+9.O-O Bxc3 10.bxc3 Re8 11.Bg5 h6 12.Bh4 g5 13.Bg3 Ne4 14.Qc2 e5 15.Nxc6 bxc6
+16.cxd5 cxd5 17.Rfd1 Bf5 18.Qb3 Rb8 19.Rxd5 Qc7 20.Qc4 Qxc4 21.Bxc4 Be6 22.Rxe5 Nxg3
+23.Rxe6 Ne2+ 24.Kf1 fxe6 25.Bxe2 Rec8 26.Bd1 Rb2 27.Bb3 Kf7 28.Rd1 Rxc3 29.g4 Ke7
+30.Rd4 a5 31.Re4 Rc6 32.Kg2 Kf6 33.Rd4 Ke7 34.Re4 Rd6 35.Kg3 Kf6 36.f4 Rb1
+37.Re5 a4 38.Bxa4 gxf4+ 39.Kxf4 Rd3 40.Ra5 Ra3 41.e4 Rf1+  0-1
 
 [Event "TCh-CHN 2017"]
 [Site "China CHN"]
@@ -30796,3 +30796,3368 @@
 16.Rb1 Nxe3 17.dxe3 h5 18.Rd4 c5 19.Rd6 Ne4 20.Bxe4 Rxe4 21.Rd8+ Kh7 22.Rd5 g6
 23.Rxc5 b6 24.Rc7 Be6 25.Rb4 Rxb4 26.cxb4 Bxa2 27.e4 a5 28.bxa5 bxa5 29.Be3 a4
 30.Ra7 Rxa7 31.Bxa7 a3 32.Bc5 Bb1 33.Bxa3  1/2-1/2
+
+[Event "12th World Teams 2019"]
+[Site "Astana KAZ"]
+[Date "2019.03.05"]
+[Round "1.4"]
+[White "Abasov,N"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2627"]
+[BlackElo "2731"]
+[ECO "D52"]
+
+1.d4 d5 2.Nf3 Nf6 3.c4 c6 4.Nc3 e6 5.Bg5 Nbd7 6.e3 Qa5 7.Nd2 dxc4 8.Bxf6 Nxf6
+9.Nxc4 Qc7 10.Rc1 Be7 11.g3 O-O 12.Bg2 Rd8 13.O-O Nd5 14.Qb3 Nxc3 15.Qxc3 a5
+16.Ne5 Bd7 17.Nxd7 Rxd7 18.f4 g6 19.h4 a4 20.a3 Ra5 21.Rfd1 Qd8 22.Bf3 h5
+23.Kg2 Bf6 24.Qc2 Kg7 25.Be2 Qb6 26.Kf2 Rd8 27.Rd3 Rdd5 28.Rc3 Be7 29.Bc4 Rd7
+30.Rd1 Bf6 31.Be2 Rdd5 32.Bc4 Rd7 33.Be2 Rdd5 34.Bc4 Rd7  1/2-1/2
+
+[Event "12th World Teams 2019"]
+[Site "Astana KAZ"]
+[Date "2019.03.07"]
+[Round "3.1"]
+[White "Artemiev,V"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2736"]
+[BlackElo "2731"]
+[ECO "A07"]
+
+1.Nf3 Nf6 2.g3 d5 3.Bg2 c6 4.O-O Bg4 5.c4 e6 6.Qb3 Qb6 7.d3 Nbd7 8.Be3 Bc5
+9.Bxc5 Nxc5 10.Qa3 O-O 11.Nbd2 a5 12.Rac1 Ncd7 13.h3 Bxf3 14.Nxf3 Qb4 15.Rc3 Qxa3
+16.bxa3 Ne8 17.cxd5 exd5 18.Rb1 Nd6 19.Nd4 Rfe8 20.a4 Ra6 21.e3 Rb6 22.Rbb3 Kf8
+23.h4 Rb4 24.a3 Rxa4 25.Nxc6 bxc6 26.Rxc6 Nf5 27.Bxd5 Ne7 28.Rc7 Nxd5 29.Rxd7 Nf6
+30.Ra7 Re7 31.Ra8+ Ne8 32.h5 g6 33.hxg6 hxg6 34.Kf1 Kg7 35.Ke2 Nd6 36.Ra6 Rb7
+37.Rbb6 Rxb6 38.Rxb6 Nf5 39.Rb3 Kf6 40.Kd2 Kg5 41.Rc3 Kg4 42.Kc2 Kh3 43.d4 Nxd4+
+44.exd4 Rxd4 45.Rc6 Rd5 46.Rf6 Rf5 47.Rxf5 gxf5 48.Kd3 Kg4 49.a4 f4 50.gxf4 Kxf4
+51.Kc4 Kf3 52.Kb5 Kxf2 53.Kxa5 f5 54.Kb6 f4 55.a5  1/2-1/2
+
+[Event "12th World Teams 2019"]
+[Site "Astana KAZ"]
+[Date "2019.03.08"]
+[Round "4.2"]
+[White "Bu Xiangzhi"]
+[Black "Aravindh,Chithambaram VR."]
+[Result "1-0"]
+[WhiteElo "2731"]
+[BlackElo "2599"]
+[ECO "E62"]
+
+1.c4 Nf6 2.Nc3 g6 3.g3 Bg7 4.Bg2 O-O 5.d4 d6 6.Nf3 c6 7.O-O Bf5 8.Ne1 d5
+9.Nc2 Qd7 10.Ne3 Be6 11.b3 Bh3 12.Bxh3 Qxh3 13.Ba3 Qd7 14.Qd3 Rd8 15.Rad1 Na6
+16.Nc2 Nc7 17.e4 dxe4 18.Nxe4 Nxe4 19.Qxe4 Re8 20.Rd3 Rad8 21.Rfd1 Qc8 22.Ne1 Qf5
+23.Qxf5 gxf5 24.d5 cxd5 25.cxd5 Nb5 26.Bb4 Bf6 27.a4 Nd6 28.Ng2 Kg7 29.Rf3 Kg6
+30.h4 Ne4 31.g4 fxg4 32.Rf4 Nd6 33.Rxg4+ Kh5 34.f3 Rg8 35.Nf4+ Kh6 36.Bd2 Bd4+
+37.Kg2 Rxg4+ 38.fxg4 Kg7 39.Nh5+ Kg6 40.Bg5 f6 41.Nf4+ Kf7 42.Ne6 Rc8 43.Rxd4 fxg5
+44.Nxg5+ Kg6 45.Rd3 h5 46.Kg3 b5 47.Re3 bxa4 48.Rxe7 axb3 49.Re6+ Kg7 50.Rxd6 Rb8
+51.Rd7+ Kg6 52.gxh5+ Kxh5 53.Kf4 Kg6 54.Nf3 Kf6 55.Rd6+ Ke7 56.Re6+ Kd7 57.Ne5+ Kc7
+58.Rc6+ Kd8 59.Rc1 Rb6 60.d6 b2 61.Rb1 Ke8 62.d7+ Ke7 63.h5 a5 64.h6  1-0
+
+[Event "12th World Teams 2019"]
+[Site "Astana KAZ"]
+[Date "2019.03.09"]
+[Round "5.4"]
+[White "Bu Xiangzhi"]
+[Black "Tabatabaei,M"]
+[Result "1-0"]
+[WhiteElo "2731"]
+[BlackElo "2600"]
+[ECO "D37"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 dxc4 5.e3 a6 6.a4 b6 7.Bxc4 Bb7 8.O-O Bb4
+9.Qc2 Nbd7 10.Rd1 O-O 11.b3 Qe7 12.Bb2 Rfd8 13.d5 Nc5 14.dxe6 Nxe6 15.Qf5 Bd6
+16.Nd5 Nxd5 17.Bxd5 Bxd5 18.Rxd5 c6 19.Rdd1 f6 20.g3 a5 21.Rac1 Rac8 22.Nd2 Ng5
+23.h4 Nf7 24.Qe4 Qxe4 25.Nxe4 h5 26.Bd4 c5 27.Bb2 Be5 28.Bxe5 Nxe5 29.Nd6 Rb8
+30.Kf1 Nf7 31.Nb5 Rbc8 32.Ke2 Kf8 33.Rxd8+ Rxd8 34.Na3 Ke7 35.Nc4 Rb8 36.Rd1 Ke6
+37.Kd3 Nd6 38.e4 g6 39.f4 Nf7 40.Kc3 Rb7 41.Rd2 Rb8 42.Rd1 Rb7 43.Re1 Rb8
+44.Re3 Nh6 45.Rd3 Nf7 46.Kd2 Rb7 47.Ke3 Rb8 48.Kd2 Rb7 49.Kc3 Rb8 50.e5 Ke7
+51.exf6+ Kxf6 52.Rd7 Ke6 53.Rc7 Rd8 54.Rc6+ Kf5 55.Rxb6 Nh6 56.Nxa5 Ng4 57.Nb7 Rd1
+58.a5 Rg1 59.Nd6+ Ke6 60.Kc4 Ne3+ 61.Kxc5  1-0
+
+[Event "12th World Teams 2019"]
+[Site "Astana KAZ"]
+[Date "2019.03.11"]
+[Round "6.5"]
+[White "Fawzy,Adham"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2461"]
+[BlackElo "2731"]
+[ECO "B94"]
+
+1.e4 c5 2.Nf3 d6 3.d4 cxd4 4.Nxd4 Nf6 5.Nc3 a6 6.Bg5 Nbd7 7.Qe2 Qa5 8.Bd2 Qc7
+9.g4 h6 10.h3 b5 11.Bg2 Bb7 12.a4 bxa4 13.Nd5 Nxd5 14.exd5 Nb6 15.Nc6 Bxc6
+16.dxc6 d5 17.Ba5 Qxc6 18.Bxb6 Qxb6 19.O-O e6 20.c4 Bb4 21.cxd5 Rd8 22.dxe6 fxe6
+23.Rac1 O-O 24.Rc6 Qd4 25.Rxa6 Bc5 26.Kh1 e5 27.Bc6 a3 28.bxa3 Qc3 29.Bg2 Rd2
+30.Qe1 Bxf2 31.Qe4 Rd3 32.Rxh6 gxh6 33.Qg6+ Kh8 34.Qxh6+ Kg8 35.Qg6+ Kh8
+36.Qh5+ Kg8 37.Qg5+ Kh8 38.Qh6+  1/2-1/2
+
+[Event "12th World Teams 2019"]
+[Site "Astana KAZ"]
+[Date "2019.03.12"]
+[Round "7.4"]
+[White "Bu Xiangzhi"]
+[Black "Smith,Ax"]
+[Result "1/2-1/2"]
+[WhiteElo "2731"]
+[BlackElo "2487"]
+[ECO "B36"]
+
+1.Nf3 c5 2.c4 Nc6 3.d4 cxd4 4.Nxd4 g6 5.e4 Nf6 6.Nc3 Nxd4 7.Qxd4 d6 8.Be3 Bg7
+9.f3 O-O 10.Qd2 Be6 11.Rc1 Qa5 12.Be2 Rfc8 13.b3 a6 14.Na4 Qxd2+ 15.Kxd2 Nd7
+16.g4 f5 17.exf5 gxf5 18.h3 Rf8 19.f4 Rad8 20.g5 Nc5 21.Nc3 Bxc3+ 22.Kxc3 Ne4+
+23.Kb4 Ng3 24.Rhe1 Nxe2 25.Rxe2 Rd7 26.Bd4 Bf7 27.h4 Re8 28.Rce1 Rc7 29.a4 Rd7
+30.Ka5 Rc7 31.Kb6 Rd7 32.Re3 Kf8 33.Rh3 e5 34.fxe5 Re6 35.Ka5 dxe5 36.Bxe5 f4
+37.Bc3 Rxe1 38.Bxe1 Bh5 39.Rc3 Ke8 40.Kb6 Kd8 41.c5 Kc8 42.Rc4 Re7 43.Bf2 Re6+
+44.Ka7 a5 45.c6 Rxc6 46.Rxc6+ bxc6 47.Kb6 Bf7 48.Kxc6 Bxb3 49.Kb5 Kb7 50.Kxa5 Bd1
+51.Kb5 Be2+ 52.Kc5 Ka6 53.Be1 f3 54.Bf2 Bd3 55.h5 Ka5 56.Kd4 Bb1 57.Ke3 Bc2
+58.g6  1/2-1/2
+
+[Event "12th World Teams 2019"]
+[Site "Astana KAZ"]
+[Date "2019.03.13"]
+[Round "8.2"]
+[White "Jones,G"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2681"]
+[BlackElo "2731"]
+[ECO "B51"]
+
+1.e4 c5 2.Nf3 d6 3.Bb5+ Nc6 4.O-O Bd7 5.Re1 Nf6 6.c3 a6 7.Bf1 Bg4 8.h3 Bxf3
+9.Qxf3 e6 10.d3 Be7 11.Nd2 O-O 12.g3 d5 13.Qe2 b5 14.Bg2 Rb8 15.Nf3 Qb6 16.exd5 Nxd5
+17.Ng5 Bxg5 18.Bxg5 h6 19.Bh4 b4 20.Qg4 Kh8 21.Rac1 bxc3 22.bxc3 Nde7 23.d4 cxd4
+24.cxd4 Nd5 25.Bxd5 exd5 26.Be7 Nxe7 27.Rxe7 Qf6 28.Re5 Rb2 29.Qf5 Qxf5 30.Rxf5 Rxa2
+31.Rxd5 Rb2  1/2-1/2
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.14"]
+[Round "1.7"]
+[White "Bu Xiangzhi"]
+[Black "Cheparinov,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2667"]
+[ECO "D30"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Bg5 h6 5.Bxf6 Qxf6 6.Nc3 Bb4 7.Qa4+ Nc6 8.e3 O-O
+9.Be2 dxc4 10.O-O Bd7 11.Bxc4 Bxc3 12.bxc3 Rfd8 13.Qa3 b6 14.Rad1 Qe7 15.Qxe7 Nxe7
+16.e4 c5 17.dxc5 bxc5 18.Ne5 Ba4 19.Rxd8+ Rxd8 20.f3 Nc6 21.Nd3 Bc2 22.Nxc5 Ne5
+23.Ba6 Rd2 24.Bb5 g5 25.Rc1 Bd3 26.Nxd3 Nxd3 27.Bxd3 Rxd3 28.Rc2 Kf8 29.Kf2 Ke7
+30.Ke2 Rd6 31.Rd2 Ra6 32.Ke3 Ra4 33.Kd3 e5 34.h3 h5 35.g3 h4 36.gxh4 gxh4
+37.Ke3 Ra3 38.Kd3 Ra4 39.Ke3 Ra3 40.Rc2 Ke6 41.f4 f6 42.Kf3 Ra4 43.Ke3 f5
+44.exf5+ Kxf5 45.fxe5 Kxe5 46.Rg2 Re4+ 47.Kd3 Rf4 48.Ke3 Re4+ 49.Kd3 Rf4
+50.Rg5+ Kd6 51.Ke3 Rc4 52.Kd3 Rf4 53.Rg6+ Kc5 54.Re6 Rf3+ 55.Re3 Rf2 56.Re2 Rf3+
+57.Re3 Rf2 58.a4 a5 59.Re5+ Kb6 60.Re6+ Kc5 61.Re5+ Kb6 62.Kd4 Rd2+ 63.Kc4 Rh2
+64.Re3 Kc6 65.Rf3 Rh1 66.Re3 Rh2 67.Rf3 Rh1 68.Rf6+ Kc7 69.Rf7+ Kc6 70.Rf6+ Kc7
+71.Kc5 Rxh3 72.Rf7+ Kd8 73.c4 Rh1 74.Kb5 h3 75.Rh7 h2 76.Kxa5 Kc8 77.c5 Rc1
+78.Rxh2 Rxc5+ 79.Kb6 Rc1 80.Rh8+ Kd7 81.a5 Rb1+ 82.Kc5 Rc1+ 83.Kb6 Rb1+ 84.Kc5 Rc1+  1/2-1/2
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.14"]
+[Round "2.6"]
+[White "Fedoseev,Vl3"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2683"]
+[BlackElo "2729"]
+[ECO "D11"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3 dxc4 5.Qxc4 Bf5 6.g3 e6 7.Bg2 Nbd7 8.O-O Be7
+9.Nc3 O-O 10.Bf4 Rc8 11.a3 h6 12.Rfd1 Qb6 13.b4 Nd5 14.e4 Nxc3 15.exf5 Nxd1
+16.fxe6 Nb2 17.Qb3 fxe6 18.Qxe6+ Kh8 19.Qxe7 Qd8 20.Qe2 Na4 21.Qc2 Rxf4 22.gxf4 Nab6
+23.Re1 Qf6 24.f5 Nf8 25.Qc5 Nd5 26.Ne5 Nf4 27.Be4 Nh7 28.Qc3 Ng5 29.Bc2 Rd8
+30.Kf1 Nd5 31.Qg3 Ne7 32.Ng4 Qf7 33.Nxh6 gxh6 34.Qe5+ Kg8 35.Qxe7 Rxd4 36.Bb3 Qxb3
+37.Qe8+ Kg7 38.Qg6+  1-0
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.14"]
+[Round "3.8"]
+[White "Bu Xiangzhi"]
+[Black "Mamedov,Rau"]
+[Result "0-1"]
+[WhiteElo "2729"]
+[BlackElo "2650"]
+[ECO "D37"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 Nbd7 5.cxd5 exd5 6.Bg5 c6 7.e3 h6 8.Bh4 g5
+9.Bg3 Nh5 10.Bd3 Nxg3 11.hxg3 Bg7 12.Qc2 Qe7 13.O-O-O Nb6 14.Kb1 Be6 15.Nd2 O-O-O
+16.Nb3 Kb8 17.Rc1 h5 18.Nc5 h4 19.gxh4 gxh4 20.Ne2 Bc8 21.g3 Qf6 22.Rcf1 Bf8
+23.gxh4 Rxh4 24.Rxh4 Qxh4 25.Ng3 Qf6 26.Nb3 Bd6 27.Nf5 Bc7 28.a3 Rh8 29.Rg1 Nc4
+30.e4 dxe4 31.Bxe4 Nb6 32.Ne3 Re8 33.Rd1 Qf4 34.Nc5 Nd7 35.Nxd7+ Bxd7 36.Bf5 Rxe3
+37.Bxd7 Rf3 38.Rd2 a6 39.Ka2 Ba5 40.Re2 Qd6 41.Be8 Qd5+ 42.Kb1 Rh3 43.Qc5 Rh1+
+44.Kc2 Qf3 45.Qe5+ Bc7 46.Qe4 Qh5 47.Bd7 Rg1 48.Qd3 Qd5 49.Bf5 Bf4 50.b3 Qa5
+51.a4 Qb4 52.Qf3 Rc1+ 53.Kb2 Qxd4+ 54.Ka3 Ra1+  0-1
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.14"]
+[Round "4.7"]
+[White "Bu Xiangzhi"]
+[Black "Wang Hao"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2735"]
+[ECO "D37"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 dxc4 5.e3 a6 6.a4 c5 7.Bxc4 Nc6 8.O-O cxd4
+9.exd4 Be7 10.Re1 O-O 11.Bg5 Nb4 12.Qe2 Bd7 13.d5 Nbxd5 14.Nxd5 exd5 15.Qxe7 dxc4
+16.Bxf6 gxf6 17.Qe4 Qc7 18.Qh4 Qc6 19.Nd2 Rfe8 20.Ne4 Re6 21.Re3 Rae8 22.Rae1 f5
+23.Ng5 Rh6 24.Rxe8+ Bxe8 25.Qf4 Bd7 26.h4 Rd6 27.Nf3 h6 28.Ne5 Qd5 29.Nxd7 Rxd7
+30.Qxh6 Rd8 31.Re3 f4 32.Qxf4 Rd6 33.Re5 Qd4 34.Re4 Qd1+ 35.Kh2 Rg6 36.Rxc4 Qd5
+37.f3 Qe6 38.h5 Rg7 39.Re4 Qd7 40.Rd4 Qc8 41.h6 Rg6 42.Rd6 Qc5 43.Rd8+  1-0
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.15"]
+[Round "5.6"]
+[White "Yu Yangyi"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2739"]
+[BlackElo "2729"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3 Nxc3 6.dxc3 Be7 7.Be3 Nc6 8.Bd3 O-O
+9.Qe2 Be6 10.O-O-O Qd7 11.h4 Bf5 12.Rdg1 Rfe8 13.Bxf5 Qxf5 14.g4 Qe6 15.Kb1 Ne5
+16.Nd4 Qc4 17.Qd1 Qd5 18.b3 b5 19.f4 Nc6 20.Nf5 Qxd1+ 21.Rxd1 g6 22.Nxe7+ Rxe7
+23.Bc1 Rae8 24.h5 Re2 25.f5 R8e4 26.hxg6 fxg6 27.fxg6 hxg6 28.g5 Ne5 29.Rdf1 Rg2
+30.Rf6 Ree2 31.Rhf1 Kg7 32.Rf8 Rg1 33.Rxg1 Kxf8 34.Rf1+ Kg7 35.Rf4 Rg2 36.a4 a6
+37.axb5 axb5 38.Rd4 Nf7 39.Kb2 Nxg5 40.c4 bxc4 41.Rxc4 Ne6 42.b4 Kf6 43.b5 g5
+44.Be3 Re2 45.Rc3 g4 46.b6 cxb6 47.Bxb6 Kf5 48.Rd3 Ke5 49.Kb3 d5 50.c3 Re1
+51.Ba7 Rb1+ 52.Kc2 Ra1 53.Bb8+ Ke4 54.Rg3 Kf5 55.Rd3 Ra2+ 56.Kb1 Ra5 57.Kc2 Ng5
+58.Rd4 Ne6 59.Rd1 Ng5 60.Rd4 Rb5 61.Rf4+ Kg6 62.Be5 Kh5 63.Rf5 d4 64.cxd4 g3
+65.Rxg5+ Kxg5 66.Bxg3 Kf5 67.Kc3 Ke4 68.Be5 Rxe5 69.dxe5 Kxe5  1/2-1/2
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.15"]
+[Round "6.7"]
+[White "Leko,P"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2674"]
+[BlackElo "2729"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Bd3 Nf6 6.O-O Be7 7.Re1 O-O 8.Bf1 Re8
+9.d4 Nbd7 10.c4 Nf8 11.h3 c6 12.Nc3 Bf5 13.d5 c5 14.Bf4 Ng6 15.Bh2 a6 16.Nd2 Bf8
+17.Rxe8 Nxe8 18.a4 Be7 19.Nde4 Nf6 20.Bd3 Nxe4 21.Bxe4 Bd7 22.Bd3 Bf6 23.Qc2 Qb6
+24.Re1 Re8 25.Rxe8+ Bxe8 26.Bxg6 hxg6 27.Ne4 Be7 28.b3 Bd7 29.Bf4 Bf5 30.g4 Bxe4
+31.Qxe4 Kf8 32.Qd3 Qd8 33.Kg2 Bg5 34.Bh2 Bf6 35.Qe4 Qe7 36.Kf3 Qxe4+ 37.Kxe4 Ke7
+38.Bf4 a5 39.Be3 b6 40.f4 Bh4 41.Bd2 f6 42.Bc3 Kf7 43.Bd2 Ke7 44.Bc3 Kf7
+45.Bd2 Ke7 46.Bc3  1/2-1/2
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.15"]
+[Round "7.7"]
+[White "Bu Xiangzhi"]
+[Black "Jones,G"]
+[Result "0-1"]
+[WhiteElo "2729"]
+[BlackElo "2702"]
+[ECO "B36"]
+
+1.Nf3 c5 2.c4 g6 3.e4 Nc6 4.d4 cxd4 5.Nxd4 Nf6 6.Nc3 d6 7.Be2 Nxd4 8.Qxd4 Bg7
+9.Be3 O-O 10.Qd2 Bd7 11.f3 Bc6 12.O-O a5 13.b3 Nd7 14.Rab1 Nc5 15.Rfd1 Qc7
+16.Bf1 Rfc8 17.Kh1 Qb6 18.a3 Qc7 19.Nd5 Qd8 20.Bg5 Bxd5 21.exd5 a4 22.b4 Nb3
+23.Qe3 Bf6 24.Re1 Bxg5 25.Qxg5 e5 26.Qe3 Qh4 27.Rbd1 Nd4 28.Bd3 b6 29.Kg1 Ra7
+30.f4 Re7 31.fxe5 Rxe5 32.Qf2 Nf3+ 33.gxf3 Rg5+ 34.Kf1 Qh3+ 35.Ke2 Rg2 36.Rf1 Re8+
+37.Kd2 Qxf3 38.Qxg2 Qxg2+ 39.Kc3 Qa2 40.Rb1 Re3 41.Rfd1 Qxh2 42.c5 dxc5 43.bxc5 bxc5
+44.Kc4 Qd6 45.Rb5 Qf4+ 46.Kxc5 Qf3 47.Kd4 Re8 48.Rbb1 Qf6+ 49.Kc4 Rc8+ 50.Kb5 Qc3
+51.Rb4 Qxa3  0-1
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.16"]
+[Round "8.6"]
+[White "Rapport,R"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2736"]
+[BlackElo "2729"]
+[ECO "C31"]
+
+1.e4 e5 2.f4 d5 3.exd5 e4 4.Nc3 Nf6 5.d3 Bb4 6.Bd2 e3 7.Bxe3 O-O 8.Be2 Nxd5
+9.Bd2 Bxc3 10.bxc3 Qf6 11.c4 Nxf4 12.Bxf4 Qxf4 13.Nf3 Nc6 14.Qd2 Qd6 15.d4 Bg4
+16.c5 Qd7 17.c3 Bxf3 18.Bxf3 Rae8+ 19.Kf2 b6 20.cxb6 axb6 21.Rhe1 Ne5 22.Be2 Ng4+
+23.Kg1 Nf6 24.Bf3 Rxe1+ 25.Rxe1 Re8 26.Rxe8+ Nxe8 27.c4 Nd6 28.c5 Nf5 29.cxb6 cxb6
+30.d5 Qc7 31.g3 g6 32.Kg2 Qc5 33.Qf4 Nd6 34.g4 b5 35.Qf6 Qc2+ 36.Kh3 Qc7
+37.Qf4 Qe7 38.Kg2 Kg7 39.a4 bxa4 40.Qxa4 Qe5 41.Qc2 Qd4 42.Qd1 Qxd1 43.Bxd1 Kf6
+44.Kf3 Ke5 45.Bb3 f6 46.Ke3 Nc8 47.h4 Ne7 48.d6 Kxd6 49.Ke4 Nc6 50.Bg8 h6
+51.Bb3 Ke7 52.Ba4 Ne5 53.g5 Nf7 54.gxf6+ Kxf6 55.Kf4 Nd6 56.Kg4 Ne4 57.Bc2 Nc5
+58.Kf4 Ne6+ 59.Kg4 Nd4 60.Bd3 h5+ 61.Kh3 Nf5 62.Bb5 Nd6 63.Bd3 Nf5 64.Bb5 Ke5
+65.Be8 Ne7 66.Kg3 Ke4 67.Bf7 Kf5 68.Be8 Nd5 69.Bd7+ Ke5 70.Be8 Ne7 71.Bf7 Kf6
+72.Bb3 Nf5+ 73.Kh3 Nd4 74.Bc4 Ke5 75.Bf7 Ne2 76.Be8 Kf5 77.Kh2 Nc3 78.Bd7+ Ke5
+79.Be8 Kf6 80.Kh3 Ne4 81.Ba4 Kf5 82.Bd7+ Ke5 83.Be8 Kf6 84.Ba4 Nc3 85.Bc2 Nd5
+86.Kg3 Ne7 87.Ba4 Ke5 88.Be8 Ke4 89.Bf7 Ke5 90.Be8 Ke4 91.Bf7 Ke5 92.Be8  1/2-1/2
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.16"]
+[Round "9.5"]
+[White "Vidit,S"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2707"]
+[BlackElo "2729"]
+[ECO "D45"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6 5.e3 a6 6.b3 Bb4 7.Bd2 Nbd7 8.Bd3 O-O
+9.O-O Bd6 10.Rc1 e5 11.cxd5 cxd5 12.e4 dxe4 13.Nxe4 Nxe4 14.Bxe4 Nf6 15.dxe5 Nxe4
+16.exd6 Qxd6 17.Be3 Bg4 18.Qxd6 Nxd6 19.Ne5 Be6 20.Rfd1 Rfd8 21.Bb6 Rdc8
+22.Nd3 Rxc1 23.Rxc1 Rc8 24.Rxc8+ Nxc8 25.Be3 f6 26.f3 Kf7 27.Kf2 Ne7 28.Bd2 Nd5
+29.Nf4 Nxf4 30.Bxf4 Ke7 31.Ke3 Kd7 32.Kd4 Kc6 33.Bd2 Bf5 34.a4 Bc2 35.Kc4 b5+
+36.axb5+ axb5+ 37.Kc3 Bd1 38.b4 Kd5 39.Kd3 Bb3 40.Bf4 Bc4+ 41.Ke3 Ke6 42.Kf2 Kf7
+43.Bd6 Ke6 44.Bf8 Kf7 45.Bd6 Ke6 46.Bf8 Kf7  1/2-1/2
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.16"]
+[Round "10.6"]
+[White "Bu Xiangzhi"]
+[Black "Gelfand,B"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2676"]
+[ECO "A07"]
+
+1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.O-O e5 5.d3 Ne7 6.e4 O-O 7.exd5 Nxd5 8.Re1 Nc6
+9.Nc3 Nxc3 10.bxc3 Rb8 11.Rb1 b6 12.Bg5 f6 13.Be3 Be6 14.c4 Qd7 15.Qc1 Rbd8
+16.Qa3 e4 17.dxe4 Bxc4 18.h4 Rfe8 19.Kh2 Bf7 20.Rbd1 Qe6 21.Rd5 Qe7 22.Qa4 Bxd5
+23.exd5 Ne5 24.Nd4 Qd7 25.Qb3 Ng4+ 26.Kg1 Nxe3 27.Rxe3 Rxe3 28.Qxe3 Re8 29.Ne6 c6
+30.dxc6 Qd1+ 31.Kh2 Qxc2 32.c7 Bf8 33.Qd4 Rxe6 34.Qd7 Re8 35.Bd5+ Kh8 36.Qxe8 Qxf2+
+37.Bg2  1-0
+
+[Event "IMSA World Masters Rapid"]
+[Site "Hengshui CHN"]
+[Date "2019.05.16"]
+[Round "11.1"]
+[White "Korobov,A"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2687"]
+[BlackElo "2729"]
+[ECO "D10"]
+
+1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Bf4 Nc6 5.e3 Nf6 6.Bd3 Bg4 7.Ne2 e6 8.Nbc3 a6
+9.Qb3 Na5 10.Qa4+ Nc6 11.Ng3 Bh5 12.Nxh5 Nxh5 13.Be5 Bd6 14.O-O O-O 15.Bxd6 Qxd6
+16.Rfc1 Nf6 17.Qd1 e5 18.dxe5 Qxe5 19.Ne2 g6 20.Qb3 Rab8 21.Qc3 Qxc3 22.Rxc3 Rfd8
+23.Rb3 d4 24.Nxd4 Nxd4 25.exd4 b5 26.Bf1 Rxd4 27.a4 Ne4 28.axb5 axb5 29.f3 Nc5
+30.Rxb5 Rxb5 31.Bxb5 Rb4 32.Be8 Rxb2 33.Ra7 f5 34.Bf7+ Kh8 35.h4 Nd3 36.Ra2 Rb1+
+37.Kh2 Rb4 38.g3 Rb2+ 39.Rxb2 Nxb2 40.g4 Kg7 41.Bb3 fxg4 42.fxg4 Nd3 43.g5 h6
+44.gxh6+ Kxh6 45.Bc2 g5 46.hxg5+ Kxg5 47.Bxd3  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "1.8"]
+[White "Bu Xiangzhi"]
+[Black "Gelfand,B"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2676"]
+[ECO "D45"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 c6 5.e3 Nbd7 6.Qc2 Bd6 7.Be2 O-O 8.O-O dxc4
+9.Bxc4 b5 10.Be2 Bb7 11.Rd1 Qc7 12.e4 e5 13.g3 Rfe8 14.dxe5 Nxe5 15.Nd4 Neg4
+16.Bxb5 cxb5 17.Ndxb5 Qc5 18.Nxd6 Bxe4 19.Ndxe4 Nxe4 20.Rd5 Qc6 21.Qa4 Qxa4
+22.Nxa4 Nexf2 23.Kg2 Re1 24.h3 Nf6 25.Rf5 N2e4 26.Nc3 Nxc3 27.bxc3 Rd8 28.Rf1 Rxf1
+29.Kxf1 Rd1+ 30.Ke2 Rh1 31.Kf3 h5 32.h4 Ng4 33.Bb2 Rh2 34.Ba3 Rd2 35.Ke4 Nf6+
+36.Ke3 Rc2 37.Kd3 Rg2 38.Bd6 Rf2 39.c4 Ne8 40.Bf4 f6 41.Re1 Kf7 42.Re2 Rf1
+43.c5 Rf3+ 44.Kc4 g5 45.Bb8 gxh4 46.gxh4 Rh3 47.Bxa7 Rxh4+ 48.Kb5 Nc7+ 49.Kc6 Ne6
+50.Rd2 Ra4 51.Bb6 h4 52.Kb5 Ra8 53.c6 h3 54.c7 Rh8 55.Ka6 Kg6 56.Kb7 Nxc7
+57.Bxc7 Kg5 58.a4 f5 59.Rf2 Rh4 60.Bd8+  1-0
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "2.8"]
+[White "Gelfand,B"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2676"]
+[BlackElo "2729"]
+[ECO "D52"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6 5.Bg5 Nbd7 6.e3 Qa5 7.Nd2 dxc4 8.Bxf6 Nxf6
+9.Nxc4 Qc7 10.Rc1 Be7 11.g3 O-O 12.Bg2 Bd7 13.O-O Rfd8 14.a3 a5 15.Qb3 Be8
+16.Rfd1 g6 17.Ne5 Kg7 18.Na4 Ra6 19.Nc5 Ra7 20.Ned3 Kg8 21.Bh3 Rd6 22.Nf4 e5
+23.dxe5 Rxd1+ 24.Rxd1 Qxe5 25.Na4 b5 26.Nc3 b4 27.axb4 axb4 28.Nce2 c5 29.Rc1 Bb5
+30.Qc2 Ra2 31.Rb1 Qe4 32.Qxe4 Nxe4 33.Nc1 Ra6 34.Nb3 Bc4 35.Bf1 Bxf1 36.Rxf1 Ra2
+37.Rb1 c4 38.Nd5 Bf8 39.f3 Ng5 40.Nd4 b3 41.Nc3 Ra8 42.h4 Ne6 43.Nxe6 fxe6
+44.Kf2 Bg7 45.Rc1 Kf7 46.Ke2 Ke7 47.Nd1 Ra4 48.e4 Kd6 49.Nc3 Bxc3 50.Rxc3 Kc5
+51.Rc1 Ra2 52.Rb1 c3  0-1
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "3.1"]
+[White "Bu Xiangzhi"]
+[Black "Jones,G"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2702"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2 O-O 5.O-O c6 6.b3 d5 7.Bb2 Re8 8.d4 c5 9.dxc5 dxc4
+10.Nbd2 Na6 11.c6 cxb3 12.Nxb3 bxc6 13.Ne5 Bb7 14.Nxc6 Qb6 15.Bd4 Qb5 16.Nba5 Bxc6
+17.Nxc6 e5 18.Rb1 Qxb1 19.Qxb1 exd4 20.Ne7+ Rxe7 21.Bxa8 Nc7 22.Bf3 Ne6 23.Rc1 h5
+24.Qb4 Re8 25.Qb7 Ng5 26.Rc8 Nxf3+ 27.exf3 Rxc8 28.Qxc8+ Kh7 29.Qa6 Nd5 30.Qxa7 Nc3
+31.Qxf7 d3 32.Qd7 Ne2+ 33.Kf1 Nd4 34.Ke1 Nxf3+ 35.Kd1 Nxh2 36.Qxd3 Ng4 37.Ke2 Kh6
+38.a4 Ne5 39.Qd5 g5 40.a5 h4 41.gxh4 gxh4 42.a6 Ng6 43.Qe4 h3 44.a7  1-0
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "4.1"]
+[White "Jones,G"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2702"]
+[BlackElo "2729"]
+[ECO "C44"]
+
+1.e4 e5 2.d4 exd4 3.Nf3 Nc6 4.Bc4 Nf6 5.e5 d5 6.Bb5 Ne4 7.Nxd4 Bd7 8.Bxc6 bxc6
+9.O-O Bc5 10.f3 Ng5 11.Be3 O-O 12.Nc3 f6 13.exf6 Qxf6 14.Qd2 Nf7 15.Nb3 Bd6
+16.f4 Nh6 17.Bd4 Bxf4 18.Bxf6 Bxd2 19.Nxd2 Rxf6 20.Rxf6 gxf6 21.Na4 Re8 22.Nc5 Bf5
+23.Nf3 Bxc2 24.Nd4 Bg6 25.a4 Nf5 26.Nxc6 Re2 27.Nxa7 Nh4 28.Nc6 Rxg2+ 29.Kh1 Rxb2
+30.a5 Nf3  0-1
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "5.1"]
+[White "Rapport,R"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2736"]
+[BlackElo "2729"]
+[ECO "A01"]
+
+1.b3 e5 2.Bb2 Nc6 3.c4 g6 4.g3 Bg7 5.Bg2 Nge7 6.Nc3 O-O 7.d3 d6 8.e3 Be6
+9.Nd5 Qd7 10.Qd2 Nc8 11.Ne2 Nd8 12.h4 h5 13.d4 c6 14.Ndc3 f5 15.dxe5 dxe5
+16.Qxd7 Bxd7 17.O-O-O Be6 18.Na4 b6 19.Rd2 Ne7 20.Rhd1 Rc8 21.Rd6 Kf7 22.Ng1 Nb7
+23.Nf3 Nxd6 24.Ng5+ Kg8 25.Nxe6 Rfd8 26.Nxg7 Nf7 27.Ne6 Rxd1+ 28.Kxd1 e4
+29.Nf4 Rd8+ 30.Kc2 Rd6 31.Bf1 Nh6 32.c5 bxc5 33.Ba3 Ng4 34.Bxc5 Rd7 35.Bc4+ Nd5
+36.Nc3 Nxf2 37.Ncxd5 cxd5 38.Nxd5 Kg7 39.Bd4+ Kh6 40.Be5 Nd3 41.Bf4+ Kg7
+42.Kc3 Nc5 43.b4 Ne6 44.Be5+ Kh6 45.Nf6  1-0
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "6.1"]
+[White "Bu Xiangzhi"]
+[Black "Rapport,R"]
+[Result "0-1"]
+[WhiteElo "2729"]
+[BlackElo "2736"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 b6 3.g3 Bb7 4.Bg2 e6 5.O-O Be7 6.Nc3 O-O 7.Re1 Ne4 8.Nxe4 Bxe4
+9.d3 Bb7 10.e4 c5 11.d4 cxd4 12.Nxd4 Nc6 13.Nb5 Ne5 14.b3 f6 15.Bb2 a6 16.Nc3 Qc7
+17.Qe2 Bc6 18.a4 Bb4 19.Rac1 Bb7 20.Red1 Rad8 21.h3 Qb8 22.Kh2 Nf7 23.Rc2 Bc6
+24.Na2 Be7 25.Rcd2 b5 26.cxb5 axb5 27.a5 b4 28.Bd4 Qa8 29.Bb6 Rc8 30.Rxd7 Bxd7
+31.Rxd7 Bc5 32.e5 Qb8 33.Bxc5 Rxc5 34.a6 Qc8 35.Rd2 Rxe5 36.Qf1 Ra5 37.Nxb4 Qc3
+38.Nc6 Qxd2 39.Nxa5 Qxa5 40.Qc4 Qb6 41.f4 Nd8 42.Qa4 Rf7 43.Qe8+ Rf8 44.Qa4 Rf7
+45.Qe8+ Rf8 46.Qa4 Qa7 47.b4 Nf7 48.Qc6 Rb8 49.Qxe6 Kf8 50.Qc4 Nd6 51.Qc6 Ke7
+52.b5 Rxb5 53.Qc2 Qxa6 54.Qxh7 Rb2 55.Qxg7+ Nf7 56.Qg6 Qc6  0-1
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "7.2"]
+[White "Bu Xiangzhi"]
+[Black "Yu Yangyi"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2739"]
+[ECO "D37"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Be7 5.Bg5 h6 6.Bxf6 Bxf6 7.Qb3 dxc4 8.Qxc4 O-O
+9.e3 Nd7 10.Be2 a6 11.O-O b5 12.Qc6 Rb8 13.Ne4 Bb7 14.Nxf6+ Nxf6 15.Qc2 Be4
+16.Qc5 Qd6 17.Rfc1 Rfc8 18.Ne5 Ba8 19.Bf3 Bxf3 20.gxf3 Rb6 21.Qxd6 Rxd6 22.a4 bxa4
+23.Nc6 Kf8 24.Rxa4 Ra8 25.b4 Nd5 26.b5 a5 27.Rxa5 Rxa5 28.Nxa5 Rb6 29.Rc5 Ke8
+30.Kg2 g5 31.Kg3 Rb8 32.Nc4 f6 33.e4 Nc3 34.Rxc7 Nxb5 35.Rh7 Rd8 36.Rxh6 Kf7
+37.e5 f5 38.Rh7+ Kg6 39.Re7 Nxd4 40.h4 gxh4+ 41.Kxh4 Nxf3+ 42.Kg3 Nd4 43.Ne3 Ne2+
+44.Kf3 Nd4+ 45.Kg3 Ne2+ 46.Kf3 Nd4+ 47.Kg3 Ne2+ 48.Kf3 Nd4+ 49.Kg3 Ne2+  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "8.2"]
+[White "Yu Yangyi"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2739"]
+[BlackElo "2729"]
+[ECO "C92"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 O-O 8.c3 d6
+9.h3 Bb7 10.d4 Re8 11.Nbd2 exd4 12.cxd4 Nd7 13.Nf1 Na5 14.Bc2 Bf6 15.Rb1 c5
+16.d5 Nc4 17.N3h2 Nce5 18.Ng3 Ng6 19.Ng4 Be7 20.Nf5 Bf8 21.Be3 Bc8 22.f4 Nf6
+23.Qf3 Nxe4 24.Bxe4 Bxf5 25.Bxf5 Nh4 26.Bxh7+ Kxh7 27.Qf2 Nf5 28.Bd2 Qh4
+29.Qxh4+ Nxh4 30.Kf2 Nf5 31.Ne3 Nxe3 32.Rxe3 Rxe3 33.Kxe3 g6 34.Bc3 Re8+
+35.Kd3 Bg7 36.Bxg7 Kxg7 37.b3 f5 38.g3 Re4 39.Rd1 Kf6 40.h4 Rd4+ 41.Ke2 Rxd1
+42.Kxd1 Ke7 43.Ke2 Kd7 44.Kf3 Kc7 45.g4 fxg4+ 46.Kxg4 Kd7 47.f5 gxf5+ 48.Kxf5 Ke7
+49.h5 Kf7 50.h6 Kg8 51.Kg5 Kh7 52.Kf5 Kxh6 53.Ke6 c4 54.bxc4 bxc4 55.Kxd6 c3
+56.Ke7 c2 57.d6 c1=Q 58.d7 Qc7 59.Ke8 Qe5+ 60.Kd8 Kg7 61.Kc8 Qc5+ 62.Kb7 Qd6  0-1
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "9.1"]
+[White "Bu Xiangzhi"]
+[Black "Korobov,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2687"]
+[ECO "D16"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 c6 4.Nc3 dxc4 5.a4 a5 6.e3 Bg4 7.Bxc4 e6 8.O-O Nbd7
+9.h3 Bh5 10.Qe2 Bb4 11.Rd1 O-O 12.e4 h6 13.e5 Nd5 14.Nxd5 exd5 15.Bd3 Re8
+16.g4 Bg6 17.Bxg6 fxg6 18.Ne1 Nf8 19.Nd3 Ne6 20.Be3 g5 21.Rf1 Rf8 22.f4 gxf4
+23.Nxf4 Qe8 24.Nxe6 Qxe6 25.Qd3 h5 26.Rf5 hxg4 27.hxg4 g6 28.Rxf8+ Rxf8 29.Qe2 c5
+30.Rf1 c4 31.Rxf8+ Bxf8 32.Qf3 Qf7 33.Kf2 Qxf3+ 34.Kxf3 Kf7 35.Bg5 Ke6 36.Ke2 Bb4
+37.Bd2 Kd7 38.Bxb4 axb4 39.Kd2 Ke6 40.Kc2 b6 41.Kd2 Kd7 42.Kc2 Ke6 43.Kd2  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "10.1"]
+[White "Korobov,A"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2687"]
+[BlackElo "2729"]
+[ECO "D45"]
+
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.e3 e6 5.Nf3 a6 6.Qc2 c5 7.a3 dxc4 8.Bxc4 b5 9.Ba2 Bb7
+10.dxc5 Bxc5 11.Nxb5 Nbd7 12.Nc3 O-O 13.Bd2 Rc8 14.O-O-O Qe7 15.Kb1 Bxa3
+16.Ka1 Bb4 17.Nd4 a5 18.f3 Nb6 19.e4 Nc4 20.Bc1 Rfd8 21.Ndb5 Ba6 22.Rxd8+ Qxd8
+23.Rd1 Qb6 24.Qa4 Ne3 25.Rd3 Nxg2 26.Bg5 Ne1 27.Be3 Qc6 28.Rd1 Bxb5 29.Nxb5 Nc2+  0-1
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "11.1"]
+[White "Andreikin,D"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2722"]
+[BlackElo "2729"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3 Nxc3 6.dxc3 Be7 7.Be3 Nc6 8.Qd2 Be6
+9.O-O-O Qd7 10.a3 Bf6 11.h4 O-O-O 12.Ng5 Bf5 13.Bb5 h6 14.Nf3 a6 15.Ba4 Be4
+16.Bd4 Bxf3 17.gxf3 Bxd4 18.cxd4 d5 19.Rdg1 g6 20.h5 g5 21.f4 f6 22.fxg5 fxg5
+23.f4 b5 24.Bb3 g4 25.c3 Rhg8 26.Bc2 Ne7 27.f5 Nxf5 28.Qf4 Rdf8 29.Rxg4 Rxg4
+30.Qxg4 Ne3 31.Qg6 Qd6 32.Re1 Nxc2 33.Qxd6 cxd6 34.Kxc2 Kd7 35.Rg1 Rf5 36.Rg7+ Kc6
+37.Ra7 Kb6 38.Rd7 Kc6 39.Ra7 Kb6 40.Rd7 Kc6 41.Ra7 Kb6 42.Rd7  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.17"]
+[Round "12.1"]
+[White "Bu Xiangzhi"]
+[Black "Andreikin,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2722"]
+[ECO "A17"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 c5 5.a3 Ba5 6.e3 O-O 7.Be2 Nc6 8.O-O Bc7
+9.Rd1 h6 10.h3 d5 11.cxd5 exd5 12.d4 c4 13.e4 dxe4 14.Nxe4 Nxe4 15.Qxe4 Re8
+16.Qc2 Na5 17.Bxc4 Nxc4 18.Qxc4 Bf5 19.Be3 Rc8 20.Qb5 Be4 21.Ne5 a6 22.Qb4 Qd5
+23.f3 Bxf3 24.gxf3 f6 25.Qc5 Qxc5 26.dxc5 Bxe5 27.Rab1 Bxb2 28.Kf2 Bxa3 29.Rd5 Re5
+30.Rxe5 fxe5 31.Rxb7 Bxc5 32.Bxc5 Rxc5 33.Ra7 a5 34.Ke3 Kh7 35.Ra6 h5 36.h4 g6
+37.Ra7+ Kh6 38.Ra6 Rb5 39.Ke4 Rb4+ 40.Kxe5 Rxh4 41.f4 Rh1 42.Rxa5 Re1+ 43.Kd4 h4
+44.Rg5 Re2 45.Kd3 Re6 46.Rg4 Kh5 47.Rg5+ Kh6 48.Rg4 Kg7 49.Rxh4 Kf6 50.Rh8 Kf5
+51.Rf8+ Rf6 52.Rxf6+ Kxf6 53.Ke4 g5 54.fxg5+ Kxg5  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "13.1"]
+[White "Vidit,S"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2707"]
+[BlackElo "2729"]
+[ECO "D52"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 e6 5.Bg5 Nbd7 6.e3 Qa5 7.Nd2 dxc4 8.Bxf6 Nxf6
+9.Nxc4 Qc7 10.Rc1 Be7 11.g3 O-O 12.Bg2 Rd8 13.O-O Nd5 14.a3 Nxc3 15.Rxc3 a5
+16.Qc2 Bd7 17.h4 Be8 18.Rc1 g6 19.Ne5 Bf6 20.Nd3 e5 21.dxe5 Bxe5 22.Nxe5 Qxe5
+23.Rd1 Rxd1+ 24.Qxd1 Qf6 25.Qc2 Rd8 26.Rc4 Rd6 27.Rf4 Qd8 28.Qc3 h5 29.Rd4 Rxd4
+30.exd4 Bd7 31.d5 cxd5 32.Bxd5 b6 33.Qe5 Be8 34.Kh2 Kh7 35.Kg1 Kg8 36.Kh2 Kh7
+37.f4 Qd7 38.Kg1 Kg8 39.Kf2 Kf8 40.Ke3 Qe7 41.Qxe7+ Kxe7 42.Kd4 Kd6 43.b4 axb4
+44.axb4 f6 45.Bb3 Bd7 46.Bf7 Bf5 47.Bc4 Bd7 48.Bd3 Be8 49.Be4 Bf7 50.Bd3 Be8
+51.Bc4 Bd7 52.Bd3 Be8 53.Bc2 Bf7 54.Bd3 Be8 55.Bc2 Bf7 56.Bd3 Be8 57.Bc2 Bf7  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "14.1"]
+[White "Bu Xiangzhi"]
+[Black "Vidit,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2707"]
+[ECO "D38"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.Qa4+ Nc6 8.e3 O-O
+9.Be2 Bd7 10.Qb3 dxc4 11.Qxc4 Qe7 12.a3 Bd6 13.O-O e5 14.d5 Na5 15.Qa2 e4
+16.Nd4 c5 17.dxc6 Nxc6 18.Nxc6 Bxc6 19.g3 Be5 20.Rac1 Rad8 21.Rfd1 g6 22.Qb3 Kg7
+23.Bc4 Qf6 24.Bd5 Bxc3 25.bxc3 Rfe8 26.c4 h5 27.h4 Qe5 28.Rd4 Bxd5 29.cxd5 Rd7
+30.Qa4 Red8 31.Rxe4 Qxd5 32.Rd4 Qf5 33.Qxa7 Rxd4 34.exd4 Qd5 35.Rb1 Rd7 36.Qc5 Qxd4
+37.Qxd4+ Rxd4 38.Rxb7 Rd1+ 39.Kg2 Ra1 40.Rb3 Ra2 41.Kf3 f6 42.Rb7+ Kh6 43.Ra7 g5
+44.a4 Kg6 45.a5 Ra3+ 46.Ke4 gxh4 47.gxh4 Ra4+ 48.Kd5 Rxh4 49.a6 Ra4 50.Ra8 h4
+51.Kc5 Ra2 52.f3 h3 53.Kb6 Rb2+ 54.Kc6 Rc2+ 55.Kb6 Rb2+ 56.Kc6  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "15.2"]
+[White "Bu Xiangzhi"]
+[Black "Leko,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2674"]
+[ECO "D41"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 c5 5.cxd5 Nxd5 6.e4 Nxc3 7.bxc3 cxd4 8.cxd4 Bb4+
+9.Bd2 Bxd2+ 10.Qxd2 O-O 11.Rc1 b6 12.Bd3 Bb7 13.O-O Nd7 14.Qf4 h6 15.h4 Rc8
+16.Rxc8 Qxc8 17.Rc1 Qb8 18.Qxb8 Rxb8 19.Rc7 Nf6 20.Ne5 Bxe4 21.Bxe4 Nxe4
+22.Rxa7 Rd8 23.f3 Nc3 24.h5 f6 25.Nc6 Re8 26.Kf2 Nd5 27.Kg3 Kf8 28.Rb7 Rc8
+29.Nb8 Rc2 30.Nd7+ Kg8 31.Nxb6 Ne3 32.Rb8+ Kf7 33.Rb7+ Kg8 34.Rb8+ Kf7 35.Rb7+  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "16.2"]
+[White "Leko,P"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2674"]
+[BlackElo "2729"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Bd3 Nf6 6.O-O Be7 7.Re1 O-O 8.Bf1 d5
+9.d4 c5 10.dxc5 Bxc5 11.Be3 Bxe3 12.Rxe3 Nc6 13.h3 d4 14.Re2 Qb6 15.c3 Rd8
+16.cxd4 Nxd4 17.Nxd4 Rxd4 18.Rd2 Rxd2 19.Qxd2 Bf5 20.Nc3 Rd8 21.Qc1 h6 22.b3 Qd4
+23.Qd1 Ne4 24.Qxd4 Rxd4 25.Nxe4 Bxe4 26.Re1 Bc6 27.a3 Kf8 28.f3 Rd2 29.Re3 a5
+30.a4 Bd5 31.Rc3 Ke7 32.Bc4 Bc6 33.h4 g5 34.hxg5 hxg5 35.Kh2 f5 36.Kg3 Kf6
+37.Kh2 g4 38.Kg3 Kg5 39.f4+ Kf6 40.Bf1 Rb2 41.Kh2 Ke6 42.Re3+ Kd6 43.Re5 b6
+44.Rxf5 Rxb3 45.Rf6+ Kc5 46.Rg6 Bxa4 47.Rg5+ Kd4 48.Rxg4 Bd7 49.Rg7 Bc6 50.g4 Rf3
+51.Kg1 Rxf4 52.g5 a4 53.g6 Kc5 54.Rg8 Bd5 55.Rc8+ Kb4 56.Rd8 Bb3 57.Rd6 Kc5
+58.Rd8 Rg4+ 59.Kf2 Rxg6 60.Ke3 Kb4 61.Rb8 a3 62.Ra8 a2  0-1
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "17.1"]
+[White "Dominguez Perez,L"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2750"]
+[BlackElo "2729"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Nc6 7.O-O Be7 8.Nbd2 Nd6
+9.c3 Bf5 10.Be2 O-O 11.Re1 Re8 12.Qb3 Be6 13.Bd3 Bf6 14.Nf1 g6 15.Bf4 Qd7
+16.Ne3 b6 17.Ng5 Bxg5 18.Bxg5 Na5 19.Qc2 Nac4 20.Bf4 Nxe3 21.Rxe3 Bf5 22.Bxd6 Bxd3
+23.Qxd3 Rxe3 24.Qxe3 Qxd6 25.Re1 c6 26.h4 h5 27.Qe7 Qxe7 28.Rxe7 c5 29.dxc5 bxc5
+30.Rd7 Rb8 31.b3 c4 32.b4 a5 33.bxa5 Rb5 34.a6 Ra5 35.a7 Kg7 36.g3 Kf6 37.Rxd5 Rxa7
+38.Rc5 Rxa2 39.Rxc4 Rc2 40.Kg2 Ke6 41.Rc7 f6 42.Kf3 g5 43.Ke3 Kf5 44.Kf3 gxh4
+45.gxh4 Ke6 46.Rc5 Kd6 47.Rc8 Ke5 48.Rc6 Kf5 49.Kg3 Ke5 50.f3 Kf5 51.Rc5+ Kg6
+52.Kf4 Rh2 53.Kg3 Rc2 54.c4 Rc1 55.Kf4 Rh1 56.Kg3 Rg1+ 57.Kh2 Rc1 58.Kg2 Rc2+
+59.Kg3 Rc1 60.Rc8 Kf5 61.c5 Rg1+ 62.Kh2 Rc1 63.Kg3 Rg1+ 64.Kf2 Rh1 65.Kg3 Rg1+
+66.Kf2 Rh1 67.Kg3 Rg1+  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "18.1"]
+[White "Bu Xiangzhi"]
+[Black "Dominguez Perez,L"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2750"]
+[ECO "D41"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 c5 5.cxd5 Nxd5 6.e4 Nxc3 7.bxc3 cxd4 8.cxd4 Bb4+
+9.Bd2 Bxd2+ 10.Qxd2 O-O 11.Rc1 b6 12.Bd3 Bb7 13.O-O Nd7 14.Qf4 Nf6 15.h4 h6
+16.Rfe1 Rc8 17.e5 Rxc1 18.Rxc1 Nh5 19.Qg4 Bxf3 20.gxf3 g6 21.a4 Ng7 22.Qf4 h5
+23.Kg2 Qd7 24.Bb5 Qe7 25.Qf6 Qxf6 26.exf6 Nf5 27.Rc7 Nxh4+ 28.Kg3 Nf5+ 29.Kf4 Nxd4
+30.Bd3 Kh7 31.Rxa7 Kh6 32.Be4 Nb3 33.Bc2 Nc5 34.Rc7 g5+ 35.Kg3 e5 36.Rc6 Nd7
+37.Rd6 Rc8 38.Bf5 Rc4 39.Rxd7 g4 40.fxg4 Kg5 41.Rxf7 hxg4 42.Be6 Rc3+ 43.Kg2 Rf3
+44.Rb7 Rxf6 45.Rxb6 e4 46.a5 g3 47.Kxg3  1-0
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "19.1"]
+[White "Fedoseev,Vl3"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2683"]
+[BlackElo "2729"]
+[ECO "D11"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3 dxc4 5.Qxc4 Bf5 6.g3 e6 7.Bg2 Nbd7 8.O-O Be7
+9.Nc3 O-O 10.Bf4 Rc8 11.a4 a5 12.Rfe1 Ne4 13.Rac1 Qb6 14.Qa2 Rfd8 15.Be3 Qa6
+16.Nd2 Nxd2 17.Bxd2 Bg6 18.e4 Ne5 19.Be3 Nd3 20.Bf1 Nxc1 21.Rxc1 Qa8 22.f4 Bf6
+23.e5 Be7 24.g4 Qa7 25.Bf2 Qb6 26.Bh3 Bd3 27.f5 Rxd4 28.fxe6 Bc5 29.exf7+ Kf8
+30.Nd1 Rcd8 31.Qe6 Rc4 32.Rxc4 Bxc4 33.Qxc4 Rxd1+ 34.Kg2 Rd2 35.Qe6 Rxf2+
+36.Kg3 Qd8 37.Bg2 Rxf7 38.Be4 g6 39.h4 Bf2+ 40.Kg2 Qxh4 41.Qd6+ Qe7 42.Qb8+ Kg7  0-1
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "20.1"]
+[White "Bu Xiangzhi"]
+[Black "Fedoseev,Vl3"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2683"]
+[ECO "D58"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Be7 5.Bg5 h6 6.Bh4 O-O 7.e3 b6 8.Bd3 Bb7
+9.O-O Nbd7 10.Qe2 c5 11.cxd5 Nxd5 12.Bxe7 Qxe7 13.Nxd5 Bxd5 14.Rfd1 Bxf3
+15.Qxf3 cxd4 16.Qe4 Nf6 17.Qxd4 Rfd8 18.Qa4 Rac8 19.Be2 Rxd1+ 20.Rxd1 g6
+21.g3 Kg7 22.Bf3 Rc5 23.Kg2 Qc7 24.Rd2 e5 25.a3 a5 26.Qb3 b5 27.Qd3 Rc4 28.Bd5 Rc1
+29.Qxb5 Rc5 30.Qb3 a4 31.Qd1 Rc1 32.Qxa4 Ra1 33.Rd1 Rc1 34.Rxc1 Qxc1 35.Bb3 Qc7
+36.Qb5 h5 37.h3 Ne4 38.Qd5 Nf6 39.Qb5 Ne4 40.Qc4 Qb7 41.Qd5  1-0
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "21.1"]
+[White "Bu Xiangzhi"]
+[Black "Ponomariov,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2675"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2 O-O 5.O-O c5 6.d4 cxd4 7.Nxd4 Nc6 8.Nc3 Qa5
+9.Nb3 Qh5 10.e4 d6 11.Qxh5 Nxh5 12.Rd1 Bxc3 13.bxc3 Bg4 14.f3 Be6 15.c5 Bxb3
+16.axb3 dxc5 17.f4 Rfd8 18.Be3 b6 19.e5 Rxd1+ 20.Rxd1 Rd8 21.Rxd8+ Nxd8 22.Kf2 Kf8
+23.Ke2 Ke8 24.Kd3 Kd7 25.Kc4 Ng7 26.Kb5 Kc7 27.g4 f5 28.exf6 exf6 29.b4 cxb4
+30.cxb4 Ne8 31.Kc4 Nc6 32.Bd2 Ne7 33.Bc3 Nd6+ 34.Kd3 f5 35.g5 Kd7 36.h4 Ke6
+37.Be5 Nd5 38.b5 Nxb5 39.Bf3 Nd6 40.Bd1 b5 41.Bb3 a5 42.Kd4 Nc4 43.Kc5 a4
+44.Ba2 a3 45.Bb3 Nde3 46.Kxb5 Kd5 47.Kb4 Ke4 48.Bxc4 Ng2 49.Kxa3 Nxf4 50.Bd6 Ng2
+51.Bg8 Nxh4 52.Bxh7 f4 53.Kb3 Kf5 54.Kc3 Kxg5 55.Be7+ Kg4 56.Bxh4 Kxh4 57.Bxg6 Kg3  1/2-1/2
+
+[Event "IMSA World Masters Blitz"]
+[Site "Hengshui CHN"]
+[Date "2019.05.18"]
+[Round "22.1"]
+[White "Ponomariov,R"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2675"]
+[BlackElo "2729"]
+[ECO "C55"]
+
+1.e4 e5 2.Bc4 Nf6 3.d3 Nc6 4.Nf3 Be7 5.O-O O-O 6.Re1 d6 7.a4 Be6 8.Nbd2 Qd7
+9.c3 h6 10.b4 a6 11.Qc2 Rfe8 12.Bxe6 Qxe6 13.Nb3 Bf8 14.h3 d5 15.Bb2 dxe4
+16.dxe4 b6 17.b5 axb5 18.axb5 Ne7 19.c4 Ng6 20.Rxa8 Rxa8 21.Nc1 Nd7 22.Nd3 f6
+23.Kh2 Bd6 24.g3 Kh8 25.Kg2 Kg8 26.Bc1 Qf7 27.Bd2 Ngf8 28.Nb4 Bxb4 29.Bxb4 Ne6
+30.Rd1 Ndc5 31.Rd5 Qg6 32.Bxc5 Nxc5 33.Nd2 Kh7 34.h4 h5 35.Kh2 Ra1 36.Qc3 Re1
+37.Qf3 Qg4 38.Qf5+ Qxf5 39.exf5 g6 40.fxg6+ Kxg6 41.Kg2 Rc1 42.Kf3 Kf5 43.Rd8 Rc3+
+44.Ke2 Ne4 45.Nf1 Rc2+ 46.Ke3 Rxf2 47.Rd1 Ra2 48.Kf3 Ra3+ 49.Ne3+ Rxe3+ 50.Kxe3 Nd6
+51.Rc1 Kg4 52.Kf2 f5 53.Kg2 Ne4 54.Re1 Nxg3 55.Rxe5 Ne4 56.Re7 Kxh4 57.Rxc7 Kg4
+58.Rg7+ Kf4 59.Rg6 Nd2 60.Rxb6 Nxc4 61.Rc6 Ne3+ 62.Kf2 Ng4+ 63.Kg1 h4 64.b6 h3
+65.b7  1-0
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.19"]
+[Round "1.1"]
+[White "Bu Xiangzhi"]
+[Black "Wang Hao"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2737"]
+[ECO "D55"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Be7 5.Bg5 h6 6.Bxf6 Bxf6 7.e3 O-O 8.Rc1 c6
+9.Bd3 Nd7 10.O-O dxc4 11.Bxc4 e5 12.h3 exd4 13.exd4 Nb6 14.Bb3 Bf5 15.Re1 Re8
+16.g4 Bg6 17.Rxe8+ Qxe8 18.Qd2 Qd7 19.Qf4 Rd8 20.Re1 Nd5 21.Nxd5 cxd5 22.Ne5 Qd6
+23.Nxg6 fxg6 24.Qxd6 Rxd6 25.Kg2 Bxd4 26.Rd1 Bxb2 27.Rxd5 Rxd5 28.Bxd5+ Kf8
+29.Bxb7 g5 30.Ba8 Ba1 31.Bb7 Bb2 32.Ba8 Ba1 33.Bb7 Bb2  1/2-1/2
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.20"]
+[Round "2.1"]
+[White "Ma Qun"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2626"]
+[BlackElo "2729"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.O-O cxd4 11.Nxd4 Bd7 12.Qb3 Nc6 13.Nxc6 Bxc3 14.Rxc3 Bxc6 15.Bb5 Bd5
+16.Bc4 Bc6 17.Bb5 Bd5 18.Bc4 Bc6 19.Bb5  1/2-1/2
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.21"]
+[Round "3.1"]
+[White "Bu Xiangzhi"]
+[Black "Yu Yangyi"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2738"]
+[ECO "D38"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.O-O cxd4 11.Ne4 Qe7 12.a3 Ba5 13.Qxd4 Rd8 14.Qc5 Qxc5 15.Nxc5 Nd7
+16.Nb3 Bb6 17.a4 Nf6 18.Be2 a5 19.Ne5 Bd7 20.Nxd7 Rxd7 21.Rfd1 Rxd1+ 22.Rxd1 Rd8
+23.Rxd8+ Bxd8 24.Kf1 Ne4 25.Bf3 Nd6 26.Nc5 b6 27.Nb7 Nxb7 28.Bxb7 Kf8 29.Ke2 Ke7
+30.Kd3 Kd6 31.b3  1/2-1/2
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.22"]
+[Round "4.2"]
+[White "Bu Xiangzhi"]
+[Black "Dai,Changren"]
+[Result "1-0"]
+[WhiteElo "2729"]
+[BlackElo "2480"]
+[ECO "A13"]
+
+1.Nf3 Nf6 2.c4 e6 3.g3 d5 4.Bg2 dxc4 5.Qa4+ Bd7 6.Qxc4 c5 7.d4 Bc6 8.dxc5 Nbd7
+9.Be3 Nd5 10.Bd4 Qa5+ 11.Nbd2 Bxc5 12.Bxg7 Rg8 13.Bc3 Nxc3 14.bxc3 Bd5 15.Qd3 O-O-O
+16.O-O Qc7 17.c4 Bc6 18.Qc3 Rxg3 19.hxg3 Qxg3 20.e3 Qg6 21.Rfd1 Rg8 22.Nh4 Qg4
+23.Kf1 Bxg2+ 24.Nxg2 Qxg2+ 25.Ke2 Qg4+ 26.Nf3 Rd8 27.Rg1 Qe4 28.Rad1 Bb6
+29.Rg7 Rf8 30.Qd3 Qc6 31.Nd4 Qa4 32.Qb3 Qa5 33.Qb5 Qxa2+ 34.Rd2 Qa5 35.Nxe6  1-0
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.23"]
+[Round "5.4"]
+[White "Zhang,Ziji"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2408"]
+[BlackElo "2729"]
+[ECO "E36"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 d5 5.a3 Bxc3+ 6.Qxc3 O-O 7.Nf3 dxc4 8.Qxc4 b6
+9.Bg5 Ba6 10.Qa4 Qd7 11.Qc2 c5 12.dxc5 Rc8 13.Bxf6 gxf6 14.Rd1 Qe7 15.e4 Bxf1
+16.Kxf1 bxc5 17.g3 Nc6 18.Kg2 Nd4 19.Qc3 e5 20.Nd2 Rab8 21.Rb1 Qe6 22.Qc4 Kg7
+23.Rhc1 Qg4 24.h3 Qg5 25.Rd1 h5 26.Nf3 Qg6 27.Re1 Nxf3 28.Kxf3 Rd8 29.Qxc5 Rd4
+30.Qc2 f5 31.exf5 Qd6 32.Kg2 h4 33.Qe2 hxg3 34.Qxe5+ Qxe5 35.Rxe5 gxf2 36.Kxf2 Kf6
+37.Re3 Rd2+ 38.Kf3 Rbxb2  1/2-1/2
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.24"]
+[Round "6.2"]
+[White "Xu,Xiangyu"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2583"]
+[BlackElo "2729"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Nc6 7.O-O Be7 8.c4 Nb4
+9.Be2 O-O 10.Nc3 Bf5 11.a3 Nxc3 12.bxc3 Nc6 13.Re1 Re8 14.Bf4 dxc4 15.Bxc4 Bd6
+16.Rxe8+ Qxe8 17.Bxd6 cxd6 18.Ng5 Bg6 19.h4 Qe7 20.Qg4 h6 21.h5 Bxh5 22.Qxh5 hxg5
+23.Rd1 Rf8 24.Rd3 Qe1+ 25.Kh2 Qxf2 26.Rh3 Qf4+ 27.Kg1 Qc1+ 28.Kh2 Qf4+ 29.Kg1 Qc1+
+30.Kh2 Qf4+  1/2-1/2
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.25"]
+[Round "7.3"]
+[White "Bu Xiangzhi"]
+[Black "Wei Yi"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2741"]
+[ECO "D38"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.Qa4+ Nc6 8.e3 O-O
+9.Be2 Bd7 10.Qb3 dxc4 11.Qxc4 Bd6 12.O-O Qg6 13.Rfd1 Na5 14.Qd3 Qxd3 15.Bxd3 Nc6
+16.Rac1 Rfd8 17.Ne4 Nb4 18.Bb1 Ba4 19.b3 Bc6 20.Nxd6 cxd6 21.Nd2 Rac8 22.Rc4 a5
+23.Rdc1 Nd5 24.Be4 Nb6 25.R4c2 Bxe4 26.Nxe4 Rxc2 27.Rxc2 Rc8 28.Rxc8+ Nxc8
+29.Kf1 d5 30.Nc3 b6 31.Ke2  1/2-1/2
+
+[Event "CHN League Men 2019"]
+[Site "Daqing CHN"]
+[Date "2019.06.26"]
+[Round "8.2"]
+[White "Bai,Jinshi"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2606"]
+[BlackElo "2729"]
+[ECO "A00"]
+
+1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nf3 Nf6 5.Nc3 Nc6 6.Bf4 Bf5 7.e3 e6 8.Bd3 Bxd3
+9.Qxd3 Bd6 10.Bxd6 Qxd6 11.O-O O-O 12.Rfc1 Rfc8 13.h3 h6 14.a3 Nd7 15.Ne2 a6
+16.Rc3 Ne7 17.Rac1 Rxc3 18.Rxc3 Rc8 19.Rxc8+ Nxc8 20.Qc3 Ne7 21.Ne1 Qc6 22.Nd3 Qxc3
+23.Nxc3 Nc6 24.f4 Kf8 25.Kf2 Ke7 26.g4 Na5 27.a4 Nc4 28.Ke2 Nd6 29.Kf3 Nc4
+30.Ke2 Nd6 31.Kf3 Nc4  1/2-1/2
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.22"]
+[Round "4.1"]
+[White "Motylev,A"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2654"]
+[BlackElo "2722"]
+[ECO "C85"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Bxc6 dxc6 7.d3 Nd7 8.Nc3 O-O
+9.a4 Re8 10.Be3 Bf6 11.h3 Nf8 12.Ne2 Ne6 13.Kh1 a5 14.Nd2 b6 15.b3 c5 16.Rc1 g6
+17.f4 exf4 18.Nxf4 Nd4 19.Nd5 Bg7 20.Bf4 Ra7 21.Nf3 f5 22.Bg5 Qd6 23.Bf4 Qd8
+24.Bg5 Qd6 25.Bf4 Qd8  1/2-1/2
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.23"]
+[Round "5.1"]
+[White "Bu Xiangzhi"]
+[Black "Andriasian,Z"]
+[Result "1-0"]
+[WhiteElo "2722"]
+[BlackElo "2589"]
+[ECO "D02"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 c6 4.Qb3 dxc4 5.Qxc4 Bf5 6.g3 e6 7.Bg2 Nbd7 8.O-O Be7
+9.e3 O-O 10.Qe2 Qc7 11.Nc3 e5 12.h3 Ne4 13.Re1 Rfe8 14.Qc2 Nxc3 15.Qxf5 g6
+16.Qc2 Nd5 17.e4 Nb4 18.Qc3 Na6 19.Rd1 exd4 20.Nxd4 Bf6 21.Be3 Ndc5 22.Qc2 Qe7
+23.f3 Rad8 24.a3 Rd7 25.Rd2 Be5 26.f4 Bxd4 27.Rxd4 Rxd4 28.Bxd4 Nxe4 29.Re1 f5
+30.Bxa7 Nc7 31.Bd4 Nd5 32.Kh2 h5 33.Bxe4 fxe4 34.Be5 Nf6 35.Qc4+ Qe6 36.Qxe6+ Rxe6
+37.Kg2 Kf7 38.Kf2 Re7 39.Bxf6 Kxf6 40.Rd1 g5 41.Ke3 Kf5 42.fxg5 Kxg5 43.Rd4 Re5
+44.Rxe4 Rc5 45.a4 Kf6 46.g4 hxg4 47.hxg4 Rd5 48.Rb4 b5 49.axb5 cxb5 50.Rf4+ Ke6
+51.Rf5 Rd1 52.Rxb5 Rg1 53.Kf4 Rf1+ 54.Kg5 Rg1 55.Rf5 Rb1 56.Rf2 Rg1 57.Kh5  1-0
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.23"]
+[Round "6.1"]
+[White "Ponkratov,P"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2651"]
+[BlackElo "2722"]
+[ECO "E04"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.g3 dxc4 5.Bg2 Nc6 6.O-O Rb8 7.Nc3 b5 8.Ne5 Nxe5
+9.dxe5 Nd7 10.Qc2 Bb7 11.Bxb7 Rxb7 12.Rd1 Qc8 13.Ne4 Be7 14.a4 Nxe5 15.axb5 O-O
+16.Bf4 Ng6 17.Qxc4 Nxf4 18.gxf4 Rd8 19.Rxd8+ Qxd8 20.e3 h6 21.h3 Qd7 22.Ra5 Qd1+
+23.Kg2 Qd5 24.b3 g6 25.Ra4 Qxb5 26.Qxb5 Rxb5 27.Rxa7 Rxb3 28.Rxc7 Kf8 29.Rc8+ Kg7
+30.Rc7 Kf8 31.Rc8+ Kg7 32.Rc7 Bf8  1/2-1/2
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.24"]
+[Round "7.2"]
+[White "Bu Xiangzhi"]
+[Black "Narayanan,SL"]
+[Result "1/2-1/2"]
+[WhiteElo "2722"]
+[BlackElo "2616"]
+[ECO "E60"]
+
+1.d4 Nf6 2.c4 g6 3.g3 c6 4.Nf3 Bg7 5.Bg2 d5 6.Qb3 O-O 7.O-O a5 8.Bf4 a4 9.Qb4 Nbd7
+10.Nc3 dxc4 11.Qxc4 Nb6 12.Qd3 Be6 13.Rfe1 Nfd5 14.Nxd5 Nxd5 15.Bd2 Qb6 16.Rec1 Rfd8
+17.e3 Bg4 18.Qc2 Bxf3 19.Bxf3 e5 20.dxe5 Bxe5 21.Rab1 Nb4 22.Bxb4 Qxb4 23.a3 Qb3
+24.Qxb3 axb3 25.Rc4 Ra5 26.Rb4 Rb5 27.Rxb5 cxb5 28.Bxb7 Rd2 29.Bc6 Rxb2 30.Rxb2 Bxb2
+31.a4 bxa4 32.Bxa4 f5 33.Bxb3+  1/2-1/2
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.25"]
+[Round "8.2"]
+[White "Bu Xiangzhi"]
+[Black "Li Bo"]
+[Result "1/2-1/2"]
+[WhiteElo "2722"]
+[BlackElo "2319"]
+[ECO "D11"]
+
+1.Nf3 Nf6 2.c4 c6 3.d4 d5 4.e3 g6 5.Nc3 Bg7 6.Be2 O-O 7.O-O b6 8.b3 Bb7 9.Ba3 Nbd7
+10.Rc1 Re8 11.cxd5 Nxd5 12.Ne4 N5f6 13.Ned2 Rc8 14.Bc4 b5 15.Bd3 Qa5 16.Bb2 Qxa2
+17.Qc2 Qa5 18.Ra1 Qb6 19.b4 Nd5 20.Qb3 a6 21.Rfd1 Qc7 22.e4 Nf4 23.e5 Nxd3
+24.Qxd3 Rcd8 25.e6 fxe6 26.Qe3 Nf8 27.Nb3 Rd5 28.Nc5 Bc8 29.Rdc1 Qb6 30.Ne5 Bxe5
+31.dxe5 Nd7 32.Nxe6 Qxe3 33.fxe3 Rxe5 34.Bxe5 Nxe5 35.Nc5 Rd8 36.Rd1 Rd6
+37.Rd4 Kf7 38.Nxa6 Nd3 39.Rd1 Rxd4 40.exd4 Bf5 41.g3 Kf6 42.Kf1 Bh3+ 43.Kg1 Bf5
+44.g4 Be4 45.Nc5 Nxc5 46.dxc5 h5 47.gxh5 gxh5 48.Kf2 Bd5 49.Kg3 e5 50.Kh4 e4
+51.Kxh5 Kf5 52.Rf1+ Ke5 53.Kg4 e3 54.Kg3 Ke4 55.Rf4+ Kd3 56.h4 Kd2 57.Rd4+ Kc3
+58.Rd1 Kxb4 59.Rxd5 cxd5 60.c6 Kc3 61.c7 e2 62.c8=Q+ Kd2 63.Qe6 e1=Q+ 64.Qxe1+ Kxe1
+65.h5 d4 66.h6 d3 67.h7 d2 68.h8=Q d1=Q 69.Qh1+ Ke2 70.Qh5+ Kd2 71.Qd5+ Ke1
+72.Qh1+  1/2-1/2
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.25"]
+[Round "9.3"]
+[White "Bao,Q"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2420"]
+[BlackElo "2722"]
+[ECO "A48"]
+
+1.Nf3 Nf6 2.d4 g6 3.Bf4 Bg7 4.c3 O-O 5.e3 d6 6.h3 Nbd7 7.Be2 b6 8.O-O Bb7
+9.a4 a5 10.Bh2 e6 11.Na3 Ne4 12.Nc4 f5 13.Ncd2 Nxd2 14.Nxd2 e5 15.Re1 Kh8
+16.Bf1 Qe7 17.Qb3 g5 18.Rad1 f4 19.Qc4 Rac8 20.Qe2 Qf7 21.dxe5 Nxe5 22.f3 Rce8
+23.Qf2 fxe3 24.Rxe3 g4 25.Bb5 Re6 26.Bxe5 Bxe5 27.hxg4 Bh2+ 28.Kf1 Bg3 29.Qxg3 Rxe3
+30.Kf2 Re5  0-1
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.26"]
+[Round "10.2"]
+[White "Bu Xiangzhi"]
+[Black "Wang,Zideng"]
+[Result "1-0"]
+[WhiteElo "2722"]
+[BlackElo "2018"]
+[ECO "B37"]
+
+1.Nf3 c5 2.c4 g6 3.e4 Bg7 4.d4 cxd4 5.Nxd4 Nc6 6.Nc2 d6 7.Be2 Nf6 8.Nc3 Be6
+9.O-O O-O 10.f3 Rc8 11.Kh1 a6 12.Bd2 Nd7 13.Rc1 Na5 14.b3 b5 15.Nd5 Bxd5
+16.cxd5 Nb7 17.Nb4 Nb8 18.Be3 Nc5 19.Qd2 a5 20.Nd3 Nb7 21.Nb2 Qd7 22.a4 bxa4
+23.Nxa4 Rxc1 24.Rxc1 Rc8 25.h3 Qe8 26.Bb5 Qd8 27.Bb6 Qf8 28.Rc2 f5 29.exf5 Qxf5
+30.Rxc8+ Qxc8 31.Qe3 Kf7 32.f4 Qf5 33.Bc6 Nc5 34.Bxc5 Nxc6 35.dxc6 dxc5 36.Nxc5 Bh6
+37.c7 Qb1+ 38.Kh2 Qf1 39.Qe6+  1-0
+
+[Event "TCh-CHN B 2019"]
+[Site "Harbin CHN"]
+[Date "2019.07.27"]
+[Round "11.2"]
+[White "Wang,Zijian"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "1933"]
+[BlackElo "2722"]
+[ECO "B07"]
+
+1.e4 g6 2.d4 Bg7 3.Nf3 d6 4.c3 Nf6 5.Bd3 O-O 6.O-O Nbd7 7.Bf4 e5 8.Bg5 h6
+9.Be3 Re8 10.d5 Ng4 11.Bc1 Nc5 12.b4 Nxd3 13.Qxd3 f5 14.Nbd2 f4 15.Nb3 g5
+16.c4 h5 17.Bb2 Nh6 18.Rfc1 g4 19.Ne1 Nf7 20.c5 f3 21.cxd6 cxd6 22.g3 h4
+23.Rc2 hxg3 24.hxg3 Bh6 25.Bc1 Qf6 26.Nd2 Kg7 27.Rc7 Re7 28.Rxe7 Qxe7 29.Nc4 Qf6
+30.Be3 Bd7 31.Bxh6+ Qxh6 32.Nxf3 gxf3 33.Qxf3 Ng5 34.Qg2 Bh3 35.Qh1 Rf8 36.Nd2 Qf6
+37.Qh2 Rh8  0-1
+
+[Event "FIDE World Cup 2019"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2019.09.10"]
+[Round "1.1"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "1/2-1/2"]
+[WhiteElo "2721"]
+[BlackElo "2576"]
+[ECO "A07"]
+
+1.Nf3 d5 2.g3 g6 3.Bg2 Bg7 4.d4 Nf6 5.O-O O-O 6.Nbd2 c5 7.dxc5 a5 8.a4 Qc7
+9.Nd4 e5 10.Nb5 Qxc5 11.b3 Rd8 12.Ba3 Qb6 13.c4 Be6 14.Rc1 Na6 15.Be7 Rd7
+16.c5 Qc6 17.Bd6 Ne8 18.e4 d4 19.f4 f6 20.fxe5 fxe5 21.Nc4 Nxd6 22.cxd6 Bh6
+23.Rf6 Re8 24.Rxe6 Rxe6 25.Bh3 Rexd6 26.Ncxd6 Bxc1 27.Bxd7 Be3+ 28.Kg2 Qxd7
+29.Nc4 Nc5 30.Nxe3 dxe3 31.Qxd7 Nxd7 32.Kf3 Nc5 33.Nd6 Kg7 34.Nc4 Nxb3 35.Nxe5 Kf6
+36.Nd3 b5 37.axb5 Nd4+ 38.Kxe3 Nxb5 39.Nb2  1/2-1/2
+
+[Event "FIDE World Cup 2019"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2019.09.11"]
+[Round "1.2"]
+[White "Xu,Xiangyu"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2721"]
+[ECO "D10"]
+
+1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Bf4 Nc6 5.e3 Nf6 6.Nc3 Bf5 7.Nf3 e6 8.Rc1 Bb4
+9.Be2 Ne4 10.O-O Bxc3 11.bxc3 g5 12.Bg3 h5 13.Ne5 Nxg3 14.hxg3 Nxe5 15.dxe5 g4
+16.c4 dxc4 17.Qa4+ Kf8 18.Qxc4 Kg7 19.Qf4 Qe7 20.Rcd1 Rac8 21.Rd6 Rc7 22.Rfd1 Rhc8
+23.e4 Bg6 24.a4 a6 25.a5 Kh7 26.Bf1 Qf8 27.Rb1 Qh6 28.Bd3 Rc1+ 29.Rxc1 Rxc1+
+30.Kh2 Rc5 31.Rd7 Qg7 32.Rxb7 Rxa5 33.Ra7 Qxe5 34.Qxe5 Rxe5 35.f3  1/2-1/2
+
+[Event "FIDE World Cup 2019"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2019.09.12"]
+[Round "1.6"]
+[White "Xu,Xiangyu"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2721"]
+[ECO "B23"]
+
+1.e4 c5 2.Nc3 a6 3.Nge2 b5 4.d4 cxd4 5.Nxd4 e6 6.Bd3 Bb7 7.O-O Nc6 8.Nxc6 Bxc6
+9.Re1 Ne7 10.a4 b4 11.Nb1 Ng6 12.Nd2 Be7 13.Nc4 O-O 14.Be3 Qc7 15.Qh5 d5
+16.exd5 exd5 17.Nd2 Bf6 18.Nf3 Bxb2 19.Ng5 h6 20.Ne6 Qe5 21.Bg5 Bxa1 22.Rxe5 Nxe5
+23.Nxg7 Nxd3 24.Nf5 Rfe8 25.Nxh6+ Kg7 26.Qxf7+ Kh8 27.Bf6+ Bxf6 28.Qxf6+ Kh7
+29.Qf7+ Kxh6 30.Qf6+ Kh7 31.Qf7+ Kh8 32.Qf6+ Kg8 33.Qg6+  1/2-1/2
+
+[Event "FIDE World Cup 2019"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2019.09.12"]
+[Round "1.5"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "0-1"]
+[WhiteElo "2721"]
+[BlackElo "2576"]
+[ECO "D23"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 dxc4 4.Qa4+ Nc6 5.e3 Nd7 6.Qxc4 e5 7.dxe5 Ndxe5 8.Nxe5 Nxe5
+9.Qb5+ Nc6 10.Nc3 Bd6 11.g3 O-O 12.Bg2 Ne5 13.O-O c6 14.Qe2 Bg4 15.f3 Be6
+16.b3 Bb4 17.Bb2 Qa5 18.Ne4 Rad8 19.f4 Bg4 20.Qc2 Nd3 21.Bd4 c5 22.Bf6 Rd7
+23.a3 Be1 24.Raxe1 Nxe1 25.Qb2 Nxg2 26.Bxg7 f5 27.Bxf8 fxe4 28.b4 Qa6 29.Bxc5 Nh4
+30.b5 Qg6 31.Qe5 Nf3+ 32.Rxf3 exf3 33.Qb8+ Kf7 34.Qf8+ Ke6 35.e4 Qxe4 36.Qg8+ Kf6
+37.Qf8+ Kg6 38.Qg8+ Rg7  0-1
+
+[Event "FIDE World Cup 2019"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2019.09.12"]
+[Round "1.3"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "1/2-1/2"]
+[WhiteElo "2721"]
+[BlackElo "2576"]
+[ECO "A22"]
+
+1.c4 e5 2.Nc3 Nf6 3.g3 Bc5 4.Bg2 O-O 5.e3 c6 6.Nge2 d5 7.cxd5 Nxd5 8.O-O Be6
+9.d4 exd4 10.Ne4 Bb6 11.Nxd4 Qe7 12.Nxe6 Qxe6 13.b3 Nd7 14.Bb2 N7f6 15.Nxf6+ Nxf6
+16.Qc2 Bc7 17.Qc4 Rfe8 18.Qxe6 Rxe6 19.Bh3 Ree8 20.Bxf6 gxf6 21.Rfd1 Rad8
+22.Kf1 Kf8 23.Ke2 Ba5 24.Bf5 h6 25.Rxd8 Rxd8 26.Bd3 Rd5 27.Rc1 Rh5 28.h4 Bb4
+29.Rc4 a5 30.Rg4 Rd5 31.a4 b5 32.Rf4 Ke7 33.Be4 Rc5 34.Bd3 Rd5 35.Re4+ Kf8
+36.Rg4 Bc3 37.Be4 Rc5 38.Bh7 Ke7 39.Rg8 bxa4 40.bxa4 f5 41.Rc8 Kf6 42.e4 fxe4
+43.Bxe4 Bb4 44.g4 Kg7 45.f4 Rc4 46.Kd3 Rc3+ 47.Kd4 Rg3 48.g5 hxg5 49.hxg5 Bd2
+50.Ke5 Rg4 51.Rxc6 Rxf4 52.Rc2 Rf2 53.Kd4 Be1 54.Rxf2  1/2-1/2
+
+[Event "FIDE World Cup 2019"]
+[Site "Khanty-Mansiysk RUS"]
+[Date "2019.09.12"]
+[Round "1.4"]
+[White "Xu,Xiangyu"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2576"]
+[BlackElo "2721"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3 Nxc3 6.dxc3 Be7 7.Be3 Nc6 8.Qd2 Be6
+9.O-O-O Qd7 10.h4 Bf6 11.Bg5 Qe7 12.Qf4 h6 13.Bxf6 Qxf6 14.Qxf6 gxf6 15.Nd4 Nxd4
+16.Rxd4 Rg8 17.g3 Rg4 18.Rd3 Ra4 19.a3 Ke7 20.Bg2 c6 21.Re1 d5 22.Rde3 f5
+23.Bh3 Re4 24.Kd2 Rg8 25.Rf3 Kf6 26.Bf1 Rxe1 27.Kxe1 Rg4 28.Kd2 c5 29.Bh3 Re4
+30.Bg2 d4 31.cxd4 Rxd4+ 32.Rd3 Rxd3+ 33.Kxd3 b6 34.Ke3  1/2-1/2
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.10"]
+[Round "1.16"]
+[White "Huschenbeth,N"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2624"]
+[BlackElo "2721"]
+[ECO "C92"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Be7 6.Re1 b5 7.Bb3 d6 8.c3 O-O
+9.h3 Bb7 10.d4 Re8 11.Nbd2 Bf8 12.a4 h6 13.Bc2 exd4 14.cxd4 Nb4 15.Bb1 c5
+16.d5 Nd7 17.Ra3 c4 18.axb5 axb5 19.Nd4 Rxa3 20.bxa3 Nd3 21.Bxd3 cxd3 22.Bb2 Nc5
+23.Re3 Qa5 24.Kh2 b4 25.N4b3 Qa4 26.axb4 Qxb4 27.Nxc5 dxc5 28.Qc1 c4 29.Bc3 Qb5
+30.Ba1 Bd6+ 31.g3 Ra8 32.Bd4 Ra2 33.Qxc4 Qxc4 34.Nxc4 Ba6 35.Rxd3 Bxc4 36.Rc3 Ra4
+37.e5 Bc7 38.d6 Ba5 39.Rc1 Kh7 40.Ra1 Rxa1 41.Bxa1 g5  0-1
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.11"]
+[Round "2.7"]
+[White "Bu Xiangzhi"]
+[Black "Riazantsev,A"]
+[Result "1-0"]
+[WhiteElo "2721"]
+[BlackElo "2645"]
+[ECO "A14"]
+
+1.Nf3 d5 2.g3 Nf6 3.Bg2 e6 4.O-O Be7 5.c4 O-O 6.d4 c6 7.b3 b6 8.Bb2 Bb7 9.Nc3 Nbd7
+10.Qc2 a5 11.e4 Nxe4 12.Nxe4 dxe4 13.Qxe4 a4 14.Rad1 Qc7 15.Rfe1 Rfe8 16.Qc2 axb3
+17.axb3 h6 18.Re2 Bf8 19.h4 c5 20.d5 exd5 21.cxd5 Qd6 22.h5 Rxe2 23.Qxe2 Ra2
+24.Nh4 Ba6 25.Qd2 Ne5 26.Ra1 Rxa1+ 27.Bxa1 c4 28.Qe2 f6 29.Nf5 Qa3 30.Bxe5 cxb3
+31.Nxh6+ Kh8 32.Nf7+ Kg8 33.Qg4 fxe5 34.Qe6 Qe7 35.Nh6+  1-0
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.12"]
+[Round "3.2"]
+[White "Wang Hao"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2726"]
+[BlackElo "2721"]
+[ECO "C50"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.d3 Nf6 5.c3 O-O 6.O-O d5 7.exd5 Nxd5 8.Nbd2 Nb6
+9.Bb5 f6 10.d4 exd4 11.Nb3 Qd5 12.Bf4 Bg4 13.Bxc7 Rf7 14.Bg3 Ne5 15.Bxe5 fxe5
+16.Be2 Rd8 17.c4 Qd6 18.Ng5 Bf5 19.Nxf7 Kxf7 20.Bd3 e4 21.Nxc5 Qxc5 22.Qh5+ Kf6
+23.Bxe4 Na4 24.b4 Qe5 25.f4 Qxe4 26.Rae1  1-0
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.13"]
+[Round "4.16"]
+[White "Bu Xiangzhi"]
+[Black "Papaioannou,I"]
+[Result "1/2-1/2"]
+[WhiteElo "2721"]
+[BlackElo "2645"]
+[ECO "A21"]
+
+1.c4 e5 2.Nc3 Bb4 3.g3 Bxc3 4.dxc3 d6 5.Bg2 Nc6 6.Nf3 Nge7 7.O-O Be6 8.b3 h6
+9.e4 Qd7 10.Re1 Bh3 11.Bh1 Bg4 12.Qd3 f5 13.exf5 Bxf5 14.Qe2 Bg4 15.Qd3 O-O
+16.Nd2 Rf7 17.f3 Bf5 18.Qe2 Raf8 19.Ne4 Kh8 20.Bd2 Ng8 21.Rf1 Nf6 22.Nf2 Bg6
+23.Rae1 Bh5 24.Bg2 Qd8 25.Kh1 Qd7 26.Kg1 Qd8 27.Kh1 Qd7 28.Kg1  1/2-1/2
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.14"]
+[Round "5.17"]
+[White "Lupulescu,C"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2643"]
+[BlackElo "2721"]
+[ECO "D12"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6 6.Nh4 Be4 7.f3 Bg6 8.Bd2 Be7
+9.Nxg6 hxg6 10.Qc2 Nbd7 11.O-O-O Qc7 12.h4 dxc4 13.Bxc4 b5 14.Bd3 a6 15.Ne4 Nxe4
+16.Bxe4 Rc8 17.Kb1 Nf6 18.Rc1 Nxe4 19.Qxe4 Qd7 20.Be1 f5 21.Qc2 c5 22.Bb4 c4
+23.Bxe7 Qxe7 24.Qf2 Kf7 25.g4 b4 26.h5 gxh5 27.gxh5 c3 28.Qg3 Rh6 29.Qe5 Kg8
+30.Rh2 Kh7 31.Rg2 Qc7 32.Qxc7 Rxc7 33.Rg5 g6 34.Rxg6 Rxg6 35.hxg6+ Kxg6 36.bxc3 bxc3
+37.Kc2 f4 38.e4 Rc4 39.Rd1 Kf7 40.d5 Ra4 41.Kb3 c2 42.Rc1 Rd4 43.Kc3 Ra4
+44.Kb3 Rd4 45.dxe6+ Kxe6 46.Kxc2 Rc4+ 47.Kb2 Rb4+ 48.Kc3 a5 49.Kd3 Ra4 50.Rc2 Ra3+
+51.Ke2 a4 52.Kf2 Rd3 53.Kg2 a3 54.Rc5 Re3 55.Rf5 Re2+ 56.Kh3 Rxa2 57.Kg4 Ra1
+58.Kxf4 a2 59.Ra5 Kf7 60.Ra7+ Kf6 61.Ra6+ Kf7 62.e5 Ke7 63.Kf5 Rf1 64.Ra7+ Kf8
+65.Rxa2 Rxf3+ 66.Ke6 Re3 67.Ra8+  1/2-1/2
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.15"]
+[Round "6.19"]
+[White "Bu Xiangzhi"]
+[Black "Zhang Zhong"]
+[Result "1/2-1/2"]
+[WhiteElo "2721"]
+[BlackElo "2636"]
+[ECO "D26"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 dxc4 4.e3 e6 5.Bxc4 c5 6.O-O Nc6 7.Qe2 a6 8.Nc3 b5
+9.Bd3 Bb7 10.Rd1 cxd4 11.exd4 Nb4 12.Bg5 Nxd3 13.Rxd3 Be7 14.Bxf6 Bxf6 15.d5 O-O
+16.dxe6 Qe7 17.Ne5 Qxe6 18.Nd7 Rfe8 19.Qxe6 Rxe6 20.Nc5 Re7 21.Rad1 b4 22.Nxb7 bxc3
+23.Rd8+ Re8 24.Rxa8 Rxa8 25.bxc3 Bxc3 26.g4 g6 27.Rd7 Bf6 28.Kg2 Kf8 29.a4 Ke8
+30.Rd5 Be7 31.Kf3 Rb8 32.Nc5 Bxc5  1/2-1/2
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.17"]
+[Round "7.15"]
+[White "Melkumyan,H"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2650"]
+[BlackElo "2721"]
+[ECO "D41"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 c5 5.cxd5 Nxd5 6.e4 Nxc3 7.bxc3 cxd4 8.cxd4 Bb4+
+9.Bd2 Bxd2+ 10.Qxd2 O-O 11.Bc4 Nd7 12.O-O b6 13.Rad1 Bb7 14.Rfe1 Rc8 15.Bb3 Qf6
+16.d5 Nc5 17.Bc2 exd5 18.e5 Qe7 19.Nd4 Ne4 20.Qf4 g6 21.h4 Kh8 22.h5 g5 23.Qf5 Rc5
+24.h6 Bc8 25.Qf3 Rc3 26.Re3 Rxe3 27.Qxe3 Nc5 28.Nf3 f6 29.Re1 Ne4 30.Bxe4 dxe4
+31.exf6 Qxf6 32.Nxg5 Bf5 33.Rd1 Kg8 34.Qg3 Bg6 35.Rd7 Re8 36.Nxh7 Qf5 37.Qc3 Re5
+38.Rg7+  1-0
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.18"]
+[Round "8.33"]
+[White "Bu Xiangzhi"]
+[Black "Alekseev,Evgeny"]
+[Result "1/2-1/2"]
+[WhiteElo "2721"]
+[BlackElo "2629"]
+[ECO "A04"]
+
+1.Nf3 c5 2.c4 Nc6 3.d4 cxd4 4.Nxd4 e6 5.Nb5 d6 6.Bf4 e5 7.Bg3 Be7 8.e3 Be6
+9.Be2 Nh6 10.O-O Nf5 11.Nd2 g6 12.Ne4 O-O 13.h3 d5 14.cxd5 Bxd5 15.Nbc3 Nxg3
+16.Nxg3 Be6 17.Qa4 Qa5 18.Qxa5 Nxa5 19.Rfd1 Rfd8 20.Bf3 Rac8 21.Nge2 f5 22.Bd5 Kf7
+23.b3 Bb4 24.e4 Ke7 25.Bxe6 Rxd1+ 26.Rxd1 Kxe6 27.Nd5 Bd6 28.exf5+ gxf5 29.f4 Rc2
+30.fxe5 Bxe5 31.Nef4+ Bxf4 32.Nxf4+ Ke5 33.Nd3+ Ke6 34.Nb4 Rb2 35.Rd4 Nc6
+36.Nxc6 bxc6 37.Ra4 Ke5 38.Rxa7 Ke4 39.a4 Rxb3 40.Rxh7 Ra3 41.Ra7 c5 42.h4  1/2-1/2
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.19"]
+[Round "9.33"]
+[White "Abdusattorov,Nodirbek"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2608"]
+[BlackElo "2721"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3 Nxc3 6.dxc3 Be7 7.Be3 Nc6 8.Qd2 Be6
+9.O-O-O Qd7 10.Kb1 Bf6 11.Bg5 Bxg5 12.Nxg5 O-O-O 13.Nxe6 Qxe6 14.Bb5 Qf5
+15.Bd3 Qf6 16.f4 d5 17.Rhe1 h5 18.Re2 h4 19.Qe3 d4 20.cxd4 Rxd4 21.g3 hxg3
+22.hxg3 Rhd8 23.Red2 a6 24.c3 R4d6 25.Be4 Rxd2 26.Rxd2 Rxd2 27.Qxd2 Ne7 28.Qd3 c6
+29.Kc2 Kc7 30.a3 g5  1/2-1/2
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.20"]
+[Round "10.37"]
+[White "Bu Xiangzhi"]
+[Black "Parligras,M"]
+[Result "1/2-1/2"]
+[WhiteElo "2721"]
+[BlackElo "2629"]
+[ECO "D39"]
+
+1.c4 e6 2.Nc3 d5 3.d4 Bb4 4.Nf3 Nf6 5.Bg5 dxc4 6.e4 h6 7.Bxf6 Qxf6 8.e5 Qd8
+9.Qa4+ Nc6 10.Bxc4 Bd7 11.Qc2 Na5 12.Be2 c5 13.O-O cxd4 14.Nb5 O-O 15.Rfd1 Rc8
+16.Qe4 Bc6 17.Qxd4 Qxd4 18.Nfxd4 Bxb5 19.Bxb5 Rfd8 20.Nf3 a6 21.Rxd8+ Rxd8
+22.Be2 g5 23.h3 Bc5 24.Rc1 Bb6 25.Kf1 Kg7 26.Rc3 Rd7 27.Bd3 Rc7 28.Rxc7 Bxc7
+29.Be4 Nc4 30.Bxb7 a5 31.b3 Nxe5 32.Nxe5  1/2-1/2
+
+[Event "FIDE Chess.com Grand Swiss"]
+[Site "Douglas ENG"]
+[Date "2019.10.21"]
+[Round "11.35"]
+[White "Akobian,V"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2625"]
+[BlackElo "2721"]
+[ECO "D14"]
+
+1.d4 d5 2.c4 c6 3.cxd5 cxd5 4.Nf3 Nf6 5.Nc3 Nc6 6.Bf4 Bf5 7.e3 e6 8.Qb3 Bb4
+9.Bb5 O-O 10.Bxc6 Bxc3+ 11.Qxc3 Rc8 12.Ne5 bxc6 13.f3 Nh5 14.Bg3 Nxg3 15.hxg3 f6
+16.Nd3 Bxd3 17.Qxd3 f5 18.Qa3 Qc7 19.f4 c5 20.dxc5 Qxc5 21.Qxc5 Rxc5 22.Kd2 d4
+23.exd4 Rd8 24.Rac1 Rxd4+ 25.Ke3 Re4+ 26.Kf3 Rec4 27.Rxc4 Rxc4 28.Rd1 Rc2
+29.Rd7 a5 30.a4 Rxb2 31.Ra7 Ra2 32.Rxa5 Kf7 33.Ra8 h6 34.a5 Kg6 35.Ra7 Kf6
+36.Ra8 Kf7 37.a6 Kg6 38.Ra7 Kf6  1/2-1/2
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.17"]
+[Round "1.1"]
+[White "Xu,Yi"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2542"]
+[BlackElo "2705"]
+[ECO "B31"]
+
+1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.Bxc6 bxc6 5.d4 cxd4 6.Qxd4 f6 7.O-O d6 8.c4 c5
+9.Qd3 Bg7 10.Nc3 Nh6 11.h3 Nf7 12.Bf4 O-O 13.Rfe1 Bb7 14.Rad1 Kh8 15.a3 Rc8
+16.b4 cxb4 17.axb4 a6 18.Bg3 Qc7 19.c5 e5 20.Nd5 Bxd5 21.exd5 dxc5 22.bxc5 Qxc5
+23.Qxa6 Rfd8 24.Qe6 Qf8 25.Rc1 Rxc1 26.Rxc1 Rd6 27.Qc8 Rxd5 28.Qb7 Rd8 29.Qa6 Nd6
+30.Nh2 Nf5 31.Nf1 h5 32.Bh2 h4 33.Qc4 Kh7 34.Re1 Bh6 35.f4 Rc8 36.Qe4 Qc5+
+37.Kh1 Nd6 38.Qa4 e4 39.Qd7+ Bg7 40.f5 Nxf5 41.Rxe4 Ra8 42.Re1 Ra2 43.Bg1 Qb4
+44.Qe6 Rc2 45.Rd1 Qb7 46.Rd5 Rc1 47.Ne3 Nxe3 48.Qxe3 Rxg1+  0-1
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.17"]
+[Round "2.1"]
+[White "Bu Xiangzhi"]
+[Black "Wan Yunguo"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2508"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.h4 Bg7 6.e4 Nxc3 7.dxc3 Qxd1+ 8.Kxd1 Nd7
+9.Bc4 Nc5 10.Re1 h5 11.Kc2 Be6 12.Bf1 Rd8 13.Ng5 Bd7 14.Bc4 f6 15.Nf7 b5
+16.Bd5 c6 17.Nxd8 cxd5 18.Be3 Nxe4 19.Nb7 a6 20.f3 Bc8 21.Na5 Nd6 22.Rad1 e6
+23.Nb3 Kd7 24.Bf2 Re8 25.Nc5+ Kc6 26.Nd3 Bh6 27.Be3 Bxe3 28.Rxe3 Nf5 29.Re2 Kd6
+30.Nf4 Rg8 31.a4 bxa4 32.c4 Bd7 33.Kb1 Rc8 34.cxd5 e5 35.Ne6 Rb8 36.Rc1 Kxd5
+37.Nc7+ Kd6 38.Nxa6 Rb5 39.Rec2 Nd4 40.Rc3 Bf5+ 41.Ka2 Be6+ 42.Kb1 Bf5+ 43.Ka2 Be6+
+44.Kb1 Bf5+ 45.Ka2  1/2-1/2
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.17"]
+[Round "3.2"]
+[White "Nie,Xinyang"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2348"]
+[BlackElo "2705"]
+[ECO "D39"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Bb4 5.Bg5 dxc4 6.e4 b5 7.e5 h6 8.Bh4 g5 9.Nxg5 hxg5
+10.Bxg5 Nbd7 11.exf6 Bb7 12.a3 Ba5 13.Be2 Bxg2 14.Bf3 Bxh1 15.Bxh1 Rxh2 16.Bc6 Rb8
+17.Qf3 Rb6 18.O-O-O Bxc3 19.bxc3 Qc8 20.d5 Rxc6 21.dxc6 Ne5 22.Qg3 Qa6 23.Qxe5 Qxa3+
+24.Kb1 Qb3+ 25.Kc1 Qa3+ 26.Kb1 Qb3+ 27.Kc1 Qa3+ 28.Kb1 Rxf2 29.Rd8+ Kxd8
+30.Qd4+ Qd6 31.Qxf2 Qxc6 32.Qxa7 Qe4+ 33.Kc1 Qh1+ 34.Kc2 Qe4+ 35.Kc1 Qh1+
+36.Kc2 Qe4+ 37.Kc1 Kd7 38.Qc5 Qe1+ 39.Kb2 Qe2+ 40.Ka3 Qd3 41.Qxb5+ c6 42.Qb7+ Kd6
+43.Qe7+ Kd5 44.Qd7+ Ke4 45.Qxc6+ Kf5 46.Qc5+ e5 47.Qe3 Qb1 48.Ka4 Ke6 49.Ka5 Kd5
+50.Qc1 Qb3 51.Qd2+ Kc6 52.Qg2+ Kc7 53.Qd2 Kc6 54.Qg2+ Kc7 55.Qd2 Kc6 56.Qg2+  1/2-1/2
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.17"]
+[Round "4.2"]
+[White "Bu Xiangzhi"]
+[Black "Bai,Jinshi"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2600"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.h4 Bg7 6.e4 Nxc3 7.dxc3 Qxd1+ 8.Kxd1 Nd7
+9.Bc4 Nc5 10.Re1 Bd7 11.Kc2 O-O 12.Bg5 Rfe8 13.Rad1 Be6 14.Bxe6 Nxe6 15.Rd7 f6
+16.Be3 Kf7 17.e5 Red8 18.exf6 Rxd7 19.Ne5+ Kxf6 20.Nxd7+ Kf7 21.Nc5 Nxc5
+22.Bxc5 Bf6 23.Re4 a6 24.a4 b5 25.Bd4 Rd8 26.Bxf6 exf6 27.axb5 axb5 28.c4 f5
+29.Re5 bxc4 30.Rc5 Rd7 31.Rc6 Re7 32.Kd2 Ke8 33.Rxc4 Kd7 34.Ra4 Kd6 35.g3 c6
+36.Kd3 Rb7 37.Kc3 Re7 38.Rd4+ Kc5 39.Rc4+ Kd5 40.Rd4+  1/2-1/2
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.17"]
+[Round "5.4"]
+[White "Lu Shanglei"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2612"]
+[BlackElo "2705"]
+[ECO "B38"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Bg7 6.Be3 Nf6 7.Nc3 O-O 8.Be2 d6
+9.Qd2 Bd7 10.f3 Nxd4 11.Bxd4 a5 12.O-O-O a4 13.Kb1 Be6 14.h4 Qc7 15.Qe3 Rfc8
+16.Nd5 Bxd5 17.cxd5 a3 18.b3 Nh5 19.Bxg7 Kxg7 20.f4 Qc3 21.Qxc3+ Rxc3 22.Bxh5 gxh5
+23.Rh3 Rac8 24.Rxc3 Rxc3 25.Rd4 Rg3 26.Ra4 Rxg2 27.Rxa3 Rg4 28.Ra7 Rxh4 29.Rxb7 Rxf4
+30.Rxe7 h4 31.Rc7 h3 32.Kb2 Rxe4 33.a4 h2 34.Rc1 f5 35.a5 f4 36.Rh1 f3 37.a6 f2
+38.a7 Re8 39.Kc3 Ra8 40.Kd3 Rxa7 41.Ke2 Ra2+ 42.Kf3 Rb2 43.Kg2 f1=Q+ 44.Kxf1 Kf6  0-1
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.17"]
+[Round "6.2"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2582"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 g6 3.Nc3 d5 4.cxd5 Nxd5 5.h4 Nc6 6.e4 Ndb4 7.d3 Bg4 8.a3 Bxf3
+9.gxf3 Na6 10.Be3 Bg7 11.f4 e5 12.fxe5 Bxe5 13.Nd5 O-O 14.d4 Bg7 15.Bc4 Re8
+16.Qd3 Na5 17.Ba2 c6 18.Nf4 c5 19.dxc5 Qxd3 20.Nxd3 Rxe4 21.Bd5 Re7 22.O-O-O Nc7
+23.Ba2 Nc6 24.Bg5 Re2 25.Rhe1 Rxe1 26.Rxe1 a5 27.Bc4 Bf8 28.Kd2 Nd4 29.Re4 Nde6
+30.b4 axb4 31.axb4 Ra1 32.Bf6 Rf1 33.Kc2 h6 34.Be5 Na6 35.Bg3 Ra1 36.Bxe6  1-0
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "1.1"]
+[White "Zhao,Yuanhe"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2470"]
+[BlackElo "2705"]
+[ECO "A30"]
+
+1.Nf3 c5 2.c4 Nf6 3.Nc3 b6 4.g3 Bb7 5.Bg2 e6 6.O-O Be7 7.a3 O-O 8.Rb1 d5
+9.cxd5 Nxd5 10.d3 Nc6 11.Bd2 Rc8 12.Nxd5 Qxd5 13.Ne1 Qd7 14.Bc3 Rfd8 15.Nf3 h6
+16.Re1 b5 17.b4 a6 18.Qb3 Qd5 19.Qb2 Bf8 20.Ne5 Qd6 21.Nxc6 Bxc6 22.Be5 Qe7
+23.Bxc6 Rxc6 24.Rec1 Rdc8 25.Bf4 e5 26.Be3 cxb4 27.Rxc6 Rxc6 28.axb4 Qc7
+29.Qa2 h5 30.h4 g6 31.Qd5 Rc2 32.Qf3 Qc6 33.Qxc6 Rxc6 34.Kf1 f5 35.Ke1 Kf7
+36.Kd1 Ke6 37.Bd2 e4 38.dxe4 fxe4 39.Rc1 Rxc1+ 40.Kxc1 Kd5 41.f3 exf3 42.exf3 Kc4
+43.g4 Bxb4 44.Bg5 Kd3 45.Kb2 a5 46.Kb3 Bd6 47.gxh5 gxh5 48.f4 Ke4 49.Bd8 a4+
+50.Kc3 Kxf4 51.Kd4 Be5+ 52.Kc5 a3 53.Bg5+ Ke4  0-1
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "2.1"]
+[White "Bu Xiangzhi"]
+[Black "Wan Yunguo"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2508"]
+[ECO "A16"]
+
+1.c4 Nf6 2.g3 g6 3.Bg2 d5 4.cxd5 Nxd5 5.Nc3 Nxc3 6.bxc3 Bg7 7.Rb1 Nc6 8.h4 h6
+9.Nf3 O-O 10.O-O b6 11.h5 Bb7 12.hxg6 fxg6 13.d4 Na5 14.Qc2 Qd6 15.e4 c5
+16.d5 e5 17.c4 Bc8 18.Bb2 Bd7 19.Rbe1 b5 20.Nd2 g5 21.Re3 b4 22.f4 gxf4 23.gxf4 exf4
+24.e5 Qe7 25.Ree1 Bf5 26.Qa4 Bd3 27.Qxa5 Bxf1 28.Rxf1 Bxe5 29.Bxe5 Qxe5 30.Qxc5 Rac8
+31.Qxa7 Ra8 32.Qb6 Rxa2 33.Nf3 Qe3+ 34.Qxe3 fxe3 35.Rb1 e2 36.c5 b3 37.Nd4 b2
+38.Nxe2 Ra1 39.Nc3 Rf4 40.d6 Kf8 41.Kh2 Rc4 42.Rxb2 Rxc3 43.Rb8+ Kg7 44.d7 Rd1
+45.c6 Rcd3 46.c7  1-0
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "3.1"]
+[White "Ma Qun"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2627"]
+[BlackElo "2705"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Qb3 c5
+9.cxd5 exd5 10.dxc5 Bxc3+ 11.Qxc3 Qxc3+ 12.bxc3 Nd7 13.Rd1 Nxc5 14.Rxd5 b6
+15.Rd4 Be6 16.c4 Rac8 17.g4 Nb7 18.g5 h5 19.g6 f6 20.Be2 Rc5 21.O-O Rfc8
+22.Rfd1 Kf8 23.h4 Bf5 24.Nd2 Bxg6 25.Nb3 R5c7 26.a4 Bf7 27.Nd2 Nc5 28.Ra1 a5
+29.Ra3 Be8 30.Bd1 Rd7 31.Kf1 Rcd8 32.Nf3 Ne6 33.Rxd7 Rxd7 34.Bc2 Rc7 35.Nd4 Nxd4
+36.exd4 Rxc4 37.Bf5 Rxd4 38.Rb3 Rb4 39.Rc3 g6 40.Be6 Ke7 41.Bg8  0-1
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "4.1"]
+[White "Bu Xiangzhi"]
+[Black "Lu Shanglei"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2612"]
+[ECO "D14"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.cxd5 cxd5 5.Nc3 Nc6 6.Bf4 Bf5 7.e3 e6 8.Bd3 Bxd3
+9.Qxd3 Bd6 10.Bxd6 Qxd6 11.O-O O-O 12.Rfc1 Rfc8 13.h3 Nb4 14.Qd1 Nc6 15.Qd3 Nb4
+16.Qd1 Nc6 17.Qd3 Nb4  1/2-1/2
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "5.1"]
+[White "Zhu,Hengyi"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2238"]
+[BlackElo "2705"]
+[ECO "D01"]
+
+1.d4 Nf6 2.Nc3 d5 3.Bg5 c6 4.Qd3 g6 5.e4 dxe4 6.Nxe4 Nxe4 7.Qxe4 Bf5 8.Qe5 f6
+9.Bxf6 Nd7 10.Bxh8 Nxe5 11.Bxe5 Bxc2 12.Nf3 Qa5+ 13.Nd2 Qb4 14.Bc4 Bh6 15.f4 Qxb2
+16.O-O Qc3 17.Rae1 Qxd2 18.Bf6 O-O-O 19.Re2 Qxe2  0-1
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "6.2"]
+[White "Bu Xiangzhi"]
+[Black "Wen Yang"]
+[Result "0-1"]
+[WhiteElo "2705"]
+[BlackElo "2586"]
+[ECO "D39"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Bg5 Bb4+ 5.Nc3 dxc4 6.e4 c5 7.Bxc4 cxd4 8.Nxd4 Qa5
+9.Bb5+ Bd7 10.Bxf6 Bxb5 11.Nxb5 gxf6 12.O-O Nc6 13.Nd6+ Ke7 14.Nc4 Qc5 15.Ne3 Bxc3
+16.Rc1 Qa5 17.Rxc3 Rhd8 18.Qb3 Rd7 19.g3 Nd4 20.Qa3+ Qxa3 21.Rxa3 Rc8 22.Kg2 a6
+23.Rd1 Nc2 24.Rxd7+ Kxd7 25.Rd3+ Ke7 26.Nxc2 Rxc2 27.Rb3 b5 28.a3 Kd6 29.Kf3 h5
+30.Ke3 Kc5 31.h3 Kc4 32.Rb4+ Kc5 33.Rb3 a5 34.Rd3  0-1
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "7.1"]
+[White "Bu Xiangzhi"]
+[Black "Ma Qun"]
+[Result "0-1"]
+[WhiteElo "2705"]
+[BlackElo "2627"]
+[ECO "A07"]
+
+1.Nf3 d5 2.g3 Bg4 3.Bg2 c6 4.h3 Bh5 5.O-O Nd7 6.c4 e6 7.cxd5 exd5 8.d3 Ngf6
+9.Nc3 Bxf3 10.Bxf3 d4 11.Ne4 Be7 12.Nxf6+ Nxf6 13.b4 O-O 14.Qb3 Qd7 15.Kg2 a5
+16.bxa5 Rxa5 17.Bd2 Ra3 18.Qc2 Rfa8 19.Rfb1 Nd5 20.Bg4 f5 21.Bf3 Nc3 22.Bxc3 dxc3
+23.Rb3 Bf6 24.e3 Qe6 25.Rxa3 Rxa3 26.d4 b5 27.Rd1 Qd7 28.d5 c5 29.d6 Ra6
+30.Rd5 c4 31.Qb1 Rb6 32.Qb4 c2 33.Qd2 c1=Q 34.Qxc1 Rxd6 35.Rc5 g6 36.a4 c3
+37.axb5 Kg7 38.Qa3 Kh6 39.Qb4 Rd2 40.b6 Rb2 41.Qf4+ Bg5 42.Qd4 Qxd4 43.exd4 c2  0-1
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "8.2"]
+[White "Xu,Yinglun"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2555"]
+[BlackElo "2705"]
+[ECO "D39"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Bg5 dxc4 6.e4 b5 7.a4 c5 8.axb5 cxd4
+9.Bxf6 Qxf6 10.Qxd4 Qxd4 11.Nxd4 Bb7 12.f3 Ke7 13.Nc2 Bc5 14.Bxc4 Nd7 15.Ke2 Rhc8
+16.b3 Nb6 17.Na4 Bd6 18.Ne3 Bf4 19.g3 Bxe3 20.Kxe3 Nxc4+ 21.bxc4 Rxc4 22.Rhc1 Rxc1
+23.Rxc1  1/2-1/2
+
+[Event "ch-CHN Rapid 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.18"]
+[Round "9.4"]
+[White "Wang,Shixu B"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2469"]
+[BlackElo "2705"]
+[ECO "E49"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3 Bxc3+ 7.bxc3 c5 8.cxd5 exd5
+9.Ne2 b6 10.O-O Ba6 11.dxc5 bxc5 12.Bxa6 Nxa6 13.c4 dxc4 14.Qa4 Nc7 15.Rd1 Qe8
+16.Qxc4 Qe5 17.Bd2 Ne4 18.Ba5 Ne6 19.Ng3 Nxg3 20.hxg3 Rab8 21.Ra2 h6 22.Rad2 Rb2
+23.Bc3 Rxd2 24.Bxe5 Rxd1+ 25.Kh2 Rfd8 26.Qa4 Rf1 27.f4 h5 28.g4 hxg4 29.Qxa7 Rf2
+30.a4 Re2 31.f5  1/2-1/2
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.19"]
+[Round "7.2"]
+[White "Bai,Jinshi"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2600"]
+[BlackElo "2705"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Qa4+ Nc6 6.e3 O-O 7.Qc2 b6 8.Bd2 Bb7
+9.Be2 Re8 10.cxd5 exd5 11.O-O a6 12.a3 Bd6 13.b4 Ne4 14.h3 Ne7 15.Ne5 Ng6
+16.Nxe4 dxe4 17.Nc4 Bf8 18.Rac1 Qg5 19.f4 exf3 20.Bxf3 Bxf3 21.Rxf3 Qd5 22.Qf5 Qxf5
+23.Rxf5 Rad8 24.a4 f6 25.b5 axb5 26.axb5 Ne7 27.Rf3 Nd5 28.g4 Ra8 29.Rf5 Ne7
+30.Rf3 Ra2 31.e4 Nc8 32.e5 fxe5 33.dxe5 Na7 34.Rb3 Bc5+ 35.Kf1 Kf7 36.Ke1 Ke6
+37.Rcc3 Rf8 38.Rd3 Ra1+  0-1
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.19"]
+[Round "8.2"]
+[White "Bu Xiangzhi"]
+[Black "Peng,Xiongjian"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2489"]
+[ECO "A17"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 Bb4 4.Qc2 O-O 5.a3 Bxc3 6.Qxc3 b6 7.g3 Bb7 8.Bg2 d6
+9.b4 Ne4 10.Qc2 f5 11.Bb2 Nd7 12.O-O Rb8 13.Nd4 Qe8 14.d3 Nef6 15.Nc6 Bxc6
+16.Bxc6 Qh5 17.Bg2 e5 18.e3 f4 19.Qd1 Qh6 20.exf4 exf4 21.Re1 Rf7 22.Qf3 Rbf8
+23.Re6 fxg3 24.fxg3 Qd2 25.Qe2 Qxe2 26.Rxe2 Kh8 27.Rf1 h6 28.h3 Rd8 29.g4 Ne5
+30.Rd1 Nfd7 31.Bd5 Rff8 32.Kg2 Ng6 33.Bc1 Nf6 34.Bc6 Nd7 35.d4 Nb8 36.Be4 Nf4+
+37.Bxf4 Rxf4 38.Bf5 Nd7 39.Kg3 g5 40.Re6 Nf8 41.Re7 c5 42.dxc5 bxc5 43.bxc5 Rxc4
+44.Rxd6 Rb8 45.c6 Rc3+ 46.Kf2 Rb2+ 47.Re2 Rxe2+ 48.Kxe2 Kg7 49.Kd2 Rc5 50.Kd3 Kf7
+51.Kd4 Rc1 52.Rxh6 Ke7 53.Kd5 Rd1+ 54.Kc5 Rc1+ 55.Kb5 Rc3 56.a4  1-0
+
+[Event "ch-CHN Blitz 2019"]
+[Site "Shenyang CHN"]
+[Date "2019.12.19"]
+[Round "9.2"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2582"]
+[ECO "D14"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 c6 4.cxd5 cxd5 5.Nc3 Nc6 6.Bf4 Bf5 7.e3 e6 8.Bd3 Bxd3
+9.Qxd3 Bd6 10.Bxd6 Qxd6 11.O-O O-O 12.Rfc1 Rfc8 13.h3 h6 14.Nb5 Qd8 15.Nc3 Qd6
+16.Nb5 Qd8 17.Nc3 Qd6 18.Nb5  1/2-1/2
+
+[Event "Yinzhou Cup Men 2019"]
+[Site "Ningbo CHN"]
+[Date "2019.12.22"]
+[Round "1.2"]
+[White "Bu Xiangzhi"]
+[Black "Ding Liren"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2801"]
+[ECO "D38"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.Qa4+ Nc6 8.e3 O-O
+9.Be2 dxc4 10.O-O Bd7 11.Bxc4 Bxc3 12.bxc3 Rfd8 13.Qa3 Qe7 14.Qxe7 Nxe7 15.Rab1 b6
+16.Ne5 Be8 17.e4 c5 18.dxc5 bxc5 19.Rfd1 Nc6 20.Nd3 Rac8 21.Ba6 Rc7 22.Nxc5 Rxd1+
+23.Rxd1 Kf8 24.Nb3 Nb8 25.Be2 Rxc3 26.f3 Ke7 27.Kf2 Ba4 28.Rc1 Rxc1 29.Nxc1 Nc6
+30.Ke3 Kd6 31.Nd3 Bb5 32.e5+ Kd5 33.f4 Nd4 34.Bh5 g6 35.Bd1 Nf5+ 36.Kd2 Kd4
+37.Nc1 Bc4 38.Nb3+ Bxb3 39.Bxb3 g5 40.fxg5 hxg5 41.Ba4 Ne3 42.Ke2 Ng4 43.g3 Nxh2
+44.Be8 Kxe5 45.Bxf7 Kf5 46.a4 Ng4 47.a5 Ne5 48.Be8 Kg4 49.Kf2 Nd3+ 50.Ke3 Nc5
+51.Kf2 Ne4+ 52.Kg2 Kf5 53.a6 g4 54.Bb5 Ke5 55.Bc4 Kd6 56.Be2 Nf6 57.Kf2 Ke5
+58.Ke3 Ne4 59.Bxg4 Nxg3 60.Kd3 Ne4 61.Kc4 Kd6 62.Be2 Nc5 63.Kd4 e5+ 64.Ke3 Kc6
+65.Bf1 Kb6 66.Be2 Kc6 67.Bc4 Kd6 68.Kf3 Ke7 69.Ke3 Kf6 70.Kf3 Kf5 71.Ke3 e4
+72.Kd4 Nd7 73.Bf1 Kf4 74.Kd5 Nb8 75.Kd6 e3 76.Kc7 Nxa6+ 77.Bxa6 Kf3 78.Kb7 e2
+79.Bxe2+ Kxe2 80.Kxa7  1/2-1/2
+
+[Event "Yinzhou Cup Men 2019"]
+[Site "Ningbo CHN"]
+[Date "2019.12.22"]
+[Round "2.1"]
+[White "Bu Xiangzhi"]
+[Black "Yu Yangyi"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2738"]
+[ECO "A30"]
+
+1.Nf3 c5 2.c4 Nf6 3.Nc3 e6 4.g3 b6 5.Bg2 Bb7 6.O-O Be7 7.d4 cxd4 8.Qxd4 O-O
+9.Rd1 d6 10.Bg5 Nbd7 11.Nb5 d5 12.cxd5 Bxd5 13.Nc3 Bc6 14.Ne5 Bxg2 15.Nxd7 Nxd7
+16.Bxe7 Qxe7 17.Qxd7 Qxd7 18.Rxd7 Bc6 19.Rc7 Rfc8 20.Rxc8+ Rxc8 21.Rd1 Kf8
+22.f3 Ke7 23.Kf2 Rd8 24.Rxd8 Kxd8 25.f4 f6 26.e4 e5 27.fxe5 fxe5 28.b4 Ke7
+29.h4 h5 30.a3 g6 31.Kf3 Bd7 32.Ke3 Bc6 33.Kf3 Bd7 34.Ke3 Bc6 35.Kf3 Bd7  1/2-1/2
+
+[Event "Yinzhou Cup Men 2019"]
+[Site "Ningbo CHN"]
+[Date "2019.12.22"]
+[Round "3.2"]
+[White "Wang Hao"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2756"]
+[BlackElo "2705"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3 Nxc3 6.dxc3 Be7 7.Be3 Nc6 8.Qd2 O-O
+9.O-O-O Bf5 10.Kb1 Qd7 11.h4 Rfe8 12.Bc4 Bf6 13.Bg5 Be5 14.Nxe5 Nxe5 15.Be2 Qc6
+16.f3 Nc4 17.Bxc4 Qxc4 18.Rhe1 h6 19.Bf4 Qc6 20.Be3 a5 21.Bd4 Rxe1 22.Qxe1 f6
+23.Qg3 Qe8 24.Bxf6 Qg6 25.Qxg6 Bxg6 26.Bd4 Re8 27.Kc1 Re2 28.Rd2 Re1+ 29.Rd1 Re2
+30.Rd2 Re1+ 31.Rd1 Re2  1/2-1/2
+
+[Event "Yinzhou Cup Men 2019"]
+[Site "Ningbo CHN"]
+[Date "2019.12.22"]
+[Round "4.2"]
+[White "Ding Liren"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2801"]
+[BlackElo "2705"]
+[ECO "D12"]
+
+1.c4 c6 2.Nf3 d5 3.d4 Nf6 4.e3 Bf5 5.Nc3 e6 6.Nh4 Bg6 7.Be2 Nbd7 8.O-O Bd6
+9.g3 O-O 10.Nxg6 hxg6 11.b3 Qe7 12.Rb1 a6 13.Bf3 Rfd8 14.Bg2 Bb4 15.Bb2 Rac8
+16.Ne2 e5 17.cxd5 Nxd5 18.Qc2 Ba3 19.Bxa3 Qxa3 20.Rfd1 Qe7 21.Rbc1 N5f6 22.b4 e4
+23.a4 Nb6 24.Qc5 Qc7 25.Nc3 Re8 26.h4 Nbd5 27.Nxd5 Nxd5 28.b5 axb5 29.axb5 Qd7
+30.bxc6 Rxc6 31.Qa5 f5 32.Bf1 Rxc1 33.Rxc1 Kh7 34.Bb5 Qd8 35.Qxd8 Rxd8 36.Rc5 Rd6
+37.Bc4 Nf6 38.Rb5 Rc6 39.Rb4 Kh6 40.Be2 Rc2 41.Kf1 Rc1+ 42.Kg2 Rc2 43.Kf1 Rc1+
+44.Kg2 Rc2  1/2-1/2
+
+[Event "Yinzhou Cup Men TB 2019"]
+[Site "Ningbo CHN"]
+[Date "2019.12.23"]
+[Round "1"]
+[White "Ding Liren"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2801"]
+[BlackElo "2705"]
+[ECO "D17"]
+
+1.c4 c6 2.d4 d5 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.Ne5 Nbd7 7.Nxc4 Nb6 8.Ne5 a5
+9.f3 Nfd7 10.Nxd7 Nxd7 11.e4 Bg6 12.Be2 e6 13.Be3 Bb4 14.O-O O-O 15.Qb3 Qb6
+16.Bf2 e5 17.dxe5 Qc7 18.f4 Bxc3 19.bxc3 Bxe4 20.Rad1 Bd5 21.c4 Be6 22.Rd6 b5
+23.axb5 cxb5 24.Qxb5 Rfb8 25.Qa4 Nc5 26.Qc2 a4 27.f5 Bd7 28.Bf3 Ra5 29.Bd5 Be8
+30.f6 Nd7 31.fxg7 Nxe5 32.Rh6 Ng6 33.Rxg6 hxg6 34.Qxg6 Qe5 35.Qh6 Qxg7 36.Qh4 Rxd5
+37.cxd5 f6 38.Bd4 Qg5 39.Qe4 Bg6 40.Qe7 Re8 41.Qxf6 Qxf6 42.Rxf6 Be4 43.d6 Bc6
+44.Kf2 Re4 45.Bc5 Rc4 46.Rf5 Rc2+ 47.Ke3 Rxg2 48.Rf8+ Kg7 49.Rc8 Bb5 50.Rb8 Bc6
+51.Rc8 Bb5 52.Rb8 Bc6 53.Rb6 Be8 54.Rb8 Kf7 55.Rb7+ Kf6 56.h4 Rh2 57.Re7 Bc6
+58.Bd4+ Kf5 59.Rc7 Be8 60.Rc8 Bd7 61.Rc7 Ke6 62.Bc5 Rxh4 63.Kd3 Rh3+ 64.Kc4 a3
+65.Bxa3 Rxa3  1/2-1/2
+
+[Event "Yinzhou Cup Men 2019"]
+[Site "Ningbo CHN"]
+[Date "2019.12.23"]
+[Round "5.4"]
+[White "Bu Xiangzhi"]
+[Black "Wang Hao"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2756"]
+[ECO "D40"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 c5 5.e3 Nc6 6.a3 a6 7.dxc5 Bxc5 8.b4 Bd6
+9.Bb2 O-O 10.Rc1 dxc4 11.Bxc4 b5 12.Bd3 Ne5 13.Nxe5 Bxe5 14.f4 Bxc3+ 15.Bxc3 Bb7
+16.O-O Rc8 17.Bd4 Rxc1 18.Qxc1 Be4 19.Bxe4 Nxe4 20.Qc6 Nd2 21.Rf2 Nb3 22.Bxg7 Kxg7
+23.Qc3+ Qf6 24.Qxb3 Rc8 25.Rc2 Qa1+ 26.Kf2 Rxc2+ 27.Qxc2 Qxa3 28.Qd2 h6 29.g4 Qb3
+30.Qd4+ Kg8 31.g5 Qc2+ 32.Kg3 Qb1 33.gxh6 Qg6+ 34.Kf3 Qh5+ 35.Kg3 Qg6+ 36.Kf2 Qxh6
+37.Qd8+ Kh7 38.Qd3+ Kg8 39.Qd8+ Kh7 40.h4 Qg6 41.Qc7 Qf6 42.Kf3 Qf5 43.Kg3 Qg6+
+44.Kf2 Qf6 45.Kg3 Qg6+ 46.Kf3 Qf5  1/2-1/2
+
+[Event "Yinzhou Cup Men 2019"]
+[Site "Ningbo CHN"]
+[Date "2019.12.23"]
+[Round "6.3"]
+[White "Yu Yangyi"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2738"]
+[BlackElo "2705"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Be7 7.O-O Nc6 8.Nbd2 Nxd2
+9.Bxd2 Bg4 10.c3 O-O 11.h3 Bh5 12.g3 Qd7 13.Kg2 a6 14.Ne5 Bxd1 15.Nxd7 Rfd8
+16.Raxd1 Rxd7 17.f4 Na5 18.Rfe1 g6 19.b3 b5 20.Re2 Nb7 21.Rde1 Bf8 22.f5 Nd6
+23.g4 Rdd8 24.h4 Re8 25.Kf3 Rxe2 26.Rxe2 Rc8 27.f6 h6 28.Bf4 Rd8 29.Re1 Ne8
+30.g5 h5 31.a4 c6 32.Ra1 Rc8 33.axb5 cxb5 34.Rxa6 Rxc3 35.Ke2 Nc7 36.Rb6 Ne6
+37.Rxe6 fxe6 38.Bxg6 Rh3 39.Be5 Bb4 40.Bxh5 Rxh4 41.Be8 Kf8 42.Bd7 Rg4 43.Bxe6 Rxg5
+44.Bxd5 Rxe5+ 45.dxe5 Bc3 46.Kd3  1/2-1/2
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.15"]
+[Round "1.3"]
+[White "Bu Xiangzhi"]
+[Black "Mamedyarov,S"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2764"]
+[ECO "D27"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 dxc4 4.e3 e6 5.Bxc4 c5 6.O-O a6 7.dxc5 Bxc5 8.Qxd8+ Kxd8
+9.Rd1+ Ke7 10.Be2 Nbd7 11.Nbd2 Rd8 12.Nb3 Bd6 13.Nfd2 Kf8 14.Nc4 Be7 15.Nd6 Ne5
+16.Nxc8 Rxd1+ 17.Bxd1 Rxc8 18.Be2 Ne4 19.f3 Nc5 20.Nxc5 Rxc5 21.Kf1 Ke8 22.e4 g5
+23.Bd2 Nc4 24.Bc3 Rc6 25.Bxc4 Rxc4 26.Ke2 f5 27.exf5 exf5 28.Kd3 Rc6 29.Re1 Kd7
+30.Re5 f4 31.Rf5 Ke6 32.Re5+ Kd7 33.Rd5+ Ke6 34.Re5+ Kd7  1/2-1/2
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.15"]
+[Round "2.4"]
+[White "Korobov,A"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2688"]
+[BlackElo "2705"]
+[ECO "D12"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.e3 Bf5 5.Nc3 e6 6.Nh4 Bg6 7.Nxg6 hxg6 8.Bd2 Nbd7
+9.g3 Bd6 10.Qb3 Rb8 11.Bg2 O-O 12.O-O dxc4 13.Qxc4 e5 14.Rad1 Nb6 15.Qb3 exd4
+16.exd4 Qd7 17.Bg5 Rfe8 18.Bxf6 gxf6 19.d5 c5 20.Ne4 Kg7 21.Qc3 Be5 22.Qxc5 Na4
+23.Qb4 f5 24.Ng5 b5 25.b3 Nc3 26.Rd2 Qd6 27.Qa5 Bf6 28.h4 Re7 29.Nf3 b4 30.a4 Rb6
+31.Nd4 Bxd4 32.Rxd4 Ne2+  0-1
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.15"]
+[Round "3.2"]
+[White "Bu Xiangzhi"]
+[Black "Anton Guijarro,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2703"]
+[ECO "D27"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 dxc4 4.e3 e6 5.Bxc4 a6 6.O-O c5 7.dxc5 Bxc5 8.Qxd8+ Kxd8
+9.Nbd2 Ke7 10.Be2 Nc6 11.Nb3 Bd6 12.Nfd2 Bc7 13.a4 Rd8 14.Nc4 b6 15.Bf3 Bb7
+16.Bd2 Rab8 17.Rfc1 Nd5 18.e4 Ndb4 19.Be3 Nd3 20.Rc3 b5 21.axb5 axb5 22.Nca5 Bxa5
+23.Nxa5 Nxa5 24.Rxa5 b4 25.Rc7+ Rd7 26.Rxd7+ Kxd7 27.b3 Ra8 28.Rxa8 Bxa8
+29.Kf1 Ne5 30.Bc5 Nxf3 31.gxf3 f5 32.Bxb4 fxe4 33.fxe4 Bxe4 34.Bc3 g6 35.Ke2  1/2-1/2
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.15"]
+[Round "4.5"]
+[White "Grischuk,A"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2777"]
+[BlackElo "2705"]
+[ECO "A20"]
+
+1.c4 e5 2.g3 Nf6 3.Bg2 d5 4.cxd5 Nxd5 5.Nf3 Nc6 6.O-O Be7 7.d4 e4 8.Ne5 f5
+9.Nxc6 bxc6 10.Nd2 Ba6 11.Nb3 O-O 12.Bd2 Rb8 13.Rc1 Qd7 14.Re1 Qe6 15.Qc2 Nb4
+16.Bxb4 Bxb4 17.Red1 Bd6 18.e3 Bb5 19.Bf1 Kh8 20.d5 Qf6 21.dxc6 Ba4 22.Rd4 Bxb3
+23.axb3 Rb6 24.Rcd1 Be5 25.Rc4 Bxb2 26.Rd7 Be5 27.b4 h6 28.Qa4 a6 29.Rc2 Bd6
+30.Rc4 Rfb8 31.Qd1 Be5 32.Qd5 Rb5 33.Rc5 Rxc5 34.Qxc5 Rb6 35.Bc4  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.15"]
+[Round "5.1"]
+[White "Bu Xiangzhi"]
+[Black "Xiong,Jeffery"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2709"]
+[ECO "D37"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 dxc4 5.e4 b5 6.e5 Nd5 7.Nxb5 Nb6 8.Be2 Nc6
+9.O-O Be7 10.Qd2 Qd7 11.Rd1 Bb7 12.a4 Nb4 13.Na3 Bd5 14.a5 Nc8 15.Nxc4 Rb8
+16.Ne3 Be4 17.b3 O-O 18.Ba3 Rd8 19.Rac1 Nc6 20.Bxe7 N8xe7 21.Qc3 Bxf3 22.Bxf3 Nxd4
+23.Kh1 Rxb3 24.Qc5 Rb5 25.Qxa7 c5 26.Qxd7 Rxd7 27.a6 Ra7 28.Bb7 Nec6 29.Nc4 Rbxb7
+30.axb7 Rxb7 31.Nd6 Rb2 32.f4 Rc2 33.Rxc2 Nxc2 34.Rc1 N6b4 35.Ne4 c4 36.Nd2 c3
+37.Ne4 h6 38.Nxc3 Ne3 39.g3 Nd3 40.Re1 Nf2+ 41.Kg1 Nh3+ 42.Kh1 Nf2+ 43.Kg1 Nh3+
+44.Kh1 Nf2+  1/2-1/2
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.15"]
+[Round "6.5"]
+[White "Bu Xiangzhi"]
+[Black "Dubov,Daniil"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2699"]
+[ECO "D45"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 c6 5.e3 Nbd7 6.Qc2 a5 7.Be2 dxc4 8.Bxc4 b5
+9.Be2 Bb7 10.O-O Rc8 11.Rd1 b4 12.Na4 c5 13.dxc5 Be4 14.Qc4 Bd5 15.Qf4 Be7
+16.b3 Ne4 17.h4 Bf6 18.Rb1 Nc3 19.Nxc3 bxc3 20.Bd3 Nxc5 21.Bc2 O-O 22.Ba3 Qc7
+23.Qxc7 Rxc7 24.Rbc1 Rb8 25.h5 h6 26.Nd4 Be7 27.Bxc5 Bxc5 28.Ne2 Ba3 29.Rb1 Bb2
+30.e4 Bb7 31.f3 Bc6 32.Kf2 Ra7 33.Nf4 a4 34.Nd3 axb3 35.axb3 Ra2 36.Nxb2 cxb2
+37.Rd2 Rb7 38.Bd1 Rd7 39.Rxd7 Bxd7 40.Ke2 Ra1 41.Rxb2 Bb5+ 42.Kd2 g5 43.Be2 Bc6
+44.b4 Kf8 45.b5 Bb7 46.Rc2 Ke8 47.Rc7 Ra2+ 48.Ke3 Ba8 49.Bc4 Ra3+ 50.Kd4 Ra4
+51.Kc5 Ra1 52.b6 Kf8 53.b7 Bxb7 54.Rxb7 Rg1 55.g4 Rg3 56.Rb3 Kg7 57.Kd4 Kf6
+58.Ke3 Rg1 59.Be2 Ra1 60.Rb5 Ra3+ 61.Bd3 Ra4 62.e5+ Kg7 63.Rb7 Ra5 64.f4 gxf4+
+65.Kxf4 Ra4+ 66.Be4 Kf8 67.Rb8+ Kg7 68.Rd8 Rb4 69.Ke3 Rb5 70.Kf4 Rb4 71.Rd3 Ra4
+72.Rc3 Rb4 73.Rc7 Ra4 74.Ke3 Ra3+ 75.Kf2 Kf8 76.g5 hxg5 77.h6 Rh3 78.Rc8+ Ke7
+79.h7  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.16"]
+[Round "7.2"]
+[White "Carlsen,M"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2863"]
+[BlackElo "2705"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nc3 Bb4 4.Nxe5 O-O 5.Nd3 Bxc3 6.dxc3 Nxe4 7.Nf4 Re8 8.Be2 d6
+9.O-O Nd7 10.c4 Ndc5 11.f3 Nf6 12.b3 Qe7 13.Rf2 Qe5 14.Rb1 a5 15.Qd2 h6 16.Bb2 Qg5
+17.Bf1 Ne6 18.Nd5 Nxd5 19.cxd5 Nf4 20.Kh1 Nxd5 21.f4 Qf5 22.g4 Qe6 23.Re2 Ne3
+24.Bg2 Qxg4 25.Rxe3 Rxe3 26.Qxe3 Bf5 27.Rg1 Qh5 28.Bxb7 Rb8 29.Bf3 Qh4 30.Bxg7 Bg6
+31.Bc3 Qh3 32.Rxg6+  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.16"]
+[Round "8.3"]
+[White "Le Quang Liem"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2705"]
+[ECO "A06"]
+
+1.Nf3 d5 2.e3 Nf6 3.c4 c6 4.Nc3 e6 5.b3 Nbd7 6.Qc2 Bd6 7.Bb2 Qe7 8.d4 O-O
+9.Bd3 e5 10.cxd5 cxd5 11.dxe5 Nxe5 12.Nxe5 Bxe5 13.Ne2 Bg4 14.Bxe5 Qxe5 15.Nd4 Rac8
+16.Qb2 Bd7 17.h3 Ne4 18.O-O g6 19.Rac1 a6 20.Rxc8 Rxc8 21.Rc1 Rxc1+ 22.Qxc1 Qd6
+23.a3 Nc5 24.Qc3 Nxd3 25.Qxd3 Qxa3 26.Qc3 Qd6 27.Ne2 b6 28.Qd4 Qc5 29.Qf6 Qc6
+30.Qd8+ Kg7 31.Nd4 Qb7 32.Qe7 Qc8 33.Qd6 b5 34.Qxd5 Qc1+ 35.Kh2 Qc7+ 36.f4 Bc8
+37.Ne2 Bb7 38.Qd4+ Kg8 39.Nc3 a5 40.Kg3 b4 41.Nd5 Bxd5 42.Qxd5 Qc3 43.Kf3 a4
+44.Qa8+ Kg7 45.Qxa4 h5 46.Qa2 h4 47.Qb1 f5 48.Qd1 Qc6+ 49.Kf2 Kh6 50.Qd4 Kh7
+51.Qxb4 Qc2+ 52.Kg1 Qc1+ 53.Kf2 Qc2+ 54.Kf1 Qd1+ 55.Qe1 Qd3+ 56.Kg1 Qxb3
+57.Qxh4+ Kg8 58.Qd8+ Kf7 59.Qd7+ Kf6 60.Qd4+ Kf7 61.Kh2 Qa3 62.e4 fxe4 63.Qxe4 Qc3
+64.Qd5+ Kf8 65.Qd6+ Kf7 66.Qd5+ Kf8 67.Qe5 Qd3 68.Qf6+ Kg8 69.h4 Kh7 70.Qg5 Qe2
+71.Qe5 Qg4 72.Qe7+ Kg8 73.Qg5 Qe6 74.h5  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.16"]
+[Round "9.4"]
+[White "Bu Xiangzhi"]
+[Black "Svidler,P"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2723"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 c5 3.g3 d5 4.cxd5 Nxd5 5.Bg2 Nc6 6.d4 e6 7.O-O Be7 8.Nc3 O-O
+9.Nxd5 exd5 10.dxc5 Bxc5 11.Bg5 f6 12.Rc1 Bb6 13.Bd2 Bf5 14.b4 Be4 15.b5 Ne5
+16.Bb4 Re8 17.Nxe5 Bxg2 18.Kxg2 Rxe5 19.Qd3 d4 20.a4 a6 21.bxa6 Rxa6 22.Rfd1 Qd5+
+23.Kg1 Re8 24.a5 Bxa5 25.Rc5 Qa2 26.Qb5 Rea8 27.Qxb7 Bxb4 28.Qxb4 Qxe2 29.Qxd4 h6
+30.Rc7 R6a7 31.Rxa7 Rxa7 32.Qxa7 Qxd1+ 33.Kg2 Qd5+ 34.Kg1 Qd1+ 35.Kg2 Qd5+
+36.Kg1 Qd1+  1/2-1/2
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.16"]
+[Round "10.3"]
+[White "Mamedyarov,S"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2764"]
+[BlackElo "2705"]
+[ECO "D11"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Qb3 dxc4 5.Qxc4 Bf5 6.g3 e6 7.Bg2 Nbd7 8.O-O Be7
+9.Nc3 O-O 10.Re1 b5 11.Qb3 b4 12.Na4 Be4 13.Bg5 Qa5 14.Bxf6 Nxf6 15.Rac1 Bd5
+16.Qc2 b3 17.axb3 Rab8 18.Nc3 Bxb3 19.Qd3 Nd7 20.Nd2 Rfc8 21.Ra1 Qc7 22.Rec1 a5
+23.e3 Qb6 24.h4 h6 25.Nxb3 Qxb3 26.Rxa5 Qxb2 27.Rb1 Qxc3 28.Qxc3 Rxb1+ 29.Kh2 Nf6
+30.Bf3 Bb4 31.Qc2 Bxa5 32.Qxb1 Rd8 33.Bxc6 Bc7 34.Kg2 Bd6 35.Qa2 Rb8 36.Bf3 h5
+37.e4 e5 38.Qa6 Rd8 39.Qb6 Rd7 40.d5 g6 41.Be2 Be7 42.Bb5 Rd8 43.Kf3 Kf8
+44.Qc7 Rd6 45.Bc6 Ng4 46.Ke2 Nf6 47.f3 Nh7 48.f4 f6 49.Bd7 Ra6 50.f5 Ra2+
+51.Kd1 g5 52.Be6 Ra8 53.d6  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.16"]
+[Round "11.4"]
+[White "Bu Xiangzhi"]
+[Black "Korobov,A"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2688"]
+[ECO "E97"]
+
+1.Nf3 Nf6 2.c4 g6 3.Nc3 Bg7 4.e4 d6 5.d4 O-O 6.Be2 e5 7.O-O Nc6 8.dxe5 dxe5
+9.Qxd8 Rxd8 10.Bg5 Rf8 11.Rfd1 h6 12.Be3 Be6 13.Nd5 Rfc8 14.Nxf6+ Bxf6 15.Bxh6 Nd4
+16.Nxd4 exd4 17.Bf4 c5 18.Bd3 b5 19.Rac1 b4 20.Bd6 a5 21.e5 Bg5 22.Rc2 a4
+23.Re2 Ra6 24.h3 b3 25.a3 Kg7 26.Rf1 Bf4 27.g3 Rxd6 28.exd6 Bxd6 29.Kg2 Rh8
+30.h4 Kf6 31.Rfe1 Rh5 32.Rc1 Bd7 33.Be4 Re5 34.Bf3 Bf5 35.Rd2 Bc2 36.Rdxc2 bxc2
+37.Rxc2 Re7 38.Be2 Rb7 39.Kf1 Bc7 40.Bd1 Ba5 41.Re2 d3 42.Re3 d2 43.Bxa4 Rxb2
+44.Bd1 Ra2 45.Ke2 Bc7 46.Rd3 Be5 47.Rxd2 Rxa3 48.Kf1 Bd4 49.Kg2 Ra1 50.Bf3 Rb1
+51.Bd5 Rb2 52.Rxb2 Bxb2 53.f4 Bd4 54.g4 Kg7 55.Kf3 f6 56.Be4 Bc3 57.Ke2 Bd4
+58.g5 fxg5 59.hxg5 Bb2 60.Kf3 Bc1 61.Bd3 Bd2 62.Kg4 Bc1  1/2-1/2
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.16"]
+[Round "12.2"]
+[White "Anton Guijarro,D"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2703"]
+[BlackElo "2705"]
+[ECO "A06"]
+
+1.Nf3 d5 2.b3 c5 3.e3 Nc6 4.Bb5 Bd7 5.Bb2 Nf6 6.O-O e6 7.c4 a6 8.Bxc6 Bxc6
+9.Ne5 Qc7 10.cxd5 Bxd5 11.d3 Be7 12.Nd2 O-O 13.Rc1 Rfd8 14.Qe2 Rac8 15.f4 b5
+16.e4 Bb7 17.Ng4 Nxg4 18.Qxg4 g6 19.f5 exf5 20.Rxf5 Rxd3 21.Nf3 Rf8 22.Ne5 Re3
+23.Nxf7 Rxf7 24.Rxf7 Kxf7 25.Rf1+ Ke8 26.Qe6 Qd6 27.Qg8+ Kd7 28.e5 Qd5 29.e6+ Rxe6  0-1
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.17"]
+[Round "13.5"]
+[White "Bu Xiangzhi"]
+[Black "Grischuk,A"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2777"]
+[ECO "A48"]
+
+1.d4 Nf6 2.Nf3 g6 3.Bf4 Bg7 4.c3 O-O 5.h3 c5 6.e3 d6 7.dxc5 dxc5 8.Qxd8 Rxd8
+9.Bc7 Rd7 10.Bh2 b6 11.Bb5 Rd8 12.Nbd2 Bb7 13.O-O Nc6 14.Rfd1 Kf8 15.Be2 Rd7
+16.a4 Rad8 17.Nc4 Rxd1+ 18.Rxd1 Rxd1+ 19.Bxd1 Ne4 20.Bc2 Nf6 21.Nfe5 Nxe5
+22.Bxe5 Nd7 23.Bc7 Ke8 24.f3 Bd5 25.Bd3 Bxc4 26.Bxc4 Be5 27.Bxe5 Nxe5 28.Bb5+ Kd8
+29.f4 Nd7 30.Kf2 Kc7 31.Kf3 Kd6 32.g4 h6 33.h4 Nf6 34.g5 hxg5 35.hxg5 Nh5
+36.Be8 Ke6 37.e4 Ng7 38.Bb5 Kd6 39.Kg4 e6 40.b3 Nh5 41.f5 Ke5 42.f6 Nf4 43.Be8 Nd3
+44.Bxf7 Nf2+ 45.Kh4 Nxe4 46.Bxg6 Nxf6 47.gxf6 Kxf6 48.Bd3 Ke5 49.Kg4  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.17"]
+[Round "14.1"]
+[White "Xiong,Jeffery"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2705"]
+[ECO "D14"]
+
+1.c4 c6 2.d4 d5 3.Nf3 Nf6 4.cxd5 cxd5 5.Nc3 Nc6 6.Bf4 Bf5 7.Qb3 Na5 8.Qa4+ Bd7
+9.Qc2 e6 10.e3 Nh5 11.Be5 f6 12.Bg3 Rc8 13.Bd3 Bb4 14.O-O Nc4 15.Rac1 Nxg3
+16.hxg3 Bxc3 17.bxc3 g6 18.e4 dxe4 19.Bxe4 b5 20.Rfe1 Kf7 21.Qe2 Qb6 22.Nd2 Nxd2
+23.Qxd2 Qd6 24.Re3 Kg7 25.Rce1 e5 26.Rd3 Be6 27.dxe5 Qe7 28.Bd5 Bxd5 29.Rxd5 Rhd8
+30.Qd4 Kf8 31.Re3 Rxd5 32.Qxd5 Rd8 33.Qxb5 fxe5 34.Rxe5 Qf6 35.Re3 Kg7 36.Qb7+ Kh6
+37.Re4 g5 38.Qxa7 Rd1+ 39.Kh2 Qg6 40.Qe3  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.17"]
+[Round "15.5"]
+[White "Dubov,Daniil"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2699"]
+[BlackElo "2705"]
+[ECO "D30"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Bg5 Bb4+ 5.Nbd2 dxc4 6.Qa4+ Nc6 7.e3 Qd5 8.Bxf6 gxf6
+9.a3 b5 10.Qc2 Be7 11.b3 cxb3 12.Nxb3 f5 13.Bd3 Bb7 14.e4 fxe4 15.Bxe4 Nxd4
+16.Nbxd4 Qxe4+ 17.Qxe4 Bxe4 18.Nxb5 O-O 19.O-O Bd3 20.Nxc7 Rac8 21.Rfc1 Bf6
+22.Ra2 Rfd8 23.h4 Bf5 24.Rc4 Rd1+ 25.Kh2 Be7 26.g4 Bd3 27.Rc6 Be4 28.Nd5 Bd6+
+29.Rxd6 Bxd5 30.Ne5 Rh1+ 31.Kg3 Bxa2 32.Nd7 Kg7 33.g5 Rc3+ 34.f3 Bd5 35.Ne5 Re3
+36.Kf4 Rxe5 37.Kxe5 Rxh4 38.f4 Rh3 39.f5 Re3+ 40.Kd4 Rxa3 41.Rd8 Rf3 42.f6+ Kg6
+43.Ke5 Rf5+ 44.Kd6 Kxg5 45.Ke7 Rxf6  0-1
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.17"]
+[Round "16.2"]
+[White "Bu Xiangzhi"]
+[Black "Carlsen,M"]
+[Result "0-1"]
+[WhiteElo "2705"]
+[BlackElo "2863"]
+[ECO "D45"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 c6 4.Nc3 e6 5.e3 Nbd7 6.Qc2 Bd6 7.Be2 dxc4 8.Bxc4 b5
+9.Be2 Bb7 10.O-O O-O 11.b3 a6 12.Bb2 c5 13.dxc5 Bxc5 14.Rfd1 Rc8 15.a3 Qe7
+16.b4 Bd6 17.Qb3 Ng4 18.h3 Nge5 19.Nxe5 Nxe5 20.Rd4 Bb8 21.Ne4 Bd5 22.Qd1 Nc6
+23.Rxd5 exd5 24.Qxd5 Rfd8 25.Qf5 Be5 26.Bxe5 Nxe5 27.Nc5 g6 28.Qe4 Qf6 29.Re1 Rd2
+30.f4 Nc4 31.Bxc4 bxc4 32.Qxc4 Qc6 33.Re2 Rcd8 34.Kf2 a5 35.b5 Rxe2+ 36.Kxe2 Qxg2+
+37.Ke1 Qd2+ 38.Kf1 Qxe3 39.Ne4 Rd1+ 40.Kg2 Rd4 41.Qc8+ Kg7 42.Nf2 Rd2  0-1
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.17"]
+[Round "17.4"]
+[White "Svidler,P"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2723"]
+[BlackElo "2705"]
+[ECO "C24"]
+
+1.e4 e5 2.Bc4 Nf6 3.d3 c6 4.Nf3 d5 5.Bb3 a5 6.Nc3 d4 7.Nxe5 dxc3 8.Nxf7 Qe7
+9.Nxh8 Be6 10.bxc3 g6 11.O-O Bg7 12.Nxg6 hxg6 13.Ba3 Qxa3 14.Bxe6 Qxc3 15.Rb1 b5
+16.d4 Na6 17.Rb3  1-0
+
+[Event "FIDE Steinitz Mem Open"]
+[Site "chess24.com INT"]
+[Date "2020.05.17"]
+[Round "18.3"]
+[White "Bu Xiangzhi"]
+[Black "Le Quang Liem"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2709"]
+[ECO "A30"]
+
+1.Nf3 Nf6 2.c4 c5 3.g3 b6 4.Bg2 Bb7 5.O-O e6 6.Nc3 Be7 7.d4 cxd4 8.Qxd4 d6
+9.Rd1 a6 10.Ng5 Bxg2 11.Kxg2 O-O 12.Nce4 Ne8 13.Qd3 h6 14.Nh7 Nc6 15.Nxf8 Bxf8
+16.Bf4 Ra7 17.Qf3 Qc7 18.Rac1 f5 19.Nc3 Qc8 20.h4 Rd7 21.e4 g6 22.exf5 gxf5
+23.Qh5 Kh7 24.Nd5 Rb7 25.Qxe8  1-0
+
+[Event "Online Olym Top DivA 2020"]
+[Site "chess.com INT"]
+[Date "2020.08.22"]
+[Round "4.4"]
+[White "Bu Xiangzhi"]
+[Black "Agibileg,Uurtsaikh"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2413"]
+[ECO "E69"]
+
+1.Nf3 Nf6 2.c4 g6 3.Nc3 Bg7 4.g3 O-O 5.Bg2 d6 6.d4 Nbd7 7.O-O e5 8.e4 c6
+9.h3 Qa5 10.Be3 exd4 11.Nxd4 Nb6 12.Qd3 Nfd7 13.b3 Re8 14.Rfd1 Nc5 15.Qd2 Nbd7
+16.Rab1 Qc7 17.b4 Ne6 18.Nxe6 Rxe6 19.Rbc1 Ne5 20.Nd5 Qd8 21.Nf4 Re7 22.c5 Bxh3
+23.Nxh3 d5 24.exd5 cxd5 25.Bg5 f6 26.Qxd5+ Qxd5 27.Bxd5+ Kh8 28.Bf4  1-0
+
+[Event "Online Olym Top DivA 2020"]
+[Site "chess.com INT"]
+[Date "2020.08.22"]
+[Round "5.2"]
+[White "Pantsulaia,L"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2553"]
+[BlackElo "2705"]
+[ECO "A07"]
+
+1.Nf3 d5 2.g3 c6 3.Bg2 Bg4 4.O-O Nd7 5.d4 e6 6.Nbd2 Ngf6 7.Re1 Be7 8.e4 dxe4
+9.Nxe4 O-O 10.c3 Nxe4 11.Rxe4 Nf6 12.Re1 Nd5 13.Qb3 Bxf3 14.Bxf3 Qd7 15.c4 Nf6
+16.Be3 Rac8 17.Rad1 Rfd8 18.g4 Qc7 19.g5 Nd7 20.d5 Ne5 21.Bg2 exd5 22.cxd5 c5
+23.d6 Rxd6 24.Qxb7 Rxd1 25.Rxd1 Qxb7 26.Bxb7 Rb8 27.Be4 Rxb2 28.Rd5 Ng4 29.Bxc5 Bxc5
+30.Rxc5 g6 31.Ra5 Nxf2 32.Bg2 Ng4 33.Ba8 Rxh2 34.Rxa7 Rh3 35.Ra5 Rg3+ 36.Kf1 Kg7
+37.a4 Ra3 38.Ke2 h6 39.gxh6+ Kxh6 40.Kd2 Ne3 41.Ra7 f5 42.Bc6 g5 43.Re7 f4
+44.Ke2 g4 45.Re5 f3+ 46.Kf2 Nd1+ 47.Kf1 Ra1 48.Re1 Kg5 49.a5 Kf4  0-1
+
+[Event "Online Olym Top DivA 2020"]
+[Site "chess.com INT"]
+[Date "2020.08.23"]
+[Round "7.1"]
+[White "Nguyen Ngoc Truong Son"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2641"]
+[BlackElo "2705"]
+[ECO "D02"]
+
+1.d4 Nf6 2.Nf3 d5 3.Bf4 e6 4.e3 Bd6 5.Bg3 O-O 6.c4 b6 7.Nc3 Bb7 8.Be2 Nbd7
+9.O-O Bxg3 10.hxg3 c5 11.cxd5 Nxd5 12.Rc1 Nxc3 13.Rxc3 Qe7 14.Qc2 a5 15.Rd1 Rac8
+16.Qa4 h6 17.Rdc1 cxd4 18.Rxc8 Rxc8 19.Rxc8+ Bxc8 20.Nxd4 Qc5 21.Qc6 Qxc6
+22.Nxc6 Kf8 23.Bb5 Nc5 24.Ne5 Bb7 25.a3 Bc8 26.a4 Ke7 27.Nc4 Bd7 28.Nxb6 Bxb5
+29.axb5 Nd3 30.Na4 Kd6 31.Kf1 Nc5 32.Nb6 Nd3 33.Nc4+ Kc5 34.b6 Kc6 35.Ke2 Nc5
+36.Nxa5+ Kxb6 37.Nc4+ Kc7 38.f3 f6 39.Kd2 Kc6 40.b4 Na6 41.Kc3 Nc7 42.e4 h5
+43.Na3 Ne8 44.Nc2 e5 45.Ne3 g6 46.Nd5 Kd6 47.b5 f5 48.b6 Kc6 49.exf5 gxf5
+50.Ne7+ Kxb6 51.Nxf5 Kc5 52.Kd3 Kd5 53.Ne3+ Ke6 54.Ke2 Nf6 55.Kf1 Nd7 56.Kg1 Nf8
+57.Kh2 Ng6 58.Kh3 Kf6 59.g4 Kg5 60.gxh5 Nf4+ 61.Kg3 Nxh5+ 62.Kf2 e4 63.fxe4 Kf4
+64.Nf1 Nf6 65.Nd2 Ng4+ 66.Ke2 Kg3 67.Nf1+ Kf4 68.Nd2 Kg3 69.Nc4 Nf6 70.e5 Nd5
+71.Kd3 Nc7 72.Ne3 Kf4 73.Kd4 Ne6+ 74.Kd5 Nc7+ 75.Kd6 Nb5+ 76.Kc5 Na7 77.e6 Nc8
+78.Nd5+ Ke5 79.e7 Nd6 80.Nf6 Ke6 81.e8=Q+ Nxe8 82.Nxe8 Kf5 83.Nd6+ Kf4 84.Nc4 Kg3
+85.Ne3  1-0
+
+[Event "Online Olym Top DivA 2021"]
+[Site "chess.com INT"]
+[Date "2021.09.08"]
+[Round "2.2"]
+[White "Urtnasan,N"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2460"]
+[BlackElo "2705"]
+[ECO "E04"]
+
+1.d4 Nf6 2.c4 e6 3.g3 d5 4.Nf3 dxc4 5.Bg2 c5 6.O-O Nc6 7.Qa4 Bd7 8.Qxc4 b5
+9.Qd3 c4 10.Qd1 Rc8 11.Bg5 Be7 12.Nc3 b4 13.Bxf6 gxf6 14.Ne4 O-O 15.d5 exd5
+16.Qxd5 Be6 17.Qh5 Qd5 18.Qh4 Qf5 19.Rad1 Rfd8 20.e3 Kg7 21.h3 Qg6 22.Qf4 Qh6
+23.g4 Qxf4 24.exf4 f5 25.Neg5 Bd7 26.Nh2 Bf6 27.Bd5 Bxg5 28.fxg5 Ne7 29.Bb7 Rb8
+30.Bf3 Be6  0-1
+
+[Event "Online Olym Top DivA 2021"]
+[Site "chess.com INT"]
+[Date "2021.09.09"]
+[Round "5.5"]
+[White "Pavlidis,Ant"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2536"]
+[BlackElo "2705"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.d4 d5 6.Bd3 Bd6 7.c4 c6 8.O-O O-O
+9.Nc3 Nxc3 10.bxc3 dxc4 11.Bxc4 Bf5 12.Bg5 Qa5 13.Nh4 Be6 14.Bxe6 Qxg5 15.Nf3 Qa5
+16.Bb3 Nd7 17.Re1 Rae8 18.Qd3 Nf6 19.g3 g6 20.Nd2 Qh5 21.Ne4 Nxe4 22.Rxe4 Rxe4
+23.Qxe4 Qf5 24.Qxf5 gxf5 25.Bc2 f4 26.Kg2 Re8 27.Kf3 Re6 28.Bf5 Rf6 29.Ke4 Rh6
+30.h4 fxg3 31.fxg3 Kf8 32.Rg1 c5 33.d5 Bc7 34.c4 Ra6 35.Rg2 Ra4 36.Rc2 h6
+37.g4 Ra3 38.Bc8 b6 39.d6 Bxd6 40.Kd5 Rd3+ 41.Kc6 Be7 42.h5 Bh4 43.Bf5 Ra3
+44.Kb7 Ke7 45.Kc6 Kf6 46.Kb7 Ke5 47.Re2+ Kf4 48.Kc6 Kf3 49.Rc2 Bg5 50.Kd5 Bf4
+51.Kc6 Be5 52.Kd5 Bf6 53.Kc6 Ke3 54.Kd5 Bc3 55.Bh7 Bd2 56.Bf5 Ke2 57.g5 hxg5
+58.h6 Re3 59.h7 Re8 60.Kc6 Kd1 61.Rb2 Rh8 62.Kd7 Bc3 63.Rf2 Ke1 64.Rf3 Bd4
+65.Ke7 Ke2 66.Bg4 f5 67.Rxf5+ Kd3 68.Rf3+ Kxc4 69.Bf5 Kd5 70.Rg3 Bf2 71.Rg2 Be3
+72.Kf6 Kd6 73.Kg7 Bd4+ 74.Kg6 Rf8 75.Kxg5 c4 76.Kf4 c3 77.Ke4 Bh8 78.Kf4 Kd5
+79.Rh2 Be5+  0-1
+
+[Event "Online Olym Top DivA 2021"]
+[Site "chess.com INT"]
+[Date "2021.09.10"]
+[Round "8.3"]
+[White "Bu Xiangzhi"]
+[Black "Miron,L"]
+[Result "1-0"]
+[WhiteElo "2705"]
+[BlackElo "2512"]
+[ECO "D12"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 c6 4.e3 Bf5 5.Nc3 e6 6.Nh4 Be4 7.f3 Bg6 8.Bd2 a6 9.Nxg6 hxg6
+10.Qc2 Nbd7 11.O-O-O dxc4 12.Bxc4 b5 13.Be2 c5 14.Kb1 cxd4 15.exd4 Nb6 16.Bg5 Be7
+17.Bxf6 Bxf6 18.d5 exd5 19.Nxd5 O-O 20.Nc7 Qc8 21.Nxa8 Qxa8 22.Rd6 Rc8 23.Qe4 Qb8
+24.Rc6 Re8 25.Rxb6  1-0
+
+[Event "12th Hainan Danzhou GM"]
+[Site "lichess.org INT"]
+[Date "2021.09.23"]
+[Round "1.2"]
+[White "Bu Xiangzhi"]
+[Black "Ju,Wenjun"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2560"]
+[ECO "D38"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 Bb4 5.Qa4+ Nc6 6.Bg5 h6 7.Bxf6 Qxf6 8.e3 O-O
+9.Be2 dxc4 10.O-O Bd7 11.Bxc4 a6 12.Qc2 Bd6 13.Rad1 Qe7 14.e4 b5 15.Be2 b4
+16.Na4 e5 17.dxe5 Nxe5 18.Nd4 Ng4 19.h3 Nf6 20.Bd3 Qe5 21.Nf3 Qh5 22.Be2 Nxe4
+23.Qxe4 Rfe8 24.Nd4 Qa5 25.Qf3 Bxa4 26.b3 Bd7 27.Bc4 Rf8 28.Rfe1 Qg5 29.Re4 Kh8
+30.h4 Qg6 31.Bd3 f5 32.Ree1 Qf6 33.Bc4 Qxh4 34.g3 Qg4 35.Qxg4 fxg4 36.Ne6 Rfe8
+37.Kf1 Bc6 38.Nd4 Bb7 39.Be6 Bc5 40.Bxg4 Rxe1+ 41.Kxe1 Rc8 42.Ne2 a5 43.Bh5 Rf8
+44.f4 Kh7 45.Bg4 Kg6 46.Nd4 Re8+ 47.Ne6 Bd6 48.Kf2 Kf6 49.f5 a4 50.Bh5 Ra8
+51.g4 axb3 52.axb3 Ra2+ 53.Ke3 Ra3 54.Nd4 Bc5 55.Kd3 Ba6+ 56.Ke4 Bb7+ 57.Kd3 Ra8
+58.Kc4 Bd6 59.Re1 Bc8 60.Nc6 Bd7 61.Kd5 Bc8 62.Kc4 Bd7 63.Nxb4 Bxb4 64.Kxb4 Rb8+
+65.Kc3 Rb6 66.Rd1 Ke7 67.Bg6 Rc6+ 68.Kb2 Rd6 69.Rc1 Rd2+ 70.Ka3 Kd6 71.Rc4 Bc6
+72.Bf7 Rg2 73.Rd4+ Ke5 74.Rc4 Kd6 75.Rd4+ Ke5 76.Rc4 Kd6  1/2-1/2
+
+[Event "12th Hainan Danzhou GM"]
+[Site "lichess.org INT"]
+[Date "2021.09.23"]
+[Round "2.4"]
+[White "Topalov,V"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2730"]
+[BlackElo "2705"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.cxd5 exd5 6.Bg5 O-O 7.e3 h6 8.Bh4 Bf5
+9.Qb3 Bxc3+ 10.Qxc3 Nbd7 11.Be2 c6 12.Nd2 Ne4 13.Bxd8 Nxc3 14.bxc3 Rfxd8
+15.Nf1 b5 16.f3 Nb6 17.Kf2 a5 18.g4 Bd7 19.Ng3 c5 20.Bxb5 cxd4 21.cxd4 Bxb5
+22.Rhb1 Rdc8 23.Rxb5 Rc2+ 24.Ne2 Na4 25.Rb3 Rac8 26.Ke1 Nc3 27.Rxc3 R8xc3
+28.Nxc3 Rxc3 29.Kf2 g5 30.a4 Rc2+ 31.Kg3 Rc3 32.Rb1 Rxe3 33.Rb5 Ra3 34.Rxa5 Kg7
+35.h4 Ra2 36.hxg5 hxg5 37.Rxd5 Rxa4 38.Rxg5+ Kf6 39.Rf5+ Ke6 40.d5+ Ke7 41.Kh4 Rd4
+42.Kg5 Rd1 43.Re5+ Kf8 44.Kf6 Rd3 45.f4 Rd4 46.f5 Rxg4 47.Re7 Rd4 48.Rxf7+ Ke8
+49.Re7+ Kf8 50.Re5 Rh4 51.Ke6  1-0
+
+[Event "12th Hainan Danzhou GM"]
+[Site "lichess.org INT"]
+[Date "2021.09.24"]
+[Round "3.1"]
+[White "Bu Xiangzhi"]
+[Black "Rapport,R"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2760"]
+[ECO "D02"]
+
+1.Nf3 d5 2.d4 Bf5 3.c4 e6 4.Nc3 Nf6 5.Bg5 c6 6.e3 Nbd7 7.Bd3 Bg6 8.O-O Bb4
+9.Bxg6 hxg6 10.Qb3 Qa5 11.Bf4 dxc4 12.Qxc4 Nb6 13.Qb3 Bxc3 14.bxc3 Ne4 15.Be5 g5
+16.h3 Qd5 17.Rfc1 Qxb3 18.axb3 f6 19.Bh2 Kd7 20.c4 a5 21.Ra3 Ra6 22.Ne1 a4
+23.c5 Nd5 24.bxa4 g4 25.Rb3 Kc8 26.f3 gxf3 27.gxf3 Ng5 28.Rcb1 Nxh3+ 29.Kg2 Rxa4
+30.Nc2 Ra7 31.Na3 Ng5 32.Nc4 Nf7 33.e4 Ra2+ 34.R1b2 Rxb2+ 35.Rxb2 Nc3 36.Rc2 Nb5
+37.Ra2 Kd7 38.Nb6+ Ke7 39.d5 e5 40.Bg1 Rd8 41.Be3 Nh8 42.Kg3 Ng6 43.Rh2 Kf7
+44.Rd2 Ke7 45.Kg4 Nf8 46.f4 exf4 47.Bxf4 Ng6 48.Bg3 Rg8 49.Kf5 Kf7 50.d6 Nf8
+51.Bf2 Ne6 52.d7 Rh8 53.Kg4 Ke7 54.e5 Kf7 55.exf6 gxf6 56.Nc4 Ra8 57.Nb6 Rg8+
+58.Kf3 Rh8 59.Kg4 Nc3 60.Be3 Ne4 61.Rd1 Kg6 62.Kf3 f5 63.Kg2 f4 64.d8=Q Rxd8
+65.Rxd8 Nxd8 66.Bxf4 Nxc5 67.Kf3 Kf5 68.Be3 Nd3 69.Ke2 Ne5 70.Kd2 Ke4 71.Bf2 Ne6
+72.Nc8 Kd5 73.Nb6+ Ke4 74.Nc8 b5 75.Kc3 Nf4 76.Nd6+ Kd5 77.Ne8 Ng4 78.Nc7+ Ke4
+79.Nxb5 Nxf2 80.Nd4 Nd1+ 81.Kc4 Ne3+ 82.Kc5 Nd3+ 83.Kxc6 Kxd4 84.Kd6 Ne5
+85.Ke6 Nd7 86.Kxd7  1/2-1/2
+
+[Event "12th Hainan Danzhou GM"]
+[Site "lichess.org INT"]
+[Date "2021.09.24"]
+[Round "4.4"]
+[White "Bu Xiangzhi"]
+[Black "Vitiugov,N"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2727"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 g6 3.g3 Bg7 4.Bg2 c5 5.O-O O-O 6.d4 cxd4 7.Nxd4 d5 8.cxd5 Nxd5
+9.Nc3 Nxc3 10.bxc3 Nc6 11.Nxc6 bxc6 12.Qa4 Be6 13.Bf4 Bxc3 14.Rac1 Qa5 15.Qxa5 Bxa5
+16.Rxc6 Rac8 17.Be3 Rxc6 18.Bxc6 Rc8 19.Be4 Bb6 20.Bxb6 axb6 21.Rb1 Bxa2
+22.Rxb6 Kf8 23.Rc6 Rxc6 24.Bxc6 Be6 25.f4 f6 26.Kf2 Bc4 27.Be4 Kf7 28.Bf3 Kf8
+29.Be4 Kf7 30.Bf3 Kf8 31.Be4  1/2-1/2
+
+[Event "12th Hainan Danzhou GM"]
+[Site "lichess.org INT"]
+[Date "2021.09.25"]
+[Round "5.2"]
+[White "Yu Yangyi"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2704"]
+[BlackElo "2705"]
+[ECO "D19"]
+
+1.d4 d5 2.c4 c6 3.Nf3 Nf6 4.Nc3 dxc4 5.a4 Bf5 6.e3 e6 7.Bxc4 Bb4 8.O-O O-O
+9.Qe2 Bg6 10.Ne5 Nbd7 11.Nxg6 hxg6 12.Rd1 Qa5 13.Na2 Be7 14.Bd2 Qh5 15.b4 a6
+16.Nc1 Nb6 17.Qxh5 gxh5 18.Be2 Nbd5 19.Nd3 Ne4 20.Bxh5 Nxd2 21.Rxd2 Nxb4
+22.a5 Nxd3 23.Rxd3 c5 24.dxc5 Rad8 25.Rxd8 Rxd8 26.Bf3 Rc8 27.Bxb7 Rxc5 28.Bxa6 Bd8
+29.Rb1 Rxa5 30.Bd3 g6 31.g3 Rd5 32.Rb3 Kg7 33.Kf1 Rd7 34.Ke2 Ra7 35.Bb1 Be7
+36.Rb5 Bd8 37.h4 Be7 38.Kf3 Bd8 39.Rb8 Bc7 40.Rc8 Bd6 41.Bd3 Be7 42.Bc4 Rd7
+43.Ra8 Rc7 44.Bd3 Rd7 45.Ke2 Rb7 46.Be4 Rc7 47.Rb8 Bd6 48.Rb5 Be7 49.f4 Ra7
+50.Bb1 Bd8 51.h5 gxh5 52.Rxh5 Ra5 53.Rh7+ Kg8 54.Rh1 Ra3 55.g4 Bb6 56.Bd3 Ra2+
+57.Kf3 Ra3 58.Rd1 Rb3 59.Ke2 Rb2+ 60.Kf3 Rb3 61.Rd2 Kg7 62.Ke2 Rb4 63.Kf3 Rb3
+64.Ke2 Rb4 65.Rc2 e5 66.Rc6 exf4 67.exf4 Bd8 68.Bc4 Rb7 69.Rd6 Be7 70.Rc6 Bd8
+71.Kd3 Rd7+ 72.Kc3 Ba5+ 73.Kb3 Rb7+ 74.Kc2 Rc7  1/2-1/2
+
+[Event "12th Hainan Danzhou GM"]
+[Site "lichess.org INT"]
+[Date "2021.09.25"]
+[Round "6.3"]
+[White "Bu Xiangzhi"]
+[Black "Ding Liren"]
+[Result "1/2-1/2"]
+[WhiteElo "2705"]
+[BlackElo "2799"]
+[ECO "D38"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.O-O cxd4 11.Nxd4 Bd7 12.Qb3 Nc6 13.Nxc6 Bxc3 14.Rxc3 Bxc6 15.Bb5 Bd5
+16.Bc4 Bc6 17.Bb5 Bd5 18.Bc4 Bc6 19.Bb5  1/2-1/2
+
+[Event "12th Hainan Danzhou GM"]
+[Site "lichess.org INT"]
+[Date "2021.09.25"]
+[Round "7.3"]
+[White "Wei Yi"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2725"]
+[BlackElo "2705"]
+[ECO "D45"]
+
+1.d4 d5 2.c4 c6 3.e3 Nf6 4.Nc3 e6 5.Nf3 a6 6.b3 Bb4 7.Bd2 Nbd7 8.Bd3 O-O
+9.O-O Bd6 10.Rc1 Re8 11.h3 e5 12.dxe5 Nxe5 13.Nxe5 Rxe5 14.Ne2 Ne4 15.Be1 dxc4
+16.Rxc4 b5 17.Rd4 c5 18.Bxe4 cxd4 19.Bxa8 dxe3 20.Bb4 exf2+ 21.Rxf2 Bc7 22.Qxd8+ Bxd8
+23.Bc3 Rg5 24.Kf1 a5 25.Bd2 Re5 26.Bf4 Re7 27.Rf3 Bb6 28.Rc3 Bd7 29.Bd5 b4
+30.Rc4 g5 31.Bxg5 Re5 32.Bc6 Rf5+ 33.Bf4 Be6 34.Be4 Rb5 35.Rc6 Kg7 36.Bd3 Rd5
+37.Rxb6 Rxd3 38.Nd4 Rd1+ 39.Ke2 Ra1  1-0
+
+[Event "Shenzhen Chess GM Match"]
+[Site "Shenzhen CHN"]
+[Date "2022.02.21"]
+[Round "1"]
+[White "Bu Xiangzhi"]
+[Black "Hou Yifan"]
+[Result "1-0"]
+[WhiteElo "2700"]
+[BlackElo "2658"]
+[ECO "D38"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Bb4 5.cxd5 exd5 6.Bf4 Ne4 7.Rc1 Nc6 8.g3 Bf5
+9.Qb3 a5 10.a4 Bg4 11.Bg2 Bxf3 12.exf3 Nxd4 13.Qd1 Ne6 14.fxe4 d4 15.O-O dxc3
+16.bxc3 Nxf4 17.gxf4 Bc5 18.e5 Qxd1 19.Rfxd1 Rd8 20.Bxb7 Ke7 21.Be4 Rxd1+
+22.Rxd1 Rb8 23.Rd5 Bb6 24.Kf1 h6 25.Ke2 c6 26.Rd6 Bc7 27.Rd2 Rb6 28.Bf5 Bb8
+29.h4 g6 30.Bg4 g5 31.Kf3 gxf4 32.Rd7+ Ke8 33.e6 fxe6 34.Bxe6 c5 35.Bf5 Be5
+36.Rd5 Bxc3 37.Rxc5 Rb3 38.Kxf4 Bd2+ 39.Ke5 Bc3+ 40.Kd5 Be1 41.Rc2 Kf7 42.Re2 Bb4
+43.h5 Ra3 44.Bc2 Rf3 45.Bg6+ Kf8 46.Rc2 Rc3 47.Re2 Ra3 48.Bc2 Rh3 49.f4 Rxh5+
+50.f5 Rh1 51.Re6 Rc1 52.Rc6 Kf7 53.Ke5 Ba3 54.Bb3+ Kf8 55.Rxh6 Bb2+ 56.Kd6 Ba3+
+57.Kd7 Rc3 58.Rf6+ Kg7 59.Rg6+ Kh7 60.Bg8+ Kh8 61.f6 Re3 62.Be6 Kh7 63.Bf5 Re5
+64.Bb1 Rd5+ 65.Ke8 Re5+ 66.Kf7  1-0
+
+[Event "Shenzhen Chess GM Match"]
+[Site "Shenzhen CHN"]
+[Date "2022.02.22"]
+[Round "2.1"]
+[White "Hou Yifan"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2658"]
+[BlackElo "2700"]
+[ECO "C50"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.O-O Nf6 5.d3 d6 6.c3 h6 7.Re1 O-O 8.h3 a5 9.a4 Be6
+10.Bxe6 fxe6 11.Be3 Bxe3 12.Rxe3 Qe8 13.Nbd2 b6 14.d4 exd4 15.cxd4 Nb4 16.Rc1 Rc8
+17.Qb3 Kh8 18.Rce1 Qf7 19.Nc4 Nd7 20.R1e2 Qh5 21.Qd1 Rf4 22.Ne1 d5 23.exd5 Qxd5
+24.Ne5 Nxe5 25.Rxe5 Qxd4 26.Qxd4 Rxd4 27.Rxe6 Na6 28.Nf3 Rxa4 29.Rg6 Kh7
+30.Rg3 Rg8 31.Re7 Ra1+ 32.Kh2 Rf1 33.Nd4 Rxf2 34.Ne6 Kh8 35.Nxg7 Nb4 36.Rxc7 Nd5
+37.Rd7 Nf4 38.b3 Rb2 39.Rf7 Nxg2 40.Kh1 Nh4 41.Rg4 Rxb3 42.Rb7 Rxh3+ 43.Kg1 h5  0-1
+
+[Event "Shenzhen Chess GM Match"]
+[Site "Shenzhen CHN"]
+[Date "2022.02.23"]
+[Round "3.1"]
+[White "Bu Xiangzhi"]
+[Black "Hou Yifan"]
+[Result "1/2-1/2"]
+[WhiteElo "2700"]
+[BlackElo "2658"]
+[ECO "D38"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Bb4 5.Qa4+ Nc6 6.e3 O-O 7.Qc2 Bd6 8.c5 Be7
+9.Bb5 Bd7 10.a3 a5 11.Rb1 Qe8 12.Bd3 a4 13.O-O b6 14.cxb6 cxb6 15.Ne5 Nxe5
+16.dxe5 Ne4 17.Nxe4 dxe4 18.Bxe4 Rc8 19.Qd1 Bc6 20.Qf3 Bxe4 21.Qxe4 Qb5 22.Bd2 Qb3
+23.Bc3 Bxa3 24.bxa3 Qxc3 25.Qxa4 Ra8 26.Qd4 Qxd4 27.exd4 Rfd8 28.Rfd1 Rxa3
+29.Rxb6 Ra5 30.f4 g5 31.fxg5 Rxe5 32.Rb8 Rxb8 33.dxe5 Rb4  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.14"]
+[Round "1.2"]
+[White "Xu,Xiangyu"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2564"]
+[BlackElo "2708"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Qa4+ Nc6 6.Bd2 O-O 7.a3 Bxc3 8.Bxc3 Ne4
+9.e3 e5 10.dxe5 Nxc3 11.bxc3 dxc4 12.Qxc4 Qe7 13.Be2 Nxe5 14.Nxe5 Qxe5 15.O-O c5
+16.Bf3 Be6 17.Qa4 Qxc3 18.Bxb7 Bb3 19.Qb5 Rab8 20.Rfc1 Bc2 21.Qe2 Rxb7 22.Qxc2 Qxc2
+23.Rxc2 Rc8 24.g4 Kf8 25.Rac1 Rb3 26.Rxc5 Rxc5 27.Rxc5 Rxa3 28.Rc7 g5 29.Kg2 Kg7
+30.Kg3 a5  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.15"]
+[Round "2.2"]
+[White "Bu Xiangzhi"]
+[Black "Wei Yi"]
+[Result "1/2-1/2"]
+[WhiteElo "2708"]
+[BlackElo "2729"]
+[ECO "D38"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.O-O cxd4 11.Nxd4 Bd7 12.Qb3 Nc6 13.Nxc6 Bxc3 14.Qxb7 Bxc6 15.Qxc6 Bxb2
+16.Rc2 Ba3 17.Bb3 Qe7 18.Rd1 Rad8 19.Rcd2 Rxd2 20.Rxd2 Rd8 21.Rxd8+ Qxd8
+22.g3 g6 23.Kg2 Bf8 24.h4 h5 25.Bc4 a5 26.Bb3 Bg7 27.Bc4 Bf6 28.Bb3 Bg7 29.Bc4 Bf6
+30.Bb3 Bg7  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.16"]
+[Round "3.3"]
+[White "Zhang Zhong"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2640"]
+[BlackElo "2708"]
+[ECO "C78"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 a6 4.Ba4 Nf6 5.O-O Bc5 6.c3 b5 7.Bc2 d5 8.d4 dxe4
+9.Nbd2 exf3 10.Qxf3 Be7 11.Qxc6+ Bd7 12.Qf3 exd4 13.Ne4 O-O 14.Rd1 c5 15.Bg5 Re8
+16.Bxf6 Bxf6 17.Nxc5 Bc6 18.Qxc6 Rc8 19.Qxa6 Rxc5 20.g3 Qc8 21.Qxc8 Rexc8
+22.Bb3 dxc3 23.bxc3 Rxc3 24.Rab1 R8c7 25.Rd5 b4 26.Rbd1 Rc1 27.Rxc1 Rxc1+
+28.Kg2 Rc7 29.Rb5 Be7 30.Rb8+ Bf8 31.f4 g6  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.17"]
+[Round "4.2"]
+[White "Bu Xiangzhi"]
+[Black "Ding Liren"]
+[Result "1/2-1/2"]
+[WhiteElo "2708"]
+[BlackElo "2799"]
+[ECO "D38"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.O-O cxd4 11.Ne4 Qe7 12.a3 Ba5 13.Qxd4 Rd8 14.Qc5 Qxc5 15.Nxc5 Nd7
+16.Nb3 Bb6 17.Be2 Nf6 18.Ne5 Bd7 19.Nc5 Bxc5 20.Rxc5 Rac8 21.Rfc1 Rxc5 22.Rxc5 Be8
+23.Kf1 Rd5 24.Rxd5 exd5 25.f3 Kf8 26.Ke1 Ke7 27.Kd2 Kd6 28.Nd3 Ng8 29.Nb4 Ne7
+30.Nc2 Bd7 31.Nd4 a5 32.b4 axb4 33.axb4 b6 34.Kc3 Nf5 35.Kd2 Nxd4 36.exd4  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.18"]
+[Round "5.1"]
+[White "Ma Qun"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2645"]
+[BlackElo "2708"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.O-O cxd4 11.Ne4 Qe7 12.Nxd4 Bd7 13.Be2 Nc6 14.a3 Ba5 15.Nb3 Rfd8
+16.Nxa5 Nxa5 17.Rc7 Rac8 18.Qc1 f5 19.Rxc8 Rxc8 20.Nc3 Nc4 21.Rd1 Nb6 22.Qd2 Qc5
+23.h3 Be8 24.e4 Na4 25.Rc1 fxe4 26.Bg4 Qc6 27.Qd4 h5 28.Bd1 Nxb2 29.Ne2 Nc4
+30.Bb3 b5 31.Bxc4 bxc4 32.Qxa7 Ra8 33.Qd4 Rxa3 34.Rxc4 Qd5 35.Qxe4  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.20"]
+[Round "6.3"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "1/2-1/2"]
+[WhiteElo "2708"]
+[BlackElo "2564"]
+[ECO "E54"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3 dxc4 7.Bxc4 c5 8.O-O Nc6
+9.a3 Ba5 10.Qd3 a6 11.dxc5 Qxd3 12.Bxd3 Rd8 13.Bc2 Bxc3 14.bxc3 Rd5 15.a4 Rxc5
+16.Ba3 Rd5 17.e4 Rd8 18.Bc5 e5 19.Rfb1 Re8 20.a5 h6 21.h3 Rd8 22.Rb2 Rb8
+23.Bb6 Re8 24.Bc7 Ra8 25.c4 Re6 26.Rd1 Ne8 27.Bb6 Rd6 28.Rd5 Be6 29.Bb3 Rd7
+30.Nxe5 Nxe5 31.Rxe5 Rd3 32.Rc5 Nf6 33.Rc7 Rd7 34.Rxd7 Nxd7 35.Be3 Rc8 36.f4 Nc5
+37.Ba2 Nxe4 38.Rxb7 Nc3 39.f5 Bxf5 40.Bb3 Be6 41.Rb4 Ne4 42.Bc2 Nd6 43.c5 Nc4
+44.Bf2 Nxa5 45.Bd3 Nb3 46.Bxa6 Rxc5 47.Rb8+ Kh7 48.Bxc5 Nxc5 49.Bb5 g6 50.Kf2 Kg7
+51.Ke3 Nd7 52.Rd8 Nf6 53.Bc6 h5 54.Kf4 Bb3 55.Ke5 Ba2 56.Rd6 Be6 57.Bb5 Ng8
+58.Be8 Nh6 59.Ra6 Ng8 60.Bc6 Nh6 61.Be4 Ng8 62.Kf4 Nf6 63.Bb1 Bc4 64.Rd6 Be6
+65.Kg5 Nh7+ 66.Kf4 Nf6 67.Bd3 Nh7 68.Be4 Nf6 69.Bf3 Ne8 70.Rd8 Nf6 71.Ke5 Ng8
+72.Bc6 Nf6 73.Bf3 Ng8 74.Bd5 Bxd5 75.Rxd5 Nh6 76.Rd4 Ng8 77.Rf4 Nh6 78.Kd6 Ng8
+79.Ke5 Nh6 80.Rf1 Ng8 81.Rf2 Nh6 82.Rf6 Ng8 83.Rb6 Nh6 84.Ra6 Ng8 85.g4 hxg4
+86.hxg4 Nh6 87.g5 Nf5 88.Ra7 Nh4 89.Ra3 Nf5 90.Ra6 Nh4 91.Rd6 Nf3+ 92.Kf4 Nh4
+93.Rf6 Nf5 94.Ke5 Kf8 95.Ra6 Ng7 96.Ra7 Ke8 97.Kf6 Nh5+ 98.Ke5 Ng7 99.Ra8+ Ke7
+100.Rb8 Ne8 101.Rb7+ Kf8 102.Kd5 Ng7 103.Rb6 Ke7 104.Rb7+ Kf8 105.Kd6 Nf5+
+106.Kd7 f6 107.Ke6 fxg5 108.Kf6 Ke8 109.Kxg5 Kd8 110.Kxg6 Nd6 111.Rh7 Nc8
+112.Kf6 Nd6 113.Ke6 Nc8 114.Rd7+ Ke8 115.Rd4 Ne7 116.Rg4 Kd8 117.Rd4+ Ke8
+118.Rh4 Ng6 119.Re4 Nf8+ 120.Kf6+ Kd8 121.Rd4+ Ke8 122.Re4+ Kd8 123.Re7 Nd7+
+124.Ke6 Nb6 125.Rb7 Nc8 126.Rh7 Nb6 127.Kd6 Nc8+ 128.Kc6 Ne7+ 129.Rxe7 Kxe7  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.21"]
+[Round "7.2"]
+[White "Wei Yi"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2729"]
+[BlackElo "2708"]
+[ECO "C53"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bc4 Bc5 4.c3 Nf6 5.d3 d6 6.O-O a5 7.Re1 h6 8.Nbd2 O-O
+9.h3 a4 10.Bb5 Bd7 11.Nc4 Na5 12.Nxa5 Rxa5 13.Bxd7 Qxd7 14.Be3 Bxe3 15.Rxe3 Re8
+16.b4 axb3 17.axb3 Rea8 18.Rxa5 Rxa5 19.d4 Ra8 20.c4 Qe7 21.b4 exd4 22.Qxd4 Nd7
+23.e5 Nxe5 24.Nxe5 dxe5 25.Qxe5 Qxe5 26.Rxe5 Kf8 27.Kf1 Ra4 28.Rc5 Rxb4 29.Rxc7 Rb2
+30.c5 g6 31.c6 bxc6 32.Rxc6  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.22"]
+[Round "8.3"]
+[White "Bu Xiangzhi"]
+[Black "Zhang Zhong"]
+[Result "1-0"]
+[WhiteElo "2708"]
+[BlackElo "2640"]
+[ECO "D20"]
+
+1.d4 d5 2.c4 dxc4 3.e4 b5 4.a4 c6 5.Nc3 b4 6.Na2 Nf6 7.e5 Nd5 8.Bxc4 e6 9.Nf3 Be7
+10.Bd2 a5 11.Nc1 Nd7 12.Nb3 Bb7 13.O-O c5 14.dxc5 O-O 15.Bd3 Rc8 16.Rc1 Bc6
+17.Nbd4 g6 18.Bh6 Re8 19.Nxc6 Rxc6 20.Bb5 Rxc5 21.Nd4 Qc7 22.Nb3 Rxc1 23.Qxc1 Rc8
+24.Qxc7 Rxc7 25.Bxd7 Rxd7 26.Nxa5 f5 27.Nc6 Bc5 28.Rc1 Nc7 29.Kf1 Na6 30.Nb8 Nxb8
+31.Rxc5 Kf7 32.Ke2 Rd5 33.Be3 Rd7 34.f4 Rb7 35.Rb5 Rxb5 36.axb5 Ke8 37.Kd3 Kd8
+38.Kc4 Kc7 39.Kxb4 Nd7 40.Ka5 Kb7 41.b6 g5 42.g3  1-0
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.23"]
+[Round "9.2"]
+[White "Bu Xiangzhi"]
+[Black "Ma Qun"]
+[Result "1/2-1/2"]
+[WhiteElo "2708"]
+[BlackElo "2645"]
+[ECO "D41"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 c5 5.cxd5 Nxd5 6.e4 Nxc3 7.bxc3 cxd4 8.cxd4 Bb4+
+9.Bd2 Bxd2+ 10.Qxd2 O-O 11.Rd1 b6 12.h4 Bb7 13.Bd3 Nd7 14.O-O Rc8 15.Rfe1 Re8
+16.Bb1 Qc7 17.Qe3 Nf6 18.Rc1 Qe7 19.Rxc8 Rxc8 20.Qd2 Nd7 21.Qb2 h6 22.Qb3 Nf6
+23.Nd2 Qd6 24.Qd3 Qc6 25.f3 Qc3 26.Qxc3 Rxc3 27.Kf2 Kf8 28.Re3 Rxe3 29.Kxe3 g5
+30.hxg5 hxg5 31.Bd3  1/2-1/2
+
+[Event "CHN Team Asian Games Q2"]
+[Site "Hangzhou CHN"]
+[Date "2022.04.24"]
+[Round "10.3"]
+[White "Ding Liren"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2799"]
+[BlackElo "2708"]
+[ECO "C67"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.Nxe5 Be7 7.Bf1 Nxe5 8.Rxe5 O-O
+9.d4 Bf6 10.Re1 Re8 11.c3 Rxe1 12.Qxe1 Ne8 13.Bf4 d5 14.Bd3 g6 15.Nd2 Ng7
+16.Nf3 Bf5 17.Bxf5 Nxf5 18.Qe2 c6 19.Re1 Ng7 20.Be5 Ne6 21.Bxf6 Qxf6 22.Qe5 Qxe5
+23.Nxe5 Kg7 24.Kf1 Re8 25.Nd3 Kf8 26.h4 h5 27.g3 Re7 28.Re3 Ng7 29.Ke2 Nf5
+30.Rxe7 Kxe7 31.Kf3  1/2-1/2
+
+[Event "ch-CHN Rapid 2022"]
+[Site "Shaoxing CHN"]
+[Date "2022.08.25"]
+[Round "3.2"]
+[White "Bu Xiangzhi"]
+[Black "Zhu,Jiner"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2464"]
+[ECO "A07"]
+
+1.Nf3 d5 2.g3 Nf6 3.Bg2 e6 4.O-O c5 5.d3 Nc6 6.e4 Be7 7.Bf4 dxe4 8.dxe4 Qxd1
+9.Rxd1 Nxe4 10.Ne5 Nxe5 11.Bxe5 Nf6 12.a4 Rg8 13.Na3 a6 14.Nc4 Nd7 15.Bc7 Bd8
+16.Nd6+ Ke7 17.Nxc8+ Rxc8 18.Bd6+ Kf6 19.Bxb7 Ba5 20.Bxa6 Rcd8 21.Bb5 Ne5
+22.Bxc5 g5 23.b4 Bc7 24.Rxd8 Rf8 25.Re8 Rxe8 26.a5 Rd8 27.Kg2 Nf3 28.a6 g4
+29.Rb1 Be5 30.Bd4  1-0
+
+[Event "ch-CHN Rapid 2022"]
+[Site "Shaoxing CHN"]
+[Date "2022.08.26"]
+[Round "4.2"]
+[White "Zhu,Jiner"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2464"]
+[BlackElo "2709"]
+[ECO "B31"]
+
+1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3 Nf6 6.Re1 O-O 7.d4 d5 8.exd5 Qxd5
+9.c4 Qd6 10.d5 Nd4 11.Nxd4 cxd4 12.Nd2 e6 13.Nf3 a6 14.Ba4 b5 15.cxb5 Nxd5
+16.bxa6 e5 17.Qc2 Nb4 18.Qe4 Qxa6 19.Bb3 Nd3 20.Bd2 Nxe1 21.Rxe1 Be6 22.Nxe5 Bxb3
+23.axb3 Qb5 24.f4 Rad8 25.b4 Rfe8 26.h3 f6 27.Qd3 Rxe5  0-1
+
+[Event "ch-CHN Rapid 2022"]
+[Site "Shaoxing CHN"]
+[Date "2022.08.26"]
+[Round "5.2"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "0-1"]
+[WhiteElo "2709"]
+[BlackElo "2571"]
+[ECO "E04"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.g3 dxc4 5.Bg2 c5 6.O-O Nc6 7.dxc5 Qxd1 8.Rxd1 Bxc5
+9.Nbd2 c3 10.bxc3 O-O 11.Nb3 Be7 12.Nfd4 Nxd4 13.cxd4 Nd5 14.Bd2 b6 15.e4 Nf6
+16.d5 exd5 17.exd5 Bg4 18.Re1 Ba3 19.h3 Bd7 20.Rad1 Rac8 21.Nd4 Ba4 22.Rb1 Nxd5
+23.Bxd5 Rfd8 24.Bxf7+ Kxf7 25.Bb4 Bxb4 26.Rxb4 Re8 27.Reb1 Bd7 28.a4 Re4
+29.Nb5 Rxb4 30.Rxb4 Rc1+ 31.Kh2 Bc6 32.g4 a5 33.Rb3 g5 34.f3 Ke6 35.Na7 Bxa4
+36.Rxb6+ Kd7 37.Rh6 Kc7 38.h4 gxh4 39.g5 Rc5 40.Rxh7+ Kb6 41.g6 Bc2 42.Rf7 Bxg6
+43.Rf6+ Kxa7 44.Rxg6 a4 45.Rg4 Ra5 46.Rg1 a3 47.Kh3 Ra4 48.Ra1 Kb6 49.f4 Kc5
+50.Kxh4 Rxf4+ 51.Kg3 Ra4 52.Kf3 Kd4 53.Ke2  0-1
+
+[Event "ch-CHN Rapid 2022"]
+[Site "Shaoxing CHN"]
+[Date "2022.08.26"]
+[Round "6.2"]
+[White "Xu,Xiangyu"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2571"]
+[BlackElo "2709"]
+[ECO "A31"]
+
+1.d4 Nf6 2.c4 c5 3.Nf3 cxd4 4.Nxd4 e5 5.Nb5 d5 6.cxd5 Bc5 7.e3 O-O 8.N5c3 e4
+9.a3 a5 10.Nd2 Re8 11.b3 Bf5 12.Bb5 Nbd7 13.Nc4 Ng4 14.Na4 Bf8 15.Bb2 Nde5
+16.Nxe5 Nxe5 17.Qd4 Qg5 18.O-O-O Nd3+ 19.Kb1 Nxf2 20.Bxe8 Rxe8 21.g3 Nxh1
+22.Rxh1 Bg4 23.Rc1 Bd6 24.Nb6 h5 25.Nc4 Bf8 26.d6 Qb5 27.Ka2 a4 28.bxa4 Qxa4
+29.Ka1 Be6 30.Qxe4 b5 31.Nd2 Bxd6 32.Qxa4 bxa4 33.Ne4 Bf8 34.Nc5 Bg4 35.Bd4 Rc8
+36.Rc3 Bf3 37.Nxa4 Rxc3 38.Nxc3 Bxa3 39.Kb1 Bd6 40.Nb5 Bb4 41.Kc2 Kh7 42.Kd3 g5
+43.e4 Kg6 44.Ke3 Bg2 45.Nc3 Bh3 46.Nd5 Bd6 47.Bc3 Bg2 48.Bb4 Bb8 49.Ba5 f5
+50.Ne7+ Kf6 51.Nc6 Bd6 52.e5+ Bxe5 53.Bd8+ Ke6  1/2-1/2
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.06"]
+[Round "1.6"]
+[White "Bu Xiangzhi"]
+[Black "Bai,Jinshi"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2586"]
+[ECO "D34"]
+
+1.Nf3 Nf6 2.c4 e6 3.g3 d5 4.Bg2 Be7 5.d4 O-O 6.O-O c5 7.cxd5 exd5 8.Nc3 Nc6
+9.dxc5 Bxc5 10.Na4 Be7 11.Be3 Ne4 12.Rc1 Be6 13.Nd4 Nxd4 14.Bxd4 Qa5 15.a3 Rac8
+16.Nc3 Rfd8 17.e3 Bf6 18.Ne2 Rxc1 19.Qxc1 Rc8 20.Qd1 Bxd4 21.Nxd4 Qb6 22.Nxe6 Qxe6
+23.Qd4 b6 24.Rd1 h6 25.Qxd5 Qxd5 26.Rxd5 Rc1+ 27.Bf1 Rb1 28.Kg2 Rxb2 29.Bd3 f5
+30.Rxf5 Nc3 31.Bc4+ Kh7 32.Bd3 Kg8 33.h4 Rd2 34.Bc4+ Kh7 35.h5 g5 36.Rf7+ Kh8
+37.Rxa7 Nd1 38.Kf3 Rxf2+ 39.Ke4 g4 40.Ra8+ Kh7 41.Rd8 Nc3+ 42.Kd4 Ne2+ 43.Bxe2 Rxe2
+44.Ke4 Ra2 45.Rd3 Rh2 46.Rd5 Ra2 47.Rd7+ Kg8 48.Rd6 Kh7 49.Rxb6 Rxa3 50.Re6 Ra5
+51.Re5 Ra8 52.Kf4 Rg8 53.Re7+ Kh8 54.e4 Rg5 55.Re5  1-0
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.06"]
+[Round "1.6"]
+[White "Bai,Jinshi"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2586"]
+[BlackElo "2709"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.Qb3 Nc6 11.dxc5 Qe7 12.O-O Bxc5 13.Rfd1 Rd8 14.Rxd8+ Qxd8 15.Rd1 Qc7
+16.Nb5 Qe7 17.Qd3 a6 18.Nd6 Bxd6 19.Qxd6 Qxd6 20.Rd2 Qd5 21.Rxd5 Kf8 22.Rd2 Ke7
+23.Nd4 Nxd4 24.Rxd4 Bd7 25.Be2 Rc8 26.Rc4 Bc6 27.f3 Rd8 28.Rc2 Rd6 29.Kf2 f5
+30.Ke1 Kd7 31.h4 g5 32.hxg5 hxg5 33.g4 Ke7 34.Rd2 Rxd2 35.Kxd2 Kf6 36.f4 gxf4
+37.exf4 fxg4 38.Bxg4 e5 39.fxe5+ Kxe5  1/2-1/2
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.07"]
+[Round "2.2"]
+[White "Bu Xiangzhi"]
+[Black "Wan Yunguo"]
+[Result "1/2-1/2"]
+[WhiteElo "2709"]
+[BlackElo "2508"]
+[ECO "A17"]
+
+1.c4 Nf6 2.Nc3 e6 3.Nf3 d5 4.cxd5 exd5 5.d4 c6 6.Bf4 Bf5 7.e3 h6 8.Ne5 Nbd7
+9.g4 Bh7 10.Nd3 Ne4 11.Qb3 Nxc3 12.Qxc3 Be4 13.Rg1 Qb6 14.Qb3 Qa5+ 15.Qc3 Qb6
+16.Qb3 Qa5+ 17.Qc3 Qb6  1/2-1/2
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.07"]
+[Round "2.2"]
+[White "Wan Yunguo"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2508"]
+[BlackElo "2709"]
+[ECO "B36"]
+
+1.e4 c5 2.Nf3 Nc6 3.d4 cxd4 4.Nxd4 g6 5.c4 Nf6 6.Nc3 d6 7.f3 Nxd4 8.Qxd4 Bg7
+9.Be3 O-O 10.Qd2 a5 11.b3 a4 12.b4 Be6 13.Rc1 Nd7 14.Nb5 a3 15.Nd4 Nb6 16.h4 Bd7
+17.h5 e5 18.Nb3 Be6 19.Be2 Na4 20.hxg6 fxg6 21.O-O Qe7 22.b5 Rfc8 23.Qb4 Bf8
+24.Nd2 Qh4 25.Qb3 Nc5 26.Qc3 Na4 27.Qb3 Nc5 28.Qc3 Na4  1/2-1/2
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.08"]
+[Round "3.5"]
+[White "Zou,Chen"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2432"]
+[BlackElo "2709"]
+[ECO "A06"]
+
+1.Nf3 d5 2.b3 Bf5 3.Bb2 e6 4.g3 Nf6 5.Bg2 Be7 6.O-O O-O 7.d3 h6 8.Nbd2 Bh7
+9.Re1 c6 10.e4 a5 11.a3 Na6 12.Qe2 Re8 13.Rad1 Rc8 14.Ne5 Nc5 15.Kh1 Nfd7
+16.Ng4 Nf6 17.Ne5 Ncd7 18.Nxd7 Nxd7 19.f4 Bf6 20.e5 Be7 21.Nf3 b5 22.g4 a4
+23.b4 c5 24.c4 dxc4 25.dxc4 bxc4 26.Qxc4 Qc7 27.Qb5 Nb6 28.f5 cxb4 29.axb4 Nc4
+30.fxe6 fxe6 31.Rd7 Qb6 32.Qxb6 Nxb6 33.Rb7 Rb8 34.Rxb8 Rxb8 35.b5 Nc4 36.Ba1 Rxb5
+37.Nd4 Rxe5 38.Rxe5 Nxe5 39.Nxe6 Nxg4 40.Bd5 Ne3 41.Ba2 Bc2 42.Nd4+ Kf8 43.Ne6+ Ke8
+44.Bxg7 Bb3 45.Bxb3 axb3 46.Nf4 Kf7 47.Bd4 Bf6 48.Bxf6 Kxf6 49.Nd3 Nc4  0-1
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.08"]
+[Round "3.5"]
+[White "Bu Xiangzhi"]
+[Black "Xiao,Tong(QD)"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2027"]
+[ECO "E06"]
+
+1.c4 e6 2.g3 Nf6 3.Bg2 d5 4.Nf3 Be7 5.d4 O-O 6.O-O dxc4 7.Qa4 a6 8.Qxc4 b5
+9.Qc2 Bb7 10.Bd2 Nbd7 11.Ba5 Rc8 12.Nbd2 Bd6 13.e4 e5 14.dxe5 Nxe5 15.Nxe5 Bxe5
+16.Nb3 Qd6 17.Rac1 Ng4 18.h3 Bxg3 19.fxg3 Ne3 20.Qf2 Nxf1 21.e5 Qxe5 22.Bxb7 Nxg3
+23.Re1 Qd6 24.Bxc8 Rxc8 25.Re3 Qd1+ 26.Qe1 Qxe1+ 27.Rxe1 h5 28.Nc5 Nf5 29.Kf2 Kh7
+30.Rd1 Kg6 31.b4 Kg5 32.Rd7 Kh4 33.Rxf7 g6 34.Ne6 Re8 35.Rf6 Re7 36.Bxc7 Rd7
+37.Bg3+  1-0
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.10"]
+[Round "4.3"]
+[White "Bu Xiangzhi"]
+[Black "Liu Qingnan"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2542"]
+[ECO "E53"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.Nf3 c5 7.O-O cxd4 8.exd4 dxc4
+9.Bxc4 b6 10.Qe2 Bb7 11.Rd1 Nbd7 12.Bg5 Bxc3 13.bxc3 Qc7 14.Nd2 Rfe8 15.Rac1 e5
+16.Qd3 Rac8 17.Qg3 Nd5 18.Bh6 g6 19.Bxd5 Bxd5 20.c4 Bb7 21.Nb3 Qc6 22.dxe5 Nxe5
+23.Nd4 Qc5 24.Qf4 f5 25.Qg3 Rcd8 26.Nb3 Rxd1+ 27.Rxd1 Qxc4 28.h3 Qe2 29.Rd2 Qe1+
+30.Kh2 Nf7 31.Be3 Qf1 32.Rd4 Qb5 33.Nd2 Bd5 34.Qc7 Qc6 35.Qxc6 Bxc6 36.Rc4 Ne5
+37.Rc3 Bd5 38.Rc7 Nc6 39.a4 Re7 40.Rc8+ Kf7 41.Nb1 Ne5 42.Nc3 Bb7 43.Rd8 Rd7
+44.Rh8 Kg7 45.Re8 Nc4 46.Bf4 Kf7 47.Rh8 Ke6 48.Nb5 Bc6 49.Nc7+ Kf6 50.Rf8+ Rf7
+51.Bg5+ Kxg5 52.Rxf7 Kf4 53.Re7 Bxa4 54.Nd5+ Kg5 55.Rxh7 f4 56.Rxa7 Bc6 57.Nxb6 Nxb6
+58.Ra6 Bxg2 59.Kxg2 Nc4 60.Kf3 Nd2+ 61.Ke2 Ne4 62.h4+ Kxh4 63.Rxg6 Kh5 64.Rg8 Nf6
+65.Rg1 Ne4 66.Rg8 Nf6 67.Rg2 Kh4 68.Kf3 Nh5 69.Rh2+ Kg5 70.Rxh5+  1-0
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.10"]
+[Round "4.3"]
+[White "Huang,Renjie"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2446"]
+[BlackElo "2709"]
+[ECO "C67"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.a4 Be7 7.Nc3 O-O 8.d4 e4
+9.Nxe4 Nxe4 10.Rxe4 d5 11.Re3 Bg4 12.Bxc6 bxc6 13.h3 Bh5 14.Qe1 Bd6 15.Qc3 Re8
+16.Ne5 Qh4 17.Nxc6 f5 18.Bd2 f4 19.Rxe8+ Rxe8 20.Re1 f3 21.Rxe8+ Bxe8 22.Nxa7 fxg2
+23.Nb5 Bd7 24.Nxd6 cxd6 25.Kxg2 Qe4+ 26.Kh2 Bxa4 27.Qc8+ Kf7 28.b3 Be8 29.Qc7+ Qe7
+30.Qxe7+ Kxe7 31.Kg3 Bg6 32.c3 Bc2 33.b4 Bd3 34.Kf4 Kf6 35.h4 Bb5 36.f3 Ke6
+37.Be1 Be2 38.Bg3 Bb5 39.Kg5 Bd3 40.Bh2 Ke7 41.Kg4 Ke6 42.Bf4 Bf5+ 43.Kg3 Bd3
+44.Kg4 Bf5+ 45.Kg3 Bd3 46.Kg4  1/2-1/2
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.11"]
+[Round "5.4"]
+[White "Xu,Xiangyu"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2571"]
+[BlackElo "2709"]
+[ECO "E49"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3 Bxc3+ 7.bxc3 dxc4 8.Bxc4 c5
+9.Ne2 Qc7 10.Bd3 b6 11.O-O e5 12.e4 Bb7 13.d5 c4 14.Bc2 Nbd7 15.f4 Nc5 16.fxe5 Qxe5
+17.Bf4 Qe7 18.Ng3 Nfxe4 19.Nf5 Qf6 20.Be3 Nxc3 21.Qg4 Bc8 22.Rae1 Bxf5 23.Rxf5 Qg6
+24.Rg5 h5 25.Qd4 Nb5 26.Qd1 Nc3 27.Qd4 Nb5 28.Qxc4 Nd6 29.Qe2 Qf6 30.Bxc5 bxc5
+31.Qxh5 Qd4+ 32.Kh1 f5 33.Bxf5 Nxf5 34.Rxf5 Rxf5 35.Qxf5 Rf8 36.Qe6+ Kh7
+37.Qh3+ Kg8 38.Qe6+ Kh7 39.h3 Rf6 40.Qe4+ Qxe4 41.Rxe4 Rf1+ 42.Kh2 Rd1 43.Ra4 Rxd5
+44.Rxa7 c4  1/2-1/2
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.11"]
+[Round "5.4"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Xiangyu"]
+[Result "1/2-1/2"]
+[WhiteElo "2709"]
+[BlackElo "2571"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.e3 c5 5.cxd5 Nxd5 6.Bb5+ Bd7 7.Be2 Nc6 8.O-O Be7
+9.d4 cxd4 10.Nxd5 exd5 11.Nxd4 O-O 12.Bf3 Bf6 13.Ne2 Ne7 14.Bd2 Qb6 15.Bc3 Bxc3
+16.Nxc3 Qxb2 17.Nxd5 Nxd5 18.Bxd5 Bc6 19.Bxc6 bxc6 20.Qc1 Qxc1 21.Raxc1 Rfc8
+22.Rfd1 Rc7 23.Kf1 Rb8 24.Rb1 Rxb1 25.Rxb1 g6 26.Ke2 Rd7 27.Rb4 Kf8 28.Rc4 Rb7
+29.Kd3 Rb2 30.Rc2 Rb6 31.Kc4 Ke7 32.Rd2 Rb1 33.h4  1/2-1/2
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.12"]
+[Round "6.4"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Minghui"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2408"]
+[ECO "A13"]
+
+1.c4 e6 2.g3 d5 3.Bg2 Nf6 4.Nf3 d4 5.d3 c5 6.e4 Nc6 7.e5 Nd7 8.Qe2 Be7 9.h4 Qc7
+10.Bf4 b6 11.Nbd2 Bb7 12.a3 h6 13.h5 O-O-O 14.O-O g5 15.hxg6 fxg6 16.g4 g5
+17.Bg3 h5 18.Rfe1 h4 19.Bh2 Rhg8 20.Ne4 Ndxe5 21.Nxe5 Nxe5 22.f3 h3 23.Bh1 Rdf8
+24.Nd2  1-0
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.12"]
+[Round "6.4"]
+[White "Ding Liren"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2808"]
+[BlackElo "2709"]
+[ECO "D12"]
+
+1.c4 c6 2.Nf3 d5 3.d4 Nf6 4.e3 Bf5 5.Nc3 e6 6.Nh4 Bg6 7.Be2 Nbd7 8.O-O Bd6
+9.g3 O-O 10.Nxg6 hxg6 11.Qc2 Qe7 12.Rd1 a6 13.Bd2 dxc4 14.Bxc4 Rac8 15.Bf1 e5
+16.Bg2 Qe6 17.dxe5 Nxe5 18.Ne2 Qf5 19.Qxf5 gxf5 20.Bc3 Bc7 21.Nd4 g6 22.Nb3 Ned7
+23.Na5 Bxa5 24.Bxa5 Rfe8 25.Bc3 Re7 26.Rd6 Ne4 27.Bxe4 fxe4 28.Rad1 Nb6 29.Rd8+ Re8
+30.Rxc8 Rxc8 31.Rd4 Nd5 32.Rxe4 Nxc3 33.bxc3 c5 34.Kf1 Rc6 35.Re7 Rb6 36.Rc7 Rb1+
+37.Kg2 b6 38.h4 a5 39.a4 Rb3 40.Rc6 Kg7 41.Kf3 Rxc3 42.Rxb6 Rc4 43.Rb5 Rxa4
+44.Rxc5 f5 45.h5 Kh6 46.hxg6 Kxg6 47.Kg2 Kf6 48.f4 Ra1 49.Re5 a4 50.e4 fxe4
+51.Rxe4 a3 52.Ra4 Kf5 53.Ra5+ Ke4 54.Kh3 Kf3 55.Kh4 a2 56.Ra3+ Ke4 57.Kg4 Kd5
+58.f5 Ke5 59.Ra6 Ke4 60.Ra5  1-0
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.14"]
+[Round "7.3"]
+[White "Chen,Qi b"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2485"]
+[BlackElo "2709"]
+[ECO "C67"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.Re1 Nd6 6.Nxe5 Be7 7.Bf1 Nxe5 8.Rxe5 O-O
+9.d4 Bf6 10.Re1 Re8 11.c3 Rxe1 12.Qxe1 Ne8 13.Bf4 d5 14.Bd3 g6 15.Nd2 Ng7
+16.Qe2 c6 17.Re1 Bf5 18.Bxf5 Nxf5 19.Nf3 Ng7 20.Be5 Ne6 21.Bxf6 Qxf6 22.Ne5 Re8
+23.Ng4 Qd8 24.Qe5 Ng7 25.Qxe8+ Nxe8 26.Rxe8+ Qxe8 27.Nf6+ Kf8 28.Nxe8 Kxe8
+29.f4 f5 30.Kf2  1/2-1/2
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.14"]
+[Round "7.3"]
+[White "Bu Xiangzhi"]
+[Black "Xu Jun"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2474"]
+[ECO "E00"]
+
+1.d4 Nf6 2.c4 e6 3.g3 c5 4.d5 exd5 5.cxd5 b5 6.Bg2 d6 7.Nh3 g6 8.b3 Bg7 9.Bb2 O-O
+10.O-O Re8 11.Re1 Nbd7 12.Nf4 Ne5 13.Nd3 Nfg4 14.Nxe5 Nxe5 15.a4 bxa4 16.Rxa4 Nf3+
+17.Bxf3 Bxb2 18.Qc2 Bg7 19.Nd2 Bd7 20.Ra2 a5 21.e3 Qc7 22.Nc4 Reb8 23.e4 Bb5
+24.Be2 Bxc4 25.Bxc4 Rb4 26.Re2 Qd7 27.Qd3 a4 28.bxa4 Raxa4 29.Bb5 c4 30.Bxa4 cxd3
+31.Bxd7 dxe2 32.Rxe2 Kf8 33.Ra2 Ke7 34.Bc6 Rb1+ 35.Kg2 Ra1 36.Rc2 Bd4 37.Rd2 Bc3
+38.Rc2 Bd4 39.h4 h6 40.Bb5 Bc5 41.Rb2 Bd4 42.Rc2 Rb1 43.Rc7+ Kf8 44.Rc8+ Kg7
+45.Rc4 Be5 46.Ba4 Rb2 47.Bc2 Bf6 48.f4 h5 49.Kf3 Kf8 50.Rc8+ Kg7 51.Ke3 Rb4
+52.Rc6 Bd4+ 53.Kf3 Rb2 54.Rc4 Bf6 55.Ke3 Ra2 56.Rc6 Ra3+ 57.Bd3 Be7 58.e5 dxe5
+59.fxe5 Ra5 60.Kd4 Ba3 61.Rc7 Kf8 62.Ke4 Bb2 63.Bc4 Ke8 64.Rb7 Ba1 65.Bb5+ Kf8
+66.e6 fxe6 67.dxe6  1-0
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.15"]
+[Round "8.5"]
+[White "Bu Xiangzhi"]
+[Black "Xue,Haowen"]
+[Result "1/2-1/2"]
+[WhiteElo "2709"]
+[BlackElo "2128"]
+[ECO "A07"]
+
+1.Nf3 d5 2.g3 Nf6 3.Bg2 c5 4.O-O e6 5.d3 Nc6 6.e4 dxe4 7.dxe4 Qxd1 8.Rxd1 Nxe4
+9.Na3 Bd7 10.Nc4 Rd8 11.Bf4 f6 12.Re1 b5 13.Na3 Nd6 14.Bxd6 Bxd6 15.Nxb5 Bb8
+16.Rad1 Nb4 17.Na3 Kf7 18.c3 Nd5 19.Nd2 Nb6 20.Ne4 Rc8 21.Nc4 Ke7 22.Ncd6 Rc7
+23.b4 cxb4 24.cxb4 Rc2 25.Bh3 Rxa2 26.Nc5 Bxd6 27.Bxe6 Bxe6 28.Rxe6+ Kf7
+29.Rexd6  1/2-1/2
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.15"]
+[Round "8.5"]
+[White "Xue,Haowen"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2128"]
+[BlackElo "2709"]
+[ECO "D17"]
+
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.Nf3 dxc4 5.a4 Bf5 6.Ne5 Nbd7 7.Nxc4 Nb6 8.Ne5 a5
+9.h4 e6 10.f3 h6 11.e4 Bh7 12.Be3 Nfd7 13.Nd3 Bd6 14.Ne2 Nc4 15.Bg1 O-O 16.Rc1 b5
+17.b3 Na3 18.Rxc6 Qb8 19.Nc5 Bxc5 20.dxc5 bxa4 21.Qxd7 Rd8 22.Qc7 Qb4+ 23.Kf2 axb3
+24.Rb6 b2 25.Rxb4 axb4 26.Nc3 bxc3 27.Bd3 Rxd3 28.Bh2 Bxe4 29.Be5 b1=Q 30.Rxb1 Nxb1
+31.Bxg7 Kxg7 32.Qe5+ Kg8 33.Qxe4 Rad8 34.Qg4+ Kf8 35.Qf4 c2 36.Qxh6+ Ke8
+37.Qh8+ Ke7 38.Qb2 Rd1  0-1
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.16"]
+[Round "9.2"]
+[White "Li Chao2"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2679"]
+[BlackElo "2709"]
+[ECO "C67"]
+
+1.e4 e5 2.Nf3 Nc6 3.Bb5 Nf6 4.O-O Nxe4 5.d4 Nd6 6.Bxc6 dxc6 7.dxe5 Nf5 8.Qxd8+ Kxd8
+9.h3 Ke8 10.Nc3 h5 11.Rd1 Be7 12.Ne2 Nh4 13.Nxh4 Bxh4 14.Be3 Be7 15.Rd2 Bf5
+16.Nd4 Bd7 17.Rad1 Rd8 18.Ne2 Bf5 19.Nd4 Bd7 20.Ne2 Bf5 21.Nd4  1/2-1/2
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.16"]
+[Round "9.2"]
+[White "Bu Xiangzhi"]
+[Black "Li Chao2"]
+[Result "1/2-1/2"]
+[WhiteElo "2709"]
+[BlackElo "2679"]
+[ECO "D26"]
+
+1.d4 d5 2.c4 dxc4 3.Nf3 Nf6 4.e3 e6 5.Bxc4 c5 6.O-O Nc6 7.Nc3 a6 8.a4 Be7
+9.Qe2 cxd4 10.Rd1 e5 11.exd4 exd4 12.Nxd4 Nxd4 13.Qe5 Qd6 14.Qxd6 Bxd6 15.Rxd4 Be5
+16.Rd1 O-O 17.Be3 Re8 18.Bd4 Bxd4 19.Rxd4 Be6 20.Bxe6 Rxe6 21.Rad1 Kf8 22.f3 Rc8
+23.Kf2 h5 24.Rb4 b6 25.Rbd4 Ke7 26.h4 g6 27.R1d2 Re5 28.Rb4 Re6 29.Rbd4 Re5
+30.Rb4 Re6 31.Rbd4  1/2-1/2
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.18"]
+[Round "10.6"]
+[White "Bu Xiangzhi"]
+[Black "Wang,Hao B"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2165"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 d5 3.cxd5 Nxd5 4.d4 g6 5.e4 Nb6 6.Nc3 Bg7 7.h3 O-O 8.Be2 Nc6
+9.Be3 Na5 10.O-O Nac4 11.Bc1 c6 12.a4 e5 13.d5 a5 14.dxc6 bxc6 15.b3 Nd6
+16.Ba3 Nb7 17.Bxf8 Qxf8 18.Qc2 Nc5 19.Nb1 f5 20.Nbd2 Bd7 21.Rac1 Ne6 22.Nc4 Rb8
+23.Ncxe5 fxe4 24.Nxd7 Nxd7 25.Bc4 Nc5 26.Ng5 Qf5 27.Nxe6 Nxe6 28.g4  1-0
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.18"]
+[Round "10.6"]
+[White "Pang,Tao"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2427"]
+[BlackElo "2709"]
+[ECO "D39"]
+
+1.d4 Nf6 2.c4 e6 3.Nf3 d5 4.Nc3 Bb4 5.Bg5 dxc4 6.e4 c5 7.Bxc4 h6 8.Bxf6 Qxf6
+9.O-O cxd4 10.Nb5 Qe7 11.Qxd4 O-O 12.Nxa7 Bc5 13.Nxc8 Rxc8 14.Qd3 Nc6 15.Qe2 g5
+16.h3 h5 17.e5 g4 18.hxg4 hxg4 19.Nh2 Kf8 20.Nxg4 Qh4 21.Rad1 Kg7 22.Rd3 Rh8
+23.Rh3 Qg5 24.Kh2 Rh4 25.g3 Nd4 26.Qd1 Rxg4 27.f3 Nc6 28.fxg4 Nxe5 29.Be2 Rd8
+30.Rh5 Qe3 31.Qc2 Nxg4+ 32.Kh3 Nf6 33.Qxc5 Qxe2 34.Qg5+ Kf8 35.Rh8+  1-0
+
+[Event "TCh-CHN DivA Standard"]
+[Site "Fuling CHN"]
+[Date "2022.09.19"]
+[Round "11.1"]
+[White "Bu Xiangzhi"]
+[Black "Xu,Yi"]
+[Result "1-0"]
+[WhiteElo "2709"]
+[BlackElo "2507"]
+[ECO "E49"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3 Bxc3+ 7.bxc3 dxc4 8.Bxc4 c5
+9.Ne2 Qc7 10.Bd3 Nc6 11.O-O e5 12.Ng3 Bg4 13.Qc2 Rad8 14.f4 exd4 15.cxd4 cxd4
+16.e4 Nh5 17.Nxh5 Bxh5 18.e5 Kh8 19.a4 Qe7 20.Ba3 Nb4 21.Qd2 a5 22.Rab1 f6
+23.Rfe1 fxe5 24.Rxe5 Qh4 25.g3 Qg4 26.Be2 Qg6 27.Rxb4 axb4 28.Bxh5 Qb1+ 29.Re1 Qf5
+30.Bxb4 Qxh5 31.Bxf8 Rxf8 32.Qxd4 Qf7 33.Qe4 Kg8 34.Rb1 Re8 35.Qd3 Qa2 36.Qb5 Re2
+37.Qxb7 Rg2+ 38.Qxg2 Qxb1+ 39.Qf1 Qb6+ 40.Kg2 Qc6+ 41.Qf3 Qxa4 42.Qd5+ Kf8
+43.Kf3 Qa6 44.Qe4 h6 45.Kg4 Kg8 46.f5 Qf1 47.Kh5 Qd1+ 48.Kg6 Qd8 49.Qe6+ Kh8
+50.f6 Qd3+ 51.Qf5 Qc3 52.f7 Qc6+ 53.Kh5 g6+ 54.Qxg6 Qd5+ 55.Kh4 Qd8+ 56.Kh3 Qc8+
+57.Qg4 Qf8 58.Qg8+ Qxg8 59.fxg8=Q+ Kxg8 60.Kg4  1-0
+
+[Event "TCh-CHN DivA Rapid"]
+[Site "Fuling CHN"]
+[Date "2022.09.19"]
+[Round "11.1"]
+[White "Xu,Yi"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2507"]
+[BlackElo "2709"]
+[ECO "B31"]
+
+1.e4 c5 2.Nf3 Nc6 3.Bb5 g6 4.O-O Bg7 5.c3 Nf6 6.Re1 O-O 7.d4 d5 8.e5 Ne4
+9.Bxc6 bxc6 10.Be3 Rb8 11.Qc1 cxd4 12.cxd4 f6 13.exf6 exf6 14.Nbd2 Re8 15.Qxc6 Bf5
+16.Nb3 Qd7 17.Qxd7 Bxd7 18.Nfd2 f5 19.f3 Nxd2 20.Bxd2 Rxe1+ 21.Rxe1  1/2-1/2
+
+[Event "13th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2022.12.12"]
+[Round "1.2"]
+[White "Bu Xiangzhi"]
+[Black "Ju,Wenjun"]
+[Result "1-0"]
+[WhiteElo "2698"]
+[BlackElo "2555"]
+[ECO "E49"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.e3 O-O 5.Bd3 d5 6.a3 Bxc3+ 7.bxc3 dxc4 8.Bxc4 c5
+9.Ne2 Qc7 10.Bd3 Nc6 11.f4 b6 12.O-O Rd8 13.Ng3 Bb7 14.Bb2 c4 15.Bc2 e5 16.fxe5 Nxe5
+17.e4 Qc6 18.Qd2 Nd3 19.Bxd3 cxd3 20.Rae1 Re8 21.e5 Nd7 22.Nf5 f6 23.Re3 g6
+24.Nd6 fxe5 25.Nxe8 Rxe8 26.c4 Qxc4 27.dxe5 Nc5 28.e6 Ne4 29.Qb4 Qxb4 30.axb4 d2
+31.Rd1 Bd5 32.e7 Rxe7 33.Rxd2 Bb7 34.Rd8+ Kf7 35.b5 a6 36.bxa6 Bxa6 37.Rh8 Ng5
+38.Rxe7+ Kxe7 39.h4 Nf7 40.Rxh7 Bd3 41.h5 gxh5 42.Rxh5 b5 43.Rc5 Kd6 44.Ba3 Ke6
+45.Kf2 Ne5 46.Bb2 Nd7 47.Rg5 b4 48.Ke3 Bc2 49.Rb5 b3 50.g4 Nf8 51.Kf4 Kf7
+52.Kg5 Ne6+ 53.Kh6 Nf4 54.g5 Ke7 55.Rb6 Kd7 56.Be5 Nd3 57.Bd4 Nf4 58.Rf6 Nd5
+59.Rf7+ Ke6 60.Rb7 Nf4 61.Rb5 Kd7 62.Bc3 Ke6 63.Kg7 Nh5+ 64.Kf8 Nf4 65.Re5+ Kd7
+66.Kf7 Kc6 67.Re1 Kc5 68.Bf6 Kc4 69.Ra1 Ng6 70.Ra6 Kb5 71.Ra8 Nh4 72.Rc8 Ng6
+73.Bb2 Nf4 74.Kf6 Nd5+ 75.Ke5 Ne7 76.Ke6 Ng6 77.Kd6 Kb4 78.Rc5 Ka4 79.Bc3 b2
+80.Bxb2 Kb3 81.Bd4 Be4 82.Ke6 Kb4 83.Kf6 Nh4 84.Bf2 Ng6 85.Rc8  1-0
+
+[Event "13th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2022.12.12"]
+[Round "2.4"]
+[White "Giri,A"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2764"]
+[BlackElo "2698"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3 Nxc3 6.dxc3 Be7 7.Be3 Nc6 8.Qd2 Be6
+9.O-O-O Qd7 10.Kb1 Bf6 11.h3 h5 12.Nd4 Bxd4 13.cxd4 d5 14.h4 O-O-O 15.Be2 Rde8
+16.Rhe1 Bf5 17.Bf1 Re7 18.f3 Rhe8 19.Bf2 Rxe1 20.Rxe1 Rxe1+ 21.Qxe1 Qe7 22.Qxe7 Nxe7
+23.Kc1 Kd7 24.Kd2 f6 25.b3 Be6 26.c4 c6 27.a4 Nf5 28.Kc3 Nd6 29.c5 Nf5 30.b4 Ne7
+31.b5 Kc8 32.Be2 Bd7 33.g4 Ng8 34.gxh5 cxb5 35.axb5 Be8 36.f4 f5 37.Bd3 Ne7
+38.h6 gxh6 39.h5 Kd7 40.Bh4 Ke6 41.Kb4 Nc8 42.Be2 Ne7 43.Ka5 Nc8 44.Bd8 Bd7
+45.Bc7 Kf7 46.Bf3 Be6 47.c6 bxc6 48.bxc6 Ke7 49.Ka6 Ke8 50.Bd1 Ne7 51.Ba4 Bf7
+52.Kb7 Be6 53.Kxa7 Nc8+ 54.Kb7 Ke7 55.Be5 Kf7 56.Bb5 Ke7 57.Ba6 Kd8 58.Kb8  1-0
+
+[Event "13th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2022.12.13"]
+[Round "3.1"]
+[White "Bu Xiangzhi"]
+[Black "Rapport,R"]
+[Result "1-0"]
+[WhiteElo "2698"]
+[BlackElo "2740"]
+[ECO "A15"]
+
+1.Nf3 Nf6 2.c4 b6 3.g3 Bb7 4.Bg2 g6 5.O-O Bg7 6.b3 O-O 7.Bb2 c5 8.d4 Na6
+9.Nc3 e6 10.dxc5 Nxc5 11.b4 Nce4 12.Nxe4 Bxe4 13.Qd6 Rc8 14.Rac1 Bxf3 15.Bxf3 Ne4
+16.Bxe4 Bxb2 17.Rc2 Bf6 18.Rd1 Be7 19.Qxd7 Bxb4 20.Rd3 Qxd7 21.Rxd7 a5 22.Kf1 b5
+23.cxb5 Rxc2 24.Bxc2 Rb8 25.a4 Kf8 26.Ra7 Rb6 27.Be4 Rd6 28.Bc6 h5 29.h4 Bc3
+30.Kg2 Bb4 31.e3 Bc3 32.Rc7 Rd8 33.b6 Be5 34.Ra7 Rd6 35.Ra8+ Ke7 36.Re8+ Kf6
+37.Rc8 Ke7 38.f4  1-0
+
+[Event "13th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2022.12.13"]
+[Round "4.4"]
+[White "Bu Xiangzhi"]
+[Black "Andreikin,D"]
+[Result "1/2-1/2"]
+[WhiteElo "2698"]
+[BlackElo "2729"]
+[ECO "D37"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 a6 5.cxd5 exd5 6.Bg5 Be6 7.Qb3 Nbd7 8.e3 Rb8
+9.Be2 Bd6 10.O-O O-O 11.Rac1 c6 12.Na4 Re8 13.Nc5 Qc7 14.Bxf6 Nxf6 15.Qc2 Bg4
+16.h3 Bh5 17.Rfe1 Bg6 18.Bd3 Qe7 19.Nh4 Bxd3 20.Nxd3 Bc7 21.Nf3 Ne4 22.b4 Bd6
+23.Qb3 Ng5 24.Nxg5 Qxg5 25.Qd1 Re6 26.a4 Qf5 27.Rc3 Rg6 28.Kf1 Qe4 29.Qf3 Qxf3
+30.gxf3 Rh6 31.Kg2 Rg6+ 32.Kf1 Rh6 33.Kg2 Rg6+ 34.Kf1  1/2-1/2
+
+[Event "13th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2022.12.14"]
+[Round "5.2"]
+[White "Vachier Lagrave,M"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2737"]
+[BlackElo "2698"]
+[ECO "C43"]
+
+1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qxd4 d5 6.exd6 Nxd6 7.Nc3 Nc6 8.Qf4 Nf5
+9.Bb5 Bd6 10.Qe4+ Qe7 11.O-O O-O 12.Bxc6 bxc6 13.Qxc6 Rb8 14.Re1 Nd4 15.Rxe7 Nxc6
+16.Re2 Bg4 17.Re4 Bf5 18.Rc4 Na5 19.Ra4 Nc6 20.b3 Nb4 21.Ba3 Rb7 22.Rd1 Rfb8
+23.Bxb4 Rxb4 24.Rxb4 Bxb4 25.Nd5 Bd6 26.Nd4 Bd7 27.h3 Kf8 28.Kf1 a5 29.a4 c5
+30.Nb5 Bxb5+ 31.axb5 Rxb5 32.Ne3 Bf4 33.Ke2 Bxe3 34.Kxe3 Rb4 35.Rd5 c4 36.Rd4 a4
+37.bxc4 a3 38.Rd8+ Ke7 39.Ra8 Rxc4 40.Kd3 Rf4 41.f3 Rf6 42.Rxa3 Rg6 43.Ra7+ Ke8
+44.g4 Rh6 45.c4 Rxh3 46.Ke4 h5 47.c5 hxg4 48.c6 Kd8 49.fxg4 Rc3 50.Kd5 Rg3
+51.Kd6 Rd3+ 52.Ke5 Re3+ 53.Kf5 Rf3+ 54.Ke4 Rc3 55.Kd5 Rg3 56.Kd6 Rd3+ 57.Ke5 Re3+
+58.Kf4 Rc3 59.Rxf7 Rxc6 60.Rxg7 Ke8 61.Kg5 Kf8 62.Rg6 Rc1 63.Ra6 Kg8 64.Kg6 Rc8
+65.g5 Rb8 66.Rf6 Ra8 67.Kh6 Rb8 68.g6 Ra8 69.g7 Rb8 70.Rf8+ Rxf8 71.gxf8=Q+ Kxf8  1/2-1/2
+
+[Event "13th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2022.12.14"]
+[Round "6.3"]
+[White "Bu Xiangzhi"]
+[Black "Ding Liren"]
+[Result "1/2-1/2"]
+[WhiteElo "2698"]
+[BlackElo "2811"]
+[ECO "D45"]
+
+1.Nf3 Nf6 2.c4 e6 3.Nc3 d5 4.d4 c6 5.e3 Nbd7 6.Qc2 Bd6 7.b3 O-O 8.Be2 b6
+9.O-O Bb7 10.Bb2 Re8 11.Rad1 Qe7 12.Rfe1 Rad8 13.e4 Nxe4 14.Nxe4 dxe4 15.Qxe4 Bb4
+16.Rf1 Bd6 17.Rfe1 Bb4 18.Rf1 Bd6 19.Rfe1 Bb4 20.Rf1 Bd6 21.Rfe1 Bb4 22.Rf1 Bd6
+23.Rfe1 Bb4  1/2-1/2
+
+[Event "13th Hainan Danzhou GM"]
+[Site "Danzhou CHN"]
+[Date "2022.12.14"]
+[Round "7.3"]
+[White "Erigaisi,Arjun"]
+[Black "Bu Xiangzhi"]
+[Result "0-1"]
+[WhiteElo "2722"]
+[BlackElo "2698"]
+[ECO "D14"]
+
+1.d4 d5 2.c4 c6 3.Nc3 Nf6 4.cxd5 cxd5 5.Bf4 Nc6 6.Nf3 Bf5 7.Qb3 Na5 8.Qa4+ Bd7
+9.Qc2 e6 10.e3 Nh5 11.Bg5 f6 12.g4 fxg5 13.gxh5 Bd6 14.Rg1 Qf6 15.Be2 h6
+16.h4 gxh4 17.Rg6 Qe7 18.O-O-O Nc6 19.Rdg1 Rg8 20.Rxh6 O-O-O 21.Rh7 h3 22.Nb5 Kb8
+23.Qg6 h2 24.Rh1 Nb4 25.Nxd6 Qxd6 26.a3 Be8 27.Qg3 Qxg3 28.fxg3 Rc8+ 29.Kb1 Ba4
+30.Bd1 Bb5 31.Ne5 Nd3 32.Bc2 Nxe5 33.dxe5 d4 34.h6 Rxc2 35.Kxc2 Bc6 36.Rxg7 Bxh1
+37.Rxg8+ Kc7 38.Rg4 Be4+ 39.Rxe4 h1=Q 40.Rxd4 Qxh6 41.Rf4 Qh2+ 42.Kc3 Qxg3
+43.Kd4 Qg2 44.Kc3 Qe2 45.Re4 b5 46.a4 bxa4 47.Rxa4 Qxe3+ 48.Kc2 Kb6 49.Rb4+ Kc5
+50.Ra4 Kb5 51.Ra3 Qxe5 52.Rxa7 Qc5+  0-1
+
+[Event "Yinzhou Cup Men 2022"]
+[Site "chess.com INT"]
+[Date "2022.12.25"]
+[Round "1"]
+[White "Li Chao2"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2672"]
+[BlackElo "2698"]
+[ECO "C43"]
+
+1.e4 e5 2.Nf3 Nf6 3.d4 exd4 4.e5 Ne4 5.Qxd4 d5 6.exd6 Nxd6 7.Nc3 Nc6 8.Qe3+ Be7
+9.Bd2 O-O 10.O-O-O Re8 11.Qf4 Nf5 12.g4 Nfd4 13.Bc4 Be6 14.Nxd4 Nxd4 15.Be3 c5
+16.Bxe6 fxe6 17.Kb1 Qa5 18.Qe4 Kh8 19.h4 Nc6 20.g5 Qb4 21.h5 Qxe4 22.Nxe4 b6
+23.Nd6 Rf8 24.g6 Ne5 25.h6 Bf6 26.hxg7+ Bxg7 27.Rdg1 Rad8 28.Ne4 Nf3 29.Rg3 Kg8
+30.gxh7+ Kh8 31.c3 Rd7 32.Kc2 Be5 33.Rg6 Re8 34.a4 Rxh7 35.Bh6 Rg8 36.Rxe6 Rd8
+37.Kb3 Kg8 38.Rh3 Rd3 39.Kc4 Rhd7 40.Rxf3 Rxf3 41.Rxe5 Rd8 42.Kb5 Rh3 43.Be3 Rh1
+44.Re7 Rf8 45.Rxa7 Rb1 46.Kxb6 Rxb2+ 47.Kxc5 Rf5+ 48.Kc4 Ra2 49.Bd4  1-0
+
+[Event "Yinzhou Cup Men 2022"]
+[Site "chess.com INT"]
+[Date "2022.12.25"]
+[Round "2"]
+[White "Ni Hua"]
+[Black "Bu Xiangzhi"]
+[Result "1/2-1/2"]
+[WhiteElo "2667"]
+[BlackElo "2698"]
+[ECO "C42"]
+
+1.e4 e5 2.Nf3 Nf6 3.Nxe5 d6 4.Nf3 Nxe4 5.Nc3 Nxc3 6.dxc3 Be7 7.Be3 Nc6 8.Qd2 Be6
+9.O-O-O Qd7 10.Kb1 Bf6 11.Ng5 Bxg5 12.Bxg5 f6 13.Be3 O-O-O 14.f3 Rde8 15.Bf2 Bf7
+16.Bb5 a6 17.Bxc6 Qxc6 18.Rhe1 Rxe1 19.Rxe1 Re8 20.Rxe8+ Qxe8 21.b3 Bg6 22.Qe3 Qxe3
+23.Bxe3 Kd7  1/2-1/2
+
+[Event "Yinzhou Cup Men 2022"]
+[Site "chess.com INT"]
+[Date "2022.12.25"]
+[Round "3"]
+[White "Bu Xiangzhi"]
+[Black "Ding Liren"]
+[Result "1/2-1/2"]
+[WhiteElo "2698"]
+[BlackElo "2811"]
+[ECO "D45"]
+
+1.Nf3 d5 2.d4 Nf6 3.c4 e6 4.Nc3 c6 5.e3 Nbd7 6.Qc2 Bd6 7.b3 O-O 8.Be2 b6
+9.O-O Bb7 10.Bb2 Re8 11.Rad1 Qe7 12.Rfe1 Rad8 13.e4 Nxe4 14.Nxe4 dxe4 15.Qxe4 Nf8
+16.Qh4 f6 17.Bd3 c5 18.d5 Qf7 19.dxe6 Rxe6 20.Rxe6 Qxe6 21.Re1 Qd7 22.Bc2 Re8
+23.Rxe8 Qxe8 24.Kf1 Ng6 25.Qh5 Be4 26.Ne1 Bxc2 27.Qd5+ Qf7 28.Qa8+ Qf8 29.Qd5+ Qf7
+30.Qa8+ Bf8 31.Nxc2 Qd7 32.Qf3 Qd2 33.Qe2 Qxe2+ 34.Kxe2 Kf7 35.g3 Bd6 36.Ne3 Ne7
+37.f4 f5 38.Nd5 Nxd5 39.cxd5 g6 40.a4 a6 41.Kd3 b5 42.axb5 axb5 43.Ke3 Ke7
+44.Kd3 Kd7 45.Bc3 Bc7 46.Bg7 g5 47.fxg5 Kd6 48.h4 Kxd5 49.h5 Ke6 50.Bf8 c4+
+51.bxc4 bxc4+ 52.Kxc4 Bxg3 53.g6 hxg6 54.hxg6 Kf6 55.g7 Kf7 56.Kd5 Kg8 57.Ke6 f4
+58.Bd6 Kxg7 59.Bxf4  1/2-1/2
+
+[Event "Yinzhou Cup Men 2022"]
+[Site "chess.com INT"]
+[Date "2022.12.26"]
+[Round "4"]
+[White "Bu Xiangzhi"]
+[Black "Li Chao2"]
+[Result "0-1"]
+[WhiteElo "2698"]
+[BlackElo "2672"]
+[ECO "A16"]
+
+1.c4 Nf6 2.Nc3 d5 3.cxd5 Nxd5 4.g3 Nxc3 5.bxc3 g6 6.Bg2 Bg7 7.h4 h5 8.Nh3 O-O
+9.O-O c5 10.Ng5 Nc6 11.Ne4 c4 12.Qa4 Ne5 13.Ba3 Bg4 14.f4 Nc6 15.Qxc4 Rc8
+16.Qb5 a6 17.Qd3 Qa5 18.Bc5 b6 19.Bf2 Rfd8 20.Qe3 b5 21.a3 Qc7 22.Qb6 Qxb6
+23.Bxb6 Rd7 24.Be3 Bxe2 25.Rfe1 Bg4 26.Nc5 Rd6 27.d4 Nb8 28.a4 b4 29.cxb4 Bxd4
+30.Rac1 Bxe3+ 31.Rxe3 Nd7 32.a5 Rb8 33.Rxe7 Kf8 34.Re4 Nxc5 35.bxc5 Rd3 36.Rec4 Rxg3
+37.R4c3 Rxc3 38.Rxc3 Ke7 39.c6 Rb5 40.Ra3 Bc8 41.Kf2 Kd6 42.Ke3 Rc5 43.Be4 Be6
+44.Ra1 Bd5 45.Bd3 Rxc6 46.Rb1 Kc7 47.Kd4 Be6 48.Be4 Rc4+  0-1
+
+[Event "Yinzhou Cup Men 2022"]
+[Site "chess.com INT"]
+[Date "2022.12.26"]
+[Round "5"]
+[White "Bu Xiangzhi"]
+[Black "Ni Hua"]
+[Result "1/2-1/2"]
+[WhiteElo "2698"]
+[BlackElo "2667"]
+[ECO "D38"]
+
+1.d4 Nf6 2.c4 e6 3.Nc3 Bb4 4.Nf3 d5 5.Bg5 h6 6.Bxf6 Qxf6 7.e3 O-O 8.Rc1 dxc4
+9.Bxc4 c5 10.O-O cxd4 11.Ne4 Qe7 12.a3 Ba5 13.Qxd4 Nc6 14.Qd6 Qxd6 15.Nxd6 Rd8
+16.Rfd1 Bc7 17.Nxc8 Raxc8 18.Kf1 Rxd1+ 19.Rxd1 Rd8 20.Rxd8+ Bxd8 21.Bd3 Bf6
+22.b3 Ne5 23.Nxe5 Bxe5 24.Be4 b6  1/2-1/2
+
+[Event "Yinzhou Cup Men 2022"]
+[Site "chess.com INT"]
+[Date "2022.12.26"]
+[Round "6"]
+[White "Ding Liren"]
+[Black "Bu Xiangzhi"]
+[Result "1-0"]
+[WhiteElo "2811"]
+[BlackElo "2698"]
+[ECO "A05"]
+
+1.Nf3 Nf6 2.g3 d5 3.Bg2 c5 4.O-O Nc6 5.d4 e6 6.c4 dxc4 7.Qa4 Bd7 8.Qxc4 b5
+9.Qd3 c4 10.Qd1 Rc8 11.Bf4 Be7 12.Nc3 a6 13.a3 O-O 14.e4 b4 15.axb4 Nxb4
+16.Qe2 Qb6 17.Ne5 Bb5 18.Rfd1 Rfd8 19.Be3 Nd7 20.Nf3 Qc7 21.h3 Nd3 22.Ne1 Nxe1
+23.Qxe1 Nb8 24.Bf4 Qb6 25.d5 Bb4 26.e5 exd5 27.Nxd5 Rxd5 28.Qxb4 Nc6 29.Qe1 Rd3
+30.e6 Rcd8 31.Rxd3 cxd3 32.exf7+ Kxf7 33.Qe4 Nd4 34.Bg5 Rd7 35.Qxh7 Qe6 36.Kh2 Bc6
+37.Rxa6 Qc4 38.Rxc6 Nxc6 39.Qf5+ Ke8 40.Qg6+ Kf8 41.Bxc6 Qf7 42.Qxf7+ Rxf7
+43.Kg2  1-0

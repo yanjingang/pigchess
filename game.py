@@ -559,7 +559,7 @@ class Game(object):
             # if i==5:
             #    break
 
-    def download_pgn(self):
+    def download_pgn(self, save_databuffer=False, save_db=False):
         """批量下载pgn棋谱"""
         from pyquery import PyQuery
         import requests
@@ -592,7 +592,7 @@ class Game(object):
             for file in f.namelist():
                 f.extract(file, save_path)
                 # 4.to databuffer
-                # self.pgn_to_databuffer(file)
+                self.pgn_to_databuffer(file, save_databuffer=save_databuffer, save_db=save_db)
             # 5.cleaar zip file
             os.unlink(save_path + save_file)
 
@@ -607,13 +607,14 @@ class Game(object):
             winner = -1  # 和棋
         return winner
 
-    def pgn_to_databuffer(self, pgn_file):
+    def pgn_to_databuffer(self, pgn_file, save_databuffer=False, save_db=False):
         """将pgn棋谱转为databuffer用于模型训练"""
         logging.info("__pgn_to_databuffer__ {}".format(pgn_file))
         from xpinyin import Pinyin
         pinyin = Pinyin()
         # 1.加载棋谱
         pgn = open(CUR_PATH + "/data/pgn/" + pgn_file)
+        gm = pgn_file.split('.')[0]
         # 2.读取第一局
         game = chess.pgn.read_game(pgn)
         batch = 0
@@ -631,6 +632,19 @@ class Game(object):
             self.board.init_board()
             self.board.graphic()
             actions, mcts_probs = [], []
+            # 组织db.game表信息
+            role = 0 if white.count(gm) else 1
+            data = {
+                'nick': gm,
+                'role': role,
+                'type': 1,
+                'step': 0,
+                'moves': [], 
+                'sans': [], 
+                'scores': [],
+                'winner': winner,
+                'result': 1 if role == winner else (0.5 if winner == -1 else 0),
+            }
             # 重放走子
             step = 0
             # for move in game.mainline_moves():
@@ -641,6 +655,8 @@ class Game(object):
                 logging.info("step: {},  curr: {} {},  winner: {}".format(step, Board.PLAYERS[self.board.current_player_id].upper(), players[self.board.current_player_id],
                                                                                     self.board.current_player_id == winner))
                 actions.append(self.board.current_actions())
+                data['moves'].append(str(move))
+                data['sans'].append(str(self.board.move_to_san(move)))
                 # 执行落子
                 action = self.board.move_to_action(move)
                 if action == -1:
@@ -686,18 +702,47 @@ class Game(object):
                         continue
 
                     # 4.保存本局数据到databuffer目录文件
-                    data_file = self._get_databuffer_file(date=game.headers['Date'].replace('.', '').replace('?', '0'),
-                                                          event=event,
-                                                          winner=winner,
-                                                          white=white,
-                                                          black=black,
-                                                          step_num=len(play_data),
-                                                          agreement=agreement)
-                    utils.pickle_dump(play_data, data_file)
-                    logging.info("pgn_to_databuffer save. pgn:{}, batch:{}, databuffer:{}".format(pgn_file, batch, data_file))
+                    if save_databuffer is True:
+                        data_file = self._get_databuffer_file(date=game.headers['Date'].replace('.', '').replace('?', '0'),
+                                                            event=event,
+                                                            winner=winner,
+                                                            white=white,
+                                                            black=black,
+                                                            step_num=len(play_data),
+                                                            agreement=agreement)
+                        utils.pickle_dump(play_data, data_file)
+                        logging.info("pgn_to_databuffer save. pgn:{}, batch:{}, databuffer:{}".format(pgn_file, batch, data_file))
+            # 保存到db.game表
+            data['step'] = step
+            data['moves'] = ','.join(data['moves'])
+            data['sans'] = ','.join(data['sans'])
+            data['scores'] = ','.join(data['scores'])
+            if save_db is True:
+                print(data)
+                self._save_game_to_db(data)
             # 5.读取棋谱下一局
             game = chess.pgn.read_game(pgn)
             # break
+
+    def _save_game_to_db(self, data):
+        """把棋谱保存到game表里"""
+        sys.path.append('./webserver')
+        from mysql import Mysql
+
+        self.db = Mysql(
+            host='127.0.0.1',
+            port='3306',
+            user='chess',
+            password='2o0kxAmpZM6rfhFA',
+            db='chess',
+            debug=1,
+            autocommit=True,
+        )
+        self.db.connect()
+
+        ret = self.db.insert('games', data)
+        logging.info("game save to db: {}".format(ret))
+
 
     def _get_databuffer_file(self, date='', event='', winner=-1, white='', black='', step_num=0, agreement=0):
         """生成databuffer 文件名"""

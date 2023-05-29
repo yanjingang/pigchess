@@ -3,7 +3,7 @@
 """
 File: mysqlgenerator.py
 Desc: mysql sql语句生成
-Author:yanjingang(yanjingang@baidu.com)
+Author:yanjingang(yanjingang@mail.com)
 """
 import sys
 import json
