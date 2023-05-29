@@ -139,7 +139,7 @@ Page({
 
         var move = this.data.game_info.moves[this.data.i];
         var san = this.data.game_info.sans[this.data.i];
-        console.log(this.data.game_info.moves[this.data.i]);
+        console.log(this.data.i, move, san);
         this.movePiece((this.data.role + this.data.i) % 2, move, san);
         this.data.i += 1;
     },
