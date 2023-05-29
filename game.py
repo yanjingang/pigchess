@@ -638,6 +638,7 @@ class Game(object):
                 'nick': gm,
                 'role': role,
                 'type': 1,
+                'opponent': players[1-role],
                 'step': 0,
                 'moves': [], 
                 'sans': [], 
