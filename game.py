@@ -623,9 +623,10 @@ class Game(object):
             logging.info(game)
             logging.info(game.headers)
             winner = self._get_pgn_winner(game.headers['Result'])
-            event = pinyin.get_pinyin(game.headers['Event'].replace(' ', '').replace('.', '').replace('-', '').replace('/', '').replace('(', '').replace(')', '').replace("'",""), "")
+            event = game.headers['Event'].replace("'","")
             white = pinyin.get_pinyin(game.headers['White'].replace(' ', '').replace(',', '').replace('-', '').replace('/', '').replace('(', '').replace(')', '').replace("'",""), "")
             black = pinyin.get_pinyin(game.headers['Black'].replace(' ', '').replace(',', '').replace('-', '').replace('/', '').replace('(', '').replace(')', '').replace("'",""), "")
+            date = game.headers['Date'].replace('??', '01').replace('.', '-')
             players = [white, black]
             # 3.重放对局过程，获得playdata
             # 初始化棋盘
@@ -646,7 +647,7 @@ class Game(object):
                 'scores': [],
                 'winner': winner,
                 'result': 1 if role == winner else (0.5 if winner == -1 else 0),
-                'createtime': game.headers['Date'].replace('??', '01').replace('.', '-'),
+                'createtime': date,
             }
             # 重放走子
             step = 0
