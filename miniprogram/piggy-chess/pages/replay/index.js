@@ -1,4 +1,5 @@
 const requestUrl = require('../../config').requestUrl
+const uploadFileUrl = require('../../config').uploadFileUrl
 
 Page({
     onShareAppMessage() {
@@ -78,9 +79,6 @@ Page({
         this.ctx = wx.createCanvasContext('board')
         this.ctx.strokeStyle = this.color; //边框颜色
         //init board
-        this.data.step = 0;
-        this.data.availables = [];
-        this.data.state = {};
         this.initBoard(this.data.human_player_id);
         //move
         //this.movePiece(this.WHITE, 'g1f3', 'Nf4')
@@ -106,14 +104,20 @@ Page({
                         game_info: result['data']['data'],
                         i: 0,
                     });
-                    // auto move
-                    // for (var i = 0; i < result['data']['data'].moves.length; i++) {
-                    //     // await sleep_inner(1000);
-                    //     var move = result['data']['data'].moves[i];
-                    //     var san = result['data']['data'].sans[i];
-                    //     console.log(result['data']['data'].moves[i]);
-                    //     self.movePiece((self.data.role + i) % 2, move, san);
-                    // }
+                    // 没有封面图的，自动重放后生成
+                    if (result['data']['data'].thumb.indexOf(".png") == -1) {
+                        // auto replay
+                        for (var i = 0; i < result['data']['data'].moves.length; i++) {
+                            var move = result['data']['data'].moves[i];
+                            var san = result['data']['data'].sans[i];
+                            console.log(result['data']['data'].moves[i]);
+                            self.movePiece((self.data.role + i) % 2, move, san);
+                        }
+                        // auto upload 
+                        self.UploadEndBoardImage();
+                        // reset board
+                        self.initBoard(self.data.human_player_id);
+                    }
                 }
             },
             fail({
@@ -135,9 +139,15 @@ Page({
         console.log(this.data.game_info.moves[this.data.i]);
         this.movePiece((this.data.role + this.data.i) % 2, move, san);
         this.data.i += 1;
+        // if (this.data.i >= this.data.game_info.step) {
+        //     this.UploadEndBoardImage();
+        // }
     },
     //初始化棋盘
     initBoard(angle_player) {
+        this.data.step = 0;
+        this.data.availables = [];
+        this.data.state = {};
         //绘制棋盘
         this.drawBoard(angle_player);
         console.log("human_player_id: " + this.data.human_player_id)
@@ -326,5 +336,62 @@ Page({
             this.drawPiece('R' + mt, player, this.data.human_player_id);
         }
         return true;
+    },
+    //上传终局盘面截屏
+    UploadEndBoardImage() {
+        const self = this;
+        wx.canvasToTempFilePath({
+            canvasId: 'board',
+            success: (res) => {
+                wx.uploadFile({
+                    url: uploadFileUrl,
+                    filePath: res.tempFilePath,
+                    name: 'data',
+                    formData: {
+                        'type': 'chess',
+                        'id': self.data.id,
+                    },
+                    success(res) {
+                        console.log('uploadImage success, res is:', res)
+                        if (res.statusCode != 200) {
+                            // wx.showToast({
+                            //     title: '网络异常',
+                            //     icon: 'none',
+                            //     duration: 1000
+                            // })
+                            return
+                        }
+                        res = JSON.parse(res.data)
+                        if (res.status != 0) {
+                            console.log('uploadImage fail:', res.status)
+                            // wx.showToast({
+                            //     title: '上传失败' + res.status,
+                            //     icon: 'none',
+                            //     duration: 1000
+                            // });
+                            return;
+                        }
+                        const imageUrl = res.data['url']
+                        console.log('uploadImage success, url:', res.data)
+                        // wx.showToast({
+                        //     title: '上传成功',
+                        //     icon: 'success',
+                        //     duration: 1000
+                        // })
+                        self.setData({
+                            imageUrl,
+                        })
+                    },
+                    fail({
+                        errMsg
+                    }) {
+                        console.log('uploadImage fail, errMsg is', errMsg)
+                    }
+                });
+            },
+            fail: (err) => {
+                console.log(err);
+            }
+        }, this);
     }
 })
