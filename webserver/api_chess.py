@@ -295,7 +295,10 @@ class ApiChessList(tornado.web.RequestHandler):
             res[i]['result'] = results[str(res[i]['result'])]
             thumb = res[i]['thumb'] if len(res[i]['thumb']) > 0 else 'upload/230529/1685326009327.png'
             res[i]['thumb'] = 'http://www.yanjingang.com/piglab/' + thumb
-            res[i]['date'] = str(res[i]['date'])[5:7] + '月' + str(res[i]['date'])[8:10] + '日'
+            if time.strftime("%Y", time.localtime()) == str(res[i]['date'])[0:4]:   # 当年棋谱不显示年份
+                res[i]['date'] = str(res[i]['date'])[5:7] + '月' + str(res[i]['date'])[8:10] + '日'
+            else:
+                res[i]['date'] = str(res[i]['date'])[0:4] + '年' + str(res[i]['date'])[5:7] + '月' + str(res[i]['date'])[8:10] + '日'
         return {'code': 0, 'msg': 'success', 'data': res}
 
 
@@ -347,7 +350,11 @@ class ApiChessInfo(tornado.web.RequestHandler):
         res['sans'] = res['sans'].split(',')
         res['result'] = results[str(res['result'])]
         res['thumb'] = 'http://www.yanjingang.com/piglab/' + res['thumb']
-        res['date'] = str(res['date'])[5:7] + '月' + str(res['date'])[8:10] + '日'
+        if time.strftime("%Y", time.localtime()) == str(res['date'])[0:4]:   # 当年棋谱不显示年份
+            res['date'] = str(res['date'])[5:7] + '月' + str(res['date'])[8:10] + '日'
+        else:
+            res['date'] = str(res['date'])[0:4] + '年' + str(res['date'])[5:7] + '月' + str(res['date'])[8:10] + '日'
+
         return {'code': 0, 'msg': 'success', 'data': res}
 
 
