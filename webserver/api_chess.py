@@ -221,14 +221,18 @@ class ApiChessThumb(tornado.web.RequestHandler):
         """执行业务逻辑"""
         logging.info('API REQUEST INFO[' + self.request.path + '][' + self.request.method + ']['
                      + self.request.remote_ip + '][' + str(self.request.arguments) + ']')
+        id = int(self.get_argument('id', 0))
         session = self.get_argument('session', '')
         nick = self.get_argument('nick', '')
         img_file = self.get_argument('img_file', '')
         ret = 0
-        if session == '' or nick == '':
-            return {'code': 2, 'msg': 'session or nick is empty', 'data': {}}
+        if session == '' and nick == '' and id <= 0:
+            return {'code': 2, 'msg': 'thumb info is empty', 'data': {}}
 
-        ret = db.update('games', {'session': session, 'nick': nick}, {'thumb': img_file})
+        if id > 0:
+            ret = db.update('games', {'id': id}, {'thumb': img_file})
+        else:
+            ret = db.update('games', {'session': session, 'nick': nick}, {'thumb': img_file})
         logging.info("game board thumb save to db: {}".format(ret))
 
         return {'code': 0, 'msg': 'success', 'data': ret}
@@ -289,7 +293,8 @@ class ApiChessList(tornado.web.RequestHandler):
         for i in range(len(res)):
             res[i]['role'] = res[i]['role']    # roles[str(res[i]['role'])]
             res[i]['result'] = results[str(res[i]['result'])]
-            res[i]['thumb'] = 'http://www.yanjingang.com/piglab/' + res[i]['thumb']
+            thumb = res[i]['thumb'] if len(res[i]['thumb']) > 0 else 'upload/230529/1685326009327.png'
+            res[i]['thumb'] = 'http://www.yanjingang.com/piglab/' + thumb
             res[i]['date'] = str(res[i]['date'])[5:7] + '月' + str(res[i]['date'])[8:10] + '日'
         return {'code': 0, 'msg': 'success', 'data': res}
 
