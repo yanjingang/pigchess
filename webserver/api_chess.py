@@ -278,7 +278,7 @@ class ApiChessList(tornado.web.RequestHandler):
             where = {'type': 1}
         elif tab == 3: # 赛事直播
             where = {'type': 2}
-        select = 'id,nick,role,opponent,step,sans,result,thumb,createtime as date'
+        select = 'id,event,nick,role,opponent,step,sans,result,thumb,createtime as date'
         orderby = 'id desc'
         limit = str(page * page_size) + ',' + str(page_size)
         res = db.query('games', where=where, select=select, orderby=orderby, limit=limit)
@@ -328,7 +328,7 @@ class ApiChessInfo(tornado.web.RequestHandler):
 
 
         where = {'id': id}
-        select = 'id,nick,role,opponent,step,moves,sans,result,thumb,createtime as date'
+        select = 'id,event,nick,role,opponent,step,moves,sans,result,thumb,createtime as date'
         res = db.query('games', where=where, select=select)
         logging.info("game get info: {}".format(res))
         if len(res) == 0:

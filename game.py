@@ -646,7 +646,7 @@ class Game(object):
                 'scores': [],
                 'winner': winner,
                 'result': 1 if role == winner else (0.5 if winner == -1 else 0),
-                'createtime': game.headers['Date'],
+                'createtime': game.headers['Date'].replace('??', '01').replace('.', '-'),
             }
             # 重放走子
             step = 0
