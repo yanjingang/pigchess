@@ -1,5 +1,12 @@
 <view class="container">
   <view class="page-body">
+    <view class="weui-cells_after-title">
+      <view class="weui-cell__hd">
+        <picker class="picker">
+          <view style="text-align: center;">{{event}}</view>
+        </picker>
+      </view>
+    </view>
     <view class="page-body-wrapper">
       <text>{{opponent}}\n</text>
       <canvas canvas-id="board" class="board" bindtap="onBoardClick"></canvas>

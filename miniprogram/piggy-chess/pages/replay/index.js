@@ -10,6 +10,7 @@ Page({
     },
     data: { //会被api返回值覆盖，不要随便添加
         id: 0,
+        event: '',
         nick: '',
         opponent: '',
         role: 0,
@@ -29,6 +30,7 @@ Page({
         // 参数
         const {
             id,
+            event,
             nick,
             opponent,
             role,
@@ -36,6 +38,7 @@ Page({
         } = query;
         this.setData({
             id: id,
+            event: event,
             nick: nick,
             opponent: opponent,
             role: role,
@@ -139,9 +142,6 @@ Page({
         console.log(this.data.game_info.moves[this.data.i]);
         this.movePiece((this.data.role + this.data.i) % 2, move, san);
         this.data.i += 1;
-        // if (this.data.i >= this.data.game_info.step) {
-        //     this.UploadEndBoardImage();
-        // }
     },
     //初始化棋盘
     initBoard(angle_player) {

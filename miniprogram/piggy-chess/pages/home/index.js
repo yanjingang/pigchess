@@ -146,13 +146,14 @@ Page({
     } = e.detail;
     const {
       id,
+      event,
       nick,
       opponent,
       role,
       result,
     } = this.data.gameList[index];
     wx.navigateTo({
-      url: `/pages/replay/index?id=${id}&nick=${nick}&opponent=${opponent}&role=${role}&result=${result}`,
+      url: `/pages/replay/index?id=${id}&nick=${nick}&opponent=${opponent}&role=${role}&result=${result}&event=${event}`,
     });
   }
 });
