@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "game-card": "/components/game-card/index"
-  }
-}

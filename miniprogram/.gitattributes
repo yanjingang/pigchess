@@ -1,3 +1,0 @@
-*.js linguist-language=python
-*.ipynb linguist-language=python
-*.tgz filter=lfs diff=lfs merge=lfs -text
